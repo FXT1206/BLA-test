@@ -31,6 +31,10 @@
 !/versions/BLA-text/kubejs/data/**
 !/versions/BLA-text/kubejs/jsconfig.json
 
+# exports文件夹
+!/versions/BLA-text/exports/
+!/versions/BLA-text/exports/**
+
 # 确保忽略kubejs中的其他目录
 /versions/BLA-text/kubejs/client_scripts/
 /versions/BLA-text/kubejs/exported/
