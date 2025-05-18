@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "activation_item": {
+    "tag": "forge:ingots/netherite"
+  },
+  "craftType": "sabbath",
+  "entity_to_summon": "darkdoppelganger:dark_doppelganger",
+  "soulCost": 10000,
+  "duration": 15,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:void_pearl"
+    },
+    {
+      "item": "terramity:angel_feather"
+    },
+    {
+      "item": "alexscaves:gazing_pearl"
+    },
+    {
+      "item": "terramity:angel_feather"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:abyssal_heart"
+  }
+}

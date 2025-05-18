@@ -1,0 +1,11 @@
+{
+  "name": "冷却",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在Terramity中有多种冷却时间。$(br2)盔甲套装能力冷却时间只影响盔甲套装能力，主动能力冷却时间只影响curios配件的主动能力，冲刺冷却时间只影响腰带配件发出的冲刺。"
+    }
+  ]
+}

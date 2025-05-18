@@ -1,0 +1,28 @@
+{
+  "name": "铱",
+  "icon": "terramity:iridium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "铱是 Terramity 新增的一种金属。$(br2)铱可用于炼狱合金、虚空合金和电石的匠人石板。$(br2)铱矿石可在任何维度的深处找到，且只能用微晶石、宇宙石或瓦伦蒂姆镐开采。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "铱",
+      "images": ["terramity:textures/screens/iridium.png"],
+      "border": true,
+      "text": "铱是制造坚固合金的重要基础。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:iridium_ingot",
+	  "recipe2": "terramity:hellspec_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:crafting",
+	  "recipe": "terramity:void_upgrade_recipe",
+	  "recipe2": "terramity:conductite_upgrade_recipe"
+    }
+  ]
+}

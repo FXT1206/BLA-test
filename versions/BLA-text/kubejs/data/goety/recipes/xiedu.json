@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "iceandfire:gorgon_head"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 8000,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "terramity:profanum"
+    },
+    {
+      "item": "terramity:profanum"
+    },
+    {
+      "item": "terramity:profanum"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    {
+      "item": "l2complements:soul_flame"
+    }
+  ],
+  "result": {
+    "item": "terramity:unholy_lance"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "terramity:void_sword": [
+    {
+      "attribute": "l2damagetracker:magic_damage",
+      "modify": 0.25,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

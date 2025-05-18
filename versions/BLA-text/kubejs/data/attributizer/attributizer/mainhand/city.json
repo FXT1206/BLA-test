@@ -1,0 +1,9 @@
+{
+  "born_in_chaos_v1:soulbane": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

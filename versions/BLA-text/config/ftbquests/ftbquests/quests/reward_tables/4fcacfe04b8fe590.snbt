@@ -1,0 +1,10 @@
+{
+	id: "4FCACFE04B8FE590"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "goety:forbidden_piece", weight: 9.0f }
+		{ item: "goety:forbidden_fragment" }
+	]
+	title: "禁书卷轴碎片"
+}

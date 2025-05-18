@@ -1,0 +1,9 @@
+{
+  "celestisynth:frostbound": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

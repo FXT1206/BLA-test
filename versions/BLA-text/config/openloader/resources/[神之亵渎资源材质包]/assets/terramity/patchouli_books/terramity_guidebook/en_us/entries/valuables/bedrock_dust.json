@@ -1,0 +1,23 @@
+{
+  "name": "劣质基岩粉",
+  "icon": "terramity:decayed_bedrock_dust",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "基岩粉是一些配件和武器的强力材料，甚至可以让你用足够的材料制作基岩。$(br2)只有击败 $(l:terramity:bosses/trial_guardian)监守者$()才可以获得 并获得一个劣化权杖"
+    },
+    {
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:decayed_bedrock_recipe",
+	  "recipe2": "terramity:bedrock_recipe"
+	},
+	{
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/trial_guardian)试炼守卫$() 被击败后会掉落一根劣化权杖，这是前进的必备物品。在基岩上使用劣化权杖会使其劣化，从而可以开采。",
+	  "item": {
+		"item": "terramity:perish_staff"
+	  }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "twilightforest:knightmetal_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.4,
+      "operation": "ADDITION"
+    }
+  ]
+}

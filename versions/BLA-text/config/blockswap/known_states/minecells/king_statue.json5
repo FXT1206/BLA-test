@@ -1,0 +1,518 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "0",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"pose": "base"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "0",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"pose": "arm_up_right"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"pose": "arm_up_left"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "0",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "1",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "2",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "3",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "4",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "5",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "6",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "7",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "8",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "9",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "10",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "11",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "12",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "13",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "14",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"rotation": "15",
+			"pose": "arms_up"
+		},
+		"Name": "minecells:king_statue"
+	}
+]

@@ -1,0 +1,9 @@
+{
+  "enigmaticaddons:astral_spear": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

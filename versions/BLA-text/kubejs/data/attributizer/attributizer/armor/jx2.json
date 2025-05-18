@@ -1,0 +1,8 @@
+{ "traveloptics:mechanized_exoskeleton_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 9.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

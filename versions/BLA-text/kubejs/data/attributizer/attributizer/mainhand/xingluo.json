@@ -1,0 +1,9 @@
+{
+  "celestisynth:rainfall_serenity": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "modify": 0.3,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

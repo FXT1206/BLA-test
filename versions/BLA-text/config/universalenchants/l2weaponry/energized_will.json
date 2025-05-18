@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:machetes",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "l2weaponry:raised_spirit"
+  ]
+}

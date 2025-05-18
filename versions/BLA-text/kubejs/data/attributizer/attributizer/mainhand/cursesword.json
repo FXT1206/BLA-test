@@ -1,0 +1,9 @@
+{
+  "minecells:cursed_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 100.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

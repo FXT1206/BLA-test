@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:legends_and_dungeons_life_steal",
+    "twilightforest:block_and_chain",
+    "enigmaticaddons:evil_dagger"
+  ],
+  "incompatible": [
+    "legends_and_dungeons:auto_smelt"
+  ]
+}

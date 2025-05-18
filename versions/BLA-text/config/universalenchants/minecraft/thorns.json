@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome",
+    "goety:spiteful_belt",
+    "$minecraft:universal_enchants_horse_armor",
+    "$minecraft:universal_enchants_shield"
+  ],
+  "incompatible": [
+    "celestial_enchantments:frost_thorns",
+    "apotheosis:icy_thorns",
+    "celestial_enchantments:flame_strike",
+    "twilightforest:chill_aura",
+    "twilightforest:fire_react"
+  ]
+}

@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1247ABD3D41FA5B9"
+	group: "66161289D5D96395"
+	icon: {
+		Count: 1
+		id: "minecraft:enchanting_table"
+		tag: { }
+	}
+	id: "1247ABD3D41FA5B9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "0CD55800EA3B65DD"
+			tasks: [{
+				id: "4E46E8DA1AF2D5C9"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "5E2E2FA312814AB9"
+			tasks: [{
+				id: "630A906BA34700B0"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E2E2FA312814AB9"]
+			id: "46F3084A93274AB7"
+			tasks: [{
+				id: "0D753F453FBA36E7"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E2E2FA312814AB9"]
+			id: "3174D040673588E2"
+			tasks: [{
+				id: "3A06C0737606C002"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E2E2FA312814AB9"]
+			id: "73EEBCC35AD96D0B"
+			tasks: [{
+				id: "2384C8F4D0ECACD2"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["73EEBCC35AD96D0B"]
+			id: "57BA03B693276110"
+			tasks: [{
+				id: "57D85B18D64B54F0"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73EEBCC35AD96D0B"]
+			id: "1504886819A3D3D5"
+			tasks: [{
+				id: "15BE10490D3A2817"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73EEBCC35AD96D0B"]
+			id: "36ECD3D69309E1F9"
+			tasks: [{
+				id: "2A24CD82583CC3FC"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73EEBCC35AD96D0B"]
+			id: "7E485AC516F735AC"
+			tasks: [{
+				id: "4A6001A0AE74E521"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["73EEBCC35AD96D0B"]
+			id: "7CEFC100C5EAF60D"
+			tasks: [{
+				id: "07E5CD7D25AD804D"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["46F3084A93274AB7"]
+			id: "17D8857241D6D044"
+			tasks: [{
+				id: "57FB9DDC3E487EF4"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46F3084A93274AB7"]
+			id: "284E1D1BE90E09A1"
+			tasks: [{
+				id: "7A99DF2F49CB4ECF"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["46F3084A93274AB7"]
+			id: "0E348E6DEFE05013"
+			tasks: [{
+				id: "4D044326E0A779DF"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["648876821588DD4F"]
+			id: "4D68D5774038D85C"
+			tasks: [{
+				id: "09284B8D21A63AB0"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3174D040673588E2"]
+			id: "350E855561A16713"
+			tasks: [{
+				id: "78D92E51EBC290E2"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3174D040673588E2"]
+			id: "648876821588DD4F"
+			tasks: [{
+				id: "15DD66E485F199E5"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3174D040673588E2"]
+			id: "179F1A77F43ED761"
+			tasks: [{
+				id: "38A159AF1234ACBA"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E2E2FA312814AB9"]
+			id: "1728A01B3DF153E1"
+			tasks: [{
+				id: "43C1444179B49209"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1728A01B3DF153E1"]
+			id: "46E3C3BFAC115D07"
+			tasks: [{
+				id: "27056FF1A3248575"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5E2E2FA312814AB9"]
+			id: "2019B7CD32E5259F"
+			tasks: [{
+				id: "5B35E2308D5E5CE1"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2019B7CD32E5259F"]
+			id: "4FAB07B16C443B25"
+			tasks: [{
+				id: "154972F98233AEFC"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2019B7CD32E5259F"]
+			id: "12A3E84ABEA48FBD"
+			tasks: [{
+				id: "1423A2469CF7EDA0"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "11644FBE4F8262F2"
+			tasks: [{
+				id: "5855D0C6FEA7427B"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "4F52B02424B53C47"
+			tasks: [{
+				id: "76EECFCCD88C11F0"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F52B02424B53C47"]
+			id: "347A8B853FBF6863"
+			tasks: [{
+				id: "499EFC8A07FF483F"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "3D3E471595501460"
+			tasks: [{
+				id: "1FD9A58137022B1E"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["&l&e神化对铁砧和附魔台进行了改变，铁砧最大的变化就是完全解除了关于附魔等级的上限，且附魔台附魔经验等级也上调到整整 150 级.而且现在玩家可以自由魔改原版及本模组附魔的等级上限和其本身效果的计算方式都完全自定义，工具材料的附魔能力也能配置。本模组还为原版的蜘蛛网赋予了在铁砧消除非诅咒魔咒的能力，而它的升级版——海晶蜘蛛网则只消除诅咒型魔咒。并且现在剪刀，锄头和铁砧这几个原版不能通过附魔台附魔的工具现在也可以附魔了。并且铁砧现在能够通过在另一个铁砧上使用铁块来修"]
+			id: "065DF905E458AA51"
+			tasks: [{
+				id: "239A9ED443F007C6"
+				title: "强化指南"
+				type: "checkmark"
+			}]
+			title: "&b升级装备介绍"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "2E8A01B2D3A590FE"
+			tasks: [{
+				id: "2D3F8EF34B5AB895"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["065DF905E458AA51"]
+			id: "4CC77189B193B16D"
+			tasks: [{
+				id: "39037FE83A9BDD20"
+				item: {
+					Count: 1
+					id: "apotheosis:augmenting_table"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+	]
+	title: "&d装备进阶"
+}

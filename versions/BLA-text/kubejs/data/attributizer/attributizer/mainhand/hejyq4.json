@@ -1,0 +1,9 @@
+{
+  "traveloptics:infernal_devastator_level_three": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticaddons:the_bless"
+  ],
+  "incompatible": [
+    "mofus_better_end_:harpoon_chain_length",
+    "mofus_better_end_:harpoon_duplicate"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "minecells:balanced_blade": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "modify": 0.5,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

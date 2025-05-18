@@ -1,0 +1,17 @@
+{
+  "item.nether_remastered.seal_piece_4": "§c残破卷轴[已弃用]",
+  "item.nether_remastered.seal_piece_3": "§c残破卷轴[已弃用]",
+  "item.nether_remastered.seal_piece_2": "§c残破卷轴[已弃用]",
+  "item.nether_remastered.nether_essence": "下界之魂",
+  "item.nether_remastered.seal_piece_1": "§c残破卷轴[已弃用]",
+  "advancements.seal_of_the_underworld.descr": "获得遗忘卷轴证明这个冒险家是值得进入下界的",
+  "item.nether_remastered.seal_of_the_underworld_item": "§c遗忘卷轴",
+  "advancements.seal_of_the_underworld.title": "前往地狱!",
+  "item.nether_remastered.bottled_nether_essence": "§d瓶装下界之魂",
+  "item_group.nether_remastered.nether_remastered": "Nether Remastered",
+  "itemGroup.tabnether_remastered": "Nether Remastered",
+  "itemGroup.tab_nether_remastered": "Nether Remastered",
+  "item.nether_remastered.seal_crystal": "§b监守者之泪",
+  "item.nether_remastered.obisidian_infused_bottle": "黑曜石注入瓶",
+  "tooltip.nether_remastered.seal_crystal": "§9击杀监狱守者掉落"
+}

@@ -1,0 +1,9 @@
+{
+  "enigmaticlegacy:etherium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 13.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

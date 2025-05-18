@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "minecraft:power",
+    "minecraft:punch",
+    "flowingagony_reborn:agony_screamer"
+  ]
+}

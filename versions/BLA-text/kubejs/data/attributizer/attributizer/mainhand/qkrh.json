@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:fiery_jaw": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

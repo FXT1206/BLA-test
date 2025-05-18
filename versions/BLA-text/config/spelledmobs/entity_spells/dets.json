@@ -1,0 +1,15 @@
+{
+  "entityId": "terramity:virtue",
+  "checkInterval": 30,
+  "spells": [
+    {
+      "spellId": "traveloptics:flood_slash",
+      "minLevel": 9,
+      "maxLevel": 9,
+      "minCastTime": 50,
+      "maxCastTime": 60,
+      "weight": 1,
+      "chance": 0.8
+    }
+  ]
+}

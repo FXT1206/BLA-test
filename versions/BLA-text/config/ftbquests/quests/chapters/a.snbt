@@ -1,0 +1,2413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a"
+	group: "0B14BC7DC8D9CB24"
+	icon: "alexscaves:slam"
+	id: "71AECCA89FEF5EA5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6良好的饮食对于你的冒险非常重要，你可以通过吃没有吃过的食物来增加自己的生命上限。"]
+			icon: "farmersdelight:cooking_pot"
+			id: "569DD01A20795F85"
+			rewards: [{
+				id: "6BCE0C1C359578FC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "将厨锅放在炉灶的上面方可进行食物的烹饪"
+			tasks: [
+				{
+					id: "6BD70921D3E19B1A"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "26310E031983AC27"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "18CF9051C185B5C0"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "6246BEF81E3F2EAE"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a厨锅"
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			description: ["&6暮色的菜肴看起来天马行空，但是有很多食物吃起来会给予不错的BUFF。"]
+			icon: "twilightdelight:fiery_cooking_pot"
+			id: "7A66B24A325C4130"
+			rewards: [{
+				id: "00BDCD6C31F3552E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "将炽铁锅放在迷宫炉灶上可以快速的烹饪暮色食物"
+			tasks: [
+				{
+					id: "60FF3A3B60C88412"
+					item: "twilightdelight:fiery_cooking_pot"
+					type: "item"
+				}
+				{
+					id: "15D3D02CC6E3100E"
+					item: "twilightdelight:maze_stove"
+					type: "item"
+				}
+			]
+			title: "&a炽铁锅"
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			id: "6CCEA9BFAEF457D8"
+			rewards: [{
+				id: "29C8A1EA87EF3456"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "088225663A4EC1C6"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			title: "&a鳕鱼寿司"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "34FEFFCA413709F2"
+			rewards: [{
+				id: "01B0EB3D563D5C87"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "411A800B76DAF387"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			title: "&a蜂蜜曲奇"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "5DC1E60C7D424744"
+			rewards: [{
+				id: "7990515F9C91A6BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73CA94AA238C64A2"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			title: "&a牛肉炖"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			id: "0D5C2D0218F63908"
+			rewards: [{
+				id: "54A1BAB3D3BDE2AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "210D5966C2FF9861"
+				item: "farmersdelight:cooked_mutton_chops"
+				type: "item"
+			}]
+			title: "&a熟羊排"
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			id: "2BD30628402B8126"
+			rewards: [{
+				id: "0A4A4A06443881ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3DB26B9C4BDB7DF8"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			title: "&a西瓜冰棍"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			id: "74255F8FD0A83B4D"
+			rewards: [{
+				id: "23C7DA55B51A55A8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3DE49B1469288B73"
+				item: "farmersdelight:cooked_salmon_slice"
+				type: "item"
+			}]
+			title: "&a熟鲑鱼片"
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			id: "3B8316BC7AE5C30F"
+			rewards: [{
+				id: "0A7A7AE288762ACD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "22CE4C9DACB02DEA"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			title: "&6盘装牧羊人派"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "3413F57997564373"
+			rewards: [{
+				id: "49C713F0E1152099"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7714CC13871748CA"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			title: "&a蘑菇饭"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "756357FA5D269F81"
+			rewards: [{
+				id: "0E09290B1A51FBFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "696A9821ACB06219"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			title: "&a海带寿司卷"
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			id: "7358D6F12C35B74A"
+			rewards: [{
+				id: "52A7540305F80B1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4C0AC9E7C868B447"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			title: "&a鸡肉汤"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			id: "5E2BCF05426E688C"
+			rewards: [{
+				id: "79E56261BE58AFD2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "47E410FF1CF86313"
+				item: "farmersdelight:squid_ink_pasta"
+				type: "item"
+			}]
+			title: "&a鱿鱼墨面"
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "0AC68C2DF41F1C8E"
+			rewards: [{
+				id: "5339502B5CB0D8B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2523360CAE1D3FE4"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			title: "&a羊排意面"
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			id: "3A17694F7517E136"
+			rewards: [{
+				id: "4EEC200CE2C04FBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41C657A7F66298D5"
+				item: "farmersdelight:cooked_cod_slice"
+				type: "item"
+			}]
+			title: "&a熟鳕鱼片"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			id: "4CD23F0700D93256"
+			rewards: [{
+				id: "505B2F7C3C119178"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2475DCB2DABDF9ED"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			title: "&a烟熏火腿"
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			id: "20FDDAE281726E84"
+			rewards: [{
+				id: "3A8BA85D54B05BFB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3A04DC9A6374C4C1"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			title: "&a发光浆果蛋奶沙司"
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "14A06FEDFA75F384"
+			rewards: [{
+				id: "736D4EEB63F8A663"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "642970DDE8E38981"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			title: "&a馅饼酥皮"
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			id: "5F2274C7EFF99B24"
+			rewards: [{
+				id: "035120636226CA70"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6589851484FF2F5A"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			title: "&a蛋糕切片"
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			id: "31B9D92DF10BEC35"
+			rewards: [{
+				id: "181C46E7D3DDA4F6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C53624153AD3789"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			title: "&a苹果派切片"
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			id: "6CFE5FB565BFF18A"
+			rewards: [{
+				id: "15FEB1A3A7902794"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "524A60C63EB649FE"
+				item: "farmersdelight:cooked_bacon"
+				type: "item"
+			}]
+			title: "&a熟培根"
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "666274F50114F06C"
+			rewards: [{
+				id: "6C83C9782780C4DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "16346031E431DEE4"
+				item: "farmersdelight:cooked_chicken_cuts"
+				type: "item"
+			}]
+			title: "&a熟鸡肉丁"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "6CA00635E913D340"
+			rewards: [{
+				id: "0689D88D465BB027"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0AA57BE89C764845"
+				item: "farmersdelight:beef_patty"
+				type: "item"
+			}]
+			title: "&a牛肉饼"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "2A00455EF6820EF9"
+			rewards: [{
+				id: "534AB1D909D5E286"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A1C103FA9754E9A"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			title: "&a甜浆果曲奇"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "24370F8E44D2A290"
+			rewards: [{
+				id: "16AFE552A3B7218F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5C44A7DBD82ED683"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			title: "&a苹果酒"
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			id: "1B29DEB4DBF5F6D7"
+			rewards: [{
+				id: "123051F28BDD756A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E52E564716D115B"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			title: "&a西瓜汁"
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "71BD2600E613558C"
+			rewards: [{
+				id: "61495B57A4A0F70E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FB44DDDD9CF5EAB"
+				item: "farmersdelight:hamburger"
+				type: "item"
+			}]
+			title: "&a汉堡包"
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			id: "778042A5FEF96D56"
+			rewards: [{
+				id: "5AE2FD5306A0AA19"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "20946A27B948D6CE"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			title: "&a海带寿司"
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			id: "50064BC357A850C7"
+			rewards: [{
+				id: "09F0C03E466F5F81"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0644FF7070A8B7A9"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			title: "&a培根三明治"
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			id: "72FA7693BF7F2EFD"
+			rewards: [{
+				id: "7C7E5F2ADA1C6A78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4BF47E90B4F9C4E6"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			title: "&a蔬菜汤"
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			id: "4A52A278FFF2F136"
+			rewards: [{
+				id: "621F6487DB7A4D90"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2734D2B9093DDCF0"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			title: "&a鱼肉炖"
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			id: "1383CFEC53FEA742"
+			rewards: [{
+				id: "3EEB6073E72E11F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "567B442B3044374A"
+				item: "farmersdelight:ratatouille"
+				type: "item"
+			}]
+			title: "&a蔬菜杂烩"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			id: "08A974EB5484F9A0"
+			rewards: [{
+				id: "77E772F229D061ED"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "58E436D9A28DFC1A"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			title: "&a肉丸意面"
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			id: "505629B73F712569"
+			rewards: [{
+				id: "7281D100E5410C56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3DE18F42152375A5"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			title: "&a面条汤"
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			id: "5DB170FCDB09252F"
+			rewards: [{
+				id: "4FDF922380234F5B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "47C1901DA9851B12"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			title: "&a培根鸡蛋"
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			id: "38DB79B53F390F5E"
+			rewards: [{
+				id: "36F99398CC886E6D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "50E9C9BB1F2C4206"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			title: "&a羊肉卷饼"
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			id: "6C04C526BE252735"
+			rewards: [{
+				id: "175B42547738532B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EB1DDBC7C4F3E3E"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			title: "&a饺子"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "7CB50D2900F76DD2"
+			rewards: [{
+				id: "0DA4482BE7E41615"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6ABFEF5B9790563E"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			title: "&a炒饭"
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			id: "22AA9C181FF450A4"
+			rewards: [{
+				id: "0A2FB44916134656"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "77C754AAE2ACC3FE"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			title: "&a大骨汤"
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			id: "03D7F7C593BDE28C"
+			rewards: [{
+				id: "1D1F828639E991CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "224916F4EA75CB49"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			title: "&a水果沙拉"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			id: "0F9A135DECA987C6"
+			rewards: [{
+				id: "23C658F5D6E001C5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B1CB2792064803C"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			title: "&a鲑鱼寿司"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "412322A50FA8F2B3"
+			rewards: [{
+				id: "470650BA710CADBE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "310AA1245C65C3A5"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			title: "&a下界沙拉"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			icon: "farmersdelight:honey_glazed_ham_block"
+			id: "4D62E7139CF4FC85"
+			rewards: [{
+				id: "1EB59E8865E51311"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "336F2C20E819BFC7"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			title: "&6盘装蜜汁火腿"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "6BAB7D250A5F57EC"
+			rewards: [{
+				id: "1F3D9FAD21C14979"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "02927CF0D161D72B"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			title: "&a烤羊排"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "4109C89CE20EC01D"
+			rewards: [{
+				id: "5EB22FE1D443C3AA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4F9BD233D8F69BFA"
+				item: "farmersdelight:chocolate_pie_slice"
+				type: "item"
+			}]
+			title: "&a巧克力派切片"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "7712681A1287CEF9"
+			rewards: [{
+				id: "150B220FB06AF94D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D84546F06BE91F7"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				type: "item"
+			}]
+			title: "&a甜浆果芝士派切片"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "7D4D82022234347F"
+			rewards: [{
+				id: "75E0BF9F6832EE2F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "68186EFC1029C9D7"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			title: "&a烧烤串"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "6940F7EA70204F21"
+			rewards: [{
+				id: "0D4017E5D5F75164"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "08D1648700327C69"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			title: "&a混合沙拉"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			icon: "farmersdelight:stuffed_pumpkin_block"
+			id: "2FE8B3A32F26F91A"
+			rewards: [{
+				id: "149FBAC31DDF3662"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D83E8D028C4B321"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			title: "&6碗装填馅南瓜"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "5A143BA12BE95624"
+			rewards: [{
+				id: "0B35220BCCD8D97A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "77BF7C8C9E68205D"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			title: "&a蔬菜面"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "62D0A59F36F36A07"
+			rewards: [{
+				id: "51C107C8CB0BDD3E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1D1CFF425B35AEAD"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			title: "&a鸡蛋三明治"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "2EFBB21EC6084907"
+			rewards: [{
+				id: "20BACD61856CC020"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1680774340729A0C"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			title: "&a鸡肉三明治"
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			id: "63A27B48123EDEBA"
+			rewards: [{
+				id: "62C5C9AAEE114EC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "68779F0F5FBA60EA"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			title: "&a卷心菜卷"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			icon: "farmersdelight:roast_chicken_block"
+			id: "0EF647E8CC55468F"
+			rewards: [{
+				id: "46D14ADC09F87EF8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "35BE9C5B7BAC03CF"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			title: "&6盘装烤鸡"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "564B6B82D3367E45"
+			rewards: [{
+				id: "11D1AFB1590DAF03"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01FA72DDFF74289C"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			title: "&a牛排配土豆"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "64F7FFFBC75B59BB"
+			rewards: [{
+				id: "1A799FA3C0E71C93"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "14FBDBF34436E35D"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			title: "&a填馅马铃薯"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "58F3A23E5E5A8DD3"
+			rewards: [{
+				id: "78BD770FB9AAE28A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "15E893F8FE056100"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			title: "&a米饭"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "088C6515A3E3F7E1"
+			rewards: [{
+				id: "5EC5D80086BC1E78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A660D699A728E19"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			title: "&a南瓜汤"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "484B55F412A1982C"
+			rewards: [{
+				id: "160A3182D5CA0B15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "677DEE9AC4F802FC"
+				item: "twilightdelight:cooked_venison_rib"
+				type: "item"
+			}]
+			title: "&a鹿肉肋排"
+			x: 15.0d
+			y: 7.5d
+		}
+		{
+			id: "417931CB076188B8"
+			rewards: [{
+				id: "3213914679000D01"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "71DB06A3093B6FE5"
+				item: "twilightdelight:cooked_meef_slice"
+				type: "item"
+			}]
+			title: "&a熟牛头人肉片"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			id: "76AAF2D27EF6FACD"
+			rewards: [{
+				id: "1DBA26AC0D1925DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2048FA09E13E91C8"
+				item: "twilightdelight:hydra_piece"
+				type: "item"
+			}]
+			title: "&a九头蛇肉块"
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			id: "58E2E6F8D836CE32"
+			rewards: [{
+				id: "3721147C01FC7CE6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4DB27130DB19B66F"
+				item: "twilightdelight:torchberry_cookie"
+				type: "item"
+			}]
+			title: "&a火炬浆果曲奇"
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			id: "392313FF49D12169"
+			rewards: [{
+				id: "4C7DFAC1EF1B8BD3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A87ABFB29A96C95"
+				item: "twilightdelight:cooked_tomahawk_smeak"
+				type: "item"
+			}]
+			title: "&a熟战斧牛头人肋排"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			id: "3AF892B8058FFAC3"
+			rewards: [{
+				id: "45661C33B1D06643"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5AA1775E817AB494"
+				item: "twilightdelight:chocolate_wafer"
+				type: "item"
+			}]
+			title: "&a巧克力夹心薄饼"
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			id: "7BBE21857F629569"
+			rewards: [{
+				id: "21EC3C374098611D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "00385A0915AFD213"
+				item: "twilightdelight:torchberry_pie_slice"
+				type: "item"
+			}]
+			title: "&a火炬浆果派切片"
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			id: "2D7E51258146591E"
+			rewards: [{
+				id: "6AB0B34201D75BDE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0674010AC9441947"
+				item: "twilightdelight:aurora_pie_slice"
+				type: "item"
+			}]
+			title: "&a极光冰晶派切片"
+			x: 15.0d
+			y: 15.5d
+		}
+		{
+			id: "542B2D6CB09B4D6C"
+			rewards: [{
+				id: "47CF8985EA8978A4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "302AB4BF37FA2C13"
+				item: "twilightdelight:cooked_insect"
+				type: "item"
+			}]
+			title: "&a熟虫肉"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			id: "185CC94F90CC6107"
+			rewards: [{
+				id: "638A9C660DA5CF27"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6FF1E07A158805FD"
+				item: "twilightdelight:naga_chip"
+				type: "item"
+			}]
+			title: "&a娜迦脆片"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			id: "7846756DF600D0C5"
+			rewards: [{
+				id: "6BCFF9BBD8127405"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "409F0666C052C5B7"
+				item: "twilightdelight:hydra_burger"
+				type: "item"
+			}]
+			title: "&a九头蛇汉堡"
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			id: "33E8556A268175CE"
+			rewards: [{
+				id: "07956CF4ED2B01F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "25D4D9CB96498E7A"
+				item: "twilightdelight:ghast_burger"
+				type: "item"
+			}]
+			title: "&a恶魂汉堡"
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			id: "0C164D35F0E9F69C"
+			rewards: [{
+				id: "5E2452333677A287"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0529037189EF574A"
+				item: "twilightdelight:grilled_tomahawk_smeak"
+				type: "item"
+			}]
+			title: "&a战斧牛排"
+			x: 18.0d
+			y: 14.0d
+		}
+		{
+			id: "5E48D8A76076759C"
+			rewards: [{
+				id: "4AC53DDFD6961A8B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "443EB605D830BC20"
+				item: "twilightdelight:experiment_113"
+				type: "item"
+			}]
+			title: "&a试验物品113"
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			id: "27937FD1C6D27B55"
+			rewards: [{
+				id: "04EAB722B05188A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2B9A32E490923570"
+				item: "twilightdelight:meef_wrap"
+				type: "item"
+			}]
+			title: "&a米诺陶卷"
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			id: "72D90B38D049F1E0"
+			rewards: [{
+				id: "2EC0FF566B6EAC1F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B5BF306E693919F"
+				item: "twilightdelight:grilled_ghast"
+				type: "item"
+			}]
+			title: "&a炽烤恶魂肉"
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			id: "407A129E880713C0"
+			rewards: [{
+				id: "1066265C370E6F1B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "05632DB111C7CB4A"
+				item: "twilightdelight:chocolate_113"
+				type: "item"
+			}]
+			title: "&a113蘸巧克力"
+			x: 19.5d
+			y: 12.5d
+		}
+		{
+			id: "4CAB062837804005"
+			rewards: [{
+				id: "01C25A42D141B395"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4F638E2F5A2C4D9E"
+				item: "twilightdelight:berry_stick"
+				type: "item"
+			}]
+			title: "&a浆果串"
+			x: 16.5d
+			y: 11.0d
+		}
+		{
+			id: "56EDB7A25C348517"
+			rewards: [{
+				id: "63C0B3E7CFFFBDA2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E94584C1D6B252F"
+				item: "twilightdelight:fried_insect"
+				type: "item"
+			}]
+			title: "&a小炒肥虫"
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			id: "702984C78D6E466C"
+			rewards: [{
+				id: "6F5584CAA8FC9FE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "54D94F0EEC4DB20C"
+				item: "twilightdelight:milky_113"
+				type: "item"
+			}]
+			title: "&a113蘸炼乳"
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			id: "3377F0C2E0A4D951"
+			rewards: [{
+				id: "042245B8105DF493"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5721AC5B87EA39F5"
+				item: "twilightdelight:thorn_rose_tea"
+				type: "item"
+			}]
+			title: "&a荆棘玫瑰茶"
+			x: 16.5d
+			y: 9.5d
+		}
+		{
+			id: "624B26EFBC002AD2"
+			rewards: [{
+				id: "6BDCFFE75DF34B26"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "41682C9A99986000"
+				item: "twilightdelight:mushgloom_meef_pasta"
+				type: "item"
+			}]
+			title: "&a荧光米诺陶意面"
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			id: "6AFD177C6570C70F"
+			rewards: [{
+				id: "09BDF549B9B95055"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "58B194BB0508754F"
+				item: "twilightdelight:glow_113"
+				type: "item"
+			}]
+			title: "&a113蘸荧光煲"
+			x: 19.5d
+			y: 9.5d
+		}
+		{
+			id: "68BE214C4F124B6D"
+			rewards: [{
+				id: "10148AC8DADDBC40"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E41D508B0EDFD27"
+				item: "twilightdelight:torchberry_juice"
+				type: "item"
+			}]
+			title: "&a火炬浆果汁"
+			x: 16.5d
+			y: 7.5d
+		}
+		{
+			id: "6FE4E3281CCD7320"
+			rewards: [{
+				id: "028B27821EB383B2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B2AACDA9E4A3490"
+				item: "twilightdelight:glow_venison_rib_with_pasta"
+				type: "item"
+			}]
+			title: "&a荧光浇汁鹿排配意面"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			id: "52900776D7D5C863"
+			rewards: [{
+				id: "6FA429041AC18508"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "46176D29F4767C0F"
+				item: "twilightdelight:honey_113"
+				type: "item"
+			}]
+			title: "&a113蘸蜂蜜"
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			id: "30D2D9A823BFA6EA"
+			rewards: [{
+				id: "769C12FA988CEA7A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6F7DC78CCE61CE68"
+				item: "twilightdelight:phytochemical_juice"
+				type: "item"
+			}]
+			title: "&a植物素汁"
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			id: "11883C9A3B55C82B"
+			rewards: [{
+				id: "72FD3F085454236C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1CE12E9217918ADC"
+				item: "twilightdelight:borer_tear_soup"
+				type: "item"
+			}]
+			title: "&a蛀虫精华甜菜汤"
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			id: "29557CAEA7D005C1"
+			rewards: [{
+				id: "7C6F2C7F9709B935"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7B7BBA306B689E34"
+				item: "twilightdelight:experiment_110"
+				type: "item"
+			}]
+			title: "&a试验物品110"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			id: "3FE888F99EF600D7"
+			rewards: [{
+				id: "0ECA7BB02478BCBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F7BAC4B6C347714"
+				item: "twilightdelight:glacier_ice_tea"
+				type: "item"
+			}]
+			title: "&a冰川冰茶"
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			id: "67B84EDB8BF51C0D"
+			rewards: [{
+				id: "48E83C77FBBDBCD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "095F616072FE3154"
+				item: "twilightdelight:glowstew"
+				type: "item"
+			}]
+			title: "&a荧光煲"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			description: [""]
+			icon: "twilightdelight:meef_wellington_block"
+			id: "097F1F86BB2402CE"
+			rewards: [{
+				id: "32E1CCA76EF6DF42"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0051638D69C74B53"
+				item: "twilightdelight:meef_wellington_block"
+				type: "item"
+			}]
+			title: "&6盘装暮光惠灵顿牛排"
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			id: "2C0517E4E25B837E"
+			rewards: [{
+				id: "1752C643F335E08C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "79A890027F79214D"
+				item: "twilightdelight:twilight_spring"
+				type: "item"
+			}]
+			title: "&a暮色山泉"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			id: "0B05AE8C2593FDF4"
+			rewards: [{
+				id: "14C8A4E93542922F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1A37AED3E8A10A98"
+				item: "twilightdelight:mushgloom_sauce"
+				type: "item"
+			}]
+			title: "&a荧光蘑菇酱"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			icon: "twilightdelight:fiery_snakes_block"
+			id: "565ABBB37FA6DCC4"
+			rewards: [{
+				id: "7A1D0760C64BABBB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "45A1CBEEE18578D6"
+				item: "twilightdelight:fiery_snakes_block"
+				type: "item"
+			}]
+			title: "&6盘装炽汁蛇宴"
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			id: "6CEA7FB7D0539099"
+			rewards: [{
+				id: "781C17D3CF28453B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "01C481ECFBCFBEA2"
+				item: "twilightdelight:tear_drink"
+				type: "item"
+			}]
+			title: "&a盈泪之饮"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			id: "074DDA77DF7BCF13"
+			rewards: [{
+				id: "48643D4E13E41737"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "37A72518E984E7F7"
+				item: "twilightdelight:thousand_plant_stew"
+				type: "item"
+			}]
+			title: "&a万草煲"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			icon: "twilightdelight:lily_chicken_block"
+			id: "79238460EA89D05E"
+			rewards: [{
+				id: "597D87E0281725C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "06A63012B5A12464"
+				item: "twilightdelight:lily_chicken_block"
+				type: "item"
+			}]
+			title: "&6盘装荷花鸡"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			id: "19AC984825C639CA"
+			rewards: [{
+				id: "0E2A47FEA6D0C05D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "203E42BC1CD43145"
+				item: "twilightdelight:ghast_brain_salad"
+				type: "item"
+			}]
+			title: "&a恶魂脑沙拉"
+			x: 18.0d
+			y: 15.5d
+		}
+		{
+			description: ["&6将沃土放在水旁边使用锄头右键耕种让其变为沃土耕地，在沃土耕地上种植的农作物会获得加速生长的效果，并且沃土耕地无法被踩踏退化。"]
+			icon: "farmersdelight:rich_soil"
+			id: "282EC610A0FED90B"
+			rewards: [{
+				id: "378C1E3AAD854DAE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "让你的农作物加速生长吧"
+			tasks: [{
+				id: "180518EDE4E8D52E"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "&a沃土"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "6A60F914CED98A10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BFC843600342159"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45ED766BB965777B"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "1FCD54A5079DAFB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "017F398C3DF54E5A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6249B37B98561A3B"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "4BA7454EE828FFAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B297608A3F57F1A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "543B25E55B84EB7F"
+				item: {
+					Count: 1
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "55D9502BD8AD1C7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E01442F825C6EC6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3B3FDD8AABD60159"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "7155B605B8D3ECD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11F06EAD299E0BAF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DDE1E493FB79C0E"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "70D99BBCB8F3F9A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EC373DCE404C610"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59DBBF37CCFCCE0B"
+				item: {
+					Count: 1
+					id: "twilightdelight:ironwood_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:knockback"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "073EF982A5F446BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "542E21E0324A86E3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "000A45CF7959D0E7"
+				item: {
+					Count: 1
+					id: "twilightdelight:steeleaf_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:looting"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "7B6C0BAD12A298B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "774062A84B6C6416"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FFD50711559F131"
+				item: {
+					Count: 1
+					id: "twilightdelight:knightmetal_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "650C598566AAB44F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "100E6DB45F4045E9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67D36238D290DA48"
+				item: {
+					Count: 1
+					id: "twilightdelight:fiery_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "5A3E1B90380C7338"
+			rewards: [{
+				id: "3838BDC95A688A45"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "0ED7EAD85BE5AC4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticdelicacy:etherium_stove"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			id: "396C1BF76B1D5257"
+			tasks: [{
+				id: "4FDD9605187BBBC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:boiled_dino_egg"
+				}
+				type: "item"
+			}]
+			title: "&a烤龙蛋"
+			x: 21.0d
+			y: 1.5d
+		}
+		{
+			id: "3AA9AF95C2707EFC"
+			tasks: [{
+				id: "5ED6926ECC47228B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:plate_of_roasted_dino_chop"
+				}
+				type: "item"
+			}]
+			title: "&a盘装烤恐龙肉"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			id: "6256DDB15DD7B991"
+			tasks: [{
+				id: "233FDA4EC41CEBA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:trilocaris_noodles"
+				}
+				type: "item"
+			}]
+			title: "&a三叶虾面条汤"
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			id: "01378EB0730858CA"
+			tasks: [{
+				id: "7AF5CCC0B0AB83B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:roasted_grottoceratops"
+				}
+				type: "item"
+			}]
+			title: "&6烤洞穴角龙"
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			id: "532D6DCCAD4DF637"
+			tasks: [{
+				id: "099D59D5018ED359"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:tectonic_cheesecake"
+				}
+				type: "item"
+			}]
+			title: "&a板块芝士蛋糕"
+			x: 22.5d
+			y: 3.0d
+		}
+		{
+			id: "666987DD98693144"
+			tasks: [{
+				id: "680FEB8D7A51A6A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:pinenut_pie"
+				}
+				type: "item"
+			}]
+			title: "&a松子派"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			id: "3045356870B10AE9"
+			tasks: [{
+				id: "0D67A81EB0B400FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:boiled_trilocaris"
+				}
+				type: "item"
+			}]
+			title: "&a煮三叶虾"
+			x: 21.0d
+			y: 4.5d
+		}
+		{
+			id: "5F74278EDDBD3C83"
+			tasks: [{
+				id: "22D2FE1D3EA67884"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:dino_chop_pasta"
+				}
+				type: "item"
+			}]
+			title: "&a恐龙肉骨意面"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			id: "6DA0769B880B5EEC"
+			tasks: [{
+				id: "743796DBCB6D859B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:flytrap_taco"
+				}
+				type: "item"
+			}]
+			title: "&a捕绳草卷饼"
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			id: "5E90D2200287FE07"
+			tasks: [{
+				id: "6EB0CB559134CC26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:dino_cut_rice"
+				}
+				type: "item"
+			}]
+			title: "&a肉骨块炒饭"
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			id: "0466160812F7F287"
+			tasks: [{
+				id: "3C65BC322274AF50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:cooked_trilocaris_slice"
+				}
+				type: "item"
+			}]
+			title: "&a煮三叶虾切片"
+			x: 22.5d
+			y: 6.0d
+		}
+		{
+			id: "52437ED2236518E0"
+			tasks: [{
+				id: "0CF4D79BC2C8C5F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:cooked_dino_cut"
+				}
+				type: "item"
+			}]
+			title: "&a熟恐龙肉骨块"
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			id: "64CF48323BD403D4"
+			tasks: [{
+				id: "0D1B0DFD66486BD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:cooked_curious_insect"
+				}
+				type: "item"
+			}]
+			title: "&a熟奇翼虫"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			id: "5E632E97537676D9"
+			tasks: [{
+				id: "36F96B0E717107FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:tectonic_pasta"
+				}
+				type: "item"
+			}]
+			title: "&6板块意面"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			id: "4C13EA26D0521014"
+			tasks: [{
+				id: "3C05867443D82A6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:stuffed_trilo_tails"
+				}
+				type: "item"
+			}]
+			title: "&a填险三叶虾尾"
+			x: 24.0d
+			y: 7.5d
+		}
+		{
+			id: "021873D0EEAA520F"
+			tasks: [{
+				id: "5121EF2AEC4E4DBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:shish_kebab"
+				}
+				type: "item"
+			}]
+			title: "&a烤肉串"
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			id: "63C0DF0B8B0594EB"
+			tasks: [{
+				id: "36EB373BA12DB2DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:prehistoric_egg_rice"
+				}
+				type: "item"
+			}]
+			title: "&a史前蛋包饭"
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			id: "0C824E4EB1BF17ED"
+			tasks: [{
+				id: "60210CEB5CE44E87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:plate_of_tail_cut"
+				}
+				type: "item"
+			}]
+			title: "&a盆装角龙尾"
+			x: 24.0d
+			y: 9.5d
+		}
+		{
+			id: "0545A0BE4E671E52"
+			tasks: [{
+				id: "3E989BE78B7D3090"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:plate_of_grotto_leg"
+				}
+				type: "item"
+			}]
+			title: "&6盘装角龙尾"
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			id: "792B22FE9FC6DF66"
+			tasks: [{
+				id: "3F9843ED84FBCD33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:honey_glazed_dino_nugget"
+				}
+				type: "item"
+			}]
+			title: "&a蜜汁恐龙肉块"
+			x: 22.5d
+			y: 11.0d
+		}
+		{
+			id: "1DCE563E0DF1975E"
+			tasks: [{
+				id: "06B48809284114F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:lux_and_ham_sandwich"
+				}
+				type: "item"
+			}]
+			title: "&a溟辉火腿三明治"
+			x: 24.0d
+			y: 11.0d
+		}
+		{
+			id: "62BF4E31ED901B43"
+			tasks: [{
+				id: "241A99F3B2CD72D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:pine_and_sap_sandwich"
+				}
+				type: "item"
+			}]
+			title: "&a松子三明治"
+			x: 21.0d
+			y: 12.5d
+		}
+		{
+			id: "409A97D54DDA3D17"
+			tasks: [{
+				id: "6EF540CDCA7AFEBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cavedelight:plate_of_grotto_burnt_ends"
+				}
+				type: "item"
+			}]
+			title: "&a盘装角龙肉"
+			x: 22.5d
+			y: 12.5d
+		}
+	]
+	subtitle: ["&a民以食为天，保持健康的饮食非常重要。"]
+	title: "&a料理烹饪"
+}

@@ -1,0 +1,9 @@
+{
+  "born_in_chaos_v1:spider_bite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

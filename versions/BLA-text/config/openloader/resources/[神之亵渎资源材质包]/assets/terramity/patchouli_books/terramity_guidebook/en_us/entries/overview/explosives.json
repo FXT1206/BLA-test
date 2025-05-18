@@ -1,0 +1,18 @@
+{
+  "name": "爆炸物",
+  "icon": "terramity:antimatter_bomb",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "炸弹很酷，但如果你想和一些不太值得信任的人一起在服务器上玩，你可能不想冒被人把你关心的东西炸上天的风险！有一个游戏规则可以禁用由 Terramity 添加的所有由玩家控制的爆炸物。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "在 MOD 的后期，你必须将某个物品扔进黑洞（需要用到炸药）才能得到所需的物品。该游戏规则使黑洞炸弹爆炸时，只会掉落所需的物品。$(br2)/gamerule AllowTerramityExplosives false",
+	  "item": {
+		"item": "terramity:black_hole_bomb"
+	  }
+    }
+  ]
+}

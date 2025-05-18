@@ -1,0 +1,9 @@
+{
+  "celestisynth:aquaflora": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

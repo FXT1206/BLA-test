@@ -1,0 +1,9 @@
+{
+  "alexscaves:ortholance": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

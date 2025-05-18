@@ -1,0 +1,9 @@
+{
+  "l2weaponry:lightning_dragonsteel_machete": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -5.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

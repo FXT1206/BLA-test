@@ -1,0 +1,9 @@
+{
+  "terramity:virentium_sword": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 3.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

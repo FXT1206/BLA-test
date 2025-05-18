@@ -1,0 +1,9 @@
+{
+        "traveloptics:deepling_mage_armor_leggings": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

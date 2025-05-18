@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:trident",
+    "cataclysm:coral_spear",
+    "cataclysm:coral_bardiche",
+    "legendary_monsters:reinforced_monstrous_anchor"
+  ],
+  "incompatible": [
+    "celestial_enchantments:sharp_halberd_tip"
+  ]
+}

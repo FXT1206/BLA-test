@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:terramity_leadfoot",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "terramity:curse_of_misfiring"
+  ]
+}

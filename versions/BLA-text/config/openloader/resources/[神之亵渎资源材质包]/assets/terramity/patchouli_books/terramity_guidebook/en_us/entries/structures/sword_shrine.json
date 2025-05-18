@@ -1,0 +1,24 @@
+{
+  "name": "剑之圣殿",
+  "icon": "terramity:excalibur",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "剑之圣殿是 Terramity 世界中的一个建筑。$(br2)在平原、森林和山脉中偶尔可以发现这个建筑探出地表。"
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "只有英雄本色的人才能拔出石头里的剑。$(br2)或者......你可以花费 13 颗心，如果无论如何也要拔出它的话。",
+	  "item": {
+		"item": "terramity:excalibur"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "剑之圣殿",
+      "images": ["terramity:textures/screens/sword_shrine.png"],
+      "border": true
+    }
+  ]
+}

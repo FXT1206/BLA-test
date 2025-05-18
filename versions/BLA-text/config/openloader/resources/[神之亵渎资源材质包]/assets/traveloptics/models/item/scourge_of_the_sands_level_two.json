@@ -1,0 +1,6 @@
+{
+  "parent": "traveloptics:displaysettings/scourge_of_the_sands_display",
+  "textures": {
+    "layer0": "traveloptics:block/scourge_of_the_sands"
+  }
+}

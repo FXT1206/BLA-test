@@ -1,0 +1,9 @@
+{
+  "cataclysm:gauntlet_of_maelstrom": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

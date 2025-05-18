@@ -1,0 +1,10 @@
+
+["Config for Insomniac"]
+	#
+	#Disable attacking while climbing 
+	#Default:false
+	attack_climbing = false
+	#
+	#List of items Exhausted Stamina will ignore.
+	deny_list = []
+

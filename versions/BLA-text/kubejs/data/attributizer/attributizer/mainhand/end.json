@@ -1,0 +1,9 @@
+{
+  "terramity:orders_end": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

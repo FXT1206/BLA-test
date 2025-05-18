@@ -1,0 +1,9 @@
+{
+  "minecells:flint": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "进展指南",
+  "icon": "terramity:guiding_moonlight",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Terramity 的宗旨是推进游戏进程，因此对于不太熟悉该模组的人来说，在没有任何指导的情况下立即进入游戏可能会感到困惑，这就是模组中东西较多的后果。本章会告诉你需要按照什么顺序来获取东西。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "毕竟，每个人都想要加特林，对吧？$(br)但你不可能一开始就得到它，你需要努力争取。在下一页，你应该能找到一张图表，说明在整个模组中获得金属的顺序。只要一种金属与另一种金属在同一 Y 轴上，它们就是同一层，也就是说，你可以选择你想要的。",
+	  "item": {
+		"item": "terramity:stairway_to_heaven"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "图表",
+      "images": ["terramity:textures/screens/the_graph.png"],
+      "border": false,
+      "text": "      越高越好。"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "如前页所述，如果一种金属与另一种金属位于同一 Y 轴上，则该金属与其他金属属于同一层。如果不先获得下面的燃烧材料，你就无法获得前 3 种金属，$(l:terramity:ores/profanum)Profanum$().$(br2)有些材料可能被锁在 Boss 后面，比如黑色物质，只有击败监守者后才能获得。"
+    },
+	{
+      "type": "patchouli:image",
+      "title": "图表",
+      "images": ["terramity:textures/screens/consult_the_graphs.png"],
+      "border": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "如果你不知道下一步该做什么，请查看本书的 $(l:terramity:Bosses)'Boss'类别$()。Boss的顺序从上到下，从第一个到最后一个。",
+	  "item": {
+		"item": "terramity:offering_pedestal"
+	  }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "composite_material:echoium_sword": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "born_in_chaos_v1:sharpened_dark_metal_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "28484848E4ECA7F5"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		id: "terramity:sword_of_the_imprisoned"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "28484848E4ECA7F5"
+	images: [{
+		height: 8.0d
+		image: "enigmaticlegacy:items/evil_essence"
+		rotation: 0.0d
+		width: 8.0d
+		x: -0.5d
+		y: -1.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:void_worm_eye"
+				tag: { }
+			}
+			id: "66D8BAB29345910A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3932D65C37C18FD7"
+				table_id: 4040574915234139344L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "1F56481C6E5119BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5维度&7撕裂者"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"571BDAA7017A06D4"
+				"0C3C0A2C21ADFF18"
+				"02C641DEB5428D18"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 1.2d
+			id: "5F0585343BEDE6EE"
+			rewards: [{
+				command: "/hostility player @a difficulty base add 50"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:demon_heart"
+					tag: { }
+				}
+				id: "023611F455609638"
+				title: "&4难度上升"
+				type: "command"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "502495CD52C63E0F"
+				type: "checkmark"
+			}]
+			title: "&l&4三阶段BOSS"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "curseofpandora:bless_of_lava_walker"
+				tag: { }
+			}
+			id: "513A8FD6AC478CCF"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "4C971D0EB800F236"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炼狱&6亡灵龙[领主]"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			description: ["&d整合包中的末影龙经过了加强。"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
+			id: "6C06C96D5BB13392"
+			rewards: [
+				{
+					id: "33E54F3D26B731AD"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					id: "5618C60D6DB11FB8"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					id: "2CF7634DCF7A9587"
+					item: {
+						Count: 1
+						id: "l2archery:void_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "末影龙浑身是宝"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3517B37257A71599"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d终末&6焉龙[领主]"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "terramity:sword_of_the_imprisoned"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "418FD590ED9FB7F4"
+			tasks: [{
+				entity: "terramity:gundalf"
+				id: "2203DCE84CAEBADD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b终焉&6法师[领主]"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:obsidian_heart"
+				tag: { }
+			}
+			id: "352A3A0C768EFCAD"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "56E79DFB4A0889F3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7屹立&8不倒"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			description: [
+				"&2它是远古时期遗留的战争机器，即使过了很久它依旧执行作为守门人的命令——那就是阻止试图进入传送门的一切生物！"
+				"&6tip：作者实测过可以一命过！！！！！[耗时10分钟]"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_core"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "084171F758E17A98"
+			rewards: [
+				{
+					id: "2067C70AAE8FE220"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:dread_key"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "49FFFC9D0FFDB84C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:random_5"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "627E6690F407D484"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8无名&4守护者[领主]"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "&l&4守护者(主线)"
+}

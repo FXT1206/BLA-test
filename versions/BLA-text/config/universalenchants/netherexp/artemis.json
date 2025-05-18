@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert"
+  ],
+  "incompatible": [
+    "minecraft:power",
+    "netherexp:recoil",
+    "minecraft_121_update:wind_burst",
+    "minecraft_121_update:breach"
+  ]
+}

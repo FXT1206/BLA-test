@@ -1,0 +1,9 @@
+{
+  "cataclysm:infernal_forge": [
+    {
+      "attribute": "cataclysm:the_incinerator",
+      "modify": 32.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

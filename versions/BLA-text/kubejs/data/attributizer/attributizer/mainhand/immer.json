@@ -1,0 +1,9 @@
+{
+  "cataclysm:the_immolator": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 50.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

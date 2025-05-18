@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "751E9F817253DEB9"
+	group: "51CE6D8B8AF8E96F"
+	icon: "minecraft:skeleton_skull"
+	id: "751E9F817253DEB9"
+	images: [{
+		height: 1.5d
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.5d
+		x: -3.0d
+		y: -0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B3FDBE84D6E7BC6"]
+			description: [
+				"&6死亡、诅咒、无形无质、无处不在，那些埋葬在地下的流言跟随着吓破了胆的逞强者四散开来，一时之间，墓穴成为了继巨龙之后的又一个餐桌话题，有人因此噩梦连连，但也有人心怀向往。而冒险家中有位自称为最强盗墓者的盯上了传说中被诅咒的陵墓..."
+				""
+				"&e我生前就常游走地底，一世的辉煌却无人在意..."
+				""
+				"&3曾经的我是盗墓高手却无人知晓，而如今操控死灵的我是 &l&4令人胆战心惊的 &l&6骸骨之王"
+				""
+				"&d特别鸣谢:Krodian[剧情设计]"
+				""
+				"&6注：专家模式下会在亡灵军团事件生成"
+			]
+			id: "744CB29D0DFACC71"
+			min_required_tasks: 200
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "660B1E56369E95AB"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C7FCC705C1DEC8F"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EEEAADDAA1154BA"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B6F76F9D7D0BFD"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365F450323044191"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			subtitle: "&6&l可以通过 &8墓穴之眼 &6寻找"
+			tasks: [{
+				entity: "goety:skull_lord"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:skeleton_skull"
+				}
+				id: "6EEE36092C6E30BA"
+				title: "&6骷髅领主"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3FDBE84D6E7BC6"]
+			description: ["&6她遭世人排挤,隐居于深林之中"]
+			id: "3A46E154899237F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5407CBBD06930378"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365B4E55626B5901"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35412E573B054E3E"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+			]
+			subtitle: "&l&6她到底又做错了什么呢,她也只是个普通人啊..."
+			tasks: [{
+				entity: "goety:crone"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "5BACAE7A0CAEECC2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d众人眼中的巫女"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"3A46E154899237F3"
+				"744CB29D0DFACC71"
+			]
+			description: [
+				"&3该BOSS需要旅途指南针寻找,若指南针指向出生点说明未找到亡灵墓穴位置需要跑图待到旅途指南针找到并定位..."
+				""
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "nameless_trinkets:cracked_crown"
+				tag: { }
+			}
+			id: "571BDAA7017A06D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AFA928A88032F1E"
+					table_id: 5582430196127655637L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "cataclysm:altar_of_fire"
+					id: "0DE5B07131528BFA"
+					table_id: 4040574915234139344L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B4F71D19A4784C1"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68E609414F36A307"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79926903B598154C"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB1C99C10B2F5EA"
+					table_id: 6452859968767898695L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&4他真的很爱魔法...."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "nameless_trinkets:cracked_crown"
+				id: "4780A5EF68848164"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4不死者&6之王[领主]"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"571BDAA7017A06D4"
+			]
+			description: [
+				"&6花有盛开之时,可你还有机会亦或是耐心去看吗..."
+				"&d她会召唤多个属于她的守护者保护她不受伤害,你需要优先攻击她的护卫们,才能够对她造成有效伤害."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4BE092743241A5D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "133544E2D03A12F5"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DAD03A497204F97"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A60A84E80FB7E05"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A3BDC5C65F41740"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "&d紫藤萝的誓言吗..."
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: "meetyourfight:violet_bloom"
+				id: "2E6B4CDAB6839042"
+				title: "&d花之守卫者"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"571BDAA7017A06D4"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:obsidian_heart"
+				tag: { }
+			}
+			id: "352A3A0C768EFCAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D2FB93784BF09C3"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "749ECAA6BE571E68"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78357BDC2DD0E1A5"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C2EA987F4700C29"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53885693B379297E"
+					table_id: 2077300274765048253L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "56E79DFB4A0889F3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7屹立&8不倒"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"571BDAA7017A06D4"
+			]
+			description: [
+				"&4BGM很熟悉吗?使用的是泰拉瑞亚灾厄Mod中的神明吞噬者的背景音乐!"
+				"&6它将不会再度分裂,它会一直对玩家投掷弹射物和火焰弹造成高额伤害,有概率投掷闪电苦力怕[注意这个苦力怕可以被杀死]造成高额的爆炸伤害,冲撞会赋予玩家DBUFF,请务必要小心!!!"
+				"&4你不是神,但你的灵魂却是我的盛宴---神明吞噬者"
+				""
+				"&d拥有撕裂空间的能力,在末地拥有极高的地位,是末地当之无愧的最强捕食者..."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:void_worm_eye"
+				tag: { }
+			}
+			id: "66D8BAB29345910A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3932D65C37C18FD7"
+					table_id: 4040574915234139344L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44612BF971C71E0F"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1213C41DA402E2FB"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ADE6DBD33EFB111"
+					table_id: 6936762780169893034L
+					type: "loot"
+				}
+			]
+			subtitle: "&6该BOSS得到了地狱级加强,仅打击头部才能造成有效伤害!!!"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "1F56481C6E5119BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5维度&7撕裂者"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "&4亵渎产物"
+}

@@ -1,0 +1,9 @@
+{
+  "minecells:broadsword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.3,
+      "operation": "ADDITION"
+    }
+  ]
+}

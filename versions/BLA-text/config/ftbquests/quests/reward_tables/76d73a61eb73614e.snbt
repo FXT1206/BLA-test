@@ -1,0 +1,74 @@
+{
+	id: "76D73A61EB73614E"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "iceandfire:hydra_heart" }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:siren_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:tide_trident"
+				tag: {
+					Damage: 0
+					itemModifier: "celestial_forge:woe"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:cockatrice_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:deathworm_gauntlet_yellow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:hippocampus_slapper"
+				tag: {
+					Damage: 0
+					itemModifier: "celestial_forge:reckless"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:hippogryph_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:pixie_wand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "传奇武器抽奖"
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:terramity_semi_auto",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "terramity:rapid_reload"
+  ]
+}

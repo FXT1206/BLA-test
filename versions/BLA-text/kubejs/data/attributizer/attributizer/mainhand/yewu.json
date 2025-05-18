@@ -1,0 +1,9 @@
+{
+  "terramity:yoru": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 12.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

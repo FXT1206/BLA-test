@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D0941920B69BBD4"
+	group: "51CE6D8B8AF8E96F"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "7D0941920B69BBD4"
+	images: [{
+		height: 5.5d
+		image: "aether_legacy:textures/gui/perks/skins/icons/undead_moa_icon.png"
+		rotation: 0.0d
+		width: 5.5d
+		x: -0.5d
+		y: 2.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["523D6DD3767D5059"]
+			description: ["&6从小爱赌博的她,长大后更是成为了一个赌博机器,它的伤害时而高时而低,这一切都要听从天命,也许你能够击败它也是运气?"]
+			icon: "meetyourfight:fortunes_favor"
+			id: "030C67F2566125E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7220A08130998C9E"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7772BDBCE1E925C9"
+					table_id: 2077300274765048253L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37C2EA4F70705BFA"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33476472B2095B8A"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					id: "6B04FA76E99CF272"
+					table_id: 6936762780169893034L
+					type: "random"
+				}
+			]
+			subtitle: "&4喜爱赌博之人的运气总不会太差"
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				id: "7608AF59C6DC1FDF"
+				title: "&4地狱女爵"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["523D6DD3767D5059"]
+			icon: "goety:ectoplasm"
+			id: "24D7C3BCE6D77547"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6FE147638455BEB9"
+					table_id: 3368063898577194747L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "081D6CE011D3E3E3"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B9AD2A8B4BE5AC0"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				id: "7EFA0A193BB20DB2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b收魂者"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"5F0585343BEDE6EE"
+			]
+			description: [
+				""
+				"&b夜巫妖是夜晚的统治者，她拥有操控暗影和恐惧的力量，能够使敌人陷入绝望。"
+			]
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:ancient_anima"
+				tag: { }
+			}
+			id: "01B5236490FE8777"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "042D6363827398A0"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					id: "3E5AE1F20146F2CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bosses_of_mass_destruction:mob_ward"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DD634637518EFD0"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DC969A1E00E69A9"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "447F748AB8518AAB"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "&b将冰魔法炼至巅峰造极者"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "1740D101D998E01E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b永夜消散"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7681C966C6A90B0B"]
+			icon: "mythsandlegends:soulbinder_amulet"
+			id: "6E30BFF77F6A87AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6335D258FAE7A06B"
+				table_id: 9211345271699213570L
+				type: "random"
+			}]
+			subtitle: "使用&6灵魂绑定护符&7右键&6死亡祭坛方块&7召唤"
+			tasks: [
+				{
+					entity: "mythsandlegends:black_charro"
+					id: "455DBB1AC851D435"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6961AEDB7BF10956"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythsandlegends:soulbinder_amulet"
+					}
+					type: "item"
+				}
+			]
+			title: "&c黑暗法师"
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "&4迎战死亡"
+}

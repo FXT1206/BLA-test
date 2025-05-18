@@ -1,0 +1,11 @@
+{
+  "name": "暗影之焰",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "暗影之焰是 Terramity 新增的药水/状态效果。$(br2)该效果会在一段时间内对你造成严重伤害，类似于着火。不过，抗火和水不会对其产生影响。"
+    }
+  ]
+}

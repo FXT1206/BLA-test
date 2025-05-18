@@ -1,0 +1,9 @@
+{
+  "l2weaponry:eternium_dagger": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 40.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

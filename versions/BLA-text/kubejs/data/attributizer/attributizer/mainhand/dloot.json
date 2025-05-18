@@ -1,0 +1,9 @@
+{
+  "dragonloot:dragon_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 30.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

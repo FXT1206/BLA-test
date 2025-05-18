@@ -1,0 +1,106 @@
+{
+	id: "5D98558C62FBC050"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:health_bottle"
+			}
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:health_bottle_small"
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:health_bottle_large"
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "extraalchemy:breakable_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_one"
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "extraalchemy:breakable_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_two"
+				}
+			}
+			weight: 50.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "extraalchemy:breakable_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_three"
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "extraalchemy:breakable_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_four"
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "minecraft:golden_apple", weight: 10.0f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 5.0f }
+	]
+	title: "药品补给表"
+}

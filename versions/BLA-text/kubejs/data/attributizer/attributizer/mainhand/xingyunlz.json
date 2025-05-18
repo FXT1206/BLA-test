@@ -1,0 +1,9 @@
+{
+  "celestisynth:crescentia": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.02,
+      "operation": "ADDITION"
+    }
+  ]
+}

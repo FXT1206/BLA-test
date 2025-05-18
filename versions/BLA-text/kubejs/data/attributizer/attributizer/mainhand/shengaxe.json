@@ -1,0 +1,9 @@
+{
+  "terramity:axe_of_unholy_divinity": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 40.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

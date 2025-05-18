@@ -1,0 +1,9 @@
+{
+  "alexscaves:dreadbow": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 5.0,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

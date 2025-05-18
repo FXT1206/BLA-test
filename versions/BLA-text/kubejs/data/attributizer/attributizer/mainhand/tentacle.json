@@ -1,0 +1,9 @@
+{
+  "minecells:tentacle": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 10.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

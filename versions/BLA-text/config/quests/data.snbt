@@ -1,0 +1,31 @@
+{
+	default_autoclaim_rewards: "disabled"
+	default_consume_items: false
+	default_quest_disable_jei: false
+	default_quest_shape: "rsquare"
+	default_reward_team: true
+	detection_delay: 20
+	disable_gui: false
+	drop_loot_crates: false
+	emergency_items_cooldown: 300
+	grid_scale: 0.5d
+	icon: {
+		Count: 1
+		id: "nameless_trinkets:broken_ankh"
+		tag: {
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 1
+		monster: 600
+		passive: 4000
+	}
+	pause_game: false
+	progression_mode: "linear"
+	title: "&4亵渎"
+	version: 13
+}

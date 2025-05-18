@@ -1,0 +1,50 @@
+{
+  "seraphimSword": {
+    "baseDamage": 7.0,
+    "attackSpeed": -2.4,
+    "specialDamageMultiplier": 0.1,
+    "pushStrength": 1.5,
+    "cooldownSeconds": 60,
+    "particleCount": 40,
+    "enableParticles": true,
+    "undeadDamageMultiplier": 0.3,
+    "undeadEntityTags": [
+      "minecraft:undead",
+      "forge:undead",
+      "c:undead"
+    ]
+  },
+  "rapidsSword": {
+    "baseDamage": 6.0,
+    "attackSpeed": -1.9,
+    "specialDamageMultiplier": 0.05,
+    "executionThreshold": 0.2,
+    "executionChance": 0.3
+  },
+  "muramasaSword": {
+    "baseDamage": 8.0,
+    "attackSpeed": -2.6,
+    "specialDamageMultiplier": 0.025,
+    "executionThreshold": 0.2,
+    "executionChance": 0.3,
+    "armorThreshold": 10.0
+  },
+  "cleaveConfig": {
+    "attackRange": 3.0,
+    "baseMultiplier": 0.15,
+    "levelMultiplier": 0.05,
+    "maxLevel": 5
+  },
+  "portalConfig": {
+    "enabled": true,
+    "supportVanillaItems": false,
+    "portalBlocks": [
+      "soulsweapons:crimson_obsidian"
+    ],
+    "ignitionItem": "minecraft:nether_star",
+    "messages": {
+      "invalidBlock": "message.blasphemy.portal.invalid_block",
+      "invalidItem": "message.blasphemy.portal.invalid_item"
+    }
+  }
+}

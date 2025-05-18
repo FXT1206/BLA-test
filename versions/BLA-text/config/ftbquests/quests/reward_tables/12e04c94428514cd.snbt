@@ -1,0 +1,38 @@
+{
+	id: "12E04C94428514CD"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "goety:skull_focus" }
+		{ item: "goety:prisma_beam_focus" }
+		{ item: "goety:lightning_focus" }
+		{ item: "goety:flame_strike_focus" }
+		{ item: "goety:biting_focus" }
+		{ item: "goety:teeth_focus" }
+		{ item: "goety:ignite_focus" }
+		{ item: "goety:fire_breath_focus" }
+		{ item: "goety:soul_bolt_focus" }
+		{ item: "goety:magic_bolt_focus" }
+		{ item: "goety:soul_light_focus" }
+		{ item: "goety:glow_light_focus" }
+		{ item: "goety:bulwark_focus" }
+		{ item: "goety:shockwave_focus" }
+		{ item: "goety:weakening_focus" }
+		{ item: "goety:telekinesis_focus" }
+		{ item: "goety:sonic_boom_focus" }
+		{ item: "goety:rotting_focus" }
+		{ item: "goety:osseous_focus" }
+		{ item: "goety:spooky_focus" }
+		{ item: "goety:phantasm_focus" }
+		{ item: "goety:leeching_focus" }
+		{ item: "goety:quaking_focus" }
+		{ item: "goety:burrowing_focus" }
+		{ item: "goety:scatter_focus" }
+		{ item: "goety:frost_breath_focus" }
+		{ item: "goety:ice_spike_focus" }
+		{ item: "goety:launch_focus" }
+		{ item: "goety:flying_focus" }
+		{ item: "goety:cyclone_focus" }
+	]
+	title: "新聚晶抽象"
+}

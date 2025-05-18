@@ -1,0 +1,9 @@
+{
+  "celestisynth:keres": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.08,
+      "operation": "ADDITION"
+    }
+  ]
+}

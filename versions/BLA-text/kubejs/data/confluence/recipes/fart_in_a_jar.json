@@ -1,0 +1,14 @@
+{
+    "type": "confluence:workshop",
+    "ingredients": [
+        {
+            "item": "confluence:cloud_in_a_bottle"
+        },
+        {
+            "item": "artifacts:whoopee_cushion"
+        }
+    ],
+    "result": {
+        "item": "confluence:fart_in_a_jar"
+    }
+}

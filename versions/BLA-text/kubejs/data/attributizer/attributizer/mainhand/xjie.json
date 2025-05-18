@@ -1,0 +1,9 @@
+{
+  "minecells:balanced_blade": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.75,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

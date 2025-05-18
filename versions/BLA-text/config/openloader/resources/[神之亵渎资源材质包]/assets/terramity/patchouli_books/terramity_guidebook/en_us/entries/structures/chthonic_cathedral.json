@@ -1,0 +1,24 @@
+{
+  "name": "岩晶大教堂",
+  "icon": "terramity:occult_fabric",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "岩晶大教堂是 Terramity 中的一个建筑，是与最终 Boss 对战的必备之物。$(br2)这种结构只能在地狱的顶上找到。"
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/shadow_wizards)暗影巫师$()可通过用神秘织物右键点击教堂内的基座来召唤，可从在$(l:terramity:structures/chthonic_dungeon)岩晶地牢 $()中发现的敌人身上掉落",
+	  "item": {
+		"item": "terramity:occult_fabric"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "岩晶大教堂",
+      "images": ["terramity:textures/screens/cathedral.png"],
+      "border": true
+    }
+  ]
+}

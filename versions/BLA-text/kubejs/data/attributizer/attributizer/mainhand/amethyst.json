@@ -1,0 +1,9 @@
+{
+  "irons_spellbooks:amethyst_rapier": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

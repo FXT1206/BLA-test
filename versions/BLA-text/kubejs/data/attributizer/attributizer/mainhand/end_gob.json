@@ -1,0 +1,9 @@
+{
+  "gobber2:gobber2_sword_end": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

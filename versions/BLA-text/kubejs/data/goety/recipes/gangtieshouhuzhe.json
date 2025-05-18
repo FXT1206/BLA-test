@@ -1,0 +1,28 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:summon",
+  "activation_item": {
+    "tag": "forge:ingots/netherite"
+  },
+  "craftType": "sabbath",
+  "entity_to_summon": "mowziesmobs:ferrous_wroughtnaut",
+  "soulCost": 800,
+  "duration": 30,
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "meetyourfight:mossy_tooth"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    }
+  ],
+  "result": {
+    "item": "goety:jei_dummy/none"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "terramity:sword_of_the_imprisoned": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 66.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

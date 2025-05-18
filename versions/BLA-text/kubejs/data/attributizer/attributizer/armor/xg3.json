@@ -1,0 +1,9 @@
+{
+        "twilightforest:yeti_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.4,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

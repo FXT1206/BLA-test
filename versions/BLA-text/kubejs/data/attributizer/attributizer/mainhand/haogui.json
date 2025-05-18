@@ -1,0 +1,9 @@
+{
+  "celestisynth:poltergeist": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 75.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

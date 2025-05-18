@@ -1,0 +1,9 @@
+{
+  "soulsweapons:lich_bane": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

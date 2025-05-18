@@ -1,0 +1,9 @@
+{
+  "l2weaponry:claw_of_determination": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 35.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

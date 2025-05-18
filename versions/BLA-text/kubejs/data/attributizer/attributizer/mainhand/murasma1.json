@@ -1,0 +1,9 @@
+{
+  "terramity:murasama": [
+    {
+      "attribute": "l2damagetracker:fire_damage",
+      "modify": 8.75,
+      "operation": "ADDITION"
+    }
+  ]
+}

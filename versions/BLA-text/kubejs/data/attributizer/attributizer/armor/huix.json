@@ -1,0 +1,1755 @@
+{
+    "gobber2:gobber2_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": -2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": -2.0,
+            "operation": "ADDITION"
+        }
+    ],
+        "twilightforest:yeti_helmet": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 150.0,
+            "operation": "ADDITION"
+        }
+    ],
+        "terramity:dimlite_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "enigmaticlegacy:etherium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 10.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": -2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": -2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:hallowed_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:hallowed_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:hallowed_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:hallowed_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "minecells:assassins_dagger": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "enigmaticlegacy:etherium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "enigmaticlegacy:etherium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "enigmaticlegacy:etherium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mowziesmobs:wrought_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mowziesmobs:sol_visage": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "minecraft:netherite_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "minecraft:netherite_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.3,
+            "operation": "ADDITION"
+        }
+    ],
+    "minecraft:netherite_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "minecraft:netherite_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:reverium_paladin_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:reverium_paladin_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:reverium_paladin_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:sculkium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:sculkium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:sculkium_chestplate": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "blasphemouspatch:revenge_boots": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:sculkium_boots": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:eternium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 9.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:eternium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 20.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.85,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:eternium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 18.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:eternium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_helmet_nether": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_chestplate_nether": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_leggings_nether": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_boots_nether": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "dragonloot:dragon_leggings": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "dragonloot:dragon_boots": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "dragonloot:dragon_chestplate": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "dragonloot:dragon_helmet": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_helmet_end": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_boots_end": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:ignitium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:ignitium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 16.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 12.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.3,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:ignitium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 12.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:ignitium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.2,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 10.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_chestplate": [
+        {
+            "attribute": "attributeslib:cold_damage",
+            "modify": 16.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 0.4,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "cataclysm:cursium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conductite_scouter_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:explosion_damage",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conductite_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:explosion_damage",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "forge:attack_range",
+            "modify": 0.1,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.2,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:conductite_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:explosion_damage",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.08,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:conductite_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:explosion_damage",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:iridium_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:iridium_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:iridium_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:iridium_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:hellspec_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:hellspec_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 0.2,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:hellspec_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 0.15,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:hellspec_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:void_mage_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 200.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 3.0,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:void_mage_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 600.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.6,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "confluence:armor_pass",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:void_mage_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:void_mage_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:cosmilite_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 150.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 1.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:cosmilite_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 400.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.4,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:cosmilite_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:cosmilite_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:virentium_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:virentium_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:virentium_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:virentium_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_leggings": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:dimlite_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:durasteel_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:durasteel_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:durasteel_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:durasteel_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:exodium_warlock_helmet": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 4.0,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 250.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:exodium_warlock_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "confluence:armor_pass",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 800.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 0.15,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:exodium_warlock_leggings": [
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:exodium_warlock_boots": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:celestium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:celestium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 10.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.4,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:celestium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:cold_damage",
+            "modify": 0.2,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:celestium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:metallurgium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.45,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:metallurgium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 8.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 250.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:metallurgium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 150.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:metallurgium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "iceandfire:dragonsteel_ice_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_ice_leggings": [
+        {
+            "attribute": "attributeslib:cold_damage",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_ice_boots": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.1,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_fire_chestplate": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_fire_leggings": [
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_lightning_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.30,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_lightning_leggings": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_lightning_boots": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.2,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "twilightforest:yeti_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.10,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "twilightforest:yeti_leggings": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "l2complements:sculkium_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conductite_scouter_helmet": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "gobber2:gobber2_chestplate_end": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.6,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 9.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "gobber2:gobber2_leggings_end": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.18,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:dimlite_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.18,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:runite_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.12,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:stormyx_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.18,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 150.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:stormyx_leggings": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.12,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "mythicmetals:star_platinum_chestplate": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 200.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:star_platinum_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:star_platinum_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:star_platinum_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.114,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "alexscaves:cloak_of_darkness": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 1000.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 2.0,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "alexscaves:hood_of_darkness": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 3.0,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "dragonloot:dragon_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.58,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "dragonloot:dragon_helmet": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.32,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "dragonloot:dragon_boots": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.15,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "l2complements:totemic_gold_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:totemic_gold_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 10.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:totemic_gold_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "l2complements:totemic_gold_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "eeeabsmobs:ghost_warrior_boots": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "eeeabsmobs:ghost_warrior_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.38,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "eeeabsmobs:ghost_warrior_helmet": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.22,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "eeeabsmobs:ghost_warrior_leggings": [
+        {
+            "attribute": "attributeslib:cold_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "traveloptics:cursed_wraithguard_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 17.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "traveloptics:cursed_wraithguard_crown": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:cursed_wraithguard_spectral_wrapping": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 11.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:cursed_wraithguard_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:abyssal_hide_armor_robe": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 550.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.85,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:abyssal_hide_armor_leggings": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 350.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "attributeslib:cold_damage",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 7.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:abyssal_hide_armor_hat": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.8,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:abyssal_hide_armor_boots": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.5,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.1,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:primordial_crest_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:primordial_crest_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 2.0,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.15,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 0.3,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "traveloptics:primordial_crest_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:primordial_crest_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:tectonic_crest_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 9.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:tectonic_crest_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 24.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 2.0,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.35,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "traveloptics:tectonic_crest_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 18.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "traveloptics:tectonic_crest_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_helmet": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.45,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "cataclysm:cursium_chestplate": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:cursium_boots": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": 0.2,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "born_in_chaos_v1:dark_metal_armor_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "born_in_chaos_v1:dark_metal_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 5.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "born_in_chaos_v1:dark_metal_armor_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "born_in_chaos_v1:dark_metal_armor_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "composite_material:echoium_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "composite_material:echoium_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.2,
+            "operation": "ADDITION"
+        }
+    ],
+    "composite_material:echoium_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "composite_material:echoium_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "composite_material:etherite_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 1.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:virentium_armor_chestplate": [
+        {
+            "attribute": "minecraft:generic.movement_speed",
+            "modify": -0.15,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 12.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conjuror_helmet": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.15,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "terramity:conjuror_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.15,
+            "operation": "MULTIPLY_TOTAL"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conjuror_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "terramity:conjuror_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "blasphemouspatch:apostle_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "blasphemouspatch:apostle_boots": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "blasphemouspatch:apostle_leggings": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "blasphemouspatch:apostle_helmet": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.25,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ],
+    "iceandfire:dragonsteel_fire_boots": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.15,
+            "operation": "ADDITION"
+        }
+    ],
+    "blasphemouspatch:revenge_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.25,
+            "operation": "ADDITION"
+        }
+    ],
+    "goety:cursed_knight_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.25,
+            "operation": "ADDITION"
+        }
+    ],
+    "cataclysm:bloom_stone_pauldrons": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 1.25,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:naga_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.75,
+            "operation": "ADDITION"
+        },
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:naga_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "mythicmetals:hallowed_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 0.75,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_chestplate": [
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_boots": [
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_leggings": [
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:fiery_helmet": [
+        {
+            "attribute": "attributeslib:fire_damage",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:knightmetal_helmet": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:knightmetal_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 3.0,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:knightmetal_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 2.5,
+            "operation": "ADDITION"
+        }
+    ],
+    "twilightforest:knightmetal_boots": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 1.5,
+            "operation": "ADDITION"
+        }
+    ]
+}

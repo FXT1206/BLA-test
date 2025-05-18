@@ -1,0 +1,44 @@
+{
+	id: "2D6DBEAE1A9CE326"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "l2complements:eternium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:eternium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:eternium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:eternium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "永恒套抽取"
+}

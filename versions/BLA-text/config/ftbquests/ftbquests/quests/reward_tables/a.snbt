@@ -1,0 +1,17 @@
+{
+	id: "0F3A82E233198D2C"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		{
+			type: "xp_levels"
+			weight: 2.0f
+			xp_levels: 1
+		}
+	]
+	title: "A经验"
+}

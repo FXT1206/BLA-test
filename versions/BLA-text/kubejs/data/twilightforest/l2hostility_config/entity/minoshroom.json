@@ -1,0 +1,32 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 50,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "twilightforest:minoshroom"
+      ],
+      "items": [],
+      "traits": [
+                      
+ 
+       {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        } ,
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        }   ]
+    }
+  ]
+}

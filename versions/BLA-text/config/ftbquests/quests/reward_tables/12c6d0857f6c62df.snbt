@@ -1,0 +1,17 @@
+{
+	id: "12C6D0857F6C62DF"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cataclysm:cursed_bow"
+				tag: { }
+			}
+		}
+		{ item: "cataclysm:the_annihilator" }
+		{ item: "cataclysm:soul_render" }
+	]
+	title: "咒魂"
+}

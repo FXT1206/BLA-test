@@ -1,0 +1,9 @@
+{
+  "l2weaponry:ice_dragonsteel_battle_axe": [
+    {
+      "attribute": "l2damagetracker:magic_damage",
+      "modify": -10.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

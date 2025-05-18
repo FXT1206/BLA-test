@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "66161289D5D96395", title: "&6&l装备提升" }
+		{ id: "52A647A032D879B8", title: "&6&l材料获取" }
+		{ id: "59519DD26A0D9F38", title: "&6&l饰品集" }
+		{ id: "7571899CDEDDF9F5", title: "&4&l征途之歌" }
+	]
+}

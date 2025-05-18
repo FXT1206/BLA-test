@@ -1,0 +1,9 @@
+{
+  "mythicmetals:hallowed_sword": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

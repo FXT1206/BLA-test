@@ -1,0 +1,9 @@
+{
+        "traveloptics:forlorn_harbinger_leggings": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 300.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

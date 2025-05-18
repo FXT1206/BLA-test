@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:axe_of_lightning": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

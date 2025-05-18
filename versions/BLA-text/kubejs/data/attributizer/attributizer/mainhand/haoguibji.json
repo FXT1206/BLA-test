@@ -1,0 +1,9 @@
+{
+  "celestisynth:poltergeist": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.5,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

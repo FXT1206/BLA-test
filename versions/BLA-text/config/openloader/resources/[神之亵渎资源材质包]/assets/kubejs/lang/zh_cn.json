@@ -1,0 +1,152 @@
+{
+	"OEA.artifacts.cloud_in_a_bottle1":"§7提升移动速度和盔甲韧性",
+	"OEA.artifacts.cloud_in_a_bottle2":"§7使装备者能够进行二段跳",
+
+	"OEA.artifacts.obsidian_skull1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.obsidian_skull2":"§7受到火焰伤害时获得短暂抗火",
+	"OEA.artifacts.obsidian_skull3":"§7若处于岩浆中，提升攻击伤害",
+
+	"OEA.artifacts.digging_claws1":"§7提升攻击速度和挖掘速度",
+	"OEA.artifacts.digging_claws2":"§7基础挖掘等级提升至石质",
+	"OEA.artifacts.digging_claws3":"§7攻击使目标获得挖掘疲劳",
+
+	"OEA.artifacts.antidote_vessel1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.antidote_vessel2":"§7使装备者免疫缓慢和中毒效果",
+	"OEA.artifacts.antidote_vessel3":"§7缩短其他负面效果的持续时间",
+
+	"OEA.artifacts.crystal_heart1":"§7根据百分比提升最大生命",
+	"OEA.artifacts.crystal_heart2":"§7额外提升基础最大生命值",
+
+	"OEA.artifacts.chorus_totem1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.chorus_totem2":"§7在末地时，额外提升最大生命",
+	"OEA.artifacts.chorus_totem3":"§7受到致命伤害时，消耗此图腾",
+	"OEA.artifacts.chorus_totem4":"§7抵消此伤害并将你传送到其他地方",
+
+	"OEA.artifacts.universal_attractor1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.universal_attractor2":"§7使装备者吸引附近的掉落物",
+	"OEA.artifacts.universal_attractor3":"§7在白天时，额外提升攻击伤害",
+
+	"OEA.artifacts.helium_flamingo1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.helium_flamingo2":"§7可在空中按住 左Ctrl 游泳飞行",
+	"OEA.artifacts.helium_flamingo3":"§7在其他维度可额外提升游泳速度",
+
+	"OEA.artifacts.feral_claws1":"§7根据百分比提升攻击速度",
+	"OEA.artifacts.feral_claws2":"§7额外提升基础攻击速度值",
+
+	"OEA.artifacts.power_glove1":"§7根据百分比提升攻击伤害",
+	"OEA.artifacts.power_glove2":"§7额外提升基础攻击伤害值",
+
+	"OEA.artifacts.fire_gauntlet1":"§7略微提升装备者的攻击伤害",
+	"OEA.artifacts.fire_gauntlet2":"§7近战攻击时会点燃目标数秒",
+	"OEA.artifacts.fire_gauntlet3":"§7在下界时，额外提升攻击伤害",
+
+	"OEA.artifacts.vampiric_glove1":"§7近战攻击时根据伤害回复生命",
+	"OEA.artifacts.vampiric_glove2":"§7在夜晚时，额外提升攻击伤害",
+
+	"OEA.artifacts.pickaxe_heater1":"§7提升攻击伤害和护甲值",
+	"OEA.artifacts.pickaxe_heater2":"§7攻击使目标发光一段时间",
+	"OEA.artifacts.pickaxe_heater3":"§7自动冶炼装备者挖掘的矿物",
+
+	"OEA.artifacts.golden_hook1":"§7提升攻击速度和幸运值",
+	"OEA.artifacts.golden_hook2":"§7攻击使目标获得虚弱效果",
+	"OEA.artifacts.golden_hook3":"§7增加击杀生物掉落的经验",
+
+	"OEA.artifacts.pocket_piston1":"§7提升攻击伤害和击退距离",
+	"OEA.artifacts.pocket_piston2":"§7攻击使目标获得减速效果",
+
+	"OEA.artifacts.onion_ring1":"§7提升攻击速度和移动速度",
+	"OEA.artifacts.onion_ring2":"§7使用食物后获得急迫效果",
+
+	"OEA.artifacts.rooted_boots1":"§7略微提升装备者的护甲值",
+	"OEA.artifacts.rooted_boots2":"§7在草方块上可提升盔甲韧性",
+	"OEA.artifacts.rooted_boots3":"§7并缓慢回复装备者的饱食度",
+
+	"OEA.artifacts.flippers1":"§7根据百分比提升游泳速度",
+	"OEA.artifacts.flippers2":"§7额外提升基础游泳速度值",
+	"OEA.artifacts.flippers3":"§7若处于水中，提升盔甲韧性",
+
+	"OEA.artifacts.snowshoes1":"§7提升盔甲韧性和移动速度",
+	"OEA.artifacts.snowshoes2":"§7可在细雪和冰块上正常行走",
+	"OEA.artifacts.snowshoes3":"§7在雨雪天气，提升移动速度",
+
+	"OEA.artifacts.aqua_dashers1":"§7略微提升装备者的护甲值",
+	"OEA.artifacts.aqua_dashers2":"§7允许装备者疾跑时在流体上行走",
+	"OEA.artifacts.aqua_dashers3":"§7且在水中行走时，提升移动速度",
+
+	"OEA.artifacts.steadfast_spikes1":"§7提升装备者的护甲值",
+	"OEA.artifacts.steadfast_spikes2":"§7免疫击退和漂浮效果",
+
+	"OEA.artifacts.kitty_slippers1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.kitty_slippers2":"§7苦力怕会回避你，就像回避猫",
+	"OEA.artifacts.kitty_slippers3":"§7在夜晚时，额外提升移动速度",
+
+	"OEA.artifacts.bunny_hoppers1":"§7略微提升盔甲韧性和移动速度",
+	"OEA.artifacts.bunny_hoppers2":"§7获得跳跃提升并免疫摔落伤害",
+
+	"OEA.artifacts.running_shoes1":"§7略微提升护甲值和移动速度",
+	"OEA.artifacts.running_shoes2":"§7疾跑时提升移速和抬步高度",
+
+	"OEA.artifacts.charm_of_sinking1":"§7略微提升装备者的盔甲韧性",
+	"OEA.artifacts.charm_of_sinking2":"§7允许装备者在水下自由移动",
+	"OEA.artifacts.charm_of_sinking3":"§7在白天时，额外获得缓降效果",
+	"OEA.artifacts.charm_of_sinking4":"§7“你的意思是，我会在水下摔死？”",
+
+	"OEA.artifacts.panic_necklace1":"§7提升移动速度和最大生命",
+	"OEA.artifacts.panic_necklace2":"§7在受到伤害后获得迅捷效果",
+
+	"OEA.artifacts.cross_necklace1":"§7提升盔甲韧性并免疫虚弱效果",
+	"OEA.artifacts.cross_necklace2":"§7在受到伤害时延长无敌帧时间",
+
+	"OEA.artifacts.shock_pendant1":"§7提升攻击速度并免疫雷电伤害",
+	"OEA.artifacts.shock_pendant2":"§7受到伤害时有概率雷击攻击者",
+	"OEA.artifacts.shock_pendant3":"§7在雨雪天气，额外提升攻击速度",
+
+	"OEA.artifacts.thorn_pendant1":"§7提升攻击伤害并免疫凋零效果",
+	"OEA.artifacts.thorn_pendant2":"§7受到伤害时有概率反伤攻击者",
+
+	"OEA.artifacts.flame_pendant1":"§7略微提升装备者的攻击伤害",
+	"OEA.artifacts.flame_pendant2":"§7若处于岩浆中，提升攻击伤害",
+	"OEA.artifacts.flame_pendant3":"§7受到伤害时有概率点燃攻击者",
+	"OEA.artifacts.flame_pendant4":"§7且点燃攻击者后获得短暂抗火",
+
+	"OEA.artifacts.scarf_of_invisibility1":"§7提升盔甲韧性并获得隐身效果",
+	"OEA.artifacts.scarf_of_invisibility2":"§7在夜晚时，额外提升攻击伤害",
+
+	"OEA.artifacts.lucky_scarf1":"§7提升盔甲韧性、幸运值和时运等级",
+	"OEA.artifacts.lucky_scarf2":"§7若佩戴迷信之帽，提升攻击速度和幸运值",
+
+	"OEA.artifacts.superstitious_hat1":"§7提升护甲值、幸运值和抢夺等级",
+	"OEA.artifacts.superstitious_hat2":"§7若佩戴幸运围巾，提升攻击速度和幸运值",
+
+	"OEA.artifacts.anglers_hat1":"§7提升护甲值和盔甲韧性",
+	"OEA.artifacts.anglers_hat2":"§7提升饵钓和海之眷顾等级",
+	"OEA.artifacts.anglers_hat3":"§7使装备者免疫挖掘疲劳效果",
+
+	"OEA.artifacts.cowboy_hat1":"§7提升攻击伤害、护甲值和移动速度",
+	"OEA.artifacts.cowboy_hat2":"§7骑乘载具时，令坐骑获得迅捷效果",
+
+	"OEA.artifacts.villager_hat1":"§7提升护甲值并免疫饥饿效果",
+	"OEA.artifacts.villager_hat2":"§7大幅度降低村民交易的价格",
+
+	"OEA.artifacts.night_vision_goggles1":"§7略微提升装备者的护甲值",
+	"OEA.artifacts.night_vision_goggles2":"§7使装备者能在黑暗中略微看清",
+
+	"OEA.artifacts.snorkel1":"§7提升装备者的护甲值和游泳速度",
+	"OEA.artifacts.snorkel2":"§7使装备者拥有短暂的水下呼吸能力",
+	"OEA.artifacts.snorkel3":"§7在白天时，持续获得水下呼吸效果",
+
+	"OEA.artifacts.novelty_drinking_hat1":"§7略微提升护甲值和盔甲韧性",
+	"OEA.artifacts.novelty_drinking_hat2":"§7减少食用物品和饮用物品的时间",
+	"OEA.artifacts.novelty_drinking_hat3":"§7“嘿！我让重力帮我喝水！”",
+
+	"OEA.artifacts.plastic_drinking_hat1":"§7略微提升护甲值和移动速度",
+	"OEA.artifacts.plastic_drinking_hat2":"§7减少食用物品和饮用物品的时间",
+
+	"OEA.artifacts.whoopee_cushion1":"§7增加装备者肠胃中的气体",
+	"OEA.artifacts.whoopee_cushion2":"§7你将在某刻获得喷涌而出的力量",
+
+
+
+
+	"OEA.air":" "
+}

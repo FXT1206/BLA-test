@@ -1,0 +1,9 @@
+{
+  "minecells:flint": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.025,
+      "operation": "ADDITION"
+    }
+  ]
+}

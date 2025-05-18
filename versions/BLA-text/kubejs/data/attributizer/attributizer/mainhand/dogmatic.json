@@ -1,0 +1,9 @@
+{
+  "l2weaponry:dogmatic_punishment": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 32.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

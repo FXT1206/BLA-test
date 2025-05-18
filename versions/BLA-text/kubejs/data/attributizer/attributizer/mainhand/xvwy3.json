@@ -1,0 +1,9 @@
+{
+  "terramity:void_sword": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 4.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "cataclysm:the_incinerator": [
+    {
+      "attribute": "cataclysm:the_incinerator",
+      "modify": 42.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

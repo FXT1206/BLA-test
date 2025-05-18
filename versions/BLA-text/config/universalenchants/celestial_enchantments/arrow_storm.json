@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow_and_crossbow"
+  ],
+  "incompatible": [
+    "celestial_enchantments:divine_projection",
+    "celestial_enchantments:sharp_arrow",
+    "minecraft:power"
+  ]
+}

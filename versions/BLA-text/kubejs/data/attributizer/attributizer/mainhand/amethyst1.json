@@ -1,0 +1,9 @@
+{
+  "irons_spellbooks:amethyst_rapier": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

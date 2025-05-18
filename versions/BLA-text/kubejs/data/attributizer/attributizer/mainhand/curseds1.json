@@ -1,0 +1,9 @@
+{
+  "curseofpandora:doom_star": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 25.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

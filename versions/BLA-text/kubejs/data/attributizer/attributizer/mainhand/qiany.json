@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:chorus_blade": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 16.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

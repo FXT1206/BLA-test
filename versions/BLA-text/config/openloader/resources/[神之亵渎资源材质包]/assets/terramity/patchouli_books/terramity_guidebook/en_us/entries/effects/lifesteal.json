@@ -1,0 +1,11 @@
+{
+  "name": "生命偷取",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "生命偷取是 Terramity 新增的一种药水/状态效果。$(br2)该效果会使你造成的任何伤害都会治疗你一部分生命。单次命中最多能治疗你一颗心。"
+    }
+  ]
+}

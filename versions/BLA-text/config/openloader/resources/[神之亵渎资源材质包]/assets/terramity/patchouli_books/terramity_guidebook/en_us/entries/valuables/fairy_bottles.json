@@ -1,0 +1,34 @@
+{
+  "name": "瓶中精灵",
+  "icon": "terramity:pink_fairy_bottle",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "瓶中精灵$(br2)让你的双手拿着它而重生。粉色精灵是唯一一种可以装在瓶子里的仙子。它们是最稀有的精灵类型，在主世界的任何地方都能找到。仙女喷泉中就有许多粉色精灵。"
+    },
+    {
+      "type": "patchouli:spotlight",
+	  "title": "瓶中精灵",
+	  "text": "粉色精灵可以通过右键点击手中的空瓶子来装瓶。",
+	  "item": {
+		"item": "terramity:pink_fairy_bottle"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+	  "title": "瓶中精灵",
+      "text": "虽然你的物品栏中可以有 2 个以上的瓶中精灵，但如果你死亡时携带的瓶中精灵超过了这个数量，那么除了一个瓶中精灵之外，其他瓶中精灵都会在死亡时被使用。$(br2)用瓶中精灵点击右键会提前释放精灵，并瞬间治疗你的 6 颗心。",
+	  "item": {
+		"item": "terramity:pink_fairy_bottle"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "精灵喷泉",
+      "images": ["terramity:textures/screens/fairy.png"],
+      "border": true,
+      "text": "精灵喷泉很少出现在地下，在石头和深板岩交接的地方。"	·
+    }
+  ]
+}

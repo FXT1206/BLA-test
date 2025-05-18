@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "28484848E4ECA7F5"
+	group: "6C11F5C97E337818"
+	icon: {
+		Count: 1
+		id: "terramity:sword_of_the_imprisoned"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "28484848E4ECA7F5"
+	images: [{
+		height: 8.0d
+		image: "enigmaticlegacy:items/evil_essence"
+		rotation: 0.0d
+		width: 8.0d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"61E081D48BB0B568"
+				"7A37DC0562582924"
+				"697D4B809EC3B5B1"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 1.2d
+			id: "5F0585343BEDE6EE"
+			rewards: [{
+				command: "/hostility player @a difficulty base add 50"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:demon_heart"
+					tag: { }
+				}
+				id: "023611F455609638"
+				title: "&4难度上升"
+				type: "command"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "502495CD52C63E0F"
+				type: "checkmark"
+			}]
+			title: "&l&4五阶段BOSS"
+			x: -0.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			description: [
+				"&6整合包中的末影龙经过了加强。"
+				"&d始祖源龙是龙族的起源，它在远古时期就已存在，是所有龙类的祖先。它拥有强大的源力，能够掌控元素之力和时间空间。在龙族的历史中，始祖源龙曾多次带领龙族抵御外敌入侵，保卫龙族的家园。然而，在一次与强大敌人的战斗中，始祖源龙受到了重创，陷入了漫长的沉睡。如今，随着世界的变迁和龙族的衰落，始祖源龙再次苏醒，它将再次展现其强大的力量，守护龙族的荣耀。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
+			id: "6C06C96D5BB13392"
+			rewards: [
+				{
+					id: "5618C60D6DB11FB8"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C0F738E96FA64B9"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E0AA62E358E89D7"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D4071340D94A543"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "465CB7B5742C70BF"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1455A7E892664B5A"
+					table_id: 5046579547933498811L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "龙之始祖"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3517B37257A71599"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d终末&6焉龙[领主]"
+			x: 1.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "terramity:sword_of_the_imprisoned"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "418FD590ED9FB7F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FAF1F4AEAD4654B"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B14AD494277E860"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6611A795376E91CB"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5395DBDD55124BA6"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F53B58359927FF6"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1726992BC0C29A7E"
+					table_id: 5046579547933498811L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "terramity:gundalf"
+				id: "2203DCE84CAEBADD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b终焉&6法师[领主]"
+			x: -2.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			description: [
+				"&2它是远古时期遗留的战争机器，即使过了很久它依旧执行作为守门人的命令——那就是阻止试图进入传送门的一切生物！"
+				"&6无名守护者身材高大魁梧，身高超过三米，全身覆盖着闪烁着冷色光芒的铠甲。铠甲上刻满了神秘的符文，这些符文蕴含着强大的神力，能够增强他的防御和攻击能力。他的头盔遮住了面容，只露出一双深邃而锐利的眼睛，眼神中透露出坚定和威严。他的手中握着一把巨大的看守者巨斧，胸膛上镶嵌着一颗璀璨的能源核心，斧刃散发着冰冷的寒光，仿佛能够斩断一切。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_core"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "084171F758E17A98"
+			rewards: [
+				{
+					command: "/hostility player @a difficulty total add 50"
+					icon: "confluence:demon_heart"
+					id: "36D582FB050F8206"
+					title: "难度提升"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A709B474ADAF669"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C96254687E6B478"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B6F1DADB590FCA3"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F2B1B667E91481F"
+					table_id: 5046579547933498811L
+					type: "random"
+				}
+			]
+			subtitle: "神之守门人"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "627E6690F407D484"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8无名&4守护者[领主]"
+			x: -0.5d
+			y: -3.75d
+		}
+		{
+			dependencies: [
+				"7FF03173C899AF69"
+				"4C8309A1277985A2"
+				"418FD590ED9FB7F4"
+				"6C06C96D5BB13392"
+				"084171F758E17A98"
+			]
+			description: [
+				"&6使用稿子挖掘琥珀有极低的概率掉落琥珀珍品，将灾厄触媒投入原始洞穴中的火山口用于召唤暝煌龙（实际上只要将灾厄触媒丢在火山核心上面就可以召唤暝煌龙，但你可不要自作聪明的将它带到海里召唤，这样的话暝煌龙的技能与海水相结合将会让你见识到极致的掉帧卡顿）。"
+				""
+				"&c你们可曾想见过天灾的模样？那头名为暝煌的巨龙就能完美地回答这个问题，它的鳞片燃烧出原始蛮荒的气息，它暴怒的踩踏连大地的灰石都能崩碎，所有恐龙都畏惧它，传说中，这头巨兽带来了时代的起始与终结。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "alexscaves:tectonic_shard"
+			id: "08C791FDEF9E9AD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7AC4EDC196EAA9E7"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D468131B2DDA55"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E1964E37FEC9CC"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C550225C965C853"
+					table_id: 8563377408704733518L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CF2A9C8B928E29A"
+					table_id: 5046579547933498811L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "深锁于火山之心的巨兽，灵魂在承受数亿年的熔岩洗礼后已无惧火焰，这头巨兽正是导致了原始洞穴里许多恐龙灭绝的元凶"
+			tasks: [
+				{
+					id: "0290D247051EE1E9"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "3BFB31697B4A7FD6"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a终结一切的远古天灾"
+			x: -0.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			hide_dependency_lines: true
+			icon: "terramity:angel_feather"
+			id: "2689C97CF684C7CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34720B9264F5601D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A224054EAA8FAE5"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00EA72DB61E3E132"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08574AFC5FD75107"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56827AD3AD83A62A"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711058CA183DCA88"
+					table_id: 5046579547933498811L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "terramity:virtue"
+				id: "6F9FBC5594C29FDE"
+				title: "&4畸形天使"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+	]
+	title: "&l&4守护者&6[主线]"
+}

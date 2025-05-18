@@ -1,0 +1,28 @@
+{
+  "name": "弹药类型",
+  "icon": "terramity:gold_round",
+  "category": "terramity:guns",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在 Terramity 中，有许多不同的弹药类型。$(br2)Terramity 中的枪支只能使用其特定的弹药类型。$(br2)当你伸出枪支时，枪支会在弹药计数器覆盖层中显示其使用的弹药类型。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "例如，基本步枪只需要金制子弹，而金制子弹相当便宜，甚至可以在大多数整合包中养殖。如果弹药变得紧张，可以用 $(l:terramity:misc/bomb_flower)炸弹花$() 种植火药！",
+	  "item": {
+		"item": "terramity:basic_rifle"
+	  }
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:copper_round_recipe",
+	  "recipe2": "terramity:gold_round_recipe"
+	},
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:daemonium_shotshell_recipe",
+	  "recipe2": "terramity:dimlite_round_recipe"
+	}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:breakable",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticaddons:the_bless"
+  ],
+  "incompatible": [
+    "celestial_enchantments:born_in_shadow"
+  ]
+}

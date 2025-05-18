@@ -1,0 +1,9 @@
+{
+  "celestisynth:rainfall_serenity": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 2.8,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

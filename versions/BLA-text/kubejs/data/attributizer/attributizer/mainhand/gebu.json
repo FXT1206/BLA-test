@@ -1,0 +1,9 @@
+{
+  "terramity:gobs_claymore": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 1.0,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

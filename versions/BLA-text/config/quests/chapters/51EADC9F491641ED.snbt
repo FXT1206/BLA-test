@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51EADC9F491641ED"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		id: "mythicmetals:celestium_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "51EADC9F491641ED"
+	images: [{
+		corner: true
+		height: 7.0d
+		image: "born_in_chaos_v1:textures/chaosicon2.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: -0.5d
+		y: 1.0d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37909876257F8252"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:infernal_evil_pumpkin_s"
+				tag: { }
+			}
+			id: "1836DA6B2EC805C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49CE8491B99DF33F"
+				table_id: 5582430196127655637L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:lord_the_headless"
+					id: "6512BA44A582B61A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "born_in_chaos_v1:pumpkin_lord"
+					criterion: ""
+					id: "379E6D43E9CF9763"
+					type: "advancement"
+				}
+			]
+			title: "&a无头&6骑士"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			description: ["&4月光圣骑是月光下的守护者&b,他们拥有&6治愈&b和&6保护&b的力量,但当他们被激怒时,也会展现出强大的战斗力.是复仇骑士同父异母的亲兄弟...."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "soulsweapons:holy_moonlight_greatsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0C3C0A2C21ADFF18"
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "77AB842786C92605"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4堕落&6王者"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "soulsweapons:darkin_blade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "502B356043618D82"
+			rewards: [
+				{
+					id: "6377C3736FDFADC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:molten_skull_rose"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7865A9E91D3233D3"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "189C1363F724C0B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炼狱&6王者"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"5F0585343BEDE6EE"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:void_thorn"
+				tag: { }
+			}
+			id: "697D4B809EC3B5B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E67A9DA461459B3"
+				table_id: 2544174075653735952L
+				team_reward: false
+				type: "random"
+			}]
+			subtitle: "&d长期吸收虚空之力的花朵,如今似乎已经有了自我意识,能够随心所欲的控制虚空之力..."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "23C9ABC8B4A126A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d虚空造物"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5CD228E352ADA261"
+				"34DAD6B9E2E03613"
+				"00EF139FDBEF0F3B"
+				"762A3977105009B8"
+				"46A556616F403F8B"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "37909876257F8252"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/hostility player @a difficulty base add 50"
+					icon: {
+						Count: 1
+						id: "confluence:demon_heart"
+						tag: { }
+					}
+					id: "66E7C5BAB121B05A"
+					title: "&4难度上升"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE1E634F739AFAC"
+					table_id: 3477112912147049259L
+					type: "choice"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4613899E11C49968"
+				type: "checkmark"
+			}]
+			title: "&l&4二阶段BOSS"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F0585343BEDE6EE"]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "7A37DC0562582924"
+			rewards: [{
+				command: "/hostility player @a difficulty base add 30"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:demon_heart"
+					tag: { }
+				}
+				id: "06BD2BAD7627C9C1"
+				type: "command"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "1BA6CC36A640DCA2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4恶魔之&6手[领主]"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:amethyst_shard"
+				tag: { }
+			}
+			id: "02C641DEB5428D18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31AE1595ED78C755"
+				table_id: 2544174075653735952L
+				type: "random"
+			}]
+			title: "&5紫水晶&6之主"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "&l&4深渊使者(主线)"
+}

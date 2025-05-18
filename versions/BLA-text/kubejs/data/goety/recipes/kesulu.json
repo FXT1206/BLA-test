@@ -1,0 +1,32 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:gold_block"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 500,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "blasphemouspatch:gel"
+    },
+    {
+      "item": "blasphemouspatch:gel"
+    },
+    {
+      "item": "blasphemouspatch:gel"
+    },
+    {
+      "item": "blasphemouspatch:gel"
+    }
+  ],
+  "result": {
+    "item": "blasphemouspatch:king_slime_gel"
+  }
+}

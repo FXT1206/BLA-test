@@ -1,0 +1,8 @@
+{ "traveloptics:mechanized_exoskeleton_boots": [
+        {
+            "attribute": "l2damagetracker:bow_strength",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

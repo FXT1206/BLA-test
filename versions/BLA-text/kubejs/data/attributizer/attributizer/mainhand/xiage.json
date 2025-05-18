@@ -1,0 +1,9 @@
+{
+  "gobber2:gobber2_sword_nether": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

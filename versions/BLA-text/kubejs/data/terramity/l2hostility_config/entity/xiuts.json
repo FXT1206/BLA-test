@@ -1,0 +1,55 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 20,
+        "min": 150,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "terramity:super_sniffer"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:repelling"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:corrosion"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:cursed"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:tank"
+        }
+ ,
+     {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        },{
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:adaptive"
+        }     ]
+    }
+  ]
+}

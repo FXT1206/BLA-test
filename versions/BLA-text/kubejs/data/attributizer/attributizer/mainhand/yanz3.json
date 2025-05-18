@@ -1,0 +1,9 @@
+{
+  "cataclysm:the_incinerator": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

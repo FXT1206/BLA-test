@@ -1,0 +1,1299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "b"
+	group: "0B14BC7DC8D9CB24"
+	icon: {
+		Count: 1
+		id: "tide:netherite_fishing_rod"
+		tag: {
+			Damage: 0
+			bait-contents: {
+				size: 0
+			}
+			modifier: {
+				bobber: { }
+				hook: { }
+				line: { }
+			}
+		}
+	}
+	id: "24B42A7F51ACEA2D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1BAFC13E8CFFF59F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F52FBC2506DCDBB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F12D76CAC1C671F"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			id: "0315800FA8340A88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "468C92F898A13244"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5EB1B4C3EBD5CD36"
+				item: {
+					Count: 1
+					id: "tide:stone_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "720EC8004ECBE72F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E43AE0D663D6546"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D89B5283E944AD7"
+				item: {
+					Count: 1
+					id: "tide:iron_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "55A33F45FA072B19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E8C8390D2A16F76"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "767D671DA4EDF048"
+				item: {
+					Count: 1
+					id: "tide:golden_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "3EC85BA5D3C64D6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AEE2612E5DD5E58"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B587FC6F4985D52"
+				item: {
+					Count: 1
+					id: "tide:crystal_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "336916CDEDB3675B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "380C5BB35D13D247"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0922E48926D87B62"
+				item: {
+					Count: 1
+					id: "tide:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "54835B404574859A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B028A4FBA0CBBC9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "75AAF9EA640CD3F3"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "38A5AED412DC56BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1298E3E4A8924D54"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23AC5665D1F8AF1F"
+				item: "tide:bass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "5202452DD1155A7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C847EE1696901C1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D4EB6A96A95824A"
+				item: "tide:pike"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "0BCE48CA770FDA9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4132219A015206B0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FD8B5487E0D94B0"
+				item: "tide:catfish"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "495DDB9F45C7DA62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DC2F62CD142FCB2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34652177410F79D6"
+				item: "tide:sailfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "7FBDAB5C7949B75A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33F38237AAAABFCF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "16411E1B39F6E7C5"
+				item: "tide:barracuda"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "1DAD549444A62FCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68041069D451ABA6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5101824012FBCCA0"
+				item: "tide:hardened_clayfish"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "51A9A69105C91347"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "049EBAF5B5652303"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59D02B6653F10777"
+				item: "tide:angelfish"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "29C6006CDA2DAED9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C26829710E72372"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5E126526A05AEF8A"
+				item: "tide:clayfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0589DBB322406FFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C6656C3DAD6AEB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "357E73317EBA8833"
+				item: "tide:mint_carp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "18F86BA5B118D81A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C1D0C543E00C698"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7A58654340A3E763"
+				item: "tide:glowfish"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6A59A97A11F69407"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CE09D166F6938F4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B52F16D2C05ECC6"
+				item: "tide:iron_tetra"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "7988AC280ED94C05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E61B68E3AD36238"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CFCA5DBEAB4C4A0"
+				item: "tide:crystal_shrimp"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "4304E1C992B49158"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0200041D1A113E91"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28DB1110DDA4EC1B"
+				item: "tide:cave_eel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "4A675BE65824B362"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BBF7012CD5F0BAE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53A09BDE1839FDC8"
+				item: "tide:mackerel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "45B308F23ACAC088"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "573B371DE19C5935"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "374024CF93112FB0"
+				item: "tide:bluegill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "7566019149FAF766"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B6B456FC27EA41"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "11CEE94F6DC10B7F"
+				item: "tide:guppy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "4368948B4142D4DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355EE67CECA619CA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "133CEBFE93F4E620"
+				item: "tide:ocean_perch"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "25D4877477EBB0A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66B4CA88E344EE8D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79A532C423AD212F"
+				item: "tide:yellow_perch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "778C459830B49C53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F06E27F942E3BFE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5155A4972CD7F53E"
+				item: "tide:tuna"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "18E8C266CAEEF13C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F700DFB68D9CB84"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3ED1058A17F9ECC5"
+				item: "tide:anglerfish"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "7A9AC98123EC8DC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "462C55A2AB54D4F3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02FB0B1DB9209A9B"
+				item: "tide:cave_crawler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "7AC848272768FBFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "321AD2514F058285"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52E094FBE6BFCF40"
+				item: "tide:gilded_minnow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "0140B4AF3ECB45DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CADF86D4641025F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13531E73B375CBA3"
+				item: "tide:abyss_angler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "16030A6490AF03BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A708F6892641DD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "09ABC3375670516C"
+				item: "tide:crystalline_carp"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "0CD7613CC512AAFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "188EDDC697DFCCA8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "73A89C2699EAA513"
+				item: "tide:lapis_lanternfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "7C0AA8E9F8FD9C33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A5A745E0C7DE93"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59CA35EA31059200"
+				item: "tide:luminescent_jellyfish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "2F776CF454FD4B6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DFDD5739DF05A4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6FAE263F1F3973D2"
+				item: "tide:shadow_snapper"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "6C45EFD8F908ED1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "548A4B34EBC3B1DA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "60CA468FBCD6B989"
+				item: "tide:deep_grouper"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			id: "62CF5250053015F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "008D1DC71DF79DB7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "263D7E3ECC2502CC"
+				item: "tide:bedrock_tetra"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "71A32413E48CEEE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "593B8E68EF3F3990"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "739329A9D9BEB567"
+				item: "tide:endstone_perch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "0059587C5E7A25C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BDF08135E8EC354"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "22E66EA35872FD95"
+				item: "tide:enderfin"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "0CFF77F6B6CB52B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "078B0E3272C5E399"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7473269F1C72345F"
+				item: "tide:purpur_pike"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "04E4128B32BFC253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49BD47B617C88220"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "320A9B14693E33C0"
+				item: "tide:endergazer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "347D8490AA42AB5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75E15FD6FDA4A510"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "007BBCC027B680D4"
+				item: "tide:chorus_cod"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "10F850C9D8852D9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5791C01E9C1999B4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61C3775B8AD3818D"
+				item: "tide:elytrout"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			id: "50646DA59AD9CE7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22FA4E4E20D537DA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E7A082B97EF5928"
+				item: "tide:prarie_pike"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "562AF3BFBA39165E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21EC5E78B7087FFA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F7380DF711C85C5"
+				item: "tide:sandskipper"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "648B217F68592301"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BE90CE0D136926A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02CB0BE867A70262"
+				item: "tide:blossom_bass"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "6552BDCB9B7AD205"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "011E85D3CD3E500F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "183D499B8F1FCD99"
+				item: "tide:oakfish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "7F58F66CD311F579"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "145BE4C0F4CD2C82"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "590B7490288E0CD2"
+				item: "tide:frostbite_flounder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "2275BFA512388D46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70BC1D88AE535C9B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C5EEFB07C4FB628"
+				item: "tide:mirage_catfish"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "4E8ABAC28F54494C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41DE8F8590B826E9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B8DE5E1665C92E4"
+				item: "tide:echofin_snapper"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			id: "69AF232F13DA3551"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339CCC274F6AD07B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02B504D21943FDFC"
+				item: "tide:sunspike_goby"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "4AD3283B5A9E6DD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AE4A5E9FD58C015"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "687265EB2718A411"
+				item: "tide:birch_trout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			id: "2B99D74EECB92094"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33AF60FB4761F63B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "501D1A29EB7BF975"
+				item: "tide:stonefish"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			id: "38EA545DC9F9EE9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38FD7246BA766214"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B1D5DDA73F167D3"
+				item: "tide:dripstone_darter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			id: "4EB40479733F3042"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D526C8EF7B21476"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "69A17DD361383A48"
+				item: "tide:slimefin_snapper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			id: "5B80276653021A67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F708254572E6E21"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "603346A3197BE0E8"
+				item: "tide:sporestalker"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			id: "66D6D0E52F6F0D01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C2C68EE8B5EBEF6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51A26C9E9B2A98AF"
+				item: "tide:leafback"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			id: "47B1BFBE1C980E23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EC56BF607FC12F4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DC765FACFFC3728"
+				item: "tide:fluttergill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			id: "421440C2F309C3FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12D1D323A21D5EA8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0662449C43E19E91"
+				item: "tide:pine_perch"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			id: "440824B5E44600DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B9E293530CB8A1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0775D1C49821F0DB"
+				item: "tide:ember_koi"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			id: "04D1E3755205C1E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64BD3080EDCB0510"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F745AA31E8FF7A0"
+				item: "tide:inferno_guppy"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			id: "57C9A6562BEE0356"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "486F2266A0E53DBA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D8C783F655DD0F3"
+				item: "tide:obsidian_pike"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "4874125BA9E4D22C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79205B63232A09EB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C946DA063D0A553"
+				item: "tide:volcano_tuna"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			id: "7F0BAC243234D62D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F0A9D32F0F12DFB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5D89F2355D89FB19"
+				item: "tide:aquathorn"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "428017A9F740B91F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EC507F23D1A9B9F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "02319530C6C26C64"
+				item: "tide:magma_mackerel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "13CE000DE482F152"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "356D1D6BB26DC411"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6AB1633246CF7D14"
+				item: "tide:warped_guppy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			id: "1D5B9273C683D6F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "741B54CB04730805"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "455FAA838CA69092"
+				item: "tide:crimson_fangjaw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			id: "0E05858E2EF54C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "415BFDFD198B9417"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "60B1160B658B195B"
+				item: "tide:ashen_perch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			id: "59CC1FFEC0837494"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "111F5121A39397E6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "48D5E44C809B6AB9"
+				item: "tide:witherfin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			id: "67B7BC066BB27BE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0077E550EA15ABE8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4D4D7E1B9D7C45BB"
+				item: "tide:soulscaler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			id: "5F51E55E982FB5EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0D0D02BD752E36"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0C06D4870C16A9F2"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			id: "06497B4295EE0CAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09E0AC1B61E40765"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6331F1097CEEDC8F"
+				item: "tide:midas_fish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			id: "29600A55875C228F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30921858E9D0CD3D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E9F67A73FDBC675"
+				item: "tide:shooting_starfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			id: "48FB33CD7D22AB2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48CCF1A54C12D8F5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "031E02864DF18708"
+				item: "tide:voidseeker"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+	]
+	title: "&b垂钓者"
+}

@@ -1,0 +1,9 @@
+{
+  "born_in_chaos_v1:soulbane": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

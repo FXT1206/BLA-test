@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "enigmaticlegacy:berserk_charm"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 500,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "l2complements:blackstone_core"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "l2complements:sun_membrane"
+    },
+    {
+      "item": "l2complements:resonant_feather"
+    },
+    {
+      "item": "l2complements:resonant_feather"
+    },
+    {
+      "item": "enigmaticlegacy:evil_ingot"
+    }
+  ],
+  "result": {
+    "item": "meetyourfight:wilted_ideals"
+  }
+}

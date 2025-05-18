@@ -1,0 +1,16 @@
+{
+  "name": "精灵粉尘",
+  "icon": "terramity:fairy_dust",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "精灵粉尘从任何精灵身上掉落，可用于在主世界中找到一些好物品。$(br2)精灵几乎会在主世界的任何地方出现，去找找，保证至少能找到几个。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:radiant_honey_recipe",
+	  "recipe2": "terramity:power_bracelets_recipe"
+	}
+  ]
+}

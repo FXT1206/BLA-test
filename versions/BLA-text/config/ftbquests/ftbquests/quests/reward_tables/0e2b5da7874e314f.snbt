@@ -1,0 +1,35 @@
+{
+	id: "0E2B5DA7874E314F"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "terramity:xp_remedy_ring"
+			}
+			weight: 3.0f
+		}
+		{
+			type: "xp_levels"
+			weight: 40.0f
+			xp_levels: 2
+		}
+		{
+			type: "xp"
+			weight: 80.0f
+			xp: 100
+		}
+		{
+			type: "xp"
+			weight: 20.0f
+			xp: 4
+		}
+	]
+	title: "经验战利品表"
+}

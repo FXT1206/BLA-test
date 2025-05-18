@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:terramity_gentle_explosives",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

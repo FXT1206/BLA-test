@@ -1,0 +1,32 @@
+{
+  "name": "渎日锭",
+  "icon": "terramity:profanum",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "渎日锭是 Terramity 新增的一种金属。$(br2)渎日锭可用于制造尼柯希姆、起源和雷弗列姆锭。$(br2)渎日矿石可在 Y=-10 和 Y=-64 之间的主世界深处找到。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "渎日锭",
+      "images": ["terramity:textures/screens/profanum.png"],
+      "border": true,
+      "text": "渎日锭是强力合金的绝佳基材。"
+    },
+	{
+	  "type": "patchouli:smelting",
+	  "recipe": "terramity:profanum_smelt",
+	  "text": "触摸渎日锭很危险，如果你打算熔炼它，就要小心了。$(br2)这种矿石只能用炼狱镐、虚空镐或电石镐（或更好的镐）来开采。"
+	},
+	{
+      "type": "patchouli:crafting",
+	  "recipe": "terramity:nyxium_recipe",
+	  "recipe2": "terramity:exodium_ingot_recipe"
+    },
+	{
+      "type": "patchouli:crafting",
+	  "recipe": "terramity:reverium_recipe"
+    }
+  ]
+}

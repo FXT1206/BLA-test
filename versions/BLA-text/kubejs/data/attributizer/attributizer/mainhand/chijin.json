@@ -1,0 +1,9 @@
+{
+  "composite_material:disc_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 31.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

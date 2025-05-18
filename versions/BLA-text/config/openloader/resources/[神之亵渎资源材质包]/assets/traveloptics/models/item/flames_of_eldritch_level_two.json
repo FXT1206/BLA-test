@@ -1,0 +1,6 @@
+{
+  "parent": "traveloptics:displaysettings/flames_of_eldritch_display",
+  "textures": {
+    "layer0": "traveloptics:block/flames_of_eldritch"
+  }
+}

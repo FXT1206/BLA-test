@@ -1,0 +1,9 @@
+{
+  "l2archery:wind_bow": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 3.5,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

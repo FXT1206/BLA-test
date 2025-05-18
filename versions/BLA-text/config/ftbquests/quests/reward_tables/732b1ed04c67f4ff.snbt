@@ -1,0 +1,15 @@
+{
+	id: "732B1ED04C67F4FF"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 8, item: "iceandfire:sea_serpent_scales_blue" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_bronze" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_deepblue" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_green" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_purple" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_red" }
+		{ count: 8, item: "iceandfire:sea_serpent_scales_teal" }
+	]
+	title: "海蟒"
+}

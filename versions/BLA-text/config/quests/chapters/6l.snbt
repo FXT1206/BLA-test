@@ -1,0 +1,892 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l"
+	group: "59519DD26A0D9F38"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "nameless_trinkets:gods_crown"
+		tag: { }
+	}
+	id: "4B25B39F583FD264"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "6EB89BB67A4FE065"
+			tasks: [{
+				id: "4080139578AD7070"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:super_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "4185C36270526504"
+			tasks: [{
+				id: "07F30916F4B734C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:what_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "57EBC510A9FF9961"
+			tasks: [{
+				id: "7678EF6F50784693"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:callus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "12BC68C2A2A3396D"
+			tasks: [{
+				id: "07B5DB421B9F8B93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:electric_paddle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "0F953C6E0DDD1AF2"
+			tasks: [{
+				id: "0B754AB3E31DFC30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:reforger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "6CF8CC733928E0F9"
+			tasks: [{
+				id: "16E135DA03A9A503"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:ethereal_wings"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "56EC986EE47333B7"
+			tasks: [{
+				id: "5620D452091CE563"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:sleeping_pills"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "7222DE796B624FD0"
+			tasks: [{
+				id: "0BB860D2DE47006B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:true_heart_of_the_sea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "37BAC04891E5A035"
+			tasks: [{
+				id: "77B39DE4302C265F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:moon_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "4C88790DD571F8E4"
+			tasks: [{
+				id: "65BE980917E77009"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:amphibious_hands"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "5D22839D46FC47F4"
+			tasks: [{
+				id: "3BD6EAA8E4BF1B82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:gills"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "56B10874836EBC88"
+			tasks: [{
+				id: "20F1AE412F6ADA8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:broken_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "58F46721AC81BC56"
+			tasks: [{
+				id: "38FD13969384C3DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:experience_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "769F5843B06B645F"
+			tasks: [{
+				id: "076E83D8F26D634C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:broken_ankh"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "6056624F904E058F"
+			tasks: [{
+				id: "72455B61BBAEF466"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:experience_battery"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "2EAAABB09F6FACFE"
+			tasks: [{
+				id: "18D362432D5A7FF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:reverse_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "5AD1AA684D7A5586"
+			tasks: [{
+				id: "295EDD5A5A735AA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:fragile_cloud"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "046803AC2669B1B9"
+			tasks: [{
+				id: "154DC7CD79B6FE2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:explosion_proof_jacket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "17E459B1BC9C4820"
+			tasks: [{
+				id: "61754E10722A96D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:blindfold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "0295E01DFCF533FF"
+			tasks: [{
+				id: "47A1B12E136E2C16"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:tick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "0F89D2C7069ED0C0"
+			tasks: [{
+				id: "41FE57B3E6C788A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:rage_mind"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "70E57FF528AC8E82"
+			tasks: [{
+				id: "2BF058A509F09733"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:blaze_nucleus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "7601ED9CD187CA18"
+			tasks: [{
+				id: "6A22C5B7DE91CB49"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:ice_cube"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "35BCE4FCC98BFA99"
+			tasks: [{
+				id: "16273376ED7485F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:sigil_of_baphomet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "5E7644E05CB729BB"
+			tasks: [{
+				id: "09CEE3A1716D0CA4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:fractured_nullstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "0C3D5EC700E2C1CF"
+			tasks: [{
+				id: "13047ED282637D14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:miners_soul"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "2854696BBA99402C"
+			tasks: [{
+				id: "56528848E00A3D3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:pocket_lightning_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "61A83BFD66B8BE7D"
+			tasks: [{
+				id: "3059BE7B634C2EE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:creeper_sense"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "78F79EE96B9F31BB"
+			tasks: [{
+				id: "3E09F424C51F5C08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:dragons_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "3B89942839491A34"
+			tasks: [{
+				id: "4B2223E0933A6134"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:fertilizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "50B0205DE9831B75"
+			tasks: [{
+				id: "2EBFBFF82B8C9901"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:scarab_amulet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "0AA185056FBB478C"
+			tasks: [{
+				id: "62A322D31BB6CB11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:fate_emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "5E26A9A39729744B"
+			tasks: [{
+				id: "3011F8FBC0BEDCAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:tear_of_the_sea"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "7D62E5F7CD2B3373"
+			tasks: [{
+				id: "04A18E6BAD835397"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:light_gloves"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "708AA7FFB69D59F0"
+			tasks: [{
+				id: "338D25ADEB29CB88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:dark_nelumbo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "69C1745B5C4C6D6A"
+			tasks: [{
+				id: "068950CED3858852"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:speed_force"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "23BF70FD1FEAEF48"
+			tasks: [{
+				id: "52F3C04FA0FDBFCD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:lucky_rock"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "4ACEF135E194772D"
+			tasks: [{
+				id: "1D43198A5CCCA5A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:nelumbo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "612D9D78E321A35D"
+			tasks: [{
+				id: "0AFA5550E4F05E26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:vampire_blood"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "4A841B3C575B0AB1"
+			tasks: [{
+				id: "15A309342D579A91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:wooden_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "49CD7F483923425F"
+			tasks: [{
+				id: "568F844A04E15DBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:puffer_fish_liver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["75358ABE4661D3FE"]
+			id: "62D2557F4DC9A1EF"
+			tasks: [{
+				id: "7ED05B56F2E2A6F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:ghast_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "75358ABE4661D3FE"
+			size: 1.5d
+			tasks: [{
+				id: "4A113B50782BAF6E"
+				title: "&6无名饰品"
+				type: "checkmark"
+			}]
+			title: "&6无名遗物"
+			x: -4.5d
+			y: 3.0d
+		}
+	]
+	title: "&6&l无名遗物"
+}

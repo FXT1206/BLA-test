@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51EADC9F491641ED"
+	group: "6C11F5C97E337818"
+	icon: {
+		Count: 1
+		id: "mythicmetals:celestium_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "51EADC9F491641ED"
+	images: [
+		{
+			corner: true
+			height: 7.0d
+			image: "iceandfire:item/dragon_sword_lightning"
+			rotation: 133.0d
+			width: 7.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			corner: true
+			height: 7.0d
+			image: "iceandfire:item/dragon_sword_lightning"
+			rotation: 133.0d
+			width: 7.0d
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			corner: true
+			height: 7.0d
+			image: "iceandfire:item/dragon_sword_lightning"
+			rotation: 133.0d
+			width: 7.0d
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37909876257F8252"]
+			description: ["&d在世界的深处，存在着一个神秘而危险的虚空之花洞穴。传说中，这个洞穴是通往虚空的门户，而虚空之花则是守护这个门户的古老存在。它长时间深埋地下，吸收着虚空之力，逐渐变得强大而邪恶。曾经有一位勇敢的冒险者试图挑战虚空之花，但最终被其击败，成为了它成长的养料。如今，虚空之花已经苏醒，它将再次向入侵者展示其恐怖的力量"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:void_thorn"
+				tag: { }
+			}
+			id: "697D4B809EC3B5B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E67A9DA461459B3"
+					table_id: 2544174075653735952L
+					team_reward: false
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F3483CBC65FD5A"
+					table_id: 5635346011611387682L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A5D69C463791D95"
+					table_id: 5060425424725224173L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1237D9948E9719F8"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "247283C87679F703"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+			]
+			subtitle: "暗渊绽放者"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "23C9ABC8B4A126A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d虚空造物"
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5CD228E352ADA261"
+				"762A3977105009B8"
+				"46A556616F403F8B"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "37909876257F8252"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FE1E634F739AFAC"
+				table_id: 3477112912147049259L
+				type: "choice"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4613899E11C49968"
+				type: "checkmark"
+			}]
+			title: "&l&4四阶段BOSS"
+			x: -11.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			description: ["&6在古老的太阳神殿中，供奉着一颗拥有强大力量的太阳之眼。这颗眼珠能够掌控光明与火焰，为世间带来生机与温暖。然而，黑暗势力觊觎这份力量已久，他们施展邪恶的魔法，将太阳之眼从神殿中剥离，并将其植入一只巨大的手掌之中，这只手掌原本是太阳神用来创造和守护世界的神圣之器，但在黑暗力量的影响下，变得狂暴而邪恶，成为了烈阳魔掌・邪眼。"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "7A37DC0562582924"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37E9B0E667AC83E2"
+					table_id: 6726096299542806399L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D4AC00A5128D718"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2055B524DF7378A1"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67A2E5FEFB50F6ED"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "邪眼之掌"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "1BA6CC36A640DCA2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4恶魔之&6手[领主]"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			description: ["&6在很久以前，世界陷入了黑暗和混乱之中，生命之种的生长受到了严重的阻碍。原初之神为了拯救世界，派遣神之幼子嗅探兽去寻找那些失落的生命之种，并将它们重新种回大地。嗅探兽历经艰险，穿越了无数的险境，最终成功地找到了大部分生命之种，并让它们重新焕发生机。从此，它成为了世界的守护者，一直在默默地守护着生命之种和世界的平衡"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:sniffer_egg"
+			id: "61E081D48BB0B568"
+			rewards: [
+				{
+					command: "/hostility player @a difficulty total add 30"
+					icon: "confluence:demon_heart"
+					id: "4C6F6D8B0CAE03BA"
+					title: "难度提升"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D8A63749778E8F1"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E324F87EF3C7227"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E579CAA2C27DCD0"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "619F649EDB932C04"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "&e当你使用闪电击中嗅探兽时他将会出现..."
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:sniffer_egg"
+				}
+				id: "28D02DFC6FE8029B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神之子&4[领主]"
+			x: -11.0d
+			y: 3.5d
+		}
+	]
+	title: "&l&4深渊使者&6[主线]"
+}

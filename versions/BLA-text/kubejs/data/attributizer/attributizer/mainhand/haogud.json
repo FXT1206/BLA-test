@@ -1,0 +1,9 @@
+{
+  "celestisynth:poltergeist": [
+    {
+      "attribute": "attribute:attributeslib:armor_shred",
+      "modify": 0.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

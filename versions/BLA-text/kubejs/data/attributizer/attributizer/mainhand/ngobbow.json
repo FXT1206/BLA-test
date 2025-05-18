@@ -1,0 +1,9 @@
+{
+  "gobber2:gobber2_bow_nether": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 0.2,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

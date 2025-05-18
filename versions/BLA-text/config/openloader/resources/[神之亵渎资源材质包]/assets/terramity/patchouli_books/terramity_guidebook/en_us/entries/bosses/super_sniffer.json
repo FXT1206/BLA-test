@@ -1,0 +1,30 @@
+{
+  "name": "超级嗅探兽",
+  "icon": "minecraft:sniffer_egg",
+  "category": "terramity:bosses",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "超级嗅探兽是 Terramity 进程中的第二个 Boss。$(br2)他可以在世界上的任何地方被召唤，只要用闪电击中嗅探兽即可。$(br2)推荐装备：$(br) -微晶/瓦伦蒂姆盔甲$(br) -强力枪械$(br) -大量弹药"
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:super_sniffer",
+      "scale": 0.8,
+	  "offset": 0.65,
+	  "rotate": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "用闪电击中嗅探兽即可召唤。最简单的方法是制作一根雷击权杖，然后将它劈在嗅探者旁边（不要劈在嗅探者身上，否则嗅探者就会死亡）是最简单的方式，$(br2)嗅探兽蛋在许多Terramity建筑中都可以少见的被发现。",
+	  "item": {
+		"item": "minecraft:sniffer_egg"
+	  }
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:lightning_staff_recipe"
+    }
+  ]
+}

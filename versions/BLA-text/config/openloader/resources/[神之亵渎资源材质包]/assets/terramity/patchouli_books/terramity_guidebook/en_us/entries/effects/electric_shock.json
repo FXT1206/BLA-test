@@ -1,0 +1,11 @@
+{
+  "name": "电击",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "电击是 Terramity 新增的药水/状态效果。$(br2)这个效果会让你剧烈摇晃，并随着时间的推移造成伤害，类似于被火烧到。"
+    }
+  ]
+}

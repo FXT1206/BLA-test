@@ -1,0 +1,9 @@
+{
+        "traveloptics:deepling_mage_armor_robe": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.45,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

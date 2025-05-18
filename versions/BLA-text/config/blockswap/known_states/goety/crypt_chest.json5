@@ -1,0 +1,484 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "true",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "true",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "true",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "true",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "true",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "false",
+			"facing": "north"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "true",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "false",
+			"facing": "south"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "true",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "false",
+			"facing": "west"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "true",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "single",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "single",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "left",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "left",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "right",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "right",
+			"locked": "false",
+			"facing": "east"
+		},
+		"Name": "goety:crypt_chest"
+	}
+]

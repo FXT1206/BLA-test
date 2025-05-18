@@ -1,0 +1,9 @@
+{
+  "cataclysm:soul_render": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 39.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

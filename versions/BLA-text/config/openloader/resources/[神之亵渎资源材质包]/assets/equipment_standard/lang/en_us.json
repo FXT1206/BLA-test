@@ -1,0 +1,58 @@
+{
+  "yacl3.config.equipment_standard:config.category.base": "Base Config",
+  "yacl3.config.equipment_standard:config.category.base.group.tooltip": "Tooltip",
+  "yacl3.config.equipment_standard:config.category.base.group.crit": "Critical",
+  "yacl3.config.equipment_standard:config.category.base.group.modifier": "Apply Attribute Modifiers",
+  "yacl3.config.equipment_standard:config.category.restart": "Need Restart",
+  "yacl3.config.equipment_standard:config.showDurability": "Show equipment durability",
+  "yacl3.config.equipment_standard:config.showScore": "Show equipment score",
+  "yacl3.config.equipment_standard:config.mergeModifiers": "Merge attribute modifiers",
+  "yacl3.config.equipment_standard:config.mergeModifiers.@Tooltip": "Merge attribute modifiers of the same type in tooltips",
+  "yacl3.config.equipment_standard:config.showMultiplyOperationAdditional": "Show additional notes for multiply operation",
+  "yacl3.config.equipment_standard:config.showMultiplyOperationAdditional.desc": "Show additional notes for MULTIPLY_BASE and MULTIPLY_TOTAL",
+  "yacl3.config.equipment_standard:config.baseCritChance": "Base crit chance",
+  "yacl3.config.equipment_standard:config.jumpAttackCritChance": "Jump to attack base crit chance",
+  "yacl3.config.equipment_standard:config.baseCritDamageMultiplier": "Base crit damage multiplier",
+  "yacl3.config.equipment_standard:config.appliedToCrafting": "AttributeModifier are applied to player crafting",
+  "yacl3.config.equipment_standard:config.appliedToLoot": "AttributeModifier are applied to loot chests",
+  "yacl3.config.equipment_standard:config.appliedToMerchant": "AttributeModifier applied to merchant",
+  "yacl3.config.equipment_standard:config.appliedToMerchant.desc": "Villager, Wandering trader",
+  "yacl3.config.equipment_standard:config.appliedToMob": "AttributeModifier are applied to equipped items on mobs",
+  "yacl3.config.equipment_standard:config.appliedToWorldGeneration": "AttributeModifier are applied to world generation",
+  "yacl3.config.equipment_standard:config.appliedToWorldGeneration.desc": "Armor stands, Item frames, etc",
+  "yacl3.config.equipment_standard:config.appliedToSpawnerBlock": "AttributeModifier are applied to spawner block",
+  "yacl3.config.equipment_standard:config.debug": "Debug",
+  "yacl3.config.equipment_standard:config.debug.desc": "Whether to enable debugging log printing",
+  "yacl3.config.equipment_standard:config.reforge_scroll": "Reforge scroll needs to be configured directly in the configuration file: %s",
+
+  "attribute.name.generic.dig_speed": "Dig Speed",
+  "attribute.name.generic.crit_chance": "Crit Chance",
+  "attribute.name.generic.crit_damage": "Crit Damage",
+  "attribute.name.generic.real_damage": "Real Damage",
+
+  "attribute.modifier.additional.0": "",
+  "attribute.modifier.additional.1": " (Base)",
+  "attribute.modifier.additional.2": " (Final)",
+
+  "container.reforge.tooltip": "Reforge",
+  "container.reforge.cost.tooltip": "%d experience points",
+
+  "item.equipment_standard.reforge_scroll_lv1": "Reforge Scroll Lv.1",
+  "item.equipment_standard.reforge_scroll_lv2": "Reforge Scroll Lv.2",
+  "item.equipment_standard.reforge_scroll_lv3": "Reforge Scroll Lv.3",
+
+  "block.equipment_standard.reforge_table": "Reforge Table",
+
+  "item.modifiers.show_details": "Hold§c shift§r to view attributes details.",
+  "item.maker": "Maker: %s",
+  "item.score": "Score: %d",
+
+  "item.es.rarity.defective": "Defective ",
+  "item.es.rarity.uncommon": "Uncommon ",
+  "item.es.rarity.rare": "Rare ",
+  "item.es.rarity.epic": "Epic ",
+  "item.es.rarity.legendary": "Legendary ",
+  "item.es.rarity.unique": "Unique ",
+
+  "stat.equipment_standard.proficiency": "Craft Proficiency"
+}

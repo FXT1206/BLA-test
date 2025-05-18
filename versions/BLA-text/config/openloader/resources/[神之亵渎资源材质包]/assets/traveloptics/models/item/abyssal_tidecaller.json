@@ -1,0 +1,6 @@
+{
+  "parent": "traveloptics:displaysettings/abyssal_tidecaller_display",
+  "textures": {
+    "layer0": "traveloptics:block/abyssal_tidecaller"
+  }
+}

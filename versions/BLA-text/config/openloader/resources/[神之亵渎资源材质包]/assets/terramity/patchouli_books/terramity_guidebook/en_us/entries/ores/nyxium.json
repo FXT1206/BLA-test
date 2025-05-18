@@ -1,0 +1,27 @@
+{
+  "name": "尼柯希姆",
+  "icon": "terramity:nyxium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "尼柯希姆是 Terramity 新增的一种金属。$(br2)尼柯希姆可通过渎日锭、翻转棱镜和乳色月岩制作获得。$(br2)尼柯希姆只能在击败暗影巫师后获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "尼柯希姆",
+      "images": ["terramity:textures/screens/nyxium.png"],
+      "border": true,
+      "text": "尼柯希姆拥有月亮的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:nyxium_recipe",
+	  "recipe2": "terramity:nyx_to_block"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "这种金属没有匠人石板，相反，你必须仅用金属锭就能制作出工具套装和盔甲。"
+    }
+  ]
+}

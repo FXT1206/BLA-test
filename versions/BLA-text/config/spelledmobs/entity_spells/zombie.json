@@ -1,0 +1,15 @@
+{
+  "entityId": "terramity:virtue",
+  "checkInterval": 30,
+  "spells": [
+    {
+      "spellId": "irons_spellbooks:frostwave",
+      "minLevel": 15,
+      "maxLevel": 15,
+      "minCastTime": 50,
+      "maxCastTime": 100,
+      "weight": 1,
+      "chance": 0.8
+    }
+  ]
+}

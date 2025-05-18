@@ -1,0 +1,9 @@
+{
+  "cataclysm:ancient_spear": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 33.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

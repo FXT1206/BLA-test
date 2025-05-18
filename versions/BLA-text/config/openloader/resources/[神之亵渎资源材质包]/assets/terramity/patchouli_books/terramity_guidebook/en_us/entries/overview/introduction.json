@@ -1,0 +1,28 @@
+{
+  "name": "导言",
+  "icon": "terramity:steel_shell",
+  "category": "terramity:overview",
+  "sortnum": 0,
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "欢迎来到 Terramity！$(br2)Terramity 是一个添加了很多我觉得我的世界缺少的东西的模组。它从泰拉瑞亚中汲取了很多灵感，你可能会注意到很多对各种游戏的引用。$(br2)这个模组主要是通过新的 Boss、矿石、武器等来推进游戏进程。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Terramity 增加的最重要的东西之一是新的配件，与 Curios 集成。$(br2)配件为你的游戏方式增添了很多变化，往往可能比你穿的盔甲更重要。如果你觉得自己的装备不够强大，不妨重新审视一下自己的装备并进行一些升级。"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "最后，如果你觉得卡住了。$(br2)建议安装 “EMI ”和 “EMI Loot”，这样你就可以查看一些怪的掉落物，因为可能需要击败某些怪才能在 MOD 中取得进展。"
+    },
+	{
+      "type": "patchouli:spotlight",
+	  "text": "第一步--硬纸板项链！",
+      "item": {
+		"item": "terramity:cardboard_necklace"
+	  }
+	}
+  ]
+}

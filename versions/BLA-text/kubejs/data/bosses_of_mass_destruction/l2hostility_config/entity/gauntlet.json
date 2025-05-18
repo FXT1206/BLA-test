@@ -1,0 +1,99 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 100,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "bosses_of_mass_destruction:gauntlet"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:nausea"
+        },
+            {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        },
+         {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:fiery"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:weakness"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:reflect"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:regenerate"
+        },
+       {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:invisible"
+        },
+       {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:protection"
+        },       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:slowness"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:adaptive"
+        },
+      {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:shulker"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:pulling"
+        }      ]
+    }
+  ]
+}

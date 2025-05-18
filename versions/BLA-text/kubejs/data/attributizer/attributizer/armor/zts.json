@@ -1,0 +1,9 @@
+{
+        "terramity:reverium_paladin_chestplate": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.45,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

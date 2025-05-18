@@ -1,0 +1,9 @@
+{
+  "twilightdelight:teardrop_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 5.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

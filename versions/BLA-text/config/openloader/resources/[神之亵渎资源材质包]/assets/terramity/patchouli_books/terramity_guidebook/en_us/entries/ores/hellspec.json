@@ -1,0 +1,27 @@
+{
+  "name": "炼狱合金",
+  "icon": "terramity:hellspec_alloy",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "炼狱合金是由 Terramity 新增的一种金属。$(br2)炼狱合金可以通过铱、黑色物质和岩晶制作获得。$(br2)黑色物质只有在击败监守者后才能获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "炼狱合金",
+      "images": ["terramity:textures/screens/hellspec.png"],
+      "border": true,
+      "text": "炼狱合金拥有地狱的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:hellspec_alloy_recipe",
+	  "recipe2": "terramity:hellspec_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "匠人石板从监守者处掉落，必须在铱上使用才能升级。"
+    }
+  ]
+}

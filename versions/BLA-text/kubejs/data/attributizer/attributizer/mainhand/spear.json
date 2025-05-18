@@ -1,0 +1,9 @@
+{
+  "l2weaponry:spear_of_winter_storm": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 11.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

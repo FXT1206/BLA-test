@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:fiery_jaw": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 11.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

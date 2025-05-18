@@ -1,0 +1,17 @@
+{
+	id: "1CD40D98093129BD"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 2, item: "minecraft:diamond" }
+		{ count: 2, item: "minecraft:amethyst_shard" }
+		{ count: 4, item: "minecraft:emerald" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+		{ count: 4, item: "minecraft:gold_ingot" }
+		{ count: 4, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:coal" }
+		{ item: "minecraft:netherite_scrap" }
+	]
+	title: "矿物补给箱"
+}

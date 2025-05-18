@@ -1,0 +1,8 @@
+{ "terramity:dimlite_leggings": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 4.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

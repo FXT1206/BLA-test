@@ -1,0 +1,221 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "side",
+			"facing": "north"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "centered",
+			"facing": "north"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "centered",
+			"facing": "north"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "horizontal",
+			"facing": "north"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "horizontal",
+			"facing": "north"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "side",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "side",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "centered",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "centered",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "horizontal",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "horizontal",
+			"facing": "south"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "side",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "side",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "centered",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "centered",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "horizontal",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "horizontal",
+			"facing": "west"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "side",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "side",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "centered",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "centered",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "true",
+			"placement": "horizontal",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waving": "false",
+			"placement": "horizontal",
+			"facing": "east"
+		},
+		"Name": "minecells:blue_ribbon_flag"
+	}
+]

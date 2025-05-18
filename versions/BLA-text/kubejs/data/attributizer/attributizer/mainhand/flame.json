@@ -1,0 +1,9 @@
+{
+  "traveloptics:flames_of_eldritch": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 22.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

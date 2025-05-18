@@ -1,0 +1,9 @@
+{
+  "composite_material:disc_sword": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 12.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

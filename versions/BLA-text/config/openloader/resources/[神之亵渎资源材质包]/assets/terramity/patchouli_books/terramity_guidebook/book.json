@@ -1,0 +1,9 @@
+{
+  "name": "Terramity指南书",
+  "landing_text": "欢迎使用 Terramity 模组！当你遇到困难或感到很困惑，或者只是想了解更多有关该模组的信息时，这本书将成为你的指南/维基。",
+  "version": 1,
+  "creative_tab": "terramity:terramity_tab",
+  "use_resource_pack": true,
+  "book_texture": "terramity:textures/screens/terramity_guidebook.png",
+  "model": "terramity:terramity_guidebook_icon"
+}

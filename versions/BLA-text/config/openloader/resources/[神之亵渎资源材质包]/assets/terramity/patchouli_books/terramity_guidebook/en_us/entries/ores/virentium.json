@@ -1,0 +1,27 @@
+{
+  "name": "瓦伦蒂姆",
+  "icon": "terramity:virentium_alloy_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "瓦伦蒂姆是 Terramity 新增的一种金属。$(br2)瓦伦蒂姆可以通过将下界合金碎片和榴辉石制作在一起获得。$(br2)榴辉石矿石可以在 Y=20 和 Y=-64 之间的繁茂洞穴中的三角形图案中找到。也可通过盖亚百合获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "瓦伦蒂姆",
+      "images": ["terramity:textures/screens/virentium.png"],
+      "border": true,
+      "text": "瓦伦蒂姆拥有繁茂洞穴的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:virentium_ingot_recipe",
+	  "recipe2": "terramity:virentium_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "匠人石板从侏儒之王戈布和超级嗅探兽处掉落，必须在下界合金上使用才能升级。"
+    }
+  ]
+}

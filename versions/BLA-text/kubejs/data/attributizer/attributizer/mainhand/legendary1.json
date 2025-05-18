@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:the_great_frost": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 11.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

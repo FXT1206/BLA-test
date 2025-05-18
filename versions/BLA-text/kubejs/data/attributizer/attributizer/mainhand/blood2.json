@@ -1,0 +1,9 @@
+{
+  "minecells:broadsword": [
+    {
+      "attribute": "forge:entity_reach",
+      "modify": 0.6,
+      "operation": "ADDITION"
+    }
+  ]
+}

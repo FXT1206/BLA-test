@@ -1,0 +1,9 @@
+{
+  "terramity:gobs_claymore": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

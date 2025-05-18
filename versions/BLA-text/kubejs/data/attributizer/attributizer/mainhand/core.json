@@ -1,0 +1,9 @@
+{
+  "eeeabsmobs:guardian_core": [
+    {
+      "attribute": "l2damagetracker:magic_damage",
+      "modify": 4.8,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

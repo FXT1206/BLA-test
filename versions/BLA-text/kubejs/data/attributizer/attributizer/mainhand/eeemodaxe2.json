@@ -1,0 +1,9 @@
+{
+  "l2weaponry:axe_of_cursed_flame": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 43.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

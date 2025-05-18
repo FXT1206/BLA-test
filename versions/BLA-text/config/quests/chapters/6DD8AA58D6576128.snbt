@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6DD8AA58D6576128"
+	group: ""
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:enigmatic_eye"
+		tag: { }
+	}
+	id: "6DD8AA58D6576128"
+	images: [
+		{
+			color: 16777208
+			corner: true
+			height: 10.0d
+			image: "bosses_of_mass_destruction:textures/particle/eye_open_5.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "aoa3:block/bulb_stock_cap"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				""
+				""
+				""
+				"&6注：在营火的旁边玩家可以回血"
+				""
+				""
+			]
+			id: "278E40BFA7EF4B4E"
+			rewards: [
+				{
+					id: "09581B763E53270C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "45705784D14547A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+				{
+					id: "4D743D4216DF28C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "3F7E915E1CAF3C56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:basic_pistol"
+						tag: {
+							Damage: 0
+							ammoLoaded: 5.0d
+							geckoAnim: ""
+							maxAmmo: 5.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 256
+					id: "626A01239417C565"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:copper_round"
+					}
+					type: "item"
+				}
+				{
+					id: "2E22CEB936C0F114"
+					item: {
+						Count: 1
+						id: "confluence:magic_mirror"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.5d
+			tasks: [{
+				id: "3B6BE8930626A5BE"
+				type: "checkmark"
+			}]
+			title: "&6新手礼包"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6若看不到部分任务背景图片请加载材质包"
+				"&6第一次创造世界可能导致没有佩戴上七咒之戒(请务必佩戴)"
+			]
+			id: "3D7E7C56337ADE49"
+			rewards: [{
+				id: "407F61C4A5D9B0E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:cursed_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "526F96164ED324A0"
+				type: "checkmark"
+			}]
+			title: "&6Tip"
+			x: 2.5d
+			y: -4.0d
+		}
+	]
+	title: "&8世界背景"
+}

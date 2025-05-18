@@ -1,0 +1,58 @@
+{
+  "yacl3.config.equipment_standard:config.category.base": "基础设置",
+  "yacl3.config.equipment_standard:config.category.base.group.tooltip": "工具提示",
+  "yacl3.config.equipment_standard:config.category.base.group.crit": "暴击",
+  "yacl3.config.equipment_standard:config.category.base.group.modifier": "应用属性修改器",
+  "yacl3.config.equipment_standard:config.category.restart": "需要重启",
+  "yacl3.config.equipment_standard:config.showDurability": "显示装备耐久",
+  "yacl3.config.equipment_standard:config.showScore": "显示装备分",
+  "yacl3.config.equipment_standard:config.mergeModifiers": "合并同类属性修改器",
+  "yacl3.config.equipment_standard:config.mergeModifiers.@Tooltip": "同类属性修改器将合并后显示，如 +4 护甲 和 +1 护甲 合并后显示 +5 护甲",
+  "yacl3.config.equipment_standard:config.showMultiplyOperationAdditional": "显示百分比属性的补充说明",
+  "yacl3.config.equipment_standard:config.showMultiplyOperationAdditional.desc": "显示 MULTIPLY_BASE 和 MULTIPLY_TOTAL 的补充说明",
+  "yacl3.config.equipment_standard:config.baseCritChance": "基础暴击率",
+  "yacl3.config.equipment_standard:config.jumpAttackCritChance": "跳击暴击率",
+  "yacl3.config.equipment_standard:config.baseCritDamageMultiplier": "基础暴击伤害倍率",
+  "yacl3.config.equipment_standard:config.appliedToCrafting": "属性修改应用于玩家制作",
+  "yacl3.config.equipment_standard:config.appliedToLoot": "属性修改应用于战利品箱子",
+  "yacl3.config.equipment_standard:config.appliedToMerchant": "属性修改应用于交易",
+  "yacl3.config.equipment_standard:config.appliedToMerchant.desc": "村民、流浪商人、模组商人",
+  "yacl3.config.equipment_standard:config.appliedToMob": "属性修改应用于怪物装备",
+  "yacl3.config.equipment_standard:config.appliedToWorldGeneration": "属性修改应用于世界生成",
+  "yacl3.config.equipment_standard:config.appliedToWorldGeneration.desc": "盔甲架、展示框、等",
+  "yacl3.config.equipment_standard:config.appliedToSpawnerBlock": "属性修改应用于刷怪笼",
+  "yacl3.config.equipment_standard:config.debug": "Debug 模式",
+  "yacl3.config.equipment_standard:config.debug.desc": "是否开启调试日志打印",
+  "yacl3.config.equipment_standard:config.reforge_scroll": "卷轴配置需要在配置文件中直接配置: %s",
+
+  "attribute.name.generic.dig_speed": "挖掘速度",
+  "attribute.name.generic.crit_chance": "暴击几率",
+  "attribute.name.generic.crit_damage": "暴击伤害倍率",
+  "attribute.name.generic.real_damage": "真实伤害",
+
+  "attribute.modifier.additional.0": "",
+  "attribute.modifier.additional.1": "(基础)",
+  "attribute.modifier.additional.2": "(最终)",
+
+  "container.reforge.tooltip": "重铸",
+  "container.reforge.cost.tooltip": "%d 点经验值",
+
+  "item.equipment_standard.reforge_scroll_lv1": "§9普通重铸晶",
+  "item.equipment_standard.reforge_scroll_lv2": "§d高级重铸晶",
+  "item.equipment_standard.reforge_scroll_lv3": "§6终极重铸晶",
+
+  "block.equipment_standard.reforge_table": "重铸台",
+
+  "item.modifiers.show_details": "按住 §bShift§r 查看属性详情",
+  "item.maker": "制作者：%s",
+  "item.score": "品质分：%d",
+
+  "item.es.rarity.defective": "[凡品]",
+  "item.es.rarity.uncommon": "[下品]",
+  "item.es.rarity.rare": "[良品]",
+  "item.es.rarity.epic": "[上品]",
+  "item.es.rarity.legendary": "[极品]",
+  "item.es.rarity.unique": "[仙品]",
+
+  "stat.equipment_standard.proficiency": "制作熟练度"
+}

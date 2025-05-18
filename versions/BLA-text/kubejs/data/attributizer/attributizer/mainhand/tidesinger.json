@@ -1,0 +1,9 @@
+{
+  "mythicmetals:tidesinger_sword": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 2.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

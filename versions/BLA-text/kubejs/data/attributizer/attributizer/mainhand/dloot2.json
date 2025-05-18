@@ -1,0 +1,9 @@
+{
+  "dragonloot:dragon_sword": [
+    {
+      "attribute": "forge:attack_range",
+      "modify": 0.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

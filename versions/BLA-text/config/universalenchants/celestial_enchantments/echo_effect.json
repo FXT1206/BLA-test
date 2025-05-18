@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs"
+  ],
+  "incompatible": [
+    "celestial_enchantments:void_protection",
+    "celestial_enchantments:solid_armor",
+    "celestial_enchantments:trauma_absorption",
+    "celestial_enchantments:abyssal_contact",
+    "celestial_enchantments:celestial_shelter"
+  ]
+}

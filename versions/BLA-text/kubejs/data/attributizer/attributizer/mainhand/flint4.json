@@ -1,0 +1,9 @@
+{
+  "minecells:flint": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.45,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

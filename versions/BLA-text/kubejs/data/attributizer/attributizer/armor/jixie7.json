@@ -1,0 +1,8 @@
+{ "traveloptics:mechanized_exoskeleton_chestplate": [
+        {
+            "attribute": "l2damagetracker:damage_absorption",
+            "modify": 2.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

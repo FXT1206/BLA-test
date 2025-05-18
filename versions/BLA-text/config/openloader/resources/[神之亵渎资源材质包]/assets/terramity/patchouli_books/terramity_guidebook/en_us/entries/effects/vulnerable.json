@@ -1,0 +1,11 @@
+{
+  "name": "脆弱",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "脆弱是 Terramity 新增的药水/状态效果。$(br2)该效果会使受到的所有伤害提高 1.33 倍。"
+    }
+  ]
+}

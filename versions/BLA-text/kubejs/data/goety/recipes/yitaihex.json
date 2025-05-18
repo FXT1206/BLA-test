@@ -1,0 +1,50 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "eeeabsmobs:guardian_core"
+  },
+  "craftType": "necroturgy",
+  "research": "floral",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 8000,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "enigmaticaddons:adventure_charm"
+    },
+    {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_block"
+    },
+    {
+      "item": "composite_material:warden_hand"
+    },
+    {
+      "item": "composite_material:warden_hand"
+    },
+    {
+      "item": "alexscaves:pure_darkness"
+    },
+    {
+      "item": "terramity:hellspec_alloy"
+    },
+    {
+      "item": "terramity:hellspec_alloy"
+    }
+  ],
+  "result": {
+    "item": "enigmaticaddons:etherium_core"
+  }
+}

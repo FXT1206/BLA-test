@@ -1,0 +1,9 @@
+{
+  "celestisynth:keres": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 82.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

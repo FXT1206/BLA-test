@@ -1,0 +1,9 @@
+{
+  "twilightforest:fiery_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

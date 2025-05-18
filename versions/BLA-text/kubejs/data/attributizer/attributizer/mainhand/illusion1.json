@@ -1,0 +1,9 @@
+{
+  "l2weaponry:blade_of_illusion": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.035,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+#If it's set to "true", "Lightburn Fungal Parasitic" cannot spread negative effect to villager,
+#and "Survival Shortcut", "Necessary Evil", "Pilferage Creed" cannot damage villager.
+villagerSafeMode = false
+#The attack damage reduction ratio of "Insane Poet". Default value is 0.9, which means the attack damage will be decreased by 90%.
+#Range: 0.0 ~ 1.0
+insanePoetDamageReduction = 0.9
+#The attack damage reduction ratio of "Shock Therapy". Default value is 0.9, which means the attack damage will be decreased by 90%.
+#Range: 0.0 ~ 1.0
+shockTherapyDamageReduction = 0.9
+#The attack damage reduction ratio of "Paper Brain". Default value is 0.9, which means the attack damage will be decreased by 90%.
+#Range: 0.0 ~ 1.0
+paperBrainDamageReduction = 0.9
+anEnchantedGoldenAppleADay = true
+deathPunk = true
+exoticHealer = true
+savorTheTasted = true
+trickster = true
+covertKnife = true
+enviousKind = true
+eyesore = true
+sourceOfEnvy = true
+thornInFlesh = true
+cleansingBeforeUsing = true
+comeBackAtDusk = true
+dirtyMoney = true
+pilferageCreed = true
+carefullyIdentified = true
+nimbleFinger = true
+regularCustomerProgram = true
+armorUp = true
+frivolousStep = true
+miraculousEscape = true
+potentialBurst = true
+stubbornStep = true
+infectiousMalice = true
+iSeeYouNow = false
+maliceOutbreak = true
+perceivedMalice = true
+vengeance = true
+backAndFill = true
+agonyScreamer = true
+cuttingWatermelonDream = true
+insanePoet = true
+paperBrain = true
+shockTherapy = true
+burningPhobia = true
+constrainedHeart = true
+drowningPhobia = true
+piercingFever = true
+destructionWorship = true
+prayerOfPain = true
+freshRevenge = true
+hatredBloodline = true
+outrageousSpirit = true
+resentfulSoul = true
+tooResentfulToDie = true
+morirsDeathwish = true
+morirsLifebound = true
+guidensRegret = true
+lastSweetDream = true
+necessaryEvil = true
+survivalRuse = true
+survivalShortcut = true
+corruptedKindred = true
+lightburnFungalParasitic = true
+prototypeChaotic = true
+prototypeChaoticTypeBeta = true
+shadowborn = true
+scholarOfOriginalSin = true
+originalSinErosion = true
+burialObject = true
+

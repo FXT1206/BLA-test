@@ -1,0 +1,9 @@
+{
+  "gauntlet_of_bulwark": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 32.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

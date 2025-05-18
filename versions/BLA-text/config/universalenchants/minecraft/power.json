@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow",
+    "apotheosis:bow_tome",
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert",
+    "$minecraft:crossbow"
+  ],
+  "incompatible": [
+    "celestial_enchantments:sharp_arrow",
+    "celestial_enchantments:arrow_storm",
+    "celestial_enchantments:divine_projection"
+  ]
+}

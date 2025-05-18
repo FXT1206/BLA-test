@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "0B14BC7DC8D9CB24", title: "&6&l万餐益食" }
+		{ id: "6116B6B6E2E8ED2A", title: "&6&l异学魔法" }
+		{ id: "324A4E3124CEE585", title: "&6&l挑战成就" }
+		{ id: "4790DD6287EE2AC2", title: "&6&l饰品集录" }
+		{ id: "51CE6D8B8AF8E96F", title: "&6&l征途之路[分支]" }
+		{ id: "6C11F5C97E337818", title: "&6&l征途之路[主章]" }
+	]
+}

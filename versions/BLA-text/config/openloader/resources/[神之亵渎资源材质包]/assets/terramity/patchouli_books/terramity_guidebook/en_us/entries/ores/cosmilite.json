@@ -1,0 +1,27 @@
+{
+  "name": "宙晶",
+  "icon": "terramity:cosmilite_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "宙晶是 Terramity 新增的一种金属。$(br2)宙晶可以通过末地宙晶碎片和金锭制作获得。$(br2)在Y=50和Y=0之间，可以找到恒星碎片。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "宙晶",
+      "images": ["terramity:textures/screens/cosmilite.png"],
+      "border": true,
+      "text": "宙晶拥有宇宙的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:cosmilite_ingot_recipe",
+	  "recipe2": "terramity:cosmilite_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "匠人石板从超级嗅探兽中掉落，必须在下界合金上使用才能升级。"
+    }
+  ]
+}

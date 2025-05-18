@@ -1,0 +1,9 @@
+{
+  "celestisynth:rainfall_serenity": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.025,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

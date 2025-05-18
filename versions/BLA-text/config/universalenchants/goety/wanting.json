@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:rings",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": [
+    "minecraft:silk_touch"
+  ]
+}

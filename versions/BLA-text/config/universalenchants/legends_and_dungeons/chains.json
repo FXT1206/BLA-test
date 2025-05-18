@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:legends_and_dungeons_chains",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:the_bless"
+  ],
+  "incompatible": [
+    "legends_and_dungeons:auto_smelt"
+  ]
+}

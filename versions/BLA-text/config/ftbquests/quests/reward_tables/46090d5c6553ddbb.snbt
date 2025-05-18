@@ -1,0 +1,11 @@
+{
+	id: "46090D5C6553DDBB"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "enigmaticlegacy:etherium_ingot" }
+		{ count: 2, item: "enigmaticlegacy:etherium_ingot" }
+		{ count: 3, item: "enigmaticlegacy:etherium_ingot" }
+	]
+	title: "以太"
+}

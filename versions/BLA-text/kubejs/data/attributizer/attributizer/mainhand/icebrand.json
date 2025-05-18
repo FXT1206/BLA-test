@@ -1,0 +1,9 @@
+{
+  "terramity:icebrand": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "minecells:balanced_blade": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.6,
+      "operation": "ADDITION"
+    }
+  ]
+}

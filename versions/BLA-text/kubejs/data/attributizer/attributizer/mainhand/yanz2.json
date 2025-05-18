@@ -1,0 +1,9 @@
+{
+  "cataclysm:the_incinerator": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.35,
+      "operation": "ADDITION"
+    }
+  ]
+}

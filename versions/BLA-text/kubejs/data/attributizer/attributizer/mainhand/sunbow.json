@@ -1,0 +1,9 @@
+{
+  "l2archery:sun_bow": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 2.5,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

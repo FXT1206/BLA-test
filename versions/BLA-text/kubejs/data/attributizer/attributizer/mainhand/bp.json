@@ -1,0 +1,9 @@
+{
+  "mythicmetals:legendary_banglum_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 4.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

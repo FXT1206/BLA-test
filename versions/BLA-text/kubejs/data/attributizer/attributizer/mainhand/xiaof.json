@@ -1,0 +1,9 @@
+{
+  "celestisynth:breezebreaker": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 32.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

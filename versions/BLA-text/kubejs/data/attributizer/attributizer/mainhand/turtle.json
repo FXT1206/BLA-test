@@ -1,0 +1,9 @@
+{
+  "l2archery:turtle_bow": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 3.0,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

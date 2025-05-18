@@ -1,0 +1,9 @@
+{
+  "meetyourfight:twilights_thorn": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 15.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

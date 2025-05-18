@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:crossbow",
+    "minecraft:trident",
+    "dragonloot:dragon_trident",
+    "apotheosis:other_tome",
+    "celestisynth:rainfall_serenity",
+    "iceandfire:tide_trident",
+    "enigmaticaddons:astral_spear",
+    "$minecraft:trident",
+    "$minecraft:bow"
+  ],
+  "incompatible": [
+    "enigmaticlegacy:sharpshooter"
+  ]
+}

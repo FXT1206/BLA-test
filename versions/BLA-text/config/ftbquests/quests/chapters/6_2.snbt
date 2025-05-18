@@ -1,0 +1,1581 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_2"
+	group: "4790DD6287EE2AC2"
+	icon: "enigmaticlegacy:the_cube"
+	id: "51A97CA59827485E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6请跟随这本书以及任务来全面的了解神秘遗物这个mod，该mod会为你的冒险之旅提供不小的助力，手持休眠之眼右键即可激活。"
+				""
+				"&d&o深渊之底，幽暗之角，某物呼唤着你，它的所在之处可能从未被人类发现过，你会不断追寻着那答案，无论代价如何。"
+			]
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "77F7B4E349519E8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72BE89A1A68CF09D"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "当你在凝视深渊时，深渊也在凝视你"
+			tasks: [{
+				id: "4FD645C9EDAA060E"
+				type: "checkmark"
+			}]
+			title: "&6初窥深渊"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: [
+				"&6精美戒指无法扭转第二诅咒。"
+				""
+				"&d&o这件小玩意的设计极为简单，哪怕是最蹩脚的工匠都能打造出来，更别提像您这样的半神了。"
+			]
+			id: "31D7E0235D4A8C5E"
+			rewards: [{
+				id: "375BD085C37ED5B5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "用处不大"
+			tasks: [
+				{
+					id: "77FBE45F0AA5A94D"
+					item: "enigmaticlegacy:iron_ring"
+					type: "item"
+				}
+				{
+					id: "4C620AD89C807E3B"
+					item: "enigmaticlegacy:golden_ring"
+					type: "item"
+				}
+			]
+			title: "&6小玩意"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6649BFA169D3B97A"]
+			description: [
+				"&6用于合成各种饰品道具，可以从遗迹或是任务中获得。"
+				""
+				"&d&o与海洋之心类似的存在，大地之心诞生于岩层深处，其内蕴涵了一些大地的原生能量。"
+			]
+			id: "753A780FBE315E72"
+			rewards: [{
+				id: "3CA46FCB850CEAC6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "历经沧海桑田的大地结晶"
+			tasks: [{
+				id: "1D23BA78F1780B34"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: {
+						isTainted: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "&6大地之心"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o大量的遗物散布在世界各地，而时代变迁，其中的许多早已被世人遗忘，而另一些则还流传于传说之中......"]
+			icon: "enigmaticlegacy:massive_lamp"
+			id: "54835942FB786E98"
+			rewards: [{
+				id: "07364938C3416933"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "你在追寻着什么？"
+			tasks: [{
+				id: "14979AF2095DE9A6"
+				type: "checkmark"
+			}]
+			title: "&6遗物"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: [
+				"&6用于制作合成各种强力的奥秘卷轴。"
+				""
+				"&d&o奇怪的是，即使是在最古老的文学中，也很难通过仅用于写作的卷轴来实现。"
+			]
+			id: "2F644600B7522B00"
+			rewards: [{
+				id: "77B837193BB1EB57"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "也许这不是一个显而易见的设计？"
+			tasks: [{
+				id: "3DB7CE34858B1C53"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			title: "&6奥秘卷轴"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31D7E0235D4A8C5E"]
+			description: [
+				"&6能够将周围的掉落物吸入你的物品栏内。"
+				""
+				"&d&o尽管设计简单，但是磁力之戒已经拥有了一些奥术力量。"
+			]
+			id: "46D1688E2BBD8B84"
+			rewards: [{
+				id: "1D8A5394CD203E02"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "吸铁石一样"
+			tasks: [{
+				id: "71A0ED95110E7DB3"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			title: "&6磁力之戒"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["31D7E0235D4A8C5E"]
+			description: [
+				"&6比起磁力之戒有着更大的范围和性能。"
+				""
+				"&d&o注入了一些来自末地的神秘力量后，这枚戒指变得更加神秘了。"
+			]
+			id: "6D5EDA5E557B11C0"
+			rewards: [{
+				id: "3B7EDC5E0F66F899"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "磁力之戒的升级版"
+			tasks: [{
+				id: "50C87909881C57C3"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			title: "&6转位之戒"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F644600B7522B00"]
+			description: [
+				"&6您可以在堡垒的宝藏室或是主世界中的某些遗迹中通过开箱子获得。"
+				""
+				"&d&o这种原始而微弱的魔力潜伏在它的容器中，等待着被唤醒和使用。"
+			]
+			id: "1440B6888CE1273B"
+			rewards: [{
+				id: "0493B8BAB39E4AC5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "更强大的奥秘卷轴的基础"
+			tasks: [{
+				id: "142C559F56CDA40D"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			title: "&6至暗卷轴"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1440B6888CE1273B"]
+			description: [
+				"&6你身上的装备每持有一种诅咒附魔都将为你带来属性的加成，当然七咒之戒带来的七种诅咒也包括在内，也就是说即使你身上没有诅咒附魔，也能获得属性加成。"
+				""
+				"&d&o这一卷轴内蕴藏着来自于扭曲之心的浓郁邪恶之力，借助这一卷轴，从诅咒中获取力量不再是梦。"
+			]
+			id: "797F794AA816DF8F"
+			rewards: [{
+				id: "7E90B458EEC9FDF1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "&4将诅咒化为力量"
+			tasks: [{
+				id: "21711EA5C97AB391"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			title: "&6千咒卷轴"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1440B6888CE1273B"]
+			description: [
+				"&6能够完全抵消第二诅咒对于猪灵的影响，并且与村民和猪灵交易时将获得额外的收益。"
+				""
+				"&d&o这款优雅的卷轴会利用七咒的无穷力量，满足隐藏在自己灵魂深处的无尽贪婪，只要不让您的这种贪婪来接管您的思想，就不会有问题。"
+			]
+			id: "7E00C8DC6F1CE364"
+			rewards: [{
+				id: "1BD26F676EEFCA12"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "贪婪是每个人心中最原始的欲望"
+			tasks: [{
+				id: "13DD1E5E757E7494"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			title: "&6无尽贪婪契约"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F644600B7522B00"]
+			description: [
+				"&6天堂之礼能够让您在信标范围内获得创造飞行的效果，但是飞行时会消耗自身的经验。"
+				""
+				"&d&o就像其他半神和人类曾经做过的那样，自从旅途开始以来，你就梦想着超越脆弱身体的极限，除了常规能力意外，还梦想着自由地在天空翱翔，就像一个凌驾于所有事物之上的神。"
+				"&d&o可惜这种力量是有局限性的，但你非常肯定有一种方法能够克服它的局限性。"
+			]
+			id: "3B344650DF09621E"
+			rewards: [{
+				id: "29741DDEDF76F6C3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "真的飞起来了"
+			tasks: [{
+				id: "2A06D58D44C98143"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			title: "&6天堂之礼"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F644600B7522B00"]
+			description: [
+				"&6当你死亡时，你背包内的物品将会被传送回出生点，但死后召回卷轴本身会留在死亡地点，能够跨纬度使用。"
+				""
+				"&d&o尽管死亡对于您这种半神来说只是小麻烦，但有时这种小麻烦会造成巨大的损失，而此卷轴能够完美的解决这一麻烦。"
+			]
+			id: "58D8A646A6972F35"
+			rewards: [{
+				id: "5905E95093899358"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "死亡并不能夺走你的全部"
+			tasks: [{
+				id: "2AA2FD7C8A6A0B71"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			title: "&6死后召回卷轴"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F644600B7522B00"]
+			description: [
+				"&6永恒智慧卷轴能够无限量的储存你所获得的经验，并且能够自由精准的将储存的经验吐出来。"
+				""
+				"&d&o原版的附魔之瓶处理起来麻烦又困难，但如果您将这幅宏伟的卷轴带在身上，这种麻烦将会烟消云散。"
+			]
+			id: "78C81D2BB64CD640"
+			rewards: [{
+				id: "68BE0026D318FDE7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "非常智慧的方案"
+			tasks: [{
+				id: "1115E28E7DD1EFBF"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6永恒智慧卷轴"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2F644600B7522B00"]
+			description: ["&d&o最终，您的期望得到了实现，虽然无法完全消除前代的限制，但至少您能够在各个世界维度自由的飞行了，而这只需要一点小小的代价。"]
+			id: "0EB52792531DF4C5"
+			rewards: [{
+				id: "24E1052CCEC4F909"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "完美之物？"
+			tasks: [{
+				id: "191FE05E6201BD14"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			title: "&6创造者的恩赐"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o凡间的材料与资源丰富多样，你对其中的种种皆已烂熟于心，但如果你继续深入探寻其中的奥妙，便能发现更多的事物，这些事物甚至从未映入过你的眼帘。"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:insignia"
+				tag: { }
+			}
+			id: "6649BFA169D3B97A"
+			rewards: [
+				{
+					id: "3790E94DC3CB6353"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:extradimensional_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B73540B7398ACEC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "探索永不止息"
+			tasks: [{
+				id: "48EB2A4933422DBA"
+				type: "checkmark"
+			}]
+			title: "&6奥术材料"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["753A780FBE315E72"]
+			description: [
+				"&6若你需要长期在地下挖矿，这枚护符是不错的选择。"
+				""
+				"&d&o它赋予了能使任何矿工都嫉妒的能力，使您能够以更快的速度破坏障碍物，在黑暗中像在日光下一样清晰可见，并且有着很远的接触距离。"
+			]
+			id: "2D292C2D52547B01"
+			rewards: [{
+				id: "0DFF2217B23E3E8B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "矿工的最爱"
+			tasks: [{
+				id: "171CB6C14867B129"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6猎宝者护符"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["753A780FBE315E72"]
+			description: [
+				"&6用于合成各种道具，通过合成获得。"
+				""
+				"&d&o无论如何，你已经没有退路，只有前进，才能利用你现在所受的诅咒之力。"
+			]
+			id: "7C70814B519358E4"
+			rewards: [{
+				id: "7A2F541A4996F14A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "纯洁的品质已然扭曲"
+			tasks: [{
+				id: "2B6ADE46ABDB352C"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			title: "&6扭曲之心"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C70814B519358E4"]
+			description: [
+				"&6想要修复这块盾牌的耐久可以在铁砧使用黑曜石对其进行修复或是打上经验修补。"
+				""
+				"&d&o那些胆敢靠近并伤害你的生物将为他们愚蠢的行为付出代价，他们将会被这面盾牌蕴藏的地狱之炎焚烧殆尽。"
+			]
+			id: "79C8999B020228A9"
+			rewards: [
+				{
+					id: "55A7B097BD6A298E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "3ACFB05C356C453A"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "自负是最危险的杀手"
+			tasks: [{
+				id: "15BEBAAA09949503"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6烈焰之傲壁垒"
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C70814B519358E4"]
+			description: [
+				"&6作为背负诅咒之人，这枚血战沙场之证能够为你提供可观的战力加成。"
+				""
+				"&d&o越是接近死亡的边缘，你的愤怒和勇气就会越发高涨，在咽下最后一口气之前，无论情况多么糟糕，你都得拼尽全力，为自己杀出一条血路。"
+			]
+			id: "4A9831C6CCAE8419"
+			rewards: [{
+				id: "0BE518E1DB1B5202"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "畏惧死亡是那些选择承受诅咒之人不可原谅的弱点"
+			tasks: [{
+				id: "67FB7D70CF52F838"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			title: "&6血战沙场之证"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C70814B519358E4"]
+			description: [
+				"&6只要您在正确的维度中，它就会指向距离您最近的灵魂水晶。"
+				""
+				"&d&o但您需要注意，它无法在灵魂沙峡谷工作，指针会在你处于灵魂沙峡谷时以惊人的速度不受控制的旋转，究竟有多少被遗忘的灵魂在那该死的地方游荡才能产生如此强烈的干扰？也许你最好不要牵扯进这一谜题的解决中。"
+			]
+			id: "69BAEA0FAF7A70FD"
+			rewards: [{
+				id: "74083552CC27ACC4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "糊涂蛋的救星"
+			tasks: [{
+				id: "1BFEA1EFF74DA82D"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			title: "&6被诅咒者的寻路指针"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C70814B519358E4"]
+			description: [
+				"&6若常规的武器无法满足您，可以来尝试这本书，它不会让您失望的。"
+				""
+				"&d&o注入了来此凋灵的邪恶精髓的力量后，这本书甚至可以获取七咒之戒的力量，允许你将其作为武器时克服第二诅咒带来的影响。"
+			]
+			id: "1733F23695169D19"
+			rewards: [
+				{
+					id: "42EF4C912A1CF77D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "222C97CADD4D596B"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "知识就是力量，从字面上来看，这本书确实是如此"
+			tasks: [{
+				id: "00422EBC0DF0A3BB"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			title: "&6倒转之启"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["753A780FBE315E72"]
+			description: [
+				"&6提供的属性加成能够帮助你更好的击杀怪物。"
+				""
+				"&d&o你应该听说过一些英雄故事，这些英雄曾一生致力于与怪物战斗，但最终自己却变成了怪物。"
+			]
+			id: "77DFCD2D86EB0BEC"
+			rewards: [{
+				id: "38EDB529C19CCE96"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "猎杀那些怪物"
+			tasks: [{
+				id: "0A5BE39EFE3A682F"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			title: "&6怪物猎人勋章"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6对于爱护动物的您来说这两本书是必不可少的。"
+				""
+				"&d&o如果您想与主世界里可爱的动物们交朋友，这本书肯定会为你提供帮助。"
+			]
+			id: "02A2904C6827E17F"
+			rewards: [{
+				id: "53844ACBE395F081"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "没有买卖就没有杀害"
+			tasks: [
+				{
+					id: "42A1D29437336D64"
+					item: "enigmaticlegacy:hunter_guidebook"
+					type: "item"
+				}
+				{
+					id: "22C70FED5F8279EA"
+					item: "enigmaticlegacy:animal_guidebook"
+					type: "item"
+				}
+			]
+			title: "&6动物之友"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: [
+				"&6破烂之书、凋零之书、腐烂之书分别可以从主世界、下界、末地的遗迹中开箱获得，手持书本右键即可获得经验和知识点，知识点用于解锁启示之录中的未解锁章节。"
+				""
+				"&d&o在这个世界上的许多地方，你都能发现这些著作，它们是古代文学的典范，经历了多个世纪，沧海桑田，只有少数能保存下来。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7ED2E1E255AE9A31"
+			rewards: [{
+				id: "35CB2B64BFB9F487"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "远古巨著"
+			tasks: [
+				{
+					id: "5970E7671A13DFB0"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:tattered_tome"
+						tag: {
+							lastHolder: [I;
+								-1349940332
+								697976902
+								-1615236178
+								1734255081
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37DAAC044A22EED1"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: {
+							lastHolder: [I;
+								-1349940332
+								697976902
+								-1615236178
+								1734255081
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "041C6A7D9082A2E7"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:corrupted_tome"
+						tag: {
+							lastHolder: [I;
+								-1349940332
+								697976902
+								-1615236178
+								1734255081
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6经验之书"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&6使用末影之眼在酿造台中配合粗制的药水即可酿造出召回药水，而扭曲恩惠药水则需要以扭曲之心为原材料配合召回药水才可以酿造出来。"
+				""
+				"&d&o无论您距离目的地有多远，也无论处于哪个维度，药水都会生效。"
+			]
+			id: "6745DA591EC763B0"
+			rewards: [{
+				id: "261253690F334128"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "方便的药水"
+			tasks: [
+				{
+					id: "167BEA7159E348C6"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+				{
+					id: "335AEDFBFB00DDDE"
+					item: "enigmaticlegacy:twisted_potion"
+					type: "item"
+				}
+			]
+			title: "&6召回与扭曲"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6能够完全修复物品的耐久。"
+				""
+				"&d&o这种混合物需要相当昂贵的魔法原料才能制成，当然这是值得的。"
+			]
+			hide_dependency_lines: true
+			id: "11464D4194300261"
+			rewards: [{
+				id: "4C14F6FDC2AE1B6F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "这瓶液体的味道如何呢？"
+			tasks: [{
+				id: "014574759F544A7B"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			title: "&6混合修补物"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54835942FB786E98"]
+			description: [
+				"&6非常珍贵的高级素材，在佩戴七咒之戒的情况下击杀凋灵获得。"
+				""
+				"&d&o当你接近它时，它会因为想要附在你身上而表现的扭曲起来，也许你可以允许它这样做？不，那将是一个愚蠢的决定！"
+			]
+			id: "55713E764E9CB0C2"
+			rewards: [{
+				count: 8
+				id: "4E9DB4A5AC01EBB2"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "不纯之物"
+			tasks: [{
+				id: "0F7F379012A9E3DF"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			title: "&6邪恶精髓"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55713E764E9CB0C2"]
+			description: [
+				"&6想要打造出一套顶级的附魔装备，这颗珍珠是必不可少的。"
+				""
+				"&d&o珍珠从七咒之戒内部汲取了力量，将其作用于附魔过程的催化剂，代替了青金石。"
+			]
+			id: "2999E309F90A5FE6"
+			rewards: [{
+				id: "4A0B66D9A234C7E6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "突破附魔台的极限"
+			tasks: [{
+				id: "3FD75301DAC357F1"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			title: "&6附魔师的珍珠"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["55713E764E9CB0C2"]
+			description: [
+				"&6这把剑对于传送这一项技能会起到非常好的抑制效果。"
+				""
+				"&d&o经过无数次的战斗，你认识到同它们恢复中立关系简直是痴心妄想，如若这就是尽头，也许是时候放弃了，放弃和平这一可笑的说法，凭借这把剑以及你纯粹的意志力，你才能反败为胜。"
+			]
+			id: "10EF9522D3EE7137"
+			rewards: [{
+				id: "422097596E63EFDE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "如果战争无法避免，那么唯有战斗到底"
+			tasks: [{
+				id: "36BF3076F7728DB4"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6末影之屠"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6除了能够让你不再感受饥饿它似乎还有别的效果？"
+				""
+				"&d&o哪怕是死亡也无法消除这颗果实带来的效果，就像那无法弥补的原罪，食用前请三思。"
+			]
+			hide_dependency_lines: true
+			id: "0E273BA6468D0C8F"
+			rewards: [{
+				id: "4EFBF26137B7CC8A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "原初之罪"
+			tasks: [{
+				id: "2B0C680F8568BA49"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			title: "&6禁忌之果"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6击杀海洋神殿中的远古守卫者有概率掉落。"
+				""
+				"&d&o当您拥有了守卫者之心，普通的守卫者不仅不会攻击你，还会对攻击你的生物发起攻击，这种尊重仍然是个谜。"
+			]
+			hide_dependency_lines: true
+			id: "6B374EA82A7C854C"
+			rewards: [{
+				id: "14C1242092F72F1D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "来自远古的呼唤"
+			tasks: [{
+				id: "3C4AE11AB59A3502"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			title: "&6守卫者之心"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6或许有什么方法能够利用不洁圣杯中蕴藏的邪恶能量。"
+				""
+				"&d&o它就这样被随意地遗弃在了一堆垃圾杂物之中，看起来平平无奇。"
+			]
+			hide_dependency_lines: true
+			id: "7161681E88251054"
+			rewards: [{
+				id: "3B7E97E746B0D3A0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "圣杯之谜"
+			tasks: [{
+				id: "0185DFA32524D9F2"
+				item: "enigmaticlegacy:unholy_grail"
+				type: "item"
+			}]
+			title: "&6不洁圣杯"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: [
+				"&6增加斩首概率，用这把武器来刷凋灵骷髅头是再好不过了。"
+				""
+				"&d&o这把斧头自锻造之初，就是用来帮你解决烦人的刷头问题，它无比渴求着砍断你敌人的脖子，除了凋灵骷髅，它还能斩下其他任何能够被斩首生物的头，"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0650445304339809"
+			rewards: [{
+				id: "69778FCDE6E5ABAE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "斩首达人"
+			tasks: [{
+				id: "79D5FEAE1A521ED0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6行刑者之斧"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["55713E764E9CB0C2"]
+			description: [
+				"&6在佩戴七咒之戒的情况下击杀末影龙掉落，在末影龙死亡后，深渊之心会悬挂在空中，请注意拾取。"
+				""
+				"&d&o无论如何，你现在是它的合法拥有者，用不了多久，你就会发现它无法想象的暴力的、恐怖的用途......世界强加于你的苦难，必将十倍奉还。"
+			]
+			id: "5686C4BC22584728"
+			rewards: [{
+				id: "25C7691FA1D58C3E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "最好永远不要知道某些事情的真相，因为这些真相远超人类想象的尽头"
+			tasks: [{
+				id: "7C4B1D8B551F5458"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			title: "&6深渊之心"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5686C4BC22584728"]
+			description: [
+				"&6比起普通的鞘翅，这款壮丽鞘翅无疑是更好的选择。"
+				""
+				"&d&o壮丽鞘翅解决了普通鞘翅上存在的缺点，拥有极高的耐久与速度。"
+			]
+			id: "52B6E455083F49DF"
+			rewards: [{
+				id: "7BFB4CFC85A0653D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "更好的滑翔"
+			tasks: [{
+				id: "57A14644966B9823"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6壮丽鞘翅"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5686C4BC22584728"]
+			description: [
+				"&6若您想要在末地定居，维度锚对于您来讲是必不可少的，维度锚的工作方式与重生锚一样，唯一不同的是需要用末影珍珠来为维度锚充能。"
+				""
+				"&d&o只有一件事仍需要考虑，即便对于那些高等存在而言，在维度之间穿梭仍然是危险的，对于那些脱离肉体的存在更是如此，你不禁去想，何等恐怖的地方在等待着那些被它们的信标光束误导的人们，迷失之地将赐予他们怎样可怕的命运。"
+			]
+			id: "298230E55489781B"
+			rewards: [{
+				id: "2287ABACCFFD2B25"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "在末地中放床"
+			tasks: [{
+				id: "37FB67999CD734E1"
+				item: "enigmaticlegacy:end_anchor"
+				type: "item"
+			}]
+			title: "&6维度锚"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["41CAC6323076C714"]
+			description: [
+				"&6珍贵的高级素材，通过附魔装置合成获得。"
+				""
+				"&d&o随着时间的流逝，你将知道它会协助你达成怎样的壮举，这颗寰宇之心足以扭曲现实最终会创造出绝妙的神器。"
+			]
+			id: "12997A856087333B"
+			rewards: [{
+				id: "1C681D9D7A538CD5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "宇宙的力量现在就在你的手中"
+			tasks: [{
+				id: "7FC9B4A828E44774"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6寰宇之心"
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5686C4BC22584728"]
+			description: [
+				"&6珍贵的高级素材，可以从末地城中搜刮获得。"
+				""
+				"&d&o它拥有强大的奥术力量，到那时需要经过一番谨慎的处理与细致的塑形，才能从它的混沌之中生发秩序，随着时间的流逝，你肯定会发现它有非常多的用处。"
+			]
+			id: "41CAC6323076C714"
+			rewards: [{
+				id: "466145DBF6F6D6FF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "这一束光芒是为了谁？"
+			tasks: [{
+				id: "1CB97CF34608186D"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			title: "&6星尘"
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["41CAC6323076C714"]
+			description: [
+				"&6集合了所有神秘护身符所带来的属性加成。"
+				""
+				"&d&o利用寰宇之心的力量，你将使你的护身符转变为具有前所未有的力量的高阶存在。"
+				"&d&o命运裁定汝之起始，汝将塑造命运之终末。"
+			]
+			id: "6EF72663FF8AB367"
+			rewards: [{
+				id: "1CB741BB17194665"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "现在，你已知晓你所拥有的神秘护身符并不是独一无二的了"
+			tasks: [{
+				id: "2B94AC5B9A1F184E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6飞升护符"
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["12997A856087333B"]
+			description: [
+				"&d&o它让你免于无休止的屠杀因七咒之戒而对你充满敌意的生物，方法是将这些生物从你身边抹除......"
+				"&d&o作为代价，一旦你决定戴上它，你将永远被它束缚，不久你将知道，比起敌意更加可怕的是寂静的虚无。"
+			]
+			id: "0773281E18C0BB6A"
+			rewards: [{
+				id: "2B6B360C48AFF2B9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "扭曲现实是极度危险的"
+			tasks: [{
+				id: "614478B2340CBB57"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			title: "&6荒芜之负"
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6EF72663FF8AB367"]
+			description: [
+				"&d&o虽然飞升护符是完美且纯净的存在，但它仍可以进一步增强，以牺牲其纯洁为代价，不过像你这样的诅咒缠身者应该不会对此感到烦恼。"
+				"&d&o扭曲至极的血肉混合物深渊之心将飞升护符腐化为不可名状的存在。"
+				"&d&o它凝视着你和世界，意图不明，令人不安，即使是疯子也拒绝触碰如此可憎之物，但你却将其戴在脖颈。"
+			]
+			id: "5D12D3C62C811E17"
+			rewards: [{
+				id: "08A7F04C90689927"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "它比所有无尽深渊的眼睛都更加可怕"
+			tasks: [{
+				id: "0A0AAF86000CE39F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6轻蔑之约"
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["12997A856087333B"]
+			description: [
+				"&d&o许多拥有六块强大术石的人都在思考是否可能存在某种方式将它们的力量融合进一件具有前所未有力量的神器之中，许多人都尝试过，但都以失败告终......"
+				"&d&o直到现在，你找到了实现这一壮举的方法。"
+				"&d&o利用寰宇之心你能够强迫术石进入违背现实的状态，作为你探索和研究的巅峰之作，这块立方体象征着你凌驾于任何凡物之上。"
+			]
+			id: "0A8841B64DFBCE88"
+			rewards: [{
+				id: "42EDA6E538D9980B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "此物不灭，汝将永存"
+			tasks: [{
+				id: "3492BE423B32A774"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			title: "&6非欧立方"
+			x: 1.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["12997A856087333B"]
+			description: [
+				"&6这本书可以说是将知识就是力量这句话发挥到了极致，论威力，这本书已经超越了绝大部分武器。 "
+				""
+				"&d&o你将揭示这个世界一直试图全力掩埋抹去的真相，并将之篆刻在永恒的石碑上。"
+			]
+			id: "293E36990EA715DC"
+			rewards: [{
+				id: "0E99AF15AB22A6F4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "禁忌之书已然降生，它以黑暗为食，血肉为封，恐怖为文"
+			tasks: [{
+				id: "7A5121A434400D6A"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			title: "&6无止之言"
+			x: -0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [""]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "39E2B9D19412F615"
+			rewards: [{
+				id: "5ACAFB7CF290E755"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "以铠极攻"
+			tasks: [{
+				id: "6285919D1FBB7D35"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			title: "&4血光四溅"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1440B6888CE1273B"]
+			description: ["&6让处于黑暗中的玩家小幅度增加自身属性，可以小幅度减少部分诅咒带来的影响."]
+			id: "0C2BF14FAA258DD2"
+			subtitle: "&4深藏于黑暗,习惯于光明..."
+			tasks: [{
+				id: "0D340CAA8439605A"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			title: "&6暗影卷轴"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1440B6888CE1273B"]
+			id: "753BC1CDB5AD00D5"
+			tasks: [{
+				id: "0D01F2716B3E7D9D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:thunder_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55713E764E9CB0C2"]
+			description: [""]
+			id: "1AD6DFD5E304D806"
+			subtitle: "嗜血者"
+			tasks: [{
+				id: "47CDC526512AF4BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:sanguinary_handbook"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6狩猎者"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4AEE0311DEA7719B"
+			subtitle: "冒险者"
+			tasks: [{
+				id: "10B71B272155D288"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:adventure_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&d冒险者之证"
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["55713E764E9CB0C2"]
+			id: "785010EE84982C14"
+			tasks: [{
+				id: "1EE5AC3136152653"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:false_justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&c是古代锻造大师费尽终生心血所打造的不可摧神物"
+				"{@pagebreak}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "03349F473B26C83E"
+			subtitle: "万锻不坏"
+			tasks: [{
+				id: "7901E6082E9DE7B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:forger_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b万锻之物"
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B48DA84D0B2F061"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219168A6B156869D"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "秘法"
+			tasks: [{
+				id: "683887D495A735D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:void_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6回归虚无"
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31D7E0235D4A8C5E"]
+			id: "6831AB6E10613023"
+			subtitle: "提供魔抗"
+			tasks: [{
+				id: "627B7774FEC97A87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:quartz_ring"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6魔法之戒"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1CFAED1E5742551B"
+			subtitle: "卓日烈阳"
+			tasks: [{
+				id: "03A21476E447AEB1"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			title: "&6耀目之日"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5686C4BC22584728"]
+			description: ["&d&o无论如何，你现在是它的合法拥有者，用不了多久，你就会发现它无法想象的暴力的、恐怖的用途......世界强加于你的苦难，必将十倍奉还。"]
+			id: "5A4CE577F3A5BF99"
+			subtitle: "无尽吞噬"
+			tasks: [{
+				id: "61B1A51582269F69"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6贪婪者"
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o如果想要探索深海或是居住在海洋里，海洋意志会是最适合你的完美遗物。假如你不喜欢晴天，这时只需要牺牲一点经验，就可以让天空为你哭泣。"]
+			hide_dependency_lines: true
+			id: "4141AB958E82E6E9"
+			rewards: [{
+				id: "3F5E8D0B9E8F045F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "海洋之子"
+			tasks: [{
+				id: "4B4D3A9097BB4773"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			title: "&6海洋意志"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o这可能是最常见的术石，在主世界的几乎任何遗迹都能找到它，但低估它的力量无疑是愚蠢的。"]
+			hide_dependency_lines: true
+			id: "3AAC0E60A7C1375A"
+			rewards: [{
+				id: "3F2BF577169B4075"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "比钢铁还要坚韧"
+			tasks: [{
+				id: "4A82E8BDA66036B0"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			title: "&6魔像之心"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o下界的环境酷热难当，尤其是在佩戴七咒之戒的情况下一旦着火无法自然熄灭，而烈焰之核可以为你提供完美的解决方案。"]
+			hide_dependency_lines: true
+			id: "22DF3E0F6DE8C19C"
+			rewards: [{
+				id: "767EAF6AFC07EF19"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "在烈火中获得新生"
+			tasks: [{
+				id: "50A87B54C7175802"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			title: "&6烈焰之核"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o它可以为您提供能够操纵风的力量，将那些射向你的箭矢吹飞，免疫摔落伤害，将您推动到凭借肌肉无法到达的地方。"]
+			hide_dependency_lines: true
+			id: "4A733DC8BCD4F3FE"
+			rewards: [{
+				id: "6D4EE0C39500B943"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "匀速运动"
+			tasks: [{
+				id: "23D4455BC3A18081"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			title: "&6天使之祝"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o任何元素在接触到这一术石的瞬间都会化为虚无，就像这颗术石本身的属性一般，你无法理解这种力量从何而来，但你可以肯定这颗术石一定诞生于末地。"]
+			hide_dependency_lines: true
+			id: "3AD56D171A07EE10"
+			rewards: [{
+				id: "2006F0F1B46319FA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "也许这就是新生"
+			tasks: [{
+				id: "09DC880E07675B1A"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			title: "&6虚空珍珠"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77F7B4E349519E8B"]
+			description: ["&d&o佩戴时，你将会拥有与末影人类似的能力，并且他也会在你受到攻击时把你传送走，但是这种能力是你无法控制的，也许它并不是时刻都对你有利。"]
+			hide_dependency_lines: true
+			id: "79CB60B56E41FEB7"
+			rewards: [{
+				id: "03AA6A4F26F2AFA9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "这种力量与维度本身有关"
+			tasks: [{
+				id: "450E953AAEE5DE14"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			title: "&6星云之眼"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C70814B519358E4"]
+			description: [
+				"&6手持魔镜右键即可回到出生点。"
+				""
+				"&d&o此镜乃是扭曲之心的广泛应用之一，你可以用它看着曾经后悔戴上七咒之戒的你。"
+			]
+			id: "7883CE9A158A0819"
+			rewards: [{
+				id: "3DEF8481378CB51C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			subtitle: "你并不美丽"
+			tasks: [{
+				id: "78606600AC61E896"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			title: "&6扭曲魔镜"
+			x: -10.5d
+			y: 2.0d
+		}
+	]
+	title: "&6&l神秘遗物"
+}

@@ -1,0 +1,9 @@
+{
+  "minecraft:netherite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 1.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

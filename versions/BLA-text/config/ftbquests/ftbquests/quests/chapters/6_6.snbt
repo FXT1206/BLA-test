@@ -1,0 +1,5381 @@
+{
+	autofocus_id: "1E9598202A57EE92"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "6_6"
+	group: ""
+	icon: "blasphemouspatch:annihilation_flame"
+	id: "1C2F27E037FEDFD7"
+	images: [{
+		height: 1.0d
+		image: "blasppp:textures/iceandfire.png"
+		rotation: 0.0d
+		width: 6.0d
+		x: 17.0d
+		y: 6.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6莫测之眼的拥有者曾经是一位伟大的亵渎英雄，他为了诛灭\"奇迹\"而牺牲了自己。他的眼睛被诅咒，成为了莫测之眼，但也因此给人世带来了千百年的和平..."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E9598202A57EE92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B2097783138F6F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 3.0d
+			subtitle: "&4&l奇迹将至,亵渎者终将复苏"
+			tasks: [{
+				id: "1FCFD29B442C6653"
+				type: "checkmark"
+			}]
+			title: "&6&l原初之眼"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E9598202A57EE92"]
+			icon: {
+				Count: 1
+				id: "immersive_armors:wooden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23810D0DA22C16DC"
+			rewards: [
+				{
+					id: "1E56001B3D8321DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "immersive_armors:wooden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D883E4F9D6898BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "immersive_armors:wooden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47CBD5B72D9227E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "immersive_armors:wooden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B07149F6834C33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "immersive_armors:wooden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A00D5F0BBB48B12"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 3L
+				id: "16D1276F28C59AC6"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "&a基本的装备"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4546F27A8A125F7A"]
+			description: [
+				"&6整合包中共有几十种全新的附魔，这些附魔需要在星月附魔台上才可以附魔出来，使用星月附魔台进行附魔时会消耗魔引，魔引可以通过合成或是战利品箱中找到。"
+				""
+				"&6星月附魔台周围书架的摆放方式与原版附魔台相同。"
+				""
+				"&d星月附魔无法使用黑暗铁砧突破等级上限。"
+			]
+			icon: "celestial_enchantments:celestial_enchanting_table"
+			id: "3F113A1EE913B275"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48A7D86B7050E4D1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "合理搭配附魔能够让你的战斗力直线提升"
+			tasks: [{
+				id: "417275A89117180A"
+				item: "celestial_enchantments:celestial_enchanting_table"
+				type: "item"
+			}]
+			title: "&a星月附魔"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E530CCEDAB98BFB"]
+			description: ["&6想要发展，矿物是必不可缺的，在整合包中挖矿也是一件危险的工作，请务必小心。"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_ore"
+				tag: { }
+			}
+			id: "4546F27A8A125F7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C0033B2ECE1A356"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1540AA455886F199"
+					item: {
+						Count: 1
+						id: "minecraft:diamond"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "41ADD8AC2E03C858"
+					item: {
+						Count: 2
+						id: "minecraft:emerald"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "228E7E5E9F473A52"
+					item: {
+						Count: 4
+						id: "minecraft:lapis_lazuli"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2623ECA03620C886"
+					item: {
+						Count: 4
+						id: "minecraft:gold_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B153C238FDDC85D"
+					item: {
+						Count: 4
+						id: "minecraft:iron_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a勤劳的矿工"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4546F27A8A125F7A"
+				"0DDC08C3F9E4E2E2"
+			]
+			description: ["&6穿戴整套暗金属装备时，生命值低于6点时会获得暴怒的效果，血量越少，这套铠甲的主人就会越强。并且使穿戴者免疫凋零效果。"]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:dark_metal_armor_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50D182F537558F5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D0A074916709CE8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "由暗金属锻造而成的顶级盔甲，穿上它的人都会获得无与伦比的力量"
+			tasks: [
+				{
+					id: "12E81999159AE33C"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EE64AF7869C763C"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28F16DB96DACB1C5"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EDBB999CB93F0AA"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a暗金属套"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4546F27A8A125F7A"]
+			icon: {
+				Count: 1
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "345EC22C9E1F2849"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "056B09A919156D9E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "&6&n通过合成获得,需要搭配传送石碑使用..."
+			tasks: [{
+				id: "4237FDDDE858718B"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a传送石"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4546F27A8A125F7A"]
+			description: ["&6你可以从主世界的地下找到这种矿物，戈伯矿的强度可观，戈伯装备的性能与下界合金的装备相当，但耐久远超下界合金。"]
+			icon: "gobber2:gobber2_ore"
+			id: "32C96310C0FE2999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257658C1DC04B1A6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "比钻石更好"
+			tasks: [{
+				id: "317E7AF828B2045B"
+				item: "gobber2:gobber2_globette"
+				type: "item"
+			}]
+			title: "&a戈伯矿"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: ["&6当玩家死亡并且死灵图腾在玩家物品栏时，将免疫此次死亡并给予玩家生命恢复与力量的效果，一次性物品，使用后将会消失。"]
+			id: "41F0E9640EA4D3D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39A7984E9221CDF8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "比不死图腾更好用"
+			tasks: [{
+				id: "56BB659B09B67F29"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:death_totem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a死灵图腾"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: ["&6霜冻巨兽生成在雪原和积雪针叶林等生物群系，生成时处于睡眠状态，玩家靠近或自身被攻击会被唤醒。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54FF94606996B3B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "052DC38CC792E71B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "伫立于雪原之中的凶猛巨兽，会毫不留情的杀死任何接近它的人"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "427F5EFC35CBB837"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a霜冻巨兽"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: [
+				"&6太阳鸟通常生成在热带草原群系，除了太阳鸟以外身边还会有许多的护卫。"
+				""
+			]
+			hide_dependency_lines: true
+			icon: "mowziesmobs:sol_visage"
+			id: "63B701053CE4F95D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06F7E88578B1E522"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "继承了耀炎之力的太阳神鸟，它会对所有外来者降下“热情“的光芒"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "267EAC4E27975A24"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a乌姆武蒂-太阳鸟"
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: [
+				"&6钢铁守护者通常生成在主世界的地下，平时处于沉睡状态，当玩家靠近时便会苏醒。"
+				""
+				"&6它会非常考验玩家的熟练度，如果你像我一样之前打他死过50来次那恭喜你!你可以无伤了!"
+			]
+			hide_dependency_lines: true
+			icon: "mowziesmobs:wrought_helmet"
+			id: "1D5E14CAD8CD49E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48675EF8ECB40358"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "远古时代由先民铸造的强大钢铁守卫，沉睡在空无一物的锻造室之中"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "7C564C020C3C0CE8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a钢铁守护者"
+			x: 13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"030AF02F87F5A149"
+				"248D6DFBB5386440"
+			]
+			description: [
+				"&6你需要前往位于暮色森林中的巫妖塔顶层,并击杀巫妖王.他将是你亵渎路上的第一道门槛,他的实力不容小觑,请谨慎行事."
+				"&4当前版本该BOSS有BUG导致失去AI目前无法修复"
+			]
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "34846E305D7D84D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C476FD6E3DED1F5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "记住，王权没有永恒……"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "55F74D28D1703B45"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:lich"
+					id: "6049D41C655D29C3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6亡者&d之遗"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6934A985AD3A18FF"
+				"272556F70510112D"
+			]
+			description: [
+				"&6你需要前往位于暮色森林中的娜迦庭院并击杀娜迦"
+				"&6当玩家的护甲值低于18点时，玩家被娜迦伤害而造成的护甲耐久降低会增加50%[消耗耐久比2小则消耗2点]"
+				"&6当玩家装备槽每装备了一件耐久低于120的盔甲或没有装备盔甲，娜迦都会增加撞击玩家所造成的击飞距离"
+				"&6娜迦的头部承受过多伤害时，娜迦将会陷入眩晕，并掉落5片娜迦鳞片。娜迦的愤怒冲撞的发动频率将会有概率被取消，也有小概率会直接眩晕。头部未破坏时，娜迦获得60%减伤,破坏后减伤为20% "
+			]
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			id: "248D6DFBB5386440"
+			rewards: [
+				{
+					id: "6FF1F1C62F1D487B"
+					item: {
+						Count: 1
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D884A7847D06F3B"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "暮色森林的守门者，掌握着通往财富与荣耀的鳞片"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "11B6886D8D68866E"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:naga"
+					id: "10D424EAB6332B33"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2剥鳞&d之时"
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "meetyourfight:fossil_bait"
+			}
+			id: "272556F70510112D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17FD75971D331E9B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "&l&7整合包里最弱的BOSS！！！"
+			tasks: [
+				{
+					entity: "meetyourfight:swampjaw"
+					icon: "minecraft:bone"
+					id: "18948CEEF4A2E5E1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "57798628841C292B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "meetyourfight:fossil_bait"
+					}
+					type: "item"
+				}
+			]
+			title: "&7骨质鲨鱼&6[征途上的第一战]"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B3F6C4C4C219FEB"]
+			icon: {
+				Count: 1
+				id: "minecraft:zombie_head"
+				tag: { }
+			}
+			id: "58E90CDFAC9EC41D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D9BFF0BC92C6CEF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "&6踏上征程"
+			tasks: [{
+				id: "418FE473A3B9191A"
+				stat: "minecraft:damage_dealt"
+				type: "stat"
+				value: 50
+			}]
+			title: "&a怪物猎人"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E530CCEDAB98BFB"]
+			dependency_requirement: "one_completed"
+			description: ["&6整合包当中有着非常多的强力BOSS和精英小怪，等待着你的挑战，在此之前也许你还需要借助饰品与附魔的力量，饰品的搭配在本整合包当中是非常重要的决胜因子。"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B3F6C4C4C219FEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EEEC4E2B367AA5C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "天命已然降临"
+			tasks: [{
+				id: "5111446B58FAE007"
+				type: "checkmark"
+			}]
+			title: "&4考验"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23810D0DA22C16DC"]
+			id: "4E530CCEDAB98BFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4558A96D7CE0BDE8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "普通的金属"
+			tasks: [{
+				count: 2L
+				id: "315CD47B0A96C75C"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a从这两块铁开始"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E530CCEDAB98BFB"]
+			description: [
+				"&6黑暗艺术似乎与大多数人所知道的魔法大不相同。最常见的魔法是魔法。然而，魔法显然不仅仅是迷人的物品和魔咒。例如，召唤生物来执行自己的命令的行为可以被视为黑魔法。毕竟你遇到的大多数召唤都是由邪恶力量完成的，当你的黑魔法达到一定造诣时，你可以创造一支完全听命于你的亡灵军团，甚至是将自己化身亡灵。"
+				""
+				"&c此模组内容较多，单靠任务书很难介绍全面，强烈建议跟随任务以及这本&n&d黑暗秘典&r&r&6&c的指引来发展黑暗魔法，这将会对你的冒险起到很大的帮助。"
+			]
+			id: "0AA797DC8AFA0B51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7975A89536C8584D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "魔法的另一面-黑暗艺术"
+			tasks: [{
+				id: "4DD390D4821E0D3E"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			title: "&a黑暗魔法"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: [
+				"&6自然生成在沼泽的九头蛇巢穴，强烈建议携带火龙剑或是带有火焰附件的武器来挑战它，否则你会被它惊人的再生能力逼疯，只要九头蛇有头（即头的数量>0的时候），那么它会在血量即将低于6点时锁定血量为6点，在锁血的时候玩家的任何形式的攻击都无法对其造成伤害（包括火焰，因为火焰只是阻止它再生而不是阻止它锁血），并且在头部重生完成后快速回复血量（1~3/tick，相当于每秒20~60点。）因此除非用火焰灼烧，否则永远无法杀死九头蛇。同样的，一旦所有的头被打断，那么无论还有多少血量，只要所有的头被打断了，它的血量就会瞬间清空并且死亡。"
+				""
+				"&o&n&d对于无法自然恢复生命值的你来说，九头蛇的心脏可是个好东西，只要放在物品栏中就能源源不断地为你提供再生效果。&r&o&r"
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:hydra_skull"
+			id: "524F6E15A9679D9D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "118B82674CC0826F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "这只九头蛇是古希腊传说的九头蛇海德拉，生活在沼泽深处"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				id: "0326A4D1D58165FA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a海德拉的传说"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: [
+				"&6自然生成于海洋之中，海蟒对所有的生物都是敌对的，谁都不能逃得出它们的手掌心。海蟒不仅非常强大，而且速度也非常快。海蟒甚至会锁定在船上或海岸上的目标，因为它们会跳出水面并必会将其一击杀死（海莽的撕咬伤害极高，请尽量避免与其正面肉搏），除了跳出水面之外，海蟒也会试图咬住波浪下的猎物。为了击退它们的猎物，它们会发射出一股气泡，猛烈地轰击目标。"
+				""
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:seaserpent_skull"
+			id: "296E6047077BA478"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36AEEF31A4D053B8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				id: "696AE9BCF31A237A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a游龙当归海"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: ["&6会自然生成在繁茂洞穴中，刷新概率较低，&c但你可以通过手持紫水晶块右键苔藓块来召唤紫水晶巨蟹。&6击杀紫水晶巨蟹掉落的蟹肉可以放在沉没之城中的紫水晶祭坛中进行魔法仪式，经过魔法仪式的蟹肉吃下后会获得免疫深渊DBUFF的效果，这对于你与利维坦的战斗会有很大的帮助。"]
+			hide_dependency_lines: true
+			icon: "cataclysm:blessed_amethyst_crab_meat"
+			id: "2A55E8F3759CCC0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FB037F6ADF495E5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "这只螃蟹也许跟利维坦有关系"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "7468E7CA051EF861"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a大地之灵的结晶"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58E90CDFAC9EC41D"]
+			description: [
+				"&6会在游戏的第三日夜中随着聊天栏警告开始刷新在光照等或低于8的环境下&c（You feel like something is chasing you）。"
+				""
+				"&6攻击会对玩家产生失明，黑暗，恐惧凝视，魔力耗尽，凋零III效果。在阳光直射下会化为烟尘消失，不会产生任何掉落物。"
+				""
+				"&c该生物外形类似某次元中报告的高阶死灵“温迪戈”，身量较后者矮小，但体色呈紫灰色，残躯肌肉覆盖度也不尽相同。该生物面部高度腐烂，无法辨别原状，通常呈现为某种恐怖有角类生物头颅之形态，眼眶内部存有魔法视觉器官，通过在黑暗中摄取魔力以定位猎物，值得注意的是，该生物的双眼所发出的惨白色光芒异常显眼，同时携带某种灵魂类法术，容易使观测者陷入惊骇，必须提前加以预防。该生物体表覆盖紫黑色兽皮，强韧无比，堪比优质皮甲，但刀剑仍可轻易刺穿，不过，该生物出色的肉体强度仍然让其难以对付，多道贯穿伤难以限制其战斗力，需将其头颅斩下方可彻底保证击杀。该生物主要攻击手段为利爪，其具有类似凋灵术的黑暗魔法性质，会对受害者造成严重伤害，与此同时，其悬挂于手臂旁侧的镣铐因特别的暗金属材质，会以其密度而产生相当恐怖的钝击，足以让人头昏眼花，任其宰割。该生物畏惧阳光，被阳光照射，即会消失。该生物具有某种固有法术，能够在体力充沛时隐匿身形，需加以提防，“黑夜中的白色眼睛”即为该类生物特征。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:nightmare_claw"
+				tag: { }
+			}
+			id: "0DDC08C3F9E4E2E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A138B7A97EDBDF9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "惨白的怪异头颅浮现于梦魇中，锐利的兽爪割下某人的颈骨"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "01FDE612D9357064"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a梦魇循踪兽"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E530CCEDAB98BFB"]
+			description: ["&6部分需要合成的泰拉饰品可以在工匠作坊中合成获得，具体配方可通过JEI查看（对着工匠作坊按U）。"]
+			id: "16E059468C43EA0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17EA0C350FD3215C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "将泰拉饰品组合起来吧"
+			tasks: [{
+				id: "10DB7464AAB7538A"
+				item: {
+					Count: 1
+					id: "confluence:workshop"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a泰拉匠人"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CD80AF5B1BEE195"]
+			description: ["&6进入糖果洞穴后使用铲子挖掘地面上随处可见的糖霜巧克力块掉落巧克力块，如果使用精准采集挖掘则会掉落本体糖霜巧克力块。"]
+			icon: "alexscaves:block_of_frosted_chocolate"
+			id: "073CCD39EEC8E699"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4283FC7F22165183"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "进入糖果洞穴后必吃品之一"
+			tasks: [{
+				id: "02FA9F3CD66691F6"
+				item: "alexscaves:block_of_chocolate"
+				type: "item"
+			}]
+			title: "&a随处可见的巧克力块"
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["725B3D8F47EE5173"]
+			dependency_requirement: "one_started"
+			description: ["&6想要找到这些洞穴你首先需要寻找到位于主世界地下的地下小屋，屋内的箱子中会有一些洞穴石板和纸，你需要将石板和纸放入屋内的洞穴勘探台中进行解密，解密成功后会获得对应洞穴的手稿，将手稿合成为地图后就可以跟随地图寻找到洞穴了，当然你也有机会可以从废弃矿井中的箱子中开出地图，如果这两种方式你都不喜欢的话也可以跟村民制图师交易，制图师会有概率出售洞穴地图"]
+			icon: "alexscaves:cave_book"
+			id: "1CD80AF5B1BEE195"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446FF0ABDC5AFE09"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "在主世界中有着5种庞大的洞穴，与大多数正常的生物群系不同，这些洞穴生物群系的生成极其罕见，但每种生物群系都包含各种独特的方块、物品、生物和机制，这绝对能够让它们值得成为你探索地下的目的"
+			tasks: [{
+				id: "271DAA31C6F7B8B4"
+				type: "checkmark"
+			}]
+			title: "&aAlxe洞穴"
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["073CCD39EEC8E699"]
+			description: ["&6使用焦糖苹果可以驯服糖果独角兽，与原版的马一样也需要马鞍才能骑乘，如果你苦恼于不知道如何把它带回家，可以使用超维之眼。"]
+			id: "599EECBBC49ECCEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09D1FE4933C00FAA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "比一般的马速度要快得多"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_candicorn"
+				criterion: ""
+				id: "6988D8FD790F0998"
+				type: "advancement"
+			}]
+			title: "&4阳&6光&e彩&a虹&b小白马"
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["599EECBBC49ECCEA"]
+			description: ["&6切记一定要静悄悄地不要惊醒糖果巨虫~"]
+			icon: "alexscaves:candy_cane_pole"
+			id: "698B3B0A4EFBF6E6"
+			rewards: [
+				{
+					id: "38F774CEA0EC3F39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:sack_of_sating"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0750C2BCCDCD3413"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "自然生成于糖果洞穴，对外来者充满敌意"
+			tasks: [{
+				entity: "alexscaves:caniac"
+				id: "7A96DD2D35E71D2D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a嗜糖魔"
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34846E305D7D84D4"]
+			description: [
+				""
+				"&6何时这种想法已经烙印在人类心中了..."
+				""
+				"&4&m我居然一直没发现，真是可笑..."
+			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:soul_dust"
+				tag: { }
+			}
+			id: "0795B29432D0EF5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EC560165D061D38"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "&6若要奇迹降临，就必须承受肉体的苦痛?"
+			tasks: [{
+				id: "3A60FC03EC99A4BC"
+				type: "checkmark"
+			}]
+			title: "&d奇迹降世"
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"138127C31F5EFC69"
+				"0795B29432D0EF5E"
+			]
+			description: [
+				"&6你需要前往骑士要塞击杀幻影骑士，这样你就能控制幽冥高塔中的砷铅铁机关，获得挑战暮初恶魂的资格。"
+				"&6骑士被玩家伤害时，若其不处于攻击状态(没有棕色躯干)，回复其20%最大生命值且对玩家造成相当其攻击力50%的魔法伤害"
+				"&6每位骑士死亡时，会对周围一定范围内的所有生物施加虚弱效果"
+			]
+			icon: "twilightforest:trophy_pedestal"
+			id: "1C73F655574EC70C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "295C3ECB477B1FEC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "没有名字的坟墓底下，辉煌与荣耀蒙满苍苔"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "4C74ED4B221F414A"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "1EEB117E56254D2C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4机关&8号令"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"138127C31F5EFC69"
+				"0795B29432D0EF5E"
+			]
+			description: [
+				"&6你需要前往雪怪巢穴中击杀雪怪首领，击杀雪怪首领后你将获得抵御冰川之寒挑战冰雪女王的资格。"
+				"&6雪怪会在狂暴时对周围创造细雪"
+				"&6怪拥有600点冰冻值，周围存在玩家在细雪中时，冰冻值每s减20。当冰冻值归零时，冻结周围所有的玩家并重置冰冻值"
+			]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "546220F481DD5BA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B170A7837D83791"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "体型巨大的雪怪之王，但它的臣下并不服从王的号召"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "2D623D3623A71808"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "16E9AF67CE49E81E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b首领的毛皮"
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"138127C31F5EFC69"
+				"0795B29432D0EF5E"
+			]
+			description: [
+				"&6你需要前往牛头人迷宫中击杀米诺菇，并吃下它的掉落物沙拉酱肉，这样你就能获得前往火焰沼泽挑战九头蛇的资格。"
+				"&6米诺菇成功破盾后会获得持续1分钟的力量1效果"
+				"&6受到可追溯来源的远程攻击时，其攻击目标会转为远程攻击发出者"
+				"&6米诺菇当前攻击目标对米诺菇造成的伤害-80%，而非其攻击目标的攻击造成的伤害将+30%"
+				"&6生命值首次低于其最大生命值的90%时，获得8护甲与4护甲韧性与50最大生命值。并回复其所有生命值且推开附近的一切生物"
+			]
+			icon: "twilightforest:meef_stroganoff"
+			id: "1AD914F38D9428D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76EB8031B4945524"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "人的武术，牛的力量，怪物的灵魂"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "1DA0E6A57271E0C6"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					id: "5296130D8433515C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6强力的&8牛头人沙拉酱肉"
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"67FA37426B3A3F3C"
+				"546220F481DD5BA5"
+			]
+			description: [
+				"&6冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。"
+				"&6冰雪女王会在目标玩家身下生成陷阱。陷阱7s后生效并对上方附近的玩家造成冰冻"
+				"&6冰雪女王生命值低于1/2时，会获得10s的抗性提升5，并对周围的玩家施加7s的冰冻冷却[2min]"
+				"&6对附近所有处于冰冻状态的生物，冰雪女王会不断的对其造成其2%最大生命值的魔法伤害"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "67D43A2886EFAEB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5D92FD637536DC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "战啊，来战吧！我的心炽热如火！"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "77E58717259A991A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b澄澈之&6空[领主]"
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"75CCFE84E5370285"
+				"1AD914F38D9428D2"
+			]
+			description: [
+				"&6强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"
+				"&6九头蛇拥有400引爆值，当身边存在燃烧中的玩家时，每s会减去20引爆值.当引爆值归零时，重置引爆值并对周围所有燃烧中的生物造成爆炸"
+				"&6当九头蛇被玩家伤害前，会进行一次运气判定[生成随机数，随机数大，则会造成更多伤害，反之造成更少的伤害]"
+				"&6九头蛇的头越多，自身获得一定的生命回复效果."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "13B2BEAB35F8923C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E5D83BC3959B6F5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "神话中古老的存在，炽热的血与火见证传奇般的战斗"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "5E371F1A2038D0A7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6铲除&4祸害[领主]"
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E834D2312AD6C0F"
+				"1C73F655574EC70C"
+			]
+			description: [
+				"&6没人知道在过去发生了什么，这片森林只是伴随着一场灾难永远地成为了文明的遗迹。如今被称作暮初恶魂的生物盘踞在幽冥高塔顶部，终日徘徊在破碎不堪的塔楼遗址上空，并毫不珍惜昔日曾属于自己的高塔。"
+				"&6其受到的爆炸伤害+70%且未加成前的爆炸伤害低于10点时按照10点计算"
+				"&6当恶魂死亡时，会对周围大范围内的玩家造成相当与玩家180%最大生命值的魔法伤害"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "1F2F9F54D3AD02D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A2756DD8157638E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "黑暗的气息席卷半毁的高塔，异变的灵魂窃居于无光的夜空"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "50AE9DD824A3B017"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炽厄&d之泪[领主]"
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"00F7DAD88057BC9C"
+				"6C37DABA7BC9F47F"
+				"2F3CE21A15B0E14A"
+				"1F2F9F54D3AD02D6"
+				"67D43A2886EFAEB0"
+				"13B2BEAB35F8923C"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "725B3D8F47EE5173"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C5884A08C20EFA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					entity: "twilightforest:armored_giant"
+					id: "64EC841FFE8FF698"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "twilightforest:giant_miner"
+					id: "3C08F98A448CB2DE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6云层之上"
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["725B3D8F47EE5173"]
+			description: ["&6神的诞生你已然无法阻挡，不过还远远没有结束...."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:annihilation_flame"
+			}
+			id: "705C0C474A049ED4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F8261674C84B375"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&6你需要不断变强"
+			tasks: [{
+				id: "2BA78FE149229FCE"
+				title: "&6&m&l初级亵渎"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"42F60BFE64AC1AB6"
+			]
+			description: [
+				"&6在黑森林寻找到地精神庙,使用红色地精帽右键雕像进行召唤."
+				"&6他重未想要过战斗,他战斗只是为了他的子民们能够过上想之前人类那样的生活,这样的他们又犯下了什么过错?"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:warden_soul"
+				tag: { }
+			}
+			id: "1DA0FFECC7969DAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B0ECC448973EA50"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "&6&l既然已经&4犯错&6...那便再无退路..."
+			tasks: [{
+				entity: "terramity:gob"
+				id: "765B71D08DFD263A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5地精之&6王"
+			x: 28.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"705C0C474A049ED4"
+			]
+			description: ["&7由黑暗力量构成的生物，它能够吸收周围的生命力，使其周围的一切枯萎。"]
+			id: "42F60BFE64AC1AB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69ACDD9DF5C86E97"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "&8&l他浑身散发出一股熟悉而陌生的气味..."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "5E44D181E67E077D"
+				title: "下界之王"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4下届&8领主&4"
+			x: 26.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42F60BFE64AC1AB6"]
+			hide_dependency_lines: true
+			icon: "legendary_monsters:primal_ice_shard"
+			id: "3B5CC1A3966D58ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "262486DEF1C32E6D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				id: "68FB009855951206"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b刺骨冰寒"
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42F60BFE64AC1AB6"]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:soul_great_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "33855A59609FA310"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18F80AB744FB5E94"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "1FEBC18BDE792A49"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7癫狂骑士"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42F60BFE64AC1AB6"]
+			icon: {
+				Count: 1
+				id: "legendary_monsters:spiky_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FE154C5FC80184A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DC643ED75F38EFD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				id: "404A110F7F14B1EF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8古代机械"
+			x: 26.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42F60BFE64AC1AB6"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "legendary_monsters:sand_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3535F3145F8F14EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "002415C3832B1D4A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				id: "3B7F3D995827E2F0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6沙丘炮台"
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34846E305D7D84D4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "soulsweapons:draugr"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0DED1427D4DA8DA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EB045F021EC2779"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				id: "66A28D45B1CE2C48"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6英雄骸骨"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E530CCEDAB98BFB"]
+			description: [
+				"&7搭建方式如下图："
+				"{image:blasppp:textures/alloy.png width:180 height:60 align:center}"
+			]
+			id: "3F4F7F39169EAFA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19991FFC95E0442B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "矿石炼制"
+			tasks: [{
+				id: "4A67A153C517B68A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:deepslate_bricks_forge_controller"
+				}
+				type: "item"
+			}]
+			title: "&6炼矿石炉"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DA0FFECC7969DAF"]
+			id: "68AFC15F9C21C670"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A7C21F689C9123"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6443C19C58003C85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:dimlite_ingot"
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1DA0FFECC7969DAF"]
+			id: "77F5314329D865C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DD278DC7FDB2184"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "094B00D7E90675A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:virentium_alloy_ingot"
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1DA0FFECC7969DAF"]
+			id: "2940A90A3B30ED8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "182E9E0295AB3C91"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "62EA834BC2089441"
+				item: "terramity:cosmilite_ingot"
+				type: "item"
+			}]
+			x: 29.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA0FFECC7969DAF"]
+			id: "18BDA3544B2BADFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "788087BFA37CBBFF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33C57586A7E92222"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gobber2:gobber2_ingot_nether"
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"68AFC15F9C21C670"
+				"4DD67527DF5EC770"
+			]
+			id: "4577C7C5EE41A968"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452ECDDD20951264"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "176B380CD4C04980"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2complements:sculkium_ingot"
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"68AFC15F9C21C670"
+				"464EBE2EB7929CFF"
+			]
+			id: "696AD58E0334B234"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F59BCAB3E3D4537"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68A34AE9488EABFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "composite_material:echoium_ingot"
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B12FE3625F7299E"]
+			id: "464EBE2EB7929CFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D3DEDC04AC4042A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F018B538FAE539C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "composite_material:warden_hand"
+				}
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B12FE3625F7299E"]
+			id: "4DD67527DF5EC770"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74C214F4EB20CBAE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5842A66D73AB39B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:warden_soul"
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1DA0FFECC7969DAF"]
+			id: "7DD1C1760800C411"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "079E0F46B40E8D57"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "185302B8080AD55D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:evil_essence"
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"254EA2E7B12C696F"
+				"5CD228E352ADA261"
+				"7DD1C1760800C411"
+			]
+			icon: "minecells:kings_crest_flag"
+			id: "7B86520489091344"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696E8567366A3C0E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecells:root"
+					criterion: ""
+					id: "6B0247F4AAB4B267"
+					type: "advancement"
+				}
+				{
+					advancement: "enigmaticlegacy:main/cursed_ring"
+					criterion: ""
+					id: "7037E4B7FEF07C40"
+					type: "advancement"
+				}
+			]
+			title: "&6细胞之旅"
+			x: 33.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"2DEC5BD0F23EA5A9"
+				"7B86520489091344"
+			]
+			description: ["&6在一座古老的监狱大桥上有着一个高大身影，他是忠诚的守卫，他曾是王国中的高层之一，监狱的看守长,因对国王的忠诚和对正义的坚定信念，被任命为这座监狱的守卫，负责看管那些被囚禁的危险罪犯。然而，一场突如其来的瘟疫改变了他的一切。瘟疫从何而来已无人知晓，只知道它迅速在监狱中蔓延，许多囚犯和守卫都未能幸免。雷诺在一次巡逻中不慎感染了瘟疫，但他凭借着顽强的意志力，硬是撑过了最初几天的煎熬和剧痛。然而，瘟疫并未就此放过他，而是开始在他体内发生变异，逐渐将他变成一个半人半怪的恐怖存在."]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				id: "minecells:flint"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "58DE01EECBA8D395"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4229B8ACC009527E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "监狱守卫"
+			tasks: [{
+				entity: "minecells:concierge"
+				id: "73AE5BE1BA6AC8D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6监狱&8看守者"
+			x: 35.4d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"2DEC5BD0F23EA5A9"
+				"7B86520489091344"
+			]
+			description: ["&6在一片被遗忘的监狱深处，存在着一个古老的邪恶力量。这个力量源自于一个古时暴君的暴行，当初整个王国发生了极其恐怖的瘟疫,然而，暴君却下令将感染者关入大牢,一团团逐渐凝聚成了一个巨大的眼球形态，它就是“肿胀眼球”BOSS。这个眼球吸收了监狱中的瘟疫和腐朽气息，不断膨胀和变异，最终成为了一个拥有强大生命力和破坏力的怪物."]
+			icon: {
+				Count: 1
+				id: "minecells:conjunctivius_respawn_rune"
+				tag: { }
+			}
+			id: "2767FBBAB67A6C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FBE1225DF57535C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "疫病囤积"
+			tasks: [{
+				entity: "minecells:conjunctivius"
+				id: "66C6F62D0AD069E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d腐臭&4眼球"
+			x: 35.4d
+			y: 2.4d
+		}
+		{
+			dependencies: [
+				"5CD228E352ADA261"
+				"762A3977105009B8"
+				"46A556616F403F8B"
+				"58DE01EECBA8D395"
+				"2767FBBAB67A6C8A"
+			]
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:annihilation_flame"
+			}
+			id: "5C8B2867EA90713A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "355FE902D26E4C66"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "&6神明已然愤怒..."
+			tasks: [{
+				id: "7B9AA94A1B12FDBE"
+				type: "checkmark"
+			}]
+			title: "&l&4&m中阶亵渎"
+			x: 36.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0795B29432D0EF5E"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6如果萌新在前期遇到龙的话强烈建议直接跑，因为你不可能是它的对手，而老手应该会有自己的应对之策，但你千万不要因为杀了几只地面上的龙就沾沾自喜，因为真正的巨龙位于地下，地面上的龙全部为3级龙，而地下龙巢中的龙为4或5级，那是真正的巨龙，击杀4级以上的母龙会掉落龙蛋，孵化出来的龙将会认定你为主人，能够为你而战，也可以骑在龙上自由的飞翔，当然最重要的还是锻造龙钢。"
+				""
+				"&6如果你成功击杀了巨龙，那么恭喜你，你获得了一具浑身是宝的尸体，空手右键即可获得龙鳞与龙心脏和龙骨，如果使用空瓶子右键即可获得龙血，如果你选择装龙血那么就无法获得龙鳞与龙心脏。"
+				""
+				"&c龙钢锭配方：对应的龙血+&6&n神圣锭&r"
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:dragon_skull_fire"
+			id: "5AD678C7CE8891AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "516A36009CD1F7D3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "5943083A3BE3B0FB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a屠龙勇士-火龙"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0795B29432D0EF5E"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6如果萌新在前期遇到龙的话强烈建议直接跑，因为你不可能是它的对手，而老手应该会有自己的应对之策，但你千万不要因为杀了几只地面上的龙就沾沾自喜，因为真正的巨龙位于地下，地面上的龙全部为3级龙，而地下龙巢中的龙为4或5级，那是真正的巨龙，击杀4级以上的母龙会掉落龙蛋，孵化出来的龙将会认定你为主人，能够为你而战，也可以骑在龙上自由的飞翔，当然最重要的还是锻造龙钢。"
+				""
+				"&6如果你成功击杀了巨龙，那么恭喜你，你获得了一具浑身是宝的尸体，空手右键即可获得龙鳞与龙心脏和龙骨，如果使用空瓶子右键即可获得龙血，如果你选择装龙血那么就无法获得龙鳞与龙心脏。"
+				""
+				"&c龙钢锭配方：对应的龙血+&6&n神圣锭&r"
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:dragon_skull_ice"
+			id: "65097175EA890FEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18212A7A5D361664"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "3887D2AE79DADA73"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a屠龙勇士-冰龙"
+			x: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0795B29432D0EF5E"]
+			dependency_requirement: "one_started"
+			description: [
+				"&6如果萌新在前期遇到龙的话强烈建议直接跑，因为你不可能是它的对手，而老手应该会有自己的应对之策，但你千万不要因为杀了几只地面上的龙就沾沾自喜，因为真正的巨龙位于地下，地面上的龙全部为3级龙，而地下龙巢中的龙为4或5级，那是真正的巨龙，击杀4级以上的母龙会掉落龙蛋，孵化出来的龙将会认定你为主人，能够为你而战，也可以骑在龙上自由的飞翔，当然最重要的还是锻造龙钢。"
+				""
+				"&6如果你成功击杀了巨龙，那么恭喜你，你获得了一具浑身是宝的尸体，空手右键即可获得龙鳞与龙心脏和龙骨，如果使用空瓶子右键即可获得龙血，如果你选择装龙血那么就无法获得龙鳞与龙心脏。"
+				""
+				"&c龙钢锭配方：对应的龙血+&6&n神圣锭&r"
+			]
+			hide_dependency_lines: true
+			icon: "iceandfire:dragon_skull_lightning"
+			id: "659CA5C83B2105DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AB2DA3CBCC2ADD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "48AFEAE47912882D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a屠龙勇士-电龙"
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0795B29432D0EF5E"]
+			description: ["&6如果在游戏前期你能够捡到野外的龙骨，并发现鸡蛇击杀得到凋零之骨的话建议先做一把龙骨剑防身。"]
+			hide_dependency_lines: true
+			id: "024EDC9F259C2EB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4708D3107D8E7399"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "在前期来说是一把神兵利器"
+			tasks: [{
+				id: "59A3572BC4E16D0B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a龙骨剑"
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["024EDC9F259C2EB9"]
+			description: ["&6击杀自然生成的幽灵有极低的概率掉落灵锭。"]
+			hide_dependency_lines: true
+			id: "0ABE26CBD2B09553"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A980A7645129FAD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "某种意义上来说，这把剑比龙钢剑还要稀有"
+			tasks: [{
+				id: "4A578261A716601F"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a幻灵剑"
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["024EDC9F259C2EB9"]
+			description: ["&6龙骨长弓只能使用龙骨箭，但换来的是远超原版弓箭的威力，这绝对是值得的。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonbone_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A2FD04D4D175F4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D296274CDDC325"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "由龙之骨打造而成"
+			tasks: [
+				{
+					id: "5AF75C76982BA797"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B71978E2109932"
+					item: "iceandfire:dragonbone_arrow"
+					type: "item"
+				}
+			]
+			title: "&a龙骨长弓"
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["024EDC9F259C2EB9"]
+			description: ["&6基础伤害比龙骨剑要高，被此剑命中的生物会被燃烧，并且对冰龙有克制效果。"]
+			hide_dependency_lines: true
+			id: "72CAD6EEEEB627CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75E71D081BA9BAC4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "将龙血与龙骨融为一体后得到的传奇武器"
+			tasks: [{
+				id: "5E8DA10E871203C8"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a龙炎骨血剑"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["024EDC9F259C2EB9"]
+			description: ["&6基础伤害比龙骨剑要高，被此剑命中的生物会被冻结，并且对火龙有克制效果。"]
+			hide_dependency_lines: true
+			id: "53958E596A494502"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BFECFA955A54EB3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "将龙血与龙骨融为一体后得到的传奇武器"
+			tasks: [{
+				id: "5BDE3039A671C403"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a龙霜骨血剑"
+			x: 17.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["024EDC9F259C2EB9"]
+			dependency_requirement: "one_completed"
+			description: ["&6基础伤害比龙骨剑要高，被此剑命中的生物会被闪电电击，并且对冰、火龙都有克制效果。"]
+			hide_dependency_lines: true
+			id: "6F436AD318463CAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59E164D5BE87797E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "将龙血与龙骨融为一体后得到的传奇武器"
+			tasks: [{
+				id: "1BE66FE9937BD4DB"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a龙霆骨血剑"
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["659CA5C83B2105DF"]
+			description: [
+				"&6首先请看下方图中的左中右&c（图中最左边的为最上面的一层，最右边的为最下面的一层，你需要将图中这三层组装成3X3的结构即可完成龙钢锻炉的搭建，如果仍有疑问可以查阅异兽手记或MC百科），&6随后在里面放入对应的龙血与暗金属锭，最后将至少3级以上的龙放在锻炉旁边，如果此时锻炉内有材料，那么龙就会对着锻炉喷吐龙息进行龙钢的炼治。"
+				""
+			]
+			icon: "iceandfire:dragonforge_lightning_input"
+			id: "0E32DC20B50FD7FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C0002E3774743E5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "奇迹的冶炼，无尽的历练，带来的是不毁的金属，带来的是宛如神明的境界"
+			tasks: [
+				{
+					count: 17L
+					id: "3FA0456D86EE458E"
+					item: { Count: 25, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+				{
+					id: "10A57EF1EC28D6F1"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+				{
+					id: "4C202628BF8EDCD8"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5FE3745473D66505"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+			]
+			title: "&a龙霆钢锻炉"
+			x: 19.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["65097175EA890FEB"]
+			description: ["&6首先请看下方图中的左中右&c（图中最左边的为最上面的一层，最右边的为最下面的一层，你需要将图中这三层组装成3X3的结构即可完成龙钢锻炉的搭建，如果仍有疑问可以查阅异兽手记或MC百科），&6随后在里面放入对应的龙血与暗金属锭，最后将至少3级以上的龙放在锻炉旁边，如果此时锻炉内有材料，那么龙就会对着锻炉喷吐龙息进行龙钢的炼治。"]
+			icon: "iceandfire:dragonforge_ice_input"
+			id: "597BAE22D395E3F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FB18A6271F37073"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "奇迹的冶炼，无尽的历练，带来的是不毁的金属，带来的是宛如神明的境界"
+			tasks: [
+				{
+					count: 17L
+					id: "5BD5744431347878"
+					item: { Count: 25, id: "iceandfire:dragonforge_ice_brick" }
+					type: "item"
+				}
+				{
+					id: "1413D1D583AE6702"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+					type: "item"
+				}
+				{
+					id: "3FE49F2BAF37D560"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "134F793B4F54F591"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+			]
+			title: "&a龙霜钢锻炉"
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5AD678C7CE8891AA"]
+			description: ["&6首先请看下方图中的左中右&c（图中最左边的为最上面的一层，最右边的为最下面的一层，你需要将图中这三层组装成3X3的结构即可完成龙钢锻炉的搭建，如果仍有疑问可以查阅异兽手记或MC百科），&6随后在里面放入对应的龙血与暗金属锭，最后将至少3级以上的龙放在锻炉旁边，如果此时锻炉内有材料，那么龙就会对着锻炉喷吐龙息进行龙钢的炼治。"]
+			icon: "iceandfire:dragonforge_fire_input"
+			id: "403F4DD9DF13DCCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AF5550B4929A5B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "奇迹的冶炼，无尽的历练，带来的是不毁的金属，带来的是宛如神明的境界"
+			tasks: [
+				{
+					count: 17L
+					id: "4EB4A5B3CAC5A168"
+					item: { Count: 25, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					id: "0C646C98338210B2"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+				{
+					id: "05C5B6DA4B84BA99"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6920F0B555E299DB"
+					item: { Count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+			]
+			title: "&a龙炎钢锻炉"
+			x: 15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5C8B2867EA90713A"]
+			description: [
+				"&6你需要先做出虚空百合，然后将虚空百合放在地面上跟随它的黄色粒子找到位于主世界地下的稀有洞穴，虚空之花藏于洞穴中心位置的地下，当你走到中心位置时虚空之花便会自己出来，也许你需要一把火焰附加的武器来解决它。"
+				""
+				"&c你也可以使用探险家指南针搜索Void Blossom来找到它，请注意，虚空之花的洞穴通常位于基岩层。"
+			]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "0874537A87B8EFE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CC66BACD58612CE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "这朵活着的花不属于主世界，没人知道它是如何来到主世界的"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "1614B141E9D72956"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a虚空百合"
+			x: 39.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C8B2867EA90713A"]
+			description: [
+				"&6你需要先做几个灵魂之星，然后就像寻找原版末地堡垒那样跟随灵魂之星找到位于寒冷群系的稀有高塔，高塔中心位置会有4个雕文祭坛，将4个灵魂之星分别放入4个祭坛之中即可召唤暗夜巫妖，召唤后时间将会变为黑夜。"
+				""
+				"&c你也可以使用探险家指南针搜索Lich Tower来找到该结构。"
+			]
+			hide_text_until_complete: false
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "01063161A607570E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CEABC3605535DB1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "掌管黑夜的大法师亡灵巫妖，在千年前被不知名的挑战者打败后镇压封印在高塔之中"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "2572F72FE544E646"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a暗夜巫妖"
+			x: 39.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"0874537A87B8EFE1"
+				"244EB52933DE1B42"
+				"01063161A607570E"
+			]
+			description: ["&6在很久以前，世界陷入了黑暗和混乱之中，生命之种的生长受到了严重的阻碍。原初之神为了拯救世界，派遣神之幼子嗅探兽去寻找那些失落的生命之种，并将它们重新种回大地。嗅探兽历经艰险，穿越了无数的险境，最终成功地找到了大部分生命之种，并让它们重新焕发生机。从此，它成为了世界的守护者，一直在默默地守护着生命之种和世界的平衡"]
+			icon: "minecraft:sniffer_egg"
+			id: "75B0ECABF0C93900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6442736240A03E24"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "&e当你使用闪电击中嗅探兽时他将会出现..."
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:sniffer_egg"
+				}
+				id: "40D687CBBEF20CBF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神之子&4[领主]"
+			x: 41.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"5C8B2867EA90713A"
+			]
+			description: ["&6在古老的太阳神殿中，供奉着一颗拥有强大力量的太阳之眼。这颗眼珠能够掌控光明与火焰，为世间带来生机与温暖。然而，黑暗势力觊觎这份力量已久，他们施展邪恶的魔法，将太阳之眼从神殿中剥离，并将其植入一只巨大的手掌之中，这只手掌原本是太阳神用来创造和守护世界的神圣之器，但在黑暗力量的影响下，变得狂暴而邪恶，成为了烈阳魔掌・邪眼。"]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "244EB52933DE1B42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14F6F7495EBDC6AB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "邪眼之掌"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "7AC2A36B1F5A8447"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4恶魔之&6手[领主]"
+			x: 39.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: [
+				"&6可以从渊海遗迹中找到潜水艇，如果潜水艇已经破损的话使用铜锭可以修复，驾驶潜水艇时可以大幅提高深水中视野的能见度。"
+				""
+				"&6若想自己手动建造潜水艇的话你需要先击杀碎船兽取得奥秘引擎。"
+			]
+			icon: "alexscaves:submarine"
+			id: "0C399322172D01A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D90120228D3368"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "探索渊海陷窟最安全的方式"
+			tasks: [{
+				id: "799B2E2EAD415CEA"
+				item: "alexscaves:enigmatic_engine"
+				type: "item"
+			}]
+			title: "&a潜水艇"
+			x: 37.0d
+			y: -2.5d
+		}
+		{
+			description: ["&6渊海陷窟只会自然生成在海洋生物群系的下方，看上去就像一片巨大阴暗的海沟，有时你还能发现谜一般的远古文明所遗留下来的研究所，同时这片海域还有着很多其他充满谜团的遗迹等待探索......"]
+			hide_dependent_lines: true
+			id: "611513301DD77D04"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A65169F202A340"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "传说，在充满无尽恐惧——以及万物永远无法涉足的地方——海洋的最底部便是“死神恶魔”的住所"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_abyssal_chasm"
+				criterion: ""
+				id: "3D9635BB79C5B784"
+				type: "advancement"
+			}]
+			title: "&a渊海陷窟"
+			x: 39.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: ["&6可以在渊海陷窟的战利品箱中找到，或是击杀穿戴套装溺尸有概率掉落，潜水套装同时穿戴全套不会有额外效果，但它的每一个部件都有其各自的作用：头盔可以在出水时提供40秒的水下呼吸，胸甲提供盔甲韧性，护腿可以加快玩家的游泳速度，靴子可以使玩家不受海底淤泥的减速影响。"]
+			icon: {
+				Count: 1
+				id: "alexscaves:diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39654E6ACC8338CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "470EF8668E065C03"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "已灭亡的文明所拥有的潜水服装，制作工艺已不可考"
+			tasks: [
+				{
+					id: "68157751D2BD7011"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B522FC1DC3808F2"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AC10374C037994D"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "030783EB2CEE8746"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a潜水套装"
+			x: 41.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: [
+				"&6与深潜者骑士交易有概率获得。"
+				""
+				"&6手持螺纹长枪，长按右键蓄力，之后松开右键可以向前发射水浪并突进一段距离（类似激流魔咒的三叉戟），水浪也可以对生物造成伤害。"
+			]
+			id: "0A5A149AC146AC60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BAE3E7F06419D2E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "另类的“三叉戟”"
+			tasks: [{
+				id: "3F70495495EAB0BE"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a螺纹长枪"
+			x: 41.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: ["&6挖掘贻贝有概率掉落，或是通过渊海陷窟中的战利品箱以及合成获得，主要是用于合成渊海祭坛。"]
+			id: "38C7E7E60CAAEEF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34EBCFC0A3BE8E6E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "比钻石更珍贵"
+			tasks: [{
+				id: "5F0D0352D3A2D594"
+				item: "alexscaves:pearl"
+				type: "item"
+			}]
+			title: "&a珍珠"
+			x: 39.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: [
+				"&6与深潜者交易有概率获得。"
+				""
+				"&6用于查看深潜者对玩家的好感度。处于背包或物品栏时，窥愿珍珠会根据深潜者当前的好感度变色，鼠标置于窥愿珍珠上可显示当前颜色的具体描述。和深潜者交易可以获得正好感度，攻击深潜者获得负好感度。深潜者对玩家的好感度，决定了其采取的态度：敌对，警惕，中立，友好。"
+			]
+			id: "04F6ED6B1ACDBB52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1862596A025994EC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "窥视深渊"
+			tasks: [{
+				id: "1B5A16D7EF809003"
+				item: {
+					Count: 1
+					id: "alexscaves:gazing_pearl"
+					tag: {
+						HasReputation: 1b
+						LastReputationTimestamp: 97545L
+						Reputation: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "&a窥愿珍珠"
+			x: 37.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: [
+				"&6与深潜者法师交易有小概率获得。"
+				""
+				"&6手持海洋法杖右键点击，可以向前发射能追踪生物的水箭，击中生物或方块时，会产生一定范围的爆炸，对波及的生物造成伤害并击退。"
+			]
+			id: "66A40258EF31F882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6404D7E0BF9BA3D8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "海洋，听我号令"
+			tasks: [{
+				id: "58549541988E3FE6"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a海洋法杖"
+			x: 37.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: ["&6用于与深潜者的交易。主手拿取珍珠时右键可在祭坛上放置珍珠，深潜者看到后会取走珍珠，随机将一些物品置于祭坛上，此时再次右键可将交易物取下，即算作完成一次交易。每完成一次交易，深潜者对玩家的好感度会提升，多次与深潜者达成交易后，它们将不会避免与玩家接触，好感度提升到一定程度后不会与玩家敌对，会主动帮助玩家战斗（但是不会跟随玩家）。"]
+			id: "3CB40BA1E9150A44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3557630348E6A8A4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "与深海之下的原住民们搞好关系"
+			tasks: [{
+				id: "5C318FC31954854C"
+				item: "alexscaves:abyssal_altar"
+				type: "item"
+			}]
+			title: "&a渊海祭坛"
+			x: 39.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			description: [
+				"&6与深潜者骑士进行交易有概率获得。"
+				""
+				"&6右键使用后可以随机召唤一大群深潜者为你战斗，一段时间后召唤的深潜者会消失。使用有冷却，每次使用消耗1点耐久。"
+			]
+			id: "419A44B49B867D5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02EB91221D890D8E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "为什么不问问神奇的海螺呢？"
+			tasks: [{
+				id: "3B4C4C8A1C3A1DF5"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a神奇海螺"
+			x: 41.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6深潜者之中最为强大的一种，生活在渊海陷窟的深处，熟练使用各种法术，即使在陆地上也能用巧妙的方法保持浮空，对外来者保持警惕。"
+				""
+				"&c它们会与玩家通过渊海祭坛进行交易，玩家提供珍珠，深潜者们提供各种物品。"
+			]
+			icon: "alexscaves:spawn_egg_deep_one_mage"
+			id: "4EB87E2E2B3D10B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10303A6A34ED836A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "深渊之底的原住民，外貌骇人，却有着高等的文明，是名副其实的智慧生命。"
+			tasks: [{
+				id: "7C5ED2A363549EAE"
+				type: "checkmark"
+			}]
+			title: "&a深潜者法师"
+			x: 41.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6会使用手中的武器，如手持三叉戟的深潜者骑士就会投掷三叉戟以进行远程攻击，虽然在这之后它们需要把三叉戟捡回来。手中无武器时，也会使用口部撕咬。"
+				""
+				"&c它们会与玩家通过渊海祭坛进行交易，玩家提供珍珠，深潜者们提供各种物品。"
+			]
+			icon: "alexscaves:spawn_egg_deep_one_knight"
+			id: "29239A16C8F3F67D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E0E9F50E268939E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "深渊之底的原住民，外貌骇人，却有着高等的文明，是名副其实的智慧生命。"
+			tasks: [{
+				id: "0679F62394E02272"
+				type: "checkmark"
+			}]
+			title: "&a深潜者骑士"
+			x: 39.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6玩家与深潜者交易时，会提高与整个深潜者族群的好感度，攻击或杀死深潜者则会降低与深潜者族群的好感度。荆棘伤害不影响好感度。好感度会影响深潜者对玩家的态度，初始为警惕，会与玩家保持距离，即使被玩家接近也会向玩家投掷墨水炸弹并远离玩家；最高为友好，会帮助玩家战斗；最低为敌对，会主动攻击玩家。可以通过窥愿珍珠查看当前深潜者族群对玩家的好感度。"
+				""
+				"&c它们会与玩家通过渊海祭坛进行交易，玩家提供珍珠，深潜者们提供各种物品。"
+			]
+			icon: "alexscaves:spawn_egg_deep_one"
+			id: "5FCB14696136C3E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21D60171FD5B800D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "深渊之底的原住民，外貌骇人，却有着高等的文明，是名副其实的智慧生命。"
+			tasks: [{
+				id: "2440376A6BCB6214"
+				type: "checkmark"
+			}]
+			title: "&a深潜者"
+			x: 37.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["611513301DD77D04"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6会自然生成在渊海陷窟内，&6默认情况下不会主动攻击生物，但是这个巨大的海怪会被光照吸引，并攻击任何会发光的实体（包括玩家）。碎船兽总会在攻击之前仔细端详它的猎物，在目标周围盘旋数周，同时体表的发光器官开始猛烈的闪烁。碎船兽在攻击潜水艇内的玩家时也会对潜水艇造成伤害。"
+				""
+				"&o&n&d也许与在沉没之城中的利维坦是亲戚关系。&r&o&r"
+			]
+			icon: "alexscaves:twilight_anemone"
+			id: "542781589C51114E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DE80D444C82CBB4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "仅存于至暗深渊中的暴虐巨兽，吞噬着一切敢于照亮渊海的光芒"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "073613179D20710D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a无尽深海的渊狱死神"
+			x: 39.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "all_started"
+			description: ["&6耐久耗尽后消耗铀棒恢复耐久，值得一提的是，射线枪对于普通的蟑螂无法造成伤害，但是对伽马蟑螂可以造成伤害。"]
+			id: "706009D3B473142C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19A8DBBFBA26686F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "利用辐能"
+			tasks: [{
+				id: "6D9C427341ECC666"
+				item: {
+					Count: 1
+					id: "alexscaves:raygun"
+					tag: {
+						PrevRayX: 163.6075946154405d
+						PrevRayY: -59.355494886636734d
+						PrevRayZ: 129.88685155428456d
+						PrevUseTime: 0
+						RayX: 163.6075946154405d
+						RayY: -59.355494886636734d
+						RayZ: 129.88685155428456d
+						UseTime: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a射线枪"
+			x: 37.0d
+			y: 6.0d
+		}
+		{
+			description: ["&6毒化洞穴位于主世界地下，是一处大片面积的地底废土，有证据表明这是曾存于世界的某个文明过分狂妄自负与肆意滥用科技所最终导致的杰作，如今这里只剩下极端恶劣的环境，以及成群的亡命之徒与怪异之物。"]
+			hide_dependent_lines: true
+			icon: "alexscaves:waste_drum"
+			id: "088309AB133FB125"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D18486EDC859DC3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "被永久埋葬的，笼罩于幽幽绿光中的恶浊废土。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "6FCC28D5C863F776"
+				type: "advancement"
+			}]
+			title: "&a毒化洞穴"
+			x: 39.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			description: [
+				"&6铀晶：挖掘辐射铀矿石掉落的合成材料，若不穿戴防化服的情况下获取铀晶则有几率获得辐照。"
+				""
+				"&6硫粉：挖掘毒化洞穴中的硫磺晶簇和硫磺晶芽获得。"
+				""
+				"&6氡气瓶：使用玻璃瓶在酸液上方的各种大小的地热通口右键获得。"
+			]
+			icon: "alexscaves:uranium"
+			id: "59854D1098A46705"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "133ED50BF0511AFB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "受到长期辐射所形成的材料，可用于合成很多物品"
+			tasks: [
+				{
+					id: "07FF632B97D9AED2"
+					item: "alexscaves:uranium"
+					type: "item"
+				}
+				{
+					id: "38C669809C81E895"
+					item: "alexscaves:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "3F076965925F0A5F"
+					item: "alexscaves:radon_bottle"
+					type: "item"
+				}
+			]
+			title: "&a辐能材料"
+			x: 39.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "all_started"
+			description: ["&6使用核能高炉部件摆放成 2*2*2 的结构生成，核能高炉能像高炉一样烧炼高炉能烧的所有物品（也就是支持高炉的合成表），但是需要铀棒作为燃料，并且拥有更高的烧炼效率。消耗一根铀棒约能烧炼 60 个物品，消耗铀棒烧炼物品之后，核能高炉会蓄积核废料，一根铀棒产生一份核废料，核能高炉最多可以储存9份核废料（注意不是10份，达到10就爆炸了）。"]
+			icon: "alexscaves:nuclear_furnace_component"
+			id: "0B6A96F1CC1258FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BA50A5A63B14F03"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "利用核能来烧矿会更有效率，同时也存在着风险"
+			tasks: [{
+				count: 4L
+				id: "6F1BBBA40EB078B2"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			title: "&a核能熔炉"
+			x: 41.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6毒化洞穴唯一的友好生物，不会像原版猫一样看见玩家就会逃走，免疫酸液伤害，手持辐鳃鱼喂食射线猫有概率将其驯服，与原版生物一样。仅需喂食两只射线猫各一个辐鳃鱼可使它们繁殖。注意：繁殖出来的小射线猫没有主人，需要喂食辐鳃鱼驯服。右键可命令被驯服的射线猫坐下，跟随，徘徊。虽然射线猫无法帮助玩家战斗，但具备吓退核能苦力怕的能力，并且会不定时期吸收玩家身上的辐照效果。"]
+			icon: "alexscaves:cooked_radgill"
+			id: "61988EA8115F7CD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39F4BADFD2A1119B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "射线猫原本是已成骨架的猫，却因体内的极高的放射活性而得到了不死的能力"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_raycat"
+				criterion: ""
+				id: "26B467FF4BB88F92"
+				type: "advancement"
+			}]
+			title: "&a射线猫"
+			x: 41.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6初始是中立的，但会主动攻击有辐照效果的生物，受到伤害之后会在原地释放一团毒气，在毒气范围内的生物会获得辐照效果。"]
+			icon: "alexscaves:toxic_paste"
+			id: "54ADE62A6CE0CE56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "783CFDDF61327521"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "受辐射影响的普通蟑螂，如今浑身都充满了放射性元素"
+			tasks: [{
+				entity: "alexscaves:gammaroach"
+				id: "387B9110BC6E977D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a伽马蟑螂"
+			x: 41.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6可以在一定程度上减弱辐照效果，如携带焦化残骸等物品或身处毒化洞穴中时不再会每隔一段时间受到辐照效果。但它无法抵御太过强大的辐照效果，如掉入核能高炉顶部的开口和承受核爆受到的高等级辐照效果。"]
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1991ABCA9D734B8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29838F2056C3D627"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "穿上这套装备你将在毒化洞穴中如履平地"
+			tasks: [
+				{
+					id: "79968C504589DEC3"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B2CAECA0048F327"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D3801E3185CD32F"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5877EB92EB395C24"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4F7477BD3DE7DA"
+					type: "checkmark"
+				}
+			]
+			title: "&a防化服"
+			x: 39.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6一旦核能苦力怕周围有玩家，它就会靠近并开始起爆倒计时，倒计时约为15秒钟，此时核能苦力怕的头部会发出类似核能警示灯的绿光，同时会使周围的核能警报器播放警报声来警告玩家，同时头部上下的金属会不断靠近，当两块金属相撞时，就会发生核爆，如果玩家没有在核能苦力怕爆炸前将其击败，那么它的爆炸将会带来无比严重的后果！（也许你可以尝试硬抗核爆）"]
+			icon: "alexscaves:fissile_core"
+			id: "0185640C1E143276"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EAEE381E3A4B12A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "受辐射影响的苦力怕，当苦力怕与辐能相结合，其碰撞出来的巨大能量威力不亚于核弹"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				id: "08F3EEEE7104114A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a核能苦力怕"
+			x: 39.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6可直接食用或烹饪为熟辐鳃鱼后食用，也可用于驯服射线猫。"]
+			icon: "alexscaves:radgill"
+			id: "0C986F0202011074"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5905F11B482C7C00"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "辐鳃鱼是一种在毒化洞穴的酸液里游动的可怖变异鱼类"
+			tasks: [{
+				entity: "alexscaves:radgill"
+				id: "62B4218DE7AE8307"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a辐鳃鱼"
+			x: 37.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			dependency_requirement: "one_started"
+			description: ["&6距离敌人较远时使用长舌攻击，靠近时使用手臂攻击。舐脑魔有时会饮用背后的核废料，并使自己获得速度和力量效果。有时也会把核废料桶扔出，并流出核废料伤害范围内的所有生物并给予生物辐照效果。"]
+			icon: "alexscaves:charred_remnant"
+			id: "1A798992D9341CF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "195FAFDB52A8EC94"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "这种生物的历史来由可能是造成该环境的古代核文明制造的生化改造人，这可以从它们体内的一些机械部件来证明"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "195017D3D4CD37CA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a舐脑魔"
+			x: 37.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["088309AB133FB125"]
+			description: ["&6可以像TNT一样被打火石和红石信号引爆，但我强烈建议你使用遥控起爆器，手持遥控起爆器右键绑定核弹，再次右键即可引爆，如果你后悔了点燃核弹的行为，使用剪刀右击点燃的核弹就可以取消爆炸，并且核弹会变为物品形式。"]
+			icon: "alexscaves:nuclear_bomb"
+			id: "13E9907B910E7C39"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19056CC0347A590A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4951926216C6B121"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "&a为美好的世界献上爆炎"
+			x: 39.0d
+			y: 12.0d
+		}
+		{
+			description: ["&6异寂空谷位于主世界的地下，里面各种原生物种均已被黑暗力量所扭曲，有少数甚至被更深层次的黑暗力量所侵蚀，然而即使是现在，仍然有异教徒正不断地尝试召唤那些来自更黑暗异界的同类......"]
+			hide_dependent_lines: true
+			icon: "alexscaves:peering_coprolith"
+			id: "1311C1AD0FE29327"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E077192BAE833A8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "这所空谷对任何外来者都充满了恶意，誓要将侵入这处所的生灵撕烂粉碎"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_forlorn_hollows"
+				criterion: ""
+				id: "2C551DB6C0D81C01"
+				type: "advancement"
+			}]
+			title: "&a异寂空谷"
+			x: 48.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			description: ["&6击杀地底异教徒有小概率掉落，在攻击后会召唤一个分身，分身会锁定被攻击的对象，短暂蓄力后造成1点魔法伤害，每次攻击只能锁定一个目标。"]
+			id: "62DECF005F2EE4CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257C4725815F0791"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "阴暗肮脏的黑魔法造物，背后的匕首带着不可否认的恶毒"
+			tasks: [{
+				id: "0A797EF33F1F7AC9"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a荒芜匕首"
+			x: 50.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			description: ["&6类似摄像头，手持神秘宝珠右键绑定窥探器，使用绑定的神秘宝珠可调用窥探器的视角。"]
+			icon: "alexscaves:beholder"
+			id: "5FC0DC81A26FC255"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38961975E6E0D086"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "我是一名保安"
+			tasks: [
+				{
+					id: "7BF3D3F6A096D234"
+					item: "alexscaves:beholder"
+					type: "item"
+				}
+				{
+					id: "417E664F25CDF1B1"
+					item: "alexscaves:occult_gem"
+					type: "item"
+				}
+				{
+					id: "43EC132A92ACCAD4"
+					type: "checkmark"
+				}
+			]
+			title: "&a窥探器"
+			x: 48.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			description: [
+				"&6此物品攻击实体后右键可操纵实体，期间持续消耗耐久，被操纵的实体接近其他实体会自动攻击，无法操纵BOSS级别的生物。"
+				""
+				"&c你可以用它来操控夜行蝙蝠或地底异教徒来召唤遗弃者。"
+			]
+			id: "7E4ACB52C4931131"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F11804377406501"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "灵魂不够强大的生物将会被控制"
+			tasks: [{
+				id: "5F3A9F07683BF9EA"
+				item: {
+					Count: 1
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a控心图腾"
+			x: 46.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			dependency_requirement: "one_started"
+			description: ["&6地底异教徒对擅自闯入领地的外来者并不友好，它们会主动攻击玩家，并在攻击一次之后钻入地底，一段时间后从另一个地方钻出打游击。地底异教徒们害怕光照，所以会尝试破坏光源（只会破坏火把和灵魂火把，且几率较低），使玩家探索变得更加困难，但比这更糟糕的是它们可能会捕获被光源吸引而来的幽暗蛾。当地底异教徒成功抓住飞行的幽暗蛾时，其他的地底异教徒就会闻讯赶来，以幽暗蛾为祭品呼唤黑暗降临。当至少3名（不包括手持祭品的）地底异教徒参与仪式时，黑暗存在便会在仪式上方降临，并最终被幽暗蛾吸收，使其转变为窥心者。虽然看起来是幽暗蛾和地底异教徒融合而诞生的窥心者，但实际上抓着祭品的那个最后是钻地跑掉了。因为它们狂热的信仰，仪式中的地底异教徒不会对玩家产生仇恨，除非玩家杀死了祭品或手持祭品的地底异教徒而使仪式中断。"]
+			icon: "alexscaves:dark_tatters"
+			id: "0EF9369E64523CFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "427042611C0E4306"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "这群狂热的邪教徒们正在密谋策划唤醒一些不好的东西"
+			tasks: [
+				{
+					entity: "alexscaves:underzealot"
+					id: "0014330D65E7460D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:watcher"
+					id: "4056DAB25D0C0907"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a地底居民"
+			x: 48.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			description: [
+				"&6使用暗影丝绸合成获得。"
+				""
+				"&6恐惧之弓的拉弓速度比普通弓要慢得多，但在发射后将会有多个箭矢从目标上空落下，如果你使用的是采掘箭，那么你将体验到用弓挖方块的感觉。"
+			]
+			id: "3FF469505155BB87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4432CED6094EA9CB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "魔界之弓"
+			tasks: [{
+				id: "444BFF8D331F62D7"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+						LastUsedArrowType: "minecraft:arrow"
+						PrevUseTime: 0
+						UseTime: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a恐惧之弓"
+			x: 50.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			description: [
+				"&6使用暗影丝绸合成获得。"
+				""
+				"&6当两件盔甲都被穿戴时，穿戴者就会进入暗影状态，在10秒内获得极快的飞行能力，然而，这种能力也只有在完全隔绝光照的地方才能生效，使用暗染苹果可以延长暗影状态的持续时间。"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:hood_of_darkness"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "422A3E6191E1F4D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A62B1AEDD78267C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "完全隔绝光"
+			tasks: [
+				{
+					id: "76C28A093B4AB72F"
+					item: {
+						Count: 1
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DF4E9F1F65EC0F5"
+					item: {
+						Count: 1
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CCD12DE0DF499FA"
+					item: "alexscaves:darkened_apple"
+					type: "item"
+				}
+			]
+			title: "&a黑暗降临"
+			x: 46.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1311C1AD0FE29327"]
+			dependency_requirement: "one_started"
+			description: ["&6不会自然生成，而是由地底异教徒抓住夜行蝠后举行邪恶仪式后生成，&6遗弃者是迄今为止在异寂空谷发现的最为强大的怪物，会对任何不属于异寂空谷的生物都怀有强烈的敌意。"]
+			icon: "alexscaves:pure_darkness"
+			id: "048EE521C4B99B76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6131CCA45BABBE99"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "诸界共逐的黑暗仪式，与扭曲黑暗的邪物结合，产生了这污秽至极的亵渎凶煞"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "64776111AA945055"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a亵渎与疯狂的血腥恶兽"
+			x: 48.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"61E081D48BB0B568"
+				"7A37DC0562582924"
+				"697D4B809EC3B5B1"
+				"5F0585343BEDE6EE"
+				"75B0ECABF0C93900"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 1.2d
+			id: "13FCDC72922A4D1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A031420B795C992"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "117B12AF38571830"
+				type: "checkmark"
+			}]
+			title: "&l&c&m高级亵渎"
+			x: 43.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"13FCDC72922A4D1F"
+			]
+			icon: {
+				Count: 1
+				id: "terramity:sword_of_the_imprisoned"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4C8309A1277985A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F3AFF743A526FEF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "terramity:gundalf"
+				id: "6D1AD8C9A046ECD6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b终焉&6法师[领主]"
+			x: 46.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"13FCDC72922A4D1F"
+			]
+			description: [
+				"&2它是远古时期遗留的战争机器，即使过了很久它依旧执行作为守门人的命令——那就是阻止试图进入传送门的一切生物！"
+				"&6无名守护者身材高大魁梧，身高超过三米，全身覆盖着闪烁着冷色光芒的铠甲。铠甲上刻满了神秘的符文，这些符文蕴含着强大的神力，能够增强他的防御和攻击能力。他的头盔遮住了面容，只露出一双深邃而锐利的眼睛，眼神中透露出坚定和威严。他的手中握着一把巨大的看守者巨斧，胸膛上镶嵌着一颗璀璨的能源核心，斧刃散发着冰冷的寒光，仿佛能够斩断一切。"
+			]
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:guardian_core"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7AC7671905225343"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0019EA91BB7449BA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "神之守门人"
+			tasks: [{
+				entity: "eeeabsmobs:nameless_guardian"
+				icon: {
+					Count: 1
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "65C59BD7740C5104"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8无名&4守护者[领主]"
+			x: 45.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"13FCDC72922A4D1F"
+			]
+			description: [
+				"&6整合包中的末影龙经过了加强。"
+				"&d始祖源龙是龙族的起源，它在远古时期就已存在，是所有龙类的祖先。它拥有强大的源力，能够掌控元素之力和时间空间。在龙族的历史中，始祖源龙曾多次带领龙族抵御外敌入侵，保卫龙族的家园。然而，在一次与强大敌人的战斗中，始祖源龙受到了重创，陷入了漫长的沉睡。如今，随着世界的变迁和龙族的衰落，始祖源龙再次苏醒，它将再次展现其强大的力量，守护龙族的荣耀。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
+			id: "1E503D66739938FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AEF4B77628716EA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "龙之始祖"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "343B97BA71798EF9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d终末&6焉龙[领主]"
+			x: 45.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6沸腾煲：使用沸腾煲右击生物可以将其喂食，之后生物会攻击周围的其他生物。"
+				""
+				"&6原始汤：可以喂给其他生物，喂给遗迹恐手龙时，它会自动推倒周围的树木。"
+				""
+				"&6幽静沙拉：可用于驯服该模组中的阔鼻迅猛龙和撼地龙。"
+			]
+			icon: "alexscaves:serene_salad"
+			id: "7D02CCB82ADB9C8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21166B3F3932B174"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7715EE1140C4C6F3"
+					item: "alexscaves:seething_stew"
+					type: "item"
+				}
+				{
+					id: "1E954C856F9D5B3A"
+					item: "alexscaves:primordial_soup"
+					type: "item"
+				}
+				{
+					id: "2C13F7D2301DA47F"
+					item: "alexscaves:serene_salad"
+					type: "item"
+				}
+			]
+			title: "&a原古佳肴"
+			x: 50.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6可以喂食原始汤，喂食后它会自动推倒周围的树木，将星树果放在手上会吸引遗迹恐手龙。你也可以给两只遗迹恐手龙喂食星树果使它们繁殖。繁殖过后，遗迹恐手龙会做出刨坑的动作，同时把自己的遗迹恐手龙蛋产在一个蕨草块上。给幼年期的遗迹恐手龙喂食星树果可以加快其生长。"
+				""
+				"&c对遗迹恐手龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的遗迹恐手龙没有区别。"
+			]
+			icon: "alexscaves:relicheirus_egg"
+			id: "12736A7EFA9A83BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38EA8C60A6A60651"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "遗迹恐手龙是一种大型的、中立的杂食性恐龙，偶尔会被发现在原始洞穴的南洋杉树下觅食。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/feed_relicheirus"
+				criterion: ""
+				id: "3FD50A32DB93B5AA"
+				type: "advancement"
+			}]
+			title: "&a遗迹恐手龙蛋"
+			x: 50.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6将星树果放在手上会吸引洞穴角龙。你无法驯服它们，但可以给它们喂食星树果使其繁殖，繁殖后，它们会在原地产下一枚洞穴角龙蛋并在蛋的下方铺好蕨草块。如果你企图踩碎它们的蛋，同样会吸引它们的仇恨。"
+				""
+				"&c对洞穴角龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的洞穴角龙没有区别。"
+			]
+			icon: "alexscaves:grottoceratops_egg"
+			id: "68437AEFA87A5F12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29ED4BE6AD5DCCB2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "洞穴角龙是大型食草类恐龙，它们只想着食用更多的植物。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/breed_grottoceratops"
+				criterion: ""
+				id: "00C0E96CD9112342"
+				type: "advancement"
+			}]
+			title: "&a洞穴角龙蛋"
+			x: 50.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: ["&6自带忠诚效果，且有特殊技能。"]
+			id: "5BA992EFA7B1EAE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68FE2B68679FDF91"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "原始洞穴中所有恐龙的力量都在其中"
+			tasks: [{
+				id: "05D06BFF67BEADA7"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a灭绝之矛"
+			x: 50.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7FF03173C899AF69"
+				"4C8309A1277985A2"
+			]
+			description: [
+				"&6使用稿子挖掘琥珀有极低的概率掉落琥珀珍品，将灾厄触媒投入原始洞穴中的火山口用于召唤暝煌龙"
+				""
+				"&c你们可曾想见过天灾的模样？那头名为暝煌的巨龙就能完美地回答这个问题，它的鳞片燃烧出原始蛮荒的气息，它暴怒的踩踏连大地的灰石都能崩碎，所有恐龙都畏惧它，传说中，这头巨兽带来了时代的起始与终结。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "alexscaves:tectonic_shard"
+			id: "20E941BDBB52F49A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "030CDC6F1BB91C10"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "深锁于火山之心的巨兽，灵魂在承受数亿年的熔岩洗礼后已无惧火焰，这头巨兽正是导致了原始洞穴里许多恐龙灭绝的元凶"
+			tasks: [
+				{
+					id: "043712FA8C5EF4E8"
+					item: "alexscaves:ominous_catalyst"
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					id: "4FDEFC908B1C68D1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a终结一切的远古天灾"
+			x: 48.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6使用原始大棒击晕它，在撼地龙眩晕时对它喂食幽静沙拉，每次都有一定概率驯服，如此反复操作即可。"
+				""
+				"&6驯服后可以设置跟随，游荡，呆在原地，会帮助玩家战斗。驯服后也可骑乘（无需鞍），骑乘时左键生物会使撼地龙对其发起攻击，默认可按G键使用技能嘶吼，会使附近生物恐惧并逃跑，技能有一定冷却时间。玩家骑乘时也可手持一些食物（如幽静沙拉）喂食它帮助它回复生命。"
+				""
+				"&6给两只已经驯服的撼地龙喂食恐龙肉骨，可以使它们繁殖并产下一枚撼地龙蛋。孵化后的小撼地龙同样会认玩家为主。"
+				""
+				"&c对撼地龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的撼地龙没有区别。"
+			]
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "584CBFFA8D88200F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76713BE908F94929"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "撼地龙是原始洞穴中所有恐龙的霸主，它经常会在此捕猎大型猎物，例如洞穴角龙和遗迹恐手龙。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_tremorsaurus"
+				criterion: ""
+				id: "51F2FB5CE1249D56"
+				type: "advancement"
+			}]
+			title: "&a撼地龙蛋"
+			x: 48.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6当暝煌龙被击杀后（无论是不是玩家击杀）其所在的洞穴内都会开始自然刷新擎天龙，它们无法被驯服，但可以通过喂食幽静沙拉来短暂的骑乘它们。"
+				""
+				"&6和大多数食草恐龙一样，你可以通过给它们喂食星树果来使它们繁殖。完成繁殖后，它们会筑巢并产下一枚擎天龙蛋。"
+				""
+				"&c对擎天龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的擎天龙没有区别。"
+			]
+			icon: "alexscaves:atlatitan_egg"
+			id: "174689021FE7B400"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B1935BED1E33930"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "也许这才是它原本的样子"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/atlatitan_stomp"
+				criterion: ""
+				id: "0766952CCD7CC2FD"
+				type: "advancement"
+			}]
+			title: "&a擎天龙"
+			x: 46.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6将恐龙肉块放进箱子里，其取食后会趴在原地昏迷，此时给它喂食幽静沙拉即可驯服（阔鼻迅猛龙会偷走它附近箱子里的食物，偷走后会迅速离开，环顾四周后吃下）。"
+				""
+				"&6驯服后可以设置跟随，游荡和停在原地。会帮助玩家战斗，如果其在战斗中失去了许多生命值，则会迅速隐身离开（并非无敌，依然可以受到伤害），同时迅速回复生命值，回复到生命值的一半以上后继续加入战斗。（非战斗时则不会，也就是说仍然会摔死，或者被玩家不小心打死）。"
+				""
+				"&6驯服后的阔鼻迅猛龙可以使用恐龙肉块繁殖，繁殖后会产下一颗阔鼻迅猛龙蛋，孵化后的阔鼻迅猛龙依然是被驯服的。"
+				""
+				"&c对阔鼻迅猛龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的阔鼻迅猛龙没有区别。"
+			]
+			icon: "alexscaves:vallumraptor_egg"
+			id: "465CEDBE0F19B919"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E1FC6F479E48EA1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "阔鼻迅猛龙是原始洞穴中常见的群体狩猎恐龙，这些野兽会四处觅食，并试图猎杀大大小小的猎物。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_vallumraptor"
+				criterion: ""
+				id: "616405B530605724"
+				type: "advancement"
+			}]
+			title: "&a阔鼻迅猛龙蛋"
+			x: 46.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6会自然生成于原始洞穴中较高处的地底翼龙巢穴中。"
+				""
+				"&6可以通过喂食三叶虾尾驯服，驯服后可设置跟随，游荡，停留。"
+				""
+				"&6你可以给两只地底翼龙喂食生鳕鱼使它们繁殖，但它们有可能会出现进行了繁殖行为却没有产下卵的情况。你也可以在洞穴较高处的地方寻找它们的巢穴以获取地底翼龙蛋，地底翼龙蛋孵化时，若玩家在其周围，则孵化出的小地底翼龙会认玩家为主人。"
+				""
+				"&c对地底翼龙使用琥珀珍品或地壳碎片可以消耗对应物品将它转换为“复古”和“爆燃”形态，再次使用会将其变回普通形态。不同形态除外观外和一般的地底翼龙没有区别。"
+			]
+			icon: "alexscaves:subterranodon_egg"
+			id: "26FF22E3F22F0E8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CE07E5EA04D0D73"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "地底翼龙是一种庞大的、中立的且会飞行的爬行动物，通常被发现栖息于原始洞穴的侧壁上。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_subterranodon"
+				criterion: ""
+				id: "499D22AAE3B81F24"
+				type: "advancement"
+			}]
+			title: "&a地底翼龙蛋"
+			x: 46.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: ["&6日光琥珀为这个底下的生物群系保持着良好的光照，这是一种新奇形态的琥珀，所有的方块都沐浴在其的光照之下。"]
+			id: "6B8AF45D8050EDD0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20EDFCE7C02F66A8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "洞顶之上凝聚千万年耀阳精华的恒永光辉"
+			tasks: [{
+				id: "2DAE309BC8E5DC2A"
+				item: "alexscaves:ambersol"
+				type: "item"
+			}]
+			title: "&a日光琥珀"
+			x: 48.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&6原始洞穴位于主世界地下，自数百年乃至更长时间以来一直与世隔绝，这种与世隔绝的状态造就了这些富含着石灰岩的洞穴拥有着独一无二的地质结构、动植物群，而这些物种在世界的其它地方早已不见踪影。"
+				""
+				"&c以史前时代的动物、植物以及由它们所影响而形成的地貌环境，以及一些零散的文明遗迹为主题的奇异洞穴群系，关于原始洞穴的形成，有着五花八门的观点和理论，但不论历史的真相如何，大地母亲都将这些远古孑遗细心呵护在自己的怀抱之中；而那些曾经生活在这里的人们，用绘画的方式告诉我们这些后来者：要对自然的力量保持敬畏，要与万物生灵达成共存。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "alexscaves:flytrap"
+			id: "7FF03173C899AF69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "531A3C99F58C7C1E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "一切的一切都如创世之初那般美好，它似乎已经被时间遗忘……"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_primordial_caves"
+				criterion: ""
+				id: "46CDAE77ED734A58"
+				type: "advancement"
+			}]
+			title: "&a原始洞穴"
+			x: 48.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: [
+				"&6星树果：生长在远古树上的果实，徒手即可采摘，也可以在原始人小屋周围找到，可用于制作幽静沙拉和原始汤。"
+				""
+				"&6苏铁：可以在原始洞穴中发现的植物，可用于制作原始大棒，本身也可以作为观赏植物或是用于堆肥。可以用骨粉催熟其顶端，最高可长到4格。"
+				""
+				"&6捕蝇草：可以在原始洞穴的地面上找到，空手即可采集，每对它使用一次骨粉，它的周围都会多出现一个捕蝇草掉落物，可用于制作沸腾煲。"
+				""
+				"&6卷叶蕨：原始洞穴中随处可见的植物，空手即可采集，可用于制作染料和蕨草块，洞穴角龙有时会低下头食用它，之后原地会留下一个蕨菜。"
+				""
+				"&6蕨菜：洞穴角龙啃食地上长出的卷叶蕨后会使其变为蕨菜，此时破坏即可得到蕨菜。但这并非是蕨菜的唯一获取方式，玩家还可以在原始人遗迹的战利品箱中发现它，可用于合成幽静沙拉。"
+			]
+			icon: "alexscaves:tree_star"
+			id: "3D78CEF57AEB8754"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39485E693219B891"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "这些植物是这个洞穴中的史前居民们最爱吃的食物"
+			tasks: [
+				{
+					id: "276E82D2DB6137B6"
+					item: "alexscaves:tree_star"
+					type: "item"
+				}
+				{
+					id: "51F6A911326DE058"
+					item: "alexscaves:cycad"
+					type: "item"
+				}
+				{
+					id: "07F06381421A2CE7"
+					item: "alexscaves:flytrap"
+					type: "item"
+				}
+				{
+					id: "5E1F79075C9032EE"
+					item: "alexscaves:curly_fern"
+					type: "item"
+				}
+				{
+					id: "6276610F54FD4091"
+					item: "alexscaves:fiddlehead"
+					type: "item"
+				}
+			]
+			title: "&a远古植物"
+			x: 46.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7FF03173C899AF69"]
+			description: ["&6将撼地斯拉的蛋放在地上，随后用核弹炸即可完成孵化，孵化出来后玩家需要喂食废料桶来驯服它。"]
+			id: "2B53F549CECB8A90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78E103E2DEF6C19D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "拜辐射所赐，这种恐龙变得更大更强了"
+			tasks: [{
+				id: "1C6584CC9D8B1258"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "&a基因突变的撼地斯拉"
+			x: 48.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["13FCDC72922A4D1F"]
+			description: [
+				"&6位于末地外岛的一处特殊遗迹的最顶层，需要在祭坛中间放入一颗末影之眼来召唤。"
+				""
+				"{image:tupian:textures/juzhu.png width:150 height:100 align:1}"
+				""
+				"&c你也可以使用探险家指南针搜索Obsidilith Arena来找到该结构。"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "2D8127556988298A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D13F318452D5453"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "也许这根柱子的硬度已经超越了龙钢"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "6BB98017F1E8D69E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d黑曜石巨柱"
+			x: 43.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6多个同体型富铁史莱姆会互相吸引并融合成更大的史莱姆，通过碰撞对生物造成伤害，攻击频率极高，且史莱姆融合的个体越多，生命值和造成的伤害越高。融合出的更大的史莱姆生命值上限虽然会增加，但生命值还是会保持在融合前的状态。理论上来说，富铁史莱姆可以无限融合，但融合到10个富铁史莱姆个体之后数值将不会再提升。如果想知道该个体融合了多少个富铁史莱姆，可以通过其内部漂浮的铁元素数量来判断。"]
+			icon: "alexscaves:ferrouslime_ball"
+			id: "65884E6E2CC86D55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "207F8730F29C2D82"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "看起来人畜无害的史莱姆，其实攻击性极强，它进化出了依靠斥力悬浮在空中的能力。"
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				id: "05463D9CB703127D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a富铁史莱姆"
+			x: 28.0d
+			y: 4.5d
+		}
+		{
+			description: ["&6磁化洞穴位于主世界地下，最标致性的特征就是那构成洞穴主要地貌的一种富含铁元素的方铅岩，以及其上丛生的巨型钕晶体。"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "alexscaves:scarlet_magnet"
+			id: "5F1B5FAF853C4EEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4596F14D6058C317"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "异样的磁力充斥着整个洞穴，甚至导致方圆数十里磁场产生了异变。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_magnetic_caves"
+				criterion: ""
+				id: "3A7FB76958584E05"
+				type: "advancement"
+			}]
+			title: "&a磁化洞穴"
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6可以使用磁力控制它头上的铁工具攻击远处的生物，可以被盾牌格挡，磁流灵手中的工具不具有一些性质，如它们使用斧进行攻击时并不能破盾，可以利用磁力飞行，在对抗时尽量使用远程武器。"]
+			icon: "alexscaves:telecore"
+			id: "40338A4BD68566D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F418164B979B03E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "它们是一种周身覆盖着方铅岩的造物，没有人知道它们是怎么诞生的"
+			tasks: [{
+				entity: "alexscaves:teletor"
+				id: "602F0EE4462CA1B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a磁流灵"
+			x: 24.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6生活在磁场洞穴的天花板上，分为绞盘（弹跳机兵绞盘）和重锤两部分。一条锁链连接着绞盘与重锤，绞盘吊挂在天花板上，控制重锤的上升与下落，如果它由于某些意外而从天花板上掉下来（如绞盘受到攻击，绞盘走到了不完整方块上），那么它的绞盘会重新升起，直到吸附到方块为止。若升至最高仍未吸附到方块，它的绞盘会从高空中掉落。落地后，它会再次尝试吸附方块。如果它在水中，那么它的绞盘无法跳得太高。当目标在弹跳机兵的下方时，此时弹跳机兵绞盘会控制重锤下落与上升来攻击目标。重锤下落时可以对下方砸到的所有目标造成伤害。它的绞盘和它的重锤是一体的，无论攻击哪一个部分，受伤的都会是它的重锤。重锤死亡后则绞盘与重锤一起死亡。"]
+			icon: "alexscaves:heavyweight"
+			id: "3A3F57D05F32DD43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B424A751C23A65A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "当一种生物完全是由两个完全分离的部分组成时，它将最终呈现出何种样貌呢"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				id: "4F88987B59ABCFE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a弹跳机兵"
+			x: 24.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: [
+				"&6磁控机兵在开始战斗前会保持欺骗性的低调，慢慢地在它的机械核心周围滚动。然而，如果检测到入侵者，磁控机兵会使用附近的方块并形成一个巨大的身体。在这个过程中，这个怪物的电磁特性是完全可见的，因为闪电在它的身体中的每个方块之间弯曲。组成它新身体的方块非常重要 - 磁控机兵会偏爱磁性方块而不是惰性方块。切石机和铁砧如果被它们并入身体作为武器，会增加它们造成的伤害。攻击它们的方块身体是无用的，只有攻击它未进入防御姿态时的本体才能对它造成伤害。（可开启碰撞箱查看）"
+				""
+				"&6被打败后，磁控机兵将分崩离析，它的许多方块将散开。但也会遗留下一个叫机铁之心的方块（不是掉落物，是被打败之后会留下一个方块，需要手动挖掉）。"
+			]
+			icon: "alexscaves:heart_of_iron"
+			id: "1C98D6F4B0D57A67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "765EFAEE167B4C6B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "磁控机兵是在磁场洞穴中遇到的罕见而强大的存在。这个怪物曾经是一台机器，用来帮助从这个地方获取资源，尽管其制造者的命运是未知的"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "630681A242517A72"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a磁控机兵"
+			x: 26.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6本身无任何攻击力，但是会发出光线扫描周围的玩家和生物，并投影出玩家或生物的影像。这可能会吸引周围敌对生物的仇恨。"]
+			icon: "alexscaves:notor_gizmo"
+			id: "60A0614C2D11629A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C167B6858391940"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "尽管它并不能攻击，但扫描机兵仍然是一个烦人精，因为它总会尝试扫描附近的路人。"
+			tasks: [{
+				entity: "alexscaves:notor"
+				id: "33E284605B5D1B4C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a扫描机兵"
+			x: 28.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6手持全息编码器右键想要展示的生物进行存储，随后手持编码器右键全息投影仪即可录入所存储的生物的全息投影，若未录入任何生物，则展示编码器使用者的全息投影。"]
+			icon: "alexscaves:holocoder"
+			id: "46A18A1A0A72603B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "440989A53CD0ACE6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "炫酷的3D全息投影技术"
+			tasks: [
+				{
+					id: "7A909BC27D8C9B53"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					id: "7BB7AECF1EE49F2D"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
+			title: "&a全息投影"
+			x: 28.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6钕合金有很多用途，青钕合金可以用来制作悬浮铁轨，而赤钕合金则可以用来制作追踪箭，当然钕合金还有很多强大的用途，但在此之前你需要从强大的生物身上获取一些战利品......"]
+			icon: "alexscaves:scarlet_neodymium_ingot"
+			id: "11FD1CDDCAF81460"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E86036B2B627F71"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "充满磁力的金属"
+			tasks: [
+				{
+					id: "2CABC0013E5CA548"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "3A70146934235134"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			title: "&a磁性金属"
+			x: 26.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6用作磁场洞穴的光源，会发出亮度为15级的光，也会释放闪电链造成1点伤害并使周围的苦力怕变为闪电苦力怕，如果你想直接破坏或投射物击中特斯拉灯泡，它会释放更多闪电链，释放的闪电链过多会发生大爆炸（类似末影水晶）。可以通过破坏支撑特斯拉球的方块来破坏它。"]
+			id: "14E33BD283E2E015"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7485DCB464761D54"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "小小的球状物内蕴藏着巨大的闪电能量"
+			tasks: [{
+				id: "593CD89234DE7AA8"
+				item: "alexscaves:tesla_bulb"
+				type: "item"
+			}]
+			title: "&a特斯拉球"
+			x: 24.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6手持阻尼盾牌长按右键可以使用并格挡正前方的物理攻击，格挡时会向周围放出电流，电击生物造成持续伤害。拥有两种模式，手持阻尼盾牌潜行右击可以切换模式，第一种模式下格挡会发出蓝色电流，对生物持续造成2点伤害并击退，第二种模式下格挡会发出红色电流，对生物持续造成2点伤害并将生物向玩家牵引。"]
+			id: "4C536D9EE5891CBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6613679A7F45ADD0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "同性相吸，异性相斥"
+			tasks: [{
+				id: "1FDFF67F4B6A1483"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+						PrevUseTime: 0
+						UseTime: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a阻尼盾牌"
+			x: 24.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: ["&6需要装在副手，主手持任意铁磁性物品，之后长按右键可以使用磁力控制主手的物品来进行远程操作。被磁力控制的物品如果击中生物，会对生物造成与物品相同的伤害（最基础的磁力武器为铁剑），如果控制的物品是工具，它可以挖掘附近的适宜这个工具挖掘的方块。被操控的工具的附魔仍然有效。"]
+			id: "0B106FDB230E64D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "688803A1FB9AB8A9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "将磁力掌握在手中"
+			tasks: [{
+				id: "4D857F84B605A36F"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a方铅护手"
+			x: 28.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F1B5FAF853C4EEF"]
+			description: [
+				"&6使用一个磁力采石场、一个磁力采石场粉碎器和四个磁力灯搭建。搭建后，可以采集一定范围内的可破坏的所有方块，摆放方法如下图所示，最后要将采石场粉碎器放入磁力线的中心位置即可开始开采。"
+				""
+				""
+				"{image:tupian:textures/cili.png width:150 height:100 align:1}"
+			]
+			icon: "alexscaves:quarry_smasher"
+			id: "293C5F1B129A8FE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C571C4A1620C44C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "全自动采矿机，这是你目前能利用磁力所做到的最顶级的技术"
+			tasks: [
+				{
+					id: "4216B1C53122F3CE"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2062E2DE866919FC"
+					item: { Count: 4, id: "alexscaves:magnetic_light" }
+					type: "item"
+				}
+				{
+					id: "3DFAACCAEC968D81"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+			]
+			title: "&a磁力采石场"
+			x: 26.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5C8B2867EA90713A"]
+			description: [
+				"&6掌握禁忌秘术恶的邪恶大法师，它的心脏可用于合成黑暗铁砧。"
+				""
+				"&c你可以在探险家指南针中搜血色祭坛来找到它。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "eeeabsmobs:heart_of_pagan"
+				tag: { }
+			}
+			id: "7EC925A6EC5A4F7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BC2387ABE7DA1E2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "生前是远古王国的首席大法师，但究竟是谁把它变成这样的呢......"
+			tasks: [
+				{
+					advancement: "eeeabsmobs:eeeabsmobs/bloody_altar"
+					criterion: ""
+					id: "2E8A89F995BD1519"
+					type: "advancement"
+				}
+				{
+					entity: "eeeabsmobs:corpse_warlock"
+					id: "1A9694F0654759DC"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a死尸术士"
+			x: 41.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705C0C474A049ED4"]
+			description: ["&6这位诡异森林中聪明的捍卫者尽着守卫应有的职务，不顾一切地攻击所有外来的窥探者。"]
+			hide_dependency_lines: true
+			icon: "alexsmobs:warped_muscle"
+			id: "1F8C853CFA6BEF93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36C4F619C54236E0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "爆裂的肌肉中透出丝丝扭曲的蓝光，体内的血液遇上了诡异的菌丝，使得这种更进一步变异的昆虫愈加危险"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "7C6BEEE1CF635FBB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d爆肌蚊"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: ["&4在世界上的一个未被探明的角落建立了一个泰坦族的王国。这个王国中，最珍贵的遗产之一便是泰坦族的守护神兽——一只体型庞大拥有沙暴之力的原始恐龙，它的存在使得整个王国受到庇护。然而，一场突如其来的天变地异打破了王国的平静，一位被诅咒者带来了一股不为人知的诅咒力量。这股诅咒力量将泰坦族的守护神兽变成了一个充满恶意与诅咒的巨型骷髅恐龙骨架。灾难过后，泰坦族人无法幸存，他们的王国成为了废墟，唯独金字塔依旧屹立，里面藏匿着被诅咒的恐龙骨架。随着时间的流逝，金字塔变成了一座诅咒之地，任何试图接近它的生命都会被骷髅守护者驱逐或消灭。骷髅守护者是泰坦族的后裔，他们转变成亡灵形态，继续他们的使命——永恒地守护着那具巨大骷髅和它身上的诅咒，防止它再次危害世间。"]
+			id: "46D465304E6F1B88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074F2D3BF5EFD879"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			subtitle: "远古暴龙的沉沦..."
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:desert_eye"
+					tag: { }
+				}
+				id: "68FCA3C6E6F29EFB"
+				title: "诅咒骨架"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6&l远古&d诅咒&8骨架[领主]"
+			x: 50.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: [
+				"&6末影龙在末影人们创造了末影守卫后，便再也无法以武力统治它们了。因为末影守卫可以用强大的引力将末影龙吸至地面，并召唤虚空符文杀死它。不过所幸，末影守卫不会飞并且身躯庞大无法通过折跃门，所以没有跟着末影龙来到主岛上...   &e[出自灾变Mod原剧情]"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:void_eye"
+				tag: { }
+			}
+			id: "0255E3A60AF63CEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "346438501E94AB83"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "末影之地的改革..."
+			tasks: [
+				{
+					id: "119B655E8BE89A74"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "7E0EDD0291D5A550"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&l&d末影&4最终&6兵器[领主]"
+			x: 50.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: [
+				"&d深海巨兽,据说它是奇迹的来源之一.人们对它知之甚少,但是唯一可以确定的是它具有虚空之力..."
+				"&d利维坦象征着混沌与恐怖，是一种巨大无匹、掌管海洋的巨兽。被视为神创造出来的破坏力极强的生灵。常描绘为庞大如岛屿，遍体鳞片的巨蛇或龙型生物，甚至有时被描述为有着鲸鱼的形态，却拥有无与伦比的力量与威严。在沉沦之城的背景里，利维坦成为了被封印的恶神化身，代表着深海中最原始的恐惧和力量。由于它的存在威胁到了海洋的平衡，乃至整个世界的安宁，因此不得不被拥有秘法的深海祭司们以繁复的仪式封印在深海的黑暗之中"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:abyss_eye"
+				tag: { }
+			}
+			id: "696704DF332EDFFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A9E9C4B3FB81A01"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "深海奇迹巨兽利维坦"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "248566870EC70D28"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&b深海&d维度&6巨兽[领主]"
+			x: 52.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: ["&6阎魔站于炼狱之地的竞技场之中，是神谕者中最强的一位。身后的阎魔军团静默而待命。他的巨剑和盾牌在昏暗的天色下闪烁着死亡的光华。不光是武器，阎魔自身也是一位拥有魔法的主宰者。他的烈焰魔法像是一条条穿梭于战场的火蛇能够瞬间清理战局，近身远程皆有强势的技能，防御也是牢不可破，也许我们需要以毒攻毒..."]
+			icon: "cataclysm:flame_eye"
+			id: "658FD073061EA945"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D1CE3631C25C8ED"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "3115BD954C218B6F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&c火焰&4战争&6统领[领主]"
+			x: 54.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: [
+				"&6在猪灵这种罪恶的种族刚刚被神明放逐到下界时，猪灵内部中的主导者曾妄图反抗神明以夺回主世界，于是它们召集了掌握强大魔法的巫师与拥有精湛技艺的巧匠，使用最为坚韧的材料—远古时期的下界合金与足以摧毁一切的熔岩打造了这么一个恐怖的战争机器，但在驱动材料选择上却犯了难，因为当时没有任何一种能够赋予这头巨兽动力的能源."
+				""
+				"&e于是那些猪灵巫师们想起了一种早已被禁止的最为残忍的手段来获取能源...[这就是灵魂沙的来源]"
+				""
+				"&d特别鸣谢：whh [剧情设计]"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "6B21F7C4DFF130A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CFC9A65FC2E68A8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "以合金为躯体,以灵魂而驱动..."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "6B7640CE17EFB590"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&4泰坦&8合金&6巨兽[领主]"
+			x: 53.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: [""]
+			icon: "cataclysm:cursed_eye"
+			id: "3F08657BB18335C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B9E7C80B76C9BE6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "4B6C74709ED719D3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&l堕落&8残骸&3英灵[领主]"
+			x: 53.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"397E4D0241D62587"
+				"20E941BDBB52F49A"
+			]
+			description: [
+				"&c据说是远古实验室中远古时代科学家为了战争而仿造凋零建造的战争兵器，不过因为奇迹的降临所以科学家被迫撤离实验室，将他废弃在地底..."
+				"&c在地下的远古遗迹中远古神谕者，是无面尊容的守护神之一，先驱者的独特之处在于其双臂装配的激光发射器，能够发射破坏力极强的激光束。同时，它还具备引发强大的等离子冲撞能力，可以在战斗中创造攻防一体的战法，让敌人防不胜防，不过在地下遗迹中有着无面尊容限制它暴走的机器也许我们也能利用利用..."
+			]
+			icon: "cataclysm:mech_eye"
+			id: "15CAD2D15BF6E538"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F337ABCE6DBDF61"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "机械齿轮.奇迹造物"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "3DAD4F2155AB9BCA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&6神明&4机械&d造物[领主]"
+			x: 52.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6B21F7C4DFF130A4"
+				"3F08657BB18335C3"
+				"46D465304E6F1B88"
+				"15CAD2D15BF6E538"
+				"658FD073061EA945"
+				"696704DF332EDFFE"
+				"0255E3A60AF63CEA"
+			]
+			hide_dependency_lines: true
+			icon: "terramity:angel_feather"
+			id: "6F3C51651DA66123"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ABEF5DF9A4E36D0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 1.5d
+			subtitle: "完全畸形"
+			tasks: [{
+				entity: "terramity:virtue"
+				id: "7AEFE1330E085427"
+				title: "&4畸形天使"
+				type: "kill"
+				value: 1L
+			}]
+			x: 57.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F3C51651DA66123"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "769109D44A9D0960"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797133B27048D35F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "尚未完成制作—敬请期待"
+			tasks: [{
+				entity: "invasioncodered:gashslit"
+				id: "112DA95ACDC37919"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&l&m原初"
+			x: 59.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B86520489091344"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "legendary_monsters:warped_mushroom_cap_part"
+			id: "5D897E8B26610DCF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43DD1D69F527B7E5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				id: "525FF7F1EF9FEEEA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B86520489091344"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "confluence:magma_stone"
+			}
+			id: "1A0E4972662BB02A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D56CED2926980BB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				id: "387B472B46A3A2A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 35.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B86520489091344"]
+			hide_dependency_lines: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3B3EC68E38C91710"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AD9B498479231DF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				id: "3EB1DA2486717B81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 33.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B86520489091344"]
+			hide_dependency_lines: true
+			icon: "minecells:skeleton"
+			id: "7C14E0EAF7F613EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0407A4773CA7E1DF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				id: "3361F2783645EA19"
+				type: "kill"
+				value: 1L
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["13FCDC72922A4D1F"]
+			hide_dependency_lines: true
+			icon: "minecraft:shulker_shell"
+			id: "418300A1085E0991"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BCBA02D835E65F1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				id: "105BA01D6DFAAA3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 40.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13FCDC72922A4D1F"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
+			id: "03C637ECF83B8273"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D794ECF3D4C4614"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				id: "3E25ADB2AD73E606"
+				type: "kill"
+				value: 1L
+			}]
+			x: 42.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1B3FDBE84D6E7BC6"
+				"0795B29432D0EF5E"
+			]
+			description: [
+				"&6死亡、诅咒、无形无质、无处不在，那些埋葬在地下的流言跟随着吓破了胆的逞强者四散开来，一时之间，墓穴成为了继巨龙之后的又一个餐桌话题，有人因此噩梦连连，但也有人心怀向往。而冒险家中有位自称为最强盗墓者的盯上了传说中被诅咒的陵墓..."
+				""
+				"&e我生前就常游走地底，一世的辉煌却无人在意..."
+				""
+				"&3曾经的我是盗墓高手却无人知晓，而如今操控死灵的我是 &l&4令人胆战心惊的 &l&6骸骨之王"
+				""
+				"&d特别鸣谢:Krodian[剧情设计]"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7475AA5D42359AD5"
+			min_required_tasks: 200
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DDB658BD2A531A5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "&6&l可以通过 &8墓穴之眼 &6寻找"
+			tasks: [{
+				entity: "goety:skull_lord"
+				icon: "alexsmobs:fish_bones"
+				id: "26D2155FE9A51DDF"
+				title: "&6骷髅领主"
+				type: "kill"
+				value: 1L
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1B3FDBE84D6E7BC6"
+				"0795B29432D0EF5E"
+			]
+			description: ["&6她遭世人排挤,隐居于深林之中"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "642FB024ECA05E57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C63F7AB2FE8524"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "&l&6她到底又做错了什么呢,她也只是个普通人啊..."
+			tasks: [{
+				entity: "goety:crone"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "5A349BE946DBAEF0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d众人眼中的巫女"
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"030C67F2566125E2"
+				"7B86520489091344"
+			]
+			description: ["&6从小爱赌博的她,长大后更是成为了一个赌博机器,它的伤害时而高时而低,这一切都要听从天命,也许你能够击败它也是运气?"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "meetyourfight:fortunes_favor"
+			id: "185BEF3A55C4003D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E80DFB93F70AE6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "&4喜爱赌博之人的运气总不会太差"
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				id: "6F336341E3500C71"
+				title: "&4地狱女爵"
+				type: "kill"
+				value: 1L
+			}]
+			x: 36.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"58DE01EECBA8D395"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "goety:ectoplasm"
+			id: "5EFEEEF910268423"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "512ED06B56A6A29F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				id: "18DDC48F334C53D6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b收魂者"
+			x: 34.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"033A4A8A0E961665"
+				"7B86520489091344"
+			]
+			description: ["&4月光圣骑是月光下的守护者&b,他们拥有&6治愈&b和&6保护&b的力量,但当他们被激怒时,也会展现出强大的战斗力.是复仇骑士同父异母的亲兄弟...."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "soulsweapons:holy_moonlight_greatsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "47BBF1CBE8148626"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10BA31DE5426723C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "39B0D0A85C23B449"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4堕落&6王者"
+			x: 33.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"033A4A8A0E961665"
+				"705C0C474A049ED4"
+			]
+			description: [
+				"&4全身以&b难得素&4覆盖,坚不可摧,其武器可以吸收亡魂,强迫其为己所用,在战斗中他的攻击也是相当致命的..."
+				"{@pagebreak}"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "soulsweapons:altar_block"
+			id: "4A91BBB9FFDD1D36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CF387194F8EC351"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "寻找 月光教堂 使用 &b迷失的灵魂 &r召唤"
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "58B83EB2B3F66F08"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4怨念&b骑士"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"033A4A8A0E961665"
+				"20E941BDBB52F49A"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "nameless_trinkets:fragile_cloud"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "7326E1BF0E008065"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B11EB24DB2FE524"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "云朵奇迹"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "7D2FE9CAE30064B6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神云傀儡"
+			x: 48.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "terramity:warden_soul"
+			}
+			id: "4B12FE3625F7299E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "477DE2E58046AFF5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7B687DD81652F042"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6远古守护者"
+			x: 29.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5F0585343BEDE6EE"
+				"571BDAA7017A06D4"
+			]
+			description: [
+				"&4BGM很熟悉吗?使用的是泰拉瑞亚灾厄Mod中的神明吞噬者的背景音乐!"
+				"&6它将不会再度分裂,它会一直对玩家投掷弹射物和火焰弹造成高额伤害,有概率投掷闪电苦力怕[注意这个苦力怕可以被杀死]造成高额的爆炸伤害,冲撞会赋予玩家DBUFF,请务必要小心!!!"
+				"&4你不是神,但你的灵魂却是我的盛宴---神明吞噬者"
+				""
+				"&d拥有撕裂空间的能力,在末地拥有极高的地位,是末地当之无愧的最强捕食者..."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:void_worm_eye"
+				tag: { }
+			}
+			id: "666CA49F324BBD08"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A7FB5D40ACD6EFC"
+					table_id: 4040574915234139344L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "522AFBEBD916FE06"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			subtitle: "&6该BOSS得到了地狱级加强,仅打击头部才能造成有效伤害!!!"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "01FE25663C141089"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5维度&7撕裂者"
+			x: 43.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E9598202A57EE92"]
+			description: ["&6玩家周围5格范围内的所以生物会获得生命恢复I"]
+			id: "7E0C7D0B7EC7D42E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2688E748E2C948D4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			subtitle: "前期回血工具"
+			tasks: [{
+				id: "2F7BE0085E14C8C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:campfire"
+				}
+				type: "item"
+			}]
+			title: "&6立营"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E9598202A57EE92"]
+			id: "3B09AD7EAC2D5F65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E0F431DD3C8ED5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D08C767FEA4AE60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42F60BFE64AC1AB6"]
+			description: ["需要使用&c绯红黑曜石&r搭建框架,使用下界之星激活"]
+			id: "3805E151C166A95D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44448B544D80E3E9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			size: 0.75d
+			subtitle: "&6前往地底最深处"
+			tasks: [{
+				id: "536979851E1DFA87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "soulsweapons:crimson_obsidian"
+				}
+				type: "item"
+			}]
+			title: "&c&l地狱"
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1E9598202A57EE92"]
+			id: "4B8525971451995D"
+			rewards: [
+				{
+					id: "7537367D5744534B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "refinedstorage:4k_storage_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0A34C1617422A1DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "refinedstorage:white_grid"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24DB8FE4E48ABAA5"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			subtitle: "开始乱堆吧!"
+			tasks: [{
+				id: "052A07B29E6F91D6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "refinedstorage:creative_controller"
+				}
+				type: "item"
+			}]
+			title: "&6幻想储存终端"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B8525971451995D"]
+			id: "028733373481C0C4"
+			rewards: [
+				{
+					id: "014BDCF72E0A6230"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15845FE6346E34B9"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			subtitle: "制作一个磁盘操纵器"
+			tasks: [{
+				id: "6B8D3BD5022DE4F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "refinedstorage:disk_manipulator"
+				}
+				type: "item"
+			}]
+			title: "&6插入磁盘!"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B8525971451995D"]
+			description: ["&b洛琪希&6[储存终端]其实就是创造远程终端换了个皮肤哈!当她在玩家身上时会定时和你互动owo!她在该整合包的重要性不言而喻啦!!!"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "refinedstorageaddons:creative_wireless_crafting_grid"
+			}
+			id: "265433DDB02CEF7E"
+			rewards: [
+				{
+					id: "1CDD8BF17C16A222"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "refinedstorageaddons:creative_wireless_crafting_grid"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6732DCC9193CC8D2"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			subtitle: "大型传教现场!"
+			tasks: [{
+				id: "386062E76D0E4CF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "refinedstorage:wireless_transmitter"
+				}
+				type: "item"
+			}]
+			title: "&6远程联系"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "53782FC1A09EC710"
+			rewards: [
+				{
+					id: "498EFB8943ED32E0"
+					item: "spelunkery:rough_diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B5BE9ACF4B176B"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			secret: true
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"没错,这是个彩蛋(某个FW吉祥物兼彩蛋仙人留的)\"}"
+						}
+					}
+				}
+				id: "039B1C5371DD87EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"没错,这是个彩蛋(某个FW吉祥物兼彩蛋仙人留的)\"}"
+						}
+					}
+				}
+				secret: true
+				type: "item"
+			}]
+			title: "&6彩蛋[明明彩蛋不是我弄的为什么我要写任务啊!!!-FXT1206的吐槽]"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "1DB9254B7F7593F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "205988E7FE46BCD9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			secret: true
+			subtitle: "彩蛋仙人发力"
+			tasks: [{
+				id: "6F22CEFEBE92AB0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:written_book"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+						RepairCost: 1
+						author: "devil_jianshuang"
+						display: {
+							Name: "{\"text\":\"未寄出的信件\"}"
+						}
+						filtered_title: "?"
+						pages: [
+							"{\"text\":\"我们的家族没落了...你还记得我们古老深沉的大宅,富贵而庄严,令人骄傲的纹丝不动，高高耸立在那旷野之上。\\n我在那个古老的，被谣言阴影包围的宅邸中度过了一生。尽享那奢侈与糜烂的生活后,我厌倦了那几乎一成不变的灯红酒绿。这时，有奇特而令人不安的传言，暗示了庄园本身--可能是通往某个不可名状，难以置信力量的大门，运用遗物和仪式，我耗尽全力去发掘和复原--那\\n\"}"
+							"{\"text\":\"些埋藏已久的秘密。将我们每一分家族的财富花在--黝黑的工人与结实的铁锹上。最后，在最下层的地基下浸着盐的岩层之中--我们出土了那可恶的传送门与远古的邪恶。我们的脚步声惊扰了这远古的大地。但此时此刻我们陷入了那死亡与癫狂的领域之中！最终，仅我独自一人一路哭嚎着狂奔穿过--那些逐渐变暗的远古拱廊，直到我最终失去了意识。你还记得我们那古老深沉的大\"}"
+							"{\"text\":\"宅，富贵而庄严。它其实是一个不断溃烂着的令人憎惧之物！我求求你，回家吧，索取你的继承权，将我们的家族解救于-那贪婪吞噬着我们的魔影，那最黑暗的地牢\\n\\n\\n\\n\\n\\n                                                                                                           \\n                            -LDP333[传说中的盖欧卡]\\n以下出自FXT1206的吐槽\\n玩暗黑地牢玩的[这孩子没救了]\\n\"}"
+						]
+						resolved: 1b
+						title: "?"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6彩蛋[没错又不是我写的(-FXT1206]"
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "&6流程"
+}

@@ -1,0 +1,9 @@
+{
+  "terramity:icebrand": [
+    {
+      "attribute": "forge:entity_reach",
+      "modify": 0.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

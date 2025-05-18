@@ -1,0 +1,9 @@
+{
+  "terramity:virentium_sword": [
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "modify": 0.08,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

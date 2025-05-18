@@ -1,0 +1,67 @@
+{
+  "name": "枪支类型",
+  "icon": "terramity:pump_action_shotgun",
+  "category": "terramity:guns",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Terramity 中有许多不同类型的枪支。$(br2)Terramity 中的枪支功能和用途各不相同。它们有加特林、霰弹枪，甚至还有轨道枪。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的手枪通常每个弹夹都有很多弹药，伤害也很高，有时还可以单手使用，这样就可以同时使用近战武器和枪支。",
+	  "item": {
+		"item": "terramity:basic_pistol"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的半自动步枪射程远、射速快、伤害高。",
+	  "item": {
+		"item": "terramity:basic_rifle"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的狙击步枪射程远、子弹掉落少、伤害高，但有时弹药消耗大，装弹时间长。",
+	  "item": {
+		"item": "terramity:elite_rifle"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的自动枪械射程远、伤害高，但发射不准和/或发射成本高。",
+	  "item": {
+		"item": "terramity:advanced_automatic_rifle"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的霰弹枪威力巨大，可造成大量击退，但射程较短。",
+	  "item": {
+		"item": "terramity:pump_action_shotgun"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的轨道炮威力非凡，具有命中扫描功能，而且不使用任何弹药。与普通枪支不同，轨道枪使用冷却系统，因此在紧急情况下随时准备一把可能是个好主意。",
+	  "item": {
+		"item": "terramity:railgun"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "Terramity 中的火箭发射器是破坏和一次性清除大波敌人的好帮手，这时你就不用顾虑射击的地形了。",
+	  "item": {
+		"item": "terramity:rocket_launcher"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "有些枪可能不属于任何特定类别，但仍具有枪的功能。",
+	  "item": {
+		"item": "terramity:flare_gun"
+	  }
+    }
+  ]
+}

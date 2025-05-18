@@ -1,0 +1,19 @@
+{
+  "name": "回城短哨",
+  "icon": "terramity:warp_whistle",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "回城短哨允许你在特定条件下传送回你的重生点。$(br2)要让它起作用，你必须在主世界的天空可见的情况下演奏整首歌曲。$(br2)几乎在所有的 Terramity 建筑中都能罕见地找到一个回城短哨。"
+    },
+	{
+      "type": "patchouli:spotlight",
+	  "title": "龙卷风",
+	  "text": "使用回城短哨后，会在你使用回城短哨的地方留下一个小龙卷风，持续 15 秒。$(br2)踩到龙卷风的人也会被传送到你的重生点，包括玩家。",
+	  "item": {
+		"item": "terramity:warp_whistle"
+	  }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enigmaticaddons:dragon_bow": [
+    {
+      "attribute": "l2damagetracker:magic_damage",
+      "modify": 0.15,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

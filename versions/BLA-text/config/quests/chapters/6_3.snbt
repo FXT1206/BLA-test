@@ -1,0 +1,127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_3"
+	group: "7571899CDEDDF9F5"
+	icon: "confluence:celestial_stone"
+	id: "45C08D91204DDC23"
+	images: [{
+		height: 6.0d
+		image: "aoa3:item/creepoid_greatblade"
+		rotation: -135.0d
+		width: 6.0d
+		x: 0.0d
+		y: -1.0d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"37909876257F8252"
+				"61E081D48BB0B568"
+				"2B8881C20DD28806"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "soulsweapons:shadow_assassin_scythe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "50DF0F6333F9FF05"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "soulsweapons:night_prowler"
+				id: "144F5A3BDE8E0D0B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8暗夜使者&6埃尔蒂塔"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"61E081D48BB0B568"
+				"2B8881C20DD28806"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mythicmetals:star_platinum_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "35F8A044C126886F"
+			shape: "pentagon"
+			size: 3.0d
+			tasks: [{
+				entity: "soulsweapons:day_stalker"
+				id: "45E8C86BE73853DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6光之使者&8梅瑞狄雅"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			icon: "minecraft:sniffer_egg"
+			id: "61E081D48BB0B568"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:sniffer_egg"
+				}
+				id: "28D02DFC6FE8029B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神之子&4[领主]"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2B8881C20DD28806"
+			tasks: [{
+				id: "015BC10393B00426"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "soulsweapons:chaos_orb"
+				}
+				type: "item"
+			}]
+			title: "&6混沌之珠"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "&4光暗使者"
+}

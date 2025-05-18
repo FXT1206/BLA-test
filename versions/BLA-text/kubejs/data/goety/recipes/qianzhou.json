@@ -1,0 +1,41 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "enigmaticlegacy:berserk_charm"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 5000,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:etherium_ingot"
+    },
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    {
+      "item": "terramity:black_matter"
+    },
+    {
+      "item": "meetyourfight:violet_bloom"
+    },
+    {
+      "item": "l2complements:soul_flame"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:cursed_scroll"
+  }
+}

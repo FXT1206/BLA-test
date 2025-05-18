@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "flowingagony_reborn:survival_shortcut",
+    "flowingagony_reborn:necessary_evil"
+  ]
+}

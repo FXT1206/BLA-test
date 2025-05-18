@@ -1,0 +1,9 @@
+{
+  "l2weaponry:abyss_resonance": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

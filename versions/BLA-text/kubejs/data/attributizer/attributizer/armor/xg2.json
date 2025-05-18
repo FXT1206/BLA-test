@@ -1,0 +1,9 @@
+{
+        "twilightforest:yeti_chestplate": [
+        {
+            "attribute": "irons_spellbooks:max_mana",
+            "modify": 300.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

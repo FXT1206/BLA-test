@@ -1,0 +1,55 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 20,
+        "min": 120,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "goety:minister"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:reprint"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:protection"
+        },
+    {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:arena"
+        },   {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reflect"
+        }  ,
+      {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:tank"
+        }   
+,  {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:master"
+        }
+      ]
+    }
+  ]
+}

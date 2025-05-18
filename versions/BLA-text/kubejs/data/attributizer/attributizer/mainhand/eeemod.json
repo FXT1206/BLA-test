@@ -1,0 +1,9 @@
+{
+  "eeeabsmobs:netherworld_katana": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 22.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

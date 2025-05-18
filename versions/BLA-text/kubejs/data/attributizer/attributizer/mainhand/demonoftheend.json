@@ -1,0 +1,9 @@
+{
+  "l2weaponry:haunting_demon_of_the_end": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 11.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	id: "2EBDC4455F82CEFB"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "minecraft:netherite_scrap" }
+		{ item: "minecraft:diamond", weight: 2.0f }
+		{ item: "minecraft:iron_ingot", weight: 3.0f }
+		{ item: "minecraft:coal", weight: 4.0f }
+		{ item: "minecraft:gold_ingot", weight: 3.0f }
+	]
+	title: "矿物抽取"
+}

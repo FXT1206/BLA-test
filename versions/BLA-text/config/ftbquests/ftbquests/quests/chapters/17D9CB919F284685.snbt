@@ -1,0 +1,2757 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "17D9CB919F284685"
+	group: "324A4E3124CEE585"
+	icon: "alexsmobs:ambergris"
+	id: "5D9331F16A118ADE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "58F5358238628266"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5499F4F1CE79F671"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BCED6B0B9E60791"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败利维坦5次"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "5F1FBAD22E3BC268"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&a挑战任务-灭渊者"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:dragon_head"
+			id: "12DE8E4EEB7C7F9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4076592993453483"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B606EB585588D5C"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败末影龙5次"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0D2CC6E5D491AEDF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&a挑战任务-屠龙者"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: "cataclysm:blessed_amethyst_crab_meat"
+			id: "52F8FEEBA814F04A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "353304E256213509"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "051A80804D054288"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败紫水晶巨蟹3次"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "0C67ADA223D49EE7"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&a挑战任务-吃螃蟹"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_elytra_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2AED47C80200C8DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67CBE8DF991FE2BC"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06B842A7A6820A78"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					id: "6F1EE71432DBCC6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:final_fractal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败焰魔10次"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "24A89B221197320C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a挑战任务-灭焰者"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			icon: "goety:night_beacon"
+			id: "3122ED65BBE4B7E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FB31A46507CE711"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12450906D711F95B"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "在下界中举行安息仪式召唤出最强使徒并击败3次"
+			tasks: [{
+				entity: "goety:apostle"
+				id: "2C53D24320A6A1C4"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&a&a挑战任务-击败下界使徒"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:nether_star"
+			id: "7A3D9CAA295778AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C0DAB160CB5D808"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BD25B8908357036"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败凋灵5次"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4E3ADFB8140356BB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&a挑战任务-凋灵收割者"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:spider_eye"
+			id: "1B3C5DBCC56995B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38E37094E796B6E7"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BDB37B1666C109A"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只蜘蛛"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "317AE641B9C31A96"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-爬行泛滥"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			id: "4CD462308D5B1AAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "797B530D3C3C17F7"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4341077E91C52ABB"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只骷髅"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "50C099CC17AE01FC"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-亡灵崛起"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:zombie_head"
+			id: "4F2AF8D49A070694"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7650796AF9BA795F"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45DF801AF59DFC67"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只僵尸"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "5F1DCF7E82E63DC8"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-僵尸狂潮"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:creeper_head"
+			id: "7C5C9721D509A438"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E819F18B91EB673"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F76805C23728404"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只苦力怕"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "233CC1DBC47C5B86"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-爆炸危险"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "77EBDBC09CFEE7D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FEC2776AE31A8BC"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05E78B86C853F3F1"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只凋灵"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "502FE83FA296CD36"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-头颅收割者"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			description: [""]
+			icon: "minecraft:blaze_rod"
+			id: "08821C5F06F6BE67"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2704CB64D3BB923D"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16CE3009A6387C30"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀50只烈焰人"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "27F8E60EDCE8B8F6"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-下界居民"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "74B7334458E113AF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "079CD982CD470C37"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFA9E6788530DF6"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "点燃核弹后右键坐上去，你将体验飞一般的感觉"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/ride_nuclear_bomb"
+				criterion: ""
+				id: "46FFC6F6B695AAB2"
+				type: "advancement"
+			}]
+			title: "&a挑战任务-我们很快再次相见"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			id: "791AA52CA0853E3A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4260AEDF56C2C449"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54FE14F35974EFDD"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只末影人"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4668A2546EFC29C7"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-末地的使者"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F1EACF959C910EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36D2CF290934E781"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46ADF4193D37DAF7"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀50只猪灵蛮兵"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "6E2D1728AD0974E0"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-斧头帮"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "126865961A99313C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E9C050BBFE3D5BA"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65E48F72F945EEE5"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀300只猪灵"
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "17236CB3067E7D1A"
+				type: "kill"
+				value: 300L
+			}]
+			title: "&a挑战任务-小心弩箭"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			icon: "minecraft:echo_shard"
+			id: "72CB88A209A787D5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "506BF6879F75CD46"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B7C091840BABC04"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击败20只监守者"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "44374383AC606D58"
+				type: "kill"
+				value: 20L
+			}]
+			title: "&a挑战任务-远古城市的守卫者"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			icon: "iceandfire:ice_dragon_heart"
+			id: "5458F614C14622B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B3A3CF7C43A9834"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48DE499C86348FB7"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀10只冰龙"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "4F096E4232105F36"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a挑战任务-冰龙屠灭者"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			icon: "iceandfire:fire_dragon_heart"
+			id: "00F35136D7E84E1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "361EED842198A2E3"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CE93B3AD597ECA8"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀10只火龙"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "30CA1F69AA40F8E9"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a挑战任务-火龙屠灭者"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "61E48F2F5046D0B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BE01AE2191EC020"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D484C888BF9BE07"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀10只电龙"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "40E2B50A83FDCC89"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a挑战任务-电龙屠灭者"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			hide_text_until_complete: false
+			id: "28777375731DFF60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4433BDC9F4E12FF6"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7989B53BDB817973"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "获得龙蛋"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "6FA217E53E9AC284"
+				type: "advancement"
+			}]
+			title: "&a挑战任务-龙母"
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "132BEA5D42731B7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "771E45DE36B7456E"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C1195EE8BFA36A"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀200只掠夺者"
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "4AADC01E05C89221"
+				type: "kill"
+				value: 200L
+			}]
+			title: "&a挑战任务-为民除害"
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "241CF4BA74496F81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2834FFE440F96F15"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D70C725737FBB70"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀100只卫道士"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "22367B1339D62D8B"
+				type: "kill"
+				value: 100L
+			}]
+			title: "&a挑战任务-村庄英雄"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			icon: "minecraft:emerald"
+			id: "3A17D336027ED764"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B348B251FF55D95"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A11E71B616D558"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀50只村民"
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "14F404D08933C7A0"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-恶魔"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			icon: "alexsmobs:farseer_arm"
+			id: "03DD094754A4F20A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F5602B424115D1E"
+					table_id: 6452859968767898695L
+					type: "loot"
+				}
+				{
+					id: "76F8732296A9E92E"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+				{
+					id: "2D766699CAB60309"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "563927CCF72D1352"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "377D178E12D8BE9B"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "它们会从它们所处的宇宙穿越到主世界的边境之地，或是使用碎裂的维度撕裂者往同一个方向数次挖掘并进入传送门，就有机会在传送门的另外一边遇见瞻远者"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				id: "1BE0BA10844F13D5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a挑战任务-边界之地的保卫者"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			icon: "minecraft:coast_armor_trim_smithing_template"
+			id: "08572723B842F4D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5817C9A92DDF76D3"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34ADB173F6BB5A5A"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "收集整合包中所有的锻造模板"
+			tasks: [
+				{
+					id: "3C255D59F13559F1"
+					item: "minecraft:sentry_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "12F0057FAC1932BE"
+					item: "minecraft:vex_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "048230D77165DFAB"
+					item: "minecraft:wild_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "33F0AF9529C90CF7"
+					item: "minecraft:coast_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "60F15C4E6A558D43"
+					item: "minecraft:dune_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "6D781D258CD3CD0F"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "6F6AC139D33DE4D9"
+					item: "minecraft:raiser_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "38D0D47808AF3BED"
+					item: "minecraft:shaper_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "3BD61824DDBCAEF8"
+					item: "minecraft:host_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0E6AB989010FB241"
+					item: "minecraft:ward_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "5DC0C5CF1D6CFD65"
+					item: "minecraft:silence_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "2963D18CFA0E3098"
+					item: "minecraft:tide_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "76D10A200DDCDE77"
+					item: "minecraft:snout_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "46AF938DA3F32204"
+					item: "minecraft:rib_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "3850DD77B40FC4DC"
+					item: "minecraft:eye_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "04B22857B25E7C1A"
+					item: "minecraft:spire_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0965D5924528728C"
+					item: "alexscaves:polarity_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-模板收藏家"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:skull_pottery_sherd"
+			id: "0489DFCCEBD18201"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44A6677E2C90D9A8"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D1DB429CC7D3D7E"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "收集整合包中所有的陶片"
+			tasks: [
+				{
+					id: "6B431C4C8F6A4C01"
+					item: "minecraft:angler_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "6E1F301178EC6477"
+					item: "minecraft:archer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "7C2A648876007D7C"
+					item: "minecraft:arms_up_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "77FCB22BCE830427"
+					item: "minecraft:blade_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4896A1A11DADEB43"
+					item: "minecraft:brewer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "10FB7F50F9276E97"
+					item: "minecraft:burn_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "73128D91EFC3FF9D"
+					item: "minecraft:danger_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "24F837B83079F215"
+					item: "minecraft:explorer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "57348CC64A932C00"
+					item: "minecraft:friend_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "3E66F77231827406"
+					item: "minecraft:heart_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "0CF9F31D3066508F"
+					item: "minecraft:heartbreak_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5B1E298117984421"
+					item: "minecraft:howl_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "6773A91E88501D30"
+					item: "minecraft:miner_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "719A6B98504269C0"
+					item: "minecraft:mourner_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "7B1C206544427748"
+					item: "minecraft:plenty_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "048B545382177934"
+					item: "minecraft:prize_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "64C6DA0ADB5FBDB0"
+					item: "minecraft:sheaf_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "19697816606EA59C"
+					item: "minecraft:shelter_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4F05982C9B152F88"
+					item: "minecraft:skull_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "31EB225711103334"
+					item: "minecraft:snort_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "46E9D4192D66585E"
+					item: "alexscaves:dinosaur_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "08E8701E09612A9D"
+					item: "alexscaves:footprint_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "21251C7B267F8A0C"
+					item: "alexscaves:guardian_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "48961FA25EA400C8"
+					item: "alexscaves:hero_pottery_sherd"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-陶片收藏家"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: "iceandfire:pixie_jar_2"
+			id: "18672B43E6686115"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23CC367EE5419DC2"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F908EDE2C3430B1"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "收集整合包中所有颜色的精灵"
+			tasks: [
+				{
+					id: "3B5DC6751B1B186F"
+					item: "iceandfire:pixie_jar_0"
+					type: "item"
+				}
+				{
+					id: "229D84639FF6F153"
+					item: "iceandfire:pixie_jar_1"
+					type: "item"
+				}
+				{
+					id: "731C10A251BAC60C"
+					item: "iceandfire:pixie_jar_2"
+					type: "item"
+				}
+				{
+					id: "2BD45471E2B0182C"
+					item: "iceandfire:pixie_jar_3"
+					type: "item"
+				}
+				{
+					id: "05B87D2C4BCAEC3E"
+					item: "iceandfire:pixie_jar_4"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-精灵之友"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			id: "582BDA6000477BDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18E083304A9840C7"
+					table_id: 8563377408704733518L
+					title: "&6传奇武器抽奖"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FF4536CFDDDEAD9"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35B322E029CC1793"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "可以从村庄抄书吏房子中的战利品箱中找到，用于解锁异兽手记中未解锁的章节"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "59DA66925B2A2435"
+				item: { Count: 64, id: "iceandfire:manuscript" }
+				type: "item"
+			}]
+			title: "&a挑战任务-撰写家"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "78BF41F4A489F69C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71DE93B7BA490850"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509811CBD6402D0D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "问题来了，经历了如此之多的死亡，你失去了什么"
+			tasks: [{
+				id: "7EDFE765939DFDB2"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 100
+			}]
+			title: "&a挑战任务-轮回绝境"
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			id: "6F9B238A39A24406"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "615483656736ACD8"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B033EE2E23B5E64"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀塞壬有极小的概率掉落"
+			tasks: [{
+				id: "70D7C07C4A11030D"
+				item: "iceandfire:siren_tear"
+				type: "item"
+			}]
+			title: "&a挑战任务-人鱼之泪"
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "52030943BC3F8518"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "783E0DF68FCCD937"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "134B4AD81CD1EE14"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀巫妖，并集齐它的四根权杖"
+			tasks: [{
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+				id: "5796D1449933ECE3"
+				type: "advancement"
+			}]
+			title: "&a挑战任务-众杖合力"
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			icon: "alexscaves:tremorsaurus_egg"
+			id: "3651098A5603F208"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C5DC90AAAD2DFAA"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5830F4004F7187D5"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "只会生成在原始洞穴中，具体的获取方法请查阅主线任务章节"
+			tasks: [
+				{
+					id: "18E8BF9228906F99"
+					item: "alexscaves:subterranodon_egg"
+					type: "item"
+				}
+				{
+					id: "2972D42A8A28FE02"
+					item: "alexscaves:vallumraptor_egg"
+					type: "item"
+				}
+				{
+					id: "1829497CC56CF30F"
+					item: "alexscaves:grottoceratops_egg"
+					type: "item"
+				}
+				{
+					id: "645519B162078560"
+					item: "alexscaves:tremorsaurus_egg"
+					type: "item"
+				}
+				{
+					id: "39F636CB89A10788"
+					item: "alexscaves:relicheirus_egg"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-ALEX洞穴的远古生物"
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			id: "13C66EE0C5AD08D8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C617FDAB86E57A9"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "684686E7B5F6BB35"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀主世界的九头蛇有小概率掉落，放在物品栏中后能够提供无限的生命恢复效果"
+			tasks: [{
+				id: "0C5856781E5F7E03"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			title: "&a挑战任务-不灭心脏"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			id: "7D5FC0CBBABCA878"
+			rewards: [
+				{
+					count: 8
+					id: "3EB56536B062AD72"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DC2DD7B5F72C101"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "021B8B428C99659D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64颗金苹果"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "37A5E8CAE30127EF"
+				item: { Count: 64, id: "minecraft:golden_apple" }
+				type: "item"
+			}]
+			title: "&a挑战任务-金苹果"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "6A93DB3FCEDCA0EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B815E928DE23266"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D6ABDE795309E6E"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交32块火龙肉"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3635FAEEC7C2C892"
+				item: { Count: 32, id: "iceandfire:fire_dragon_flesh" }
+				type: "item"
+			}]
+			title: "&a挑战任务-火龙肉"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "509C467E09D4AAF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BB2BB254EE2170B"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20EFC9352D0E6C9B"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交32块冰龙肉"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "3EAC0830CF583BA5"
+				item: { Count: 32, id: "iceandfire:ice_dragon_flesh" }
+				type: "item"
+			}]
+			title: "&a挑战任务-冰龙肉"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "2389835B2BCD5885"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6315F636B59CF07A"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "570ACBD88148C95D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交32块电龙肉"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "786A933C778345B2"
+				item: { Count: 32, id: "iceandfire:lightning_dragon_flesh" }
+				type: "item"
+			}]
+			title: "&a挑战任务-电龙肉"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			id: "5989F31F6C10ACE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B23CE30CF0D9E91"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41FDF6616CC52DB8"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64碗肉丸意面"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "36406D11461A42D1"
+				item: { Count: 16, id: "farmersdelight:pasta_with_meatballs" }
+				type: "item"
+			}]
+			title: "&a挑战任务-肉丸意面"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "02AB859961EAF9FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6343FE2620AAD3D6"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EB5DD2976C1D384"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64碗羊排意面"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5A56F927D66D86CC"
+				item: { Count: 16, id: "farmersdelight:pasta_with_mutton_chop" }
+				type: "item"
+			}]
+			title: "&a挑战任务-羊排意面"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "06AD62FAD2ADEDB2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E87D36356FDB52D"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7529D5831A85639D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64份猛汉午餐肉"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3571F9744B9390EF"
+				item: { Count: 64, id: "alexscaves:slam" }
+				type: "item"
+			}]
+			title: "&a挑战任务-猛汉午餐肉"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "2A72D5F4B28EBABB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37E8A1E284F8D658"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "423829BF5B0501DF"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交32块恐龙肉骨"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "21AD3AC448538145"
+				item: { Count: 32, id: "alexscaves:dinosaur_chop" }
+				type: "item"
+			}]
+			title: "&a挑战任务-恐龙肉骨"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "2AD26AD487D4CB57"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D16C2ED38DE3F91"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51DE99DF5CCFE097"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64碗培根意面"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3794CD5E5B717CC7"
+				item: { Count: 16, id: "farmersdelight:bacon_and_eggs" }
+				type: "item"
+			}]
+			title: "&a挑战任务-培根鸡蛋"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "47D02E93DD595AC8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26203A08B629C35C"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3800BD05BB61C490"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交32块九头蛇肉排"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0F6C8DAEC26587F5"
+				item: { Count: 32, id: "twilightforest:hydra_chop" }
+				type: "item"
+			}]
+			title: "&a挑战任务-九头蛇肉排"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "1F4226989A612CC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C58EC3A4FF56763"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14D51268DC0DF7B8"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64碗鸡肉汤"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2CAFCA2081C4D2FC"
+				item: { Count: 16, id: "farmersdelight:chicken_soup" }
+				type: "item"
+			}]
+			title: "&a挑战任务-鸡肉汤"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "2BA17A016C4C8D40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4929EF41B8E4E7A8"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "713D7EC3789B0F0E"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交16份暮光惠灵顿牛排，如果你想吃它的话需要将其摆在方块上并手持空碗进行盛装"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7A4043ED1D7283F0"
+				item: { Count: 16, id: "twilightdelight:meef_wellington_block" }
+				type: "item"
+			}]
+			title: "&a挑战任务-暮光惠灵顿牛排"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "76FFE81288F35675"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "123F65E722B711F6"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78054FAB18196DD3"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交16碗万草煲"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7CDAD1DCDD50FD98"
+				item: { Count: 16, id: "twilightdelight:thousand_plant_stew" }
+				type: "item"
+			}]
+			title: "&a挑战任务-万草煲"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "0A9722867B1E4EE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "134D55B448FAED4D"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72F925FB6EF58FEF"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交16份恶魂汉堡"
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "7F698AA804D5E7A1"
+				item: { Count: 16, id: "twilightdelight:ghast_burger" }
+				type: "item"
+			}]
+			title: "&a挑战任务-恶魂汉堡"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "06ABF626BA32D3AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22B476D9210CE3CB"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75EC0A165EBDCA37"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交16份米诺陶卷"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "50A57A745318CA9A"
+				item: { Count: 32, id: "twilightdelight:meef_wrap" }
+				type: "item"
+			}]
+			title: "&a挑战任务-米诺陶卷"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "6FE642D181ECA40C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28D66CA907080D65"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6298B33563AEC360"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "提交64根浆果串"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "73EB2E0542AD0660"
+				item: { Count: 64, id: "twilightdelight:berry_stick" }
+				type: "item"
+			}]
+			title: "&a挑战任务-浆果串"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:skullbreaker_hammer"
+				tag: {
+					Damage: 0
+					itemModifier: "modifiers:sluggish"
+				}
+			}
+			id: "4766DA5DB688AA7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EF95EA9A66CD398"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32AF8791CFC3FD6E"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀重击者"
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				id: "05B32A8E2887AF3C"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-亚当重锤"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			description: [""]
+			icon: "born_in_chaos_v1:pileof_dark_metal"
+			id: "5C9C69F5E778478A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15D57C63D4F82771"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00194E461CA445CA"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀堕落混沌骑士"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				id: "4A975E1AE31FFA6A"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-堕落的骑士"
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			icon: "farmersdelight:rich_soil"
+			id: "115DE45CD36FBEFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "488F3F45BA386506"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "737809CFC5344AA5"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "做出128个沃土"
+			tasks: [{
+				count: 128L
+				id: "303AB7D9F00B1DF3"
+				item: { Count: 64, id: "farmersdelight:rich_soil" }
+				type: "item"
+			}]
+			title: "&a挑战任务-黑土地"
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:darkwarblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D55A130F970EF00"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1749125037BEFF34"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711E106A73814730"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "集齐生于混沌中所有的武器"
+			tasks: [
+				{
+					id: "1B54B97782361D5E"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:darkwarblade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F8C8E3795D80D3E"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:soul_cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63DEA79E1609EE55"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:great_reaper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F7CF607182413F4"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:nightmare_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "790A279B359110C1"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B76DDED561B2CCE"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:shell_mace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23BA51F3BD7A6D91"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:soulbane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-黑暗武器收集家"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			icon: "alexscaves:dinosaur_nugget"
+			id: "7CBC1CF30FB220CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19B9F4BDB60C801F"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CEA729A33DD8A14"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "驯服原始洞穴中所有的恐龙"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_tremorsaurus"
+					criterion: ""
+					id: "163B837A9250567A"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/breed_grottoceratops"
+					criterion: ""
+					id: "45C1891B3E523BC8"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/tame_vallumraptor"
+					criterion: ""
+					id: "378C89D062558A11"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/tame_subterranodon"
+					criterion: ""
+					id: "56B5BDB9BC7002D4"
+					type: "advancement"
+				}
+				{
+					advancement: "alexscaves:alexscaves/feed_relicheirus"
+					criterion: ""
+					id: "6FA115FE559F7956"
+					type: "advancement"
+				}
+			]
+			title: "&a挑战任务-恐龙之友"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			icon: "alexscaves:tectonic_shard"
+			id: "49B85B77FB3BEC84"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F2BE9DE8F067D52"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13C549AD11C52E44"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀5次暝煌龙"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "400C90169F1E5DCD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&a挑战任务-天灾的终结者"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			icon: "born_in_chaos_v1:fire_dust"
+			id: "7F544F5C96480D7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A11F6657653BBFF"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "656358473FD7AA32"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀50只焰芒虫"
+			tasks: [{
+				entity: "born_in_chaos_v1:firelight"
+				id: "1343E082C4B0C585"
+				type: "kill"
+				value: 50L
+			}]
+			title: "&a挑战任务-火焰虫"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fury"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4516A197BE617B4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EB0340D62DD9491"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57CC3C55253AEE8A"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "集齐太阳鸟部落中所有的面具"
+			tasks: [
+				{
+					id: "055FCA5BDF1DA290"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CB0387F6F9D5F87"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E1748A710D96EE5"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E0F446265D77548"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08914C1BABBB56DB"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "448741AB913A0189"
+					item: {
+						Count: 1
+						id: "mowziesmobs:umvuthana_mask_faith"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-部落面具"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: ["&6不是暮色森林里的娜迦，这种娜迦通过会生成在主世界的高山群系中。"]
+			icon: "mowziesmobs:naga_fang"
+			id: "282BD3BB62D2EB70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F8BF7D8B5B35E84"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F6623118ACC17C"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "击杀10只娜迦"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "5CE36A7D0FFD1C46"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&a挑战任务-毒龙"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			description: ["&6只会生成在地下龙穴的战利品箱中。"]
+			id: "3097D8BFA0D6624F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36E549248FAE0BE2"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A6E7126C6AC643"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "找到奶油甜馅煎饼卷"
+			tasks: [{
+				id: "3D8CCBC4C1387F66"
+				item: "iceandfire:cannoli"
+				type: "item"
+			}]
+			title: "&a挑战任务-奶油甜馅煎饼卷"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			description: ["&6在雷雨天时遇到搁浅的抹香鲸，将其无伤推进水中，抹香鲸便会报答你一个龙涎香。"]
+			id: "3ECEB70027392CBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "382FBA7830A25066"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0343DAF6930C26C1"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "这绝对是整合包中最少见的物品之一了"
+			tasks: [{
+				id: "284D1ECEA2EB5601"
+				item: "alexsmobs:ambergris"
+				type: "item"
+			}]
+			title: "&a挑战任务-珍贵之物"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "67B97BCCA02D1736"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "067F3B6F5384F974"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E255C03627A7C84"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "每一首BOSS战音乐都很好听"
+			tasks: [
+				{
+					id: "5799EABCA0A6178C"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "425AE6494FF26C14"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "0F3923BA15AEC610"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "70DCD333BEF21712"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "4BBDCDA2751A7046"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "1DD907890469E938"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "478D3FA15AA2A556"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-灾变音乐家"
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			id: "6A6C6913E9F98781"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "040E642645DF8F2C"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75DC47A99AA3BB2B"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "集齐四把暮色弓箭"
+			tasks: [
+				{
+					id: "5771343E15FC458C"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AF9FCF306FCB5D5"
+					item: {
+						Count: 1
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02B308B0DD9B2FC3"
+					item: {
+						Count: 1
+						id: "twilightforest:ender_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DE325B60E59D013"
+					item: {
+						Count: 1
+						id: "twilightforest:ice_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-暮色神弓手"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			description: ["&6也许存在着某种方法能够让你驾驭不洁圣杯。"]
+			id: "68B9FEA76C29284A"
+			rewards: [
+				{
+					id: "7661EE0E1EC9A858"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B5DF94EB3A12F8"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B44F507C4FD5A1"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220111FB7261034C"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "但代价是什么？"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/unholy_grail_worthy"
+				criterion: ""
+				id: "4ED47AB5AA177F99"
+				type: "advancement"
+			}]
+			title: "&a挑战任务-驾驭不洁圣杯"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["&6在暮色高原下巨魔洞窟内由巨型黑曜石包围的箱子中获得，用途是破坏荆棘之地的荆棘，没有耐久。"]
+			id: "2F86B9E7BE5C34DB"
+			rewards: [
+				{
+					id: "08F39A95DDDFDED2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1268303E4A0742E5"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "534B6E25D3D53B79"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B632AAD2D2207FF"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "里面的魔法火焰有着我设想中清除高地荆棘的力量"
+			tasks: [{
+				id: "1748132BE011BF58"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a挑战任务-阿拉丁神灯"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "3114BB56A8F99F98"
+			rewards: [
+				{
+					id: "74BC95A8EEAE78CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CE9911D43D0EBF3"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A7632AF84D96E3"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "189E3938CBFAFA12"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "48C949C5DF0E413B"
+					item: "twilightdelight:experiment_110"
+					type: "item"
+				}
+				{
+					id: "2DD2DCA2E63D04D6"
+					item: "twilightdelight:experiment_113"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-试验物品"
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "281486413BF798CB"
+			rewards: [
+				{
+					id: "1803CDF73BCAF017"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A6292195D5C1B98"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66716C10B8CFCCF2"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361F4C417D6F3B10"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "死亡有什么可怕的呢？"
+			tasks: [
+				{
+					disable_toast: true
+					id: "28872F6FC0892706"
+					item: "enigmaticlegacy:escape_scroll"
+					type: "item"
+				}
+				{
+					id: "782773A44868EC9A"
+					item: "enigmaticlegacy:soul_compass"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-无惧死亡"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "381A3F64575D5830"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BACECE306D85E4C"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0939180A7C692453"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "7FCFDE9C2E394053"
+					item: "meetyourfight:music_disc_swampjaw"
+					type: "item"
+				}
+				{
+					id: "11002ABA2B4D7F2A"
+					item: "meetyourfight:music_disc_bellringer"
+					type: "item"
+				}
+				{
+					id: "63BD090EB47072A6"
+					item: "meetyourfight:music_disc_fortuna"
+					type: "item"
+				}
+				{
+					id: "5EF56107819EEF0F"
+					item: "meetyourfight:music_disc_rosalyne"
+					type: "item"
+				}
+			]
+			title: "&a挑战任务-迎战音乐家"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&6魔鳉是动物界的一种鳉属类生物，主要分布在美国内华达州死亡谷[尽管在游戏中也异同].在1966年被列入濒危物种保护法案的首批物种名单,它们的数量已经从20世纪70年代的大约400尾下降到约30尾..."
+				"&4&l你的选择将关系到他的存亡[游戏中仅有一只]"
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:pupfish_locator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16FB762148B4C3A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AA30EB38310D3AF"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C3E0536E1A70CA5"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "&6你一定要守护好它啊..."
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/devils_hole_pupfish_bucket"
+				criterion: ""
+				id: "4E1057F0E313A5E2"
+				type: "advancement"
+			}]
+			title: "&a挑战任务-The END"
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "blasphemouspatch:revenge_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0671323E803F21F3"
+			rewards: [
+				{
+					id: "6F645D408320C5C7"
+					item: {
+						Count: 1
+						id: "blasphemouspatch:revenge_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "555BBDD031DF27DD"
+					item: {
+						Count: 1
+						id: "blasphemouspatch:revenge_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18250BB4674EF74B"
+					item: {
+						Count: 1
+						id: "blasphemouspatch:revenge_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27B15E53E7132F1C"
+					item: {
+						Count: 1
+						id: "blasphemouspatch:revenge_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662624B4E1CED9B8"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42AE0AB0135CE346"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "我打他死了不知道多少次!!!"
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "651DA73DBF0F54A5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&a挑战任务-血海深仇"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "10543EA63238DAB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40759D46690606B5"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1068EBFD284DFD22"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			subtitle: "有了它你就再也不会饿了"
+			tasks: [{
+				id: "2059A7561A8C5DAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sack_of_sating"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a挑战任务-无限饱食"
+			x: 5.0d
+			y: 7.5d
+		}
+	]
+	subtitle: ["&a高风险、高难度，高回报。"]
+	title: "&6&l挑战任务"
+}

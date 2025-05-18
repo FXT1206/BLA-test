@@ -1,0 +1,11 @@
+{
+  "name": "Divergency",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Divergency是 Terramity 新增的药水/状态效果。$(br2)该效果会在短暂延迟后使任何伤害命中两次，有效地将伤害翻倍。第二次伤害的上限为 20。"
+    }
+  ]
+}

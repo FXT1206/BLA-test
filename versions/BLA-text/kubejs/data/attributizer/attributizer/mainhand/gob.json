@@ -1,0 +1,9 @@
+{
+  "gobber2:gobber2_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": -2.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

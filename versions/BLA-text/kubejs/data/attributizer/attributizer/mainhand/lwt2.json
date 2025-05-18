@@ -1,0 +1,9 @@
+{
+  "mowziesmobs:wrought_axe": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "modify": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

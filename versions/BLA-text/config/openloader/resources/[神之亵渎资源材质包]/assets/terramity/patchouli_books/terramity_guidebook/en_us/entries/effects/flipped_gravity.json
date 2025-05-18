@@ -1,0 +1,11 @@
+{
+  "name": "翻转重力",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "翻转重力是由 Terramity 添加的新药水/状态效果。$(br2)该效果仅由宙晶装甲的套装奖励赋予，可为你翻转重力。"
+    }
+  ]
+}

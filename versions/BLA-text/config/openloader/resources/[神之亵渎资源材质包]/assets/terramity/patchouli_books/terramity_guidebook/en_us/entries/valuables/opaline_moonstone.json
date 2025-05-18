@@ -1,0 +1,16 @@
+{
+  "name": "乳色月岩",
+  "icon": "terramity:opaline_moonstone",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "乳色月岩是 $(l:terramity:ores/nyxium)尼柯希姆$()的必备材料。$(br2)只有在制作了 $(l:terramity:misc/moonondrill_cannon)钻月大炮$()并用它炸掉大块月球后才能获得。"
+    },
+    {
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:moondrill_cannon_recipe",
+	  "recipe2": "terramity:nyxium_recipe"
+	}
+  ]
+}

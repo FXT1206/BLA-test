@@ -1,0 +1,112 @@
+{
+	id: "604454FEFB2D74AA"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "confluence:panic_necklace"
+				tag: { }
+			}
+		}
+		{ item: "confluence:magic_quiver" }
+		{ item: "confluence:molten_quiver" }
+		{ item: "confluence:stalkers_quiver" }
+		{ item: "confluence:rifle_scope" }
+		{ item: "confluence:magma_stone" }
+		{ item: "confluence:obsidian_rose" }
+		{ item: "confluence:obsidian_skull" }
+		{ item: "confluence:hand_warmer" }
+		{ item: "confluence:bezoar" }
+		{ item: "confluence:holy_water" }
+		{ item: "confluence:vitamins" }
+		{ item: "confluence:energy_bar" }
+		{ item: "confluence:blindfold" }
+		{ item: "confluence:flashlight" }
+		{ item: "confluence:fast_clock" }
+		{ item: "confluence:trifold_map" }
+		{ item: "confluence:hand_drill" }
+		{ item: "confluence:shot_put" }
+		{ item: "confluence:star_cloak" }
+		{ item: "confluence:black_belt" }
+		{ item: "confluence:sun_stone" }
+		{ item: "confluence:moon_stone" }
+		{ item: "confluence:cobalt_shield" }
+		{ item: "confluence:cross_necklace" }
+		{ item: "confluence:ranger_emblem" }
+		{ item: "confluence:warrior_emblem" }
+		{ item: "confluence:sorcerer_emblem" }
+		{ item: "confluence:eye_of_the_golem" }
+		{ item: "confluence:feral_claws" }
+		{ item: "confluence:titan_glove" }
+		{ item: "confluence:flesh_knuckles" }
+		{ item: "confluence:paladins_shield" }
+		{ item: "confluence:frozen_turtle_shell" }
+		{ item: "confluence:shark_tooth_necklace" }
+		{ item: "confluence:tabi" }
+		{
+			item: {
+				Count: 1
+				id: "confluence:ice_skates"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "confluence:hermes_boots"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "confluence:dunerider_boots"
+				tag: { }
+			}
+		}
+		{ item: "confluence:water_walking_boots" }
+		{ item: "confluence:cloud_in_a_bottle" }
+		{ item: "confluence:shiny_red_balloon" }
+		{ item: "confluence:lucky_horseshoe" }
+		{ item: "confluence:flipper" }
+		{ item: "confluence:putrid_scent" }
+		{ item: "confluence:shackle" }
+		{ item: "confluence:toolbelt" }
+		{ item: "confluence:toolbox" }
+		{ item: "confluence:extendo_grip" }
+		{ item: "confluence:portable_cement_mixer" }
+		{ item: "confluence:brick_layer" }
+		{ item: "confluence:ancient_chisel" }
+		{ item: "confluence:band_of_regeneration" }
+		{ item: "confluence:platinum_watch" }
+		{ item: "confluence:depth_meter" }
+		{ item: "confluence:compass" }
+		{ item: "confluence:radar" }
+		{ item: "confluence:life_form_analyzer" }
+		{ item: "confluence:tally_counter" }
+		{ item: "confluence:metal_detector" }
+		{ item: "confluence:stopwatch" }
+		{ item: "confluence:dps_meter" }
+		{ item: "confluence:fishermans_pocket_guide" }
+		{ item: "confluence:weather_radio" }
+		{ item: "confluence:sextant" }
+		{ item: "confluence:aglet" }
+		{ item: "confluence:anklet_of_the_wind" }
+		{ item: "confluence:magiluminescence" }
+		{ item: "confluence:lava_charm" }
+		{ item: "confluence:climbing_claws" }
+		{ item: "confluence:shoe_spikes" }
+		{ item: "confluence:frog_leg" }
+		{ item: "confluence:treasure_magnet" }
+		{ item: "confluence:flower_boots" }
+		{ item: "confluence:angler_earring" }
+		{ item: "confluence:royal_gel" }
+		{ item: "confluence:shield_of_cthulhu" }
+		{ item: "confluence:hive_pack" }
+		{ item: "confluence:worm_scarf" }
+		{ item: "confluence:gravity_globe" }
+	]
+	title: "泰拉饰品"
+}

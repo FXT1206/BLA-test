@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D0941920B69BBD4"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "7D0941920B69BBD4"
+	images: [{
+		height: 5.5d
+		image: "aether_legacy:textures/gui/perks/skins/icons/undead_moa_icon.png"
+		rotation: 0.0d
+		width: 5.5d
+		x: -0.5d
+		y: 2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["523D6DD3767D5059"]
+			icon: "meetyourfight:fortunes_favor"
+			id: "030C67F2566125E2"
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				id: "7608AF59C6DC1FDF"
+				title: "&4地狱女爵"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["523D6DD3767D5059"]
+			icon: "goety:ectoplasm"
+			id: "24D7C3BCE6D77547"
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				id: "7EFA0A193BB20DB2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b收魂者"
+			x: 0.5d
+			y: 1.0d
+		}
+	]
+	title: "&4迎战死亡"
+}

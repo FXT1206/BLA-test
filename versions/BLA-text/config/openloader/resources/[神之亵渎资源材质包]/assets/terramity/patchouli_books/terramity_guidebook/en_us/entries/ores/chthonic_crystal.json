@@ -1,0 +1,23 @@
+{
+  "name": "岩晶",
+  "icon": "terramity:chthonic_crystal",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "岩晶对于强大的 Terramity 物品非常重要。$(br2)开采水帘最容易发现岩晶。水帘只能用瓦伦蒂姆镐、宙晶镐、微晶石镐、铱镐或更好的镐来开采。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "水帘在地狱中任何可以找到黑石的地方都可以找到，但在玄武岩三角洲最为常见。",
+	  "item": {
+		"item": "terramity:brimslag"
+	  }
+    },
+	{
+      "type": "patchouli:crafting",
+	  "recipe": "terramity:hellspec_alloy_recipe",
+	  "recipe2": "terramity:stygian_safety_emblem_recipe"
+    }
+  ]
+}

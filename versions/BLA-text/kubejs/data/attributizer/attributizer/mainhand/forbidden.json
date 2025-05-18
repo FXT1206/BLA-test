@@ -1,0 +1,9 @@
+{
+  "enigmaticlegacy:forbidden_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 14.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

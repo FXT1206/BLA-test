@@ -1,0 +1,74 @@
+[
+  {
+    "gamestage": "difficult",
+    "damagemultiply": 1.0,   
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "gamestage": "difficult1",
+    "damagemultiply": 1.1,   
+    "when": "onjoin",
+    "result": "default"
+  },
+{
+    "gamestage": "difficult3",
+    "damagemultiply": 1.3,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult4",
+    "damagemultiply": 1.5,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult5",
+    "damagemultiply": 1.8,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult6",
+    "damagemultiply": 2.0,
+    "when": "onjoin",
+    "result": "default1"
+  },
+  {
+    "gamestage": "difficult",
+    "healthmultiply": 1.0,   
+    "when": "onjoin",
+    "result": "default"
+  },
+  {
+    "gamestage": "difficult1",
+    "healthmultiply": 1.5,   
+    "when": "onjoin",
+    "result": "default"
+  },
+{
+    "gamestage": "difficult3",
+    "healthmultiply": 2,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult4",
+    "healthmultiply": 3,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult5",
+    "healthmultiply": 5,
+    "when": "onjoin",
+    "result": "default1"
+  },
+{
+    "gamestage": "difficult6",
+    "healthmultiply": 8,
+    "when": "onjoin",
+    "result": "default1"
+  }
+]

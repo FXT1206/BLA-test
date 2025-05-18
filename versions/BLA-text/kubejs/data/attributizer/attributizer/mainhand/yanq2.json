@@ -1,0 +1,9 @@
+{
+  "traveloptics:gauntlet_of_extinction": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 32.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

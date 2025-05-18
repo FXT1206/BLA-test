@@ -1,0 +1,9 @@
+{
+  "terramity:conductite_sword": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 24.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

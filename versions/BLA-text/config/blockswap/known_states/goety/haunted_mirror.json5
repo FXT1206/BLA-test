@@ -1,0 +1,484 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "north"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "lower",
+			"facing": "east"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "lower",
+			"facing": "south"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "lower",
+			"facing": "west"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "lower",
+			"facing": "up"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "upper",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "upper",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "upper",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "upper",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "true",
+			"half": "lower",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "true",
+			"half": "lower",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"lit": "false",
+			"half": "lower",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"lit": "false",
+			"half": "lower",
+			"facing": "down"
+		},
+		"Name": "goety:haunted_mirror"
+	}
+]

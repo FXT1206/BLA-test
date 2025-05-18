@@ -1,0 +1,9 @@
+{
+  "l2weaponry:eternium_claw": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 40.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

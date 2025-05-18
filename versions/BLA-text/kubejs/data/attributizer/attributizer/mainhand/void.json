@@ -1,0 +1,9 @@
+{
+  "cataclysm:void_forge": [
+    {
+      "attribute": "gauntlet_of_bulwark",
+      "modify": 32.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enigmaticlegacy:ender_slayer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 36.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

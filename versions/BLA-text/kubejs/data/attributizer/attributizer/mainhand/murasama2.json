@@ -1,0 +1,9 @@
+{
+  "terramity:murasama": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.2,
+      "operation": "ADDITION"
+    }
+  ]
+}

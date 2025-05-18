@@ -1,0 +1,9 @@
+{
+  "iceandfire:ghost_sword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": -0.1,
+      "operation": "ADDITION"
+    }
+  ]
+}

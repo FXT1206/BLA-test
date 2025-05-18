@@ -1,0 +1,4 @@
+#Project: War Dance will inject style scroll drops into these locations. 
+#Format is loot table | chance
+"projectile parry rules" = ["minecraft:chests.*|0.05", ".*chests.*|0.05", "twilightforest:structures.*|0.02"]
+

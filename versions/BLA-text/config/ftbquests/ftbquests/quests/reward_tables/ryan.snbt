@@ -1,0 +1,11 @@
+{
+	id: "5D57E4F2B3517F7F"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ item: "confluence:lava_charm" }
+		{ item: "confluence:obsidian_rose" }
+		{ item: "confluence:magma_stone" }
+	]
+	title: "ryan"
+}

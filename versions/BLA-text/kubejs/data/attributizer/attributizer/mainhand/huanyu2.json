@@ -1,0 +1,9 @@
+{
+  "terramity:cosmilite_sword": [
+    {
+      "attribute": "attributeslib:dodge_chance",
+      "modify": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

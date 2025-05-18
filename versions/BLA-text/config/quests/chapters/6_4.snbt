@@ -1,0 +1,70 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_4"
+	group: "7571899CDEDDF9F5"
+	icon: "alexscaves:pure_darkness"
+	id: "233FD952A42658FA"
+	images: [{
+		height: 9.0d
+		image: "born_in_chaos_v1:item/cursing_eye"
+		rotation: 0.0d
+		width: 9.0d
+		x: -1.0d
+		y: 1.5d
+	}]
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"5C2322B225C29211"
+			"4500DF937900AB75"
+			"34497559F67CFA6B"
+			"018C1132EEBFA459"
+			"1F6D6AF0C699AB9C"
+			"488BC44FAEBACB92"
+			"6E5101B29C8307CE"
+		]
+		description: ["&4亵渎&6神明"]
+		hide_dependency_lines: true
+		hide_dependent_lines: true
+		icon: {
+			Count: 1
+			id: "terramity:unholy_lance"
+			tag: {
+				Damage: 0
+			}
+		}
+		id: "3ACF49901826B11A"
+		shape: "circle"
+		size: 1.0d
+		tasks: [
+			{
+				id: "693CD0FF3C70B152"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:unholy_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				entity: "terramity:virtue"
+				id: "0FCEADFDAD4AFF3C"
+				type: "kill"
+				value: 1L
+			}
+		]
+		title: "&4亵渎&6天神之眼"
+		x: -1.0d
+		y: 1.5d
+	}]
+	title: "&4虚假之神（终)"
+}

@@ -1,0 +1,9 @@
+{
+  "alexscaves:extinction_spear": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

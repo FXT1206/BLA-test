@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:chorus_blade": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

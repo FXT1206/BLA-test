@@ -1,0 +1,655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13DE45EF2EAA851E"
+	group: "6C11F5C97E337818"
+	icon: {
+		Count: 1
+		id: "gobber2:gobber2_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "13DE45EF2EAA851E"
+	images: [
+		{
+			height: 12.0d
+			image: "twilightdelight:block/ironwood_sapling"
+			order: 2
+			rotation: 0.0d
+			width: 12.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			height: 8.0d
+			image: "nameless_trinkets:item/fragile_cloud"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			height: 8.0d
+			image: "alexscaves:block/ancient_sapling"
+			rotation: 180.0d
+			width: 8.0d
+			x: -6.0d
+			y: 13.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75CCFE84E5370285"]
+			description: [
+				"&6强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"
+				"&6九头蛇拥有400引爆值，当身边存在燃烧中的玩家时，每s会减去20引爆值.当引爆值归零时，重置引爆值并对周围所有燃烧中的生物造成爆炸"
+				"&6当九头蛇被玩家伤害前，会进行一次运气判定[生成随机数，随机数大，则会造成更多伤害，反之造成更少的伤害]"
+				"&6九头蛇的头越多，自身获得一定的生命回复效果."
+			]
+			icon: "twilightforest:hydra_trophy"
+			id: "2F3CE21A15B0E14A"
+			rewards: [
+				{
+					count: 12
+					id: "21C6B1CF6980C1FB"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "33546D646B989AC6"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53FA0BD3248EA391"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31CA20ABB614FDC7"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6368871C1EDCAD1A"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "神话中古老的存在，炽热的血与火见证传奇般的战斗"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "6846B08E44D7D34C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6铲除&4祸害[领主]"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67FA37426B3A3F3C"]
+			description: [
+				"&6冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。"
+				"&6冰雪女王会在目标玩家身下生成陷阱。陷阱7s后生效并对上方附近的玩家造成冰冻"
+				"&6冰雪女王生命值低于1/2时，会获得10s的抗性提升5，并对周围的玩家施加7s的冰冻冷却[2min]"
+				"&6对附近所有处于冰冻状态的生物，冰雪女王会不断的对其造成其2%最大生命值的魔法伤害"
+			]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "00F7DAD88057BC9C"
+			rewards: [
+				{
+					id: "35AA66803756E339"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7058551EEC7433B2"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B271ED380DE007C"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "388A9D5DF2289E72"
+					table_id: 3091479244055592999L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "战啊，来战吧！我的心炽热如火！"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "33C383E341F23148"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b澄澈之&6空[领主]"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E834D2312AD6C0F"]
+			description: [
+				"&6没人知道在过去发生了什么，这片森林只是伴随着一场灾难永远地成为了文明的遗迹。如今被称作暮初恶魂的生物盘踞在幽冥高塔顶部，终日徘徊在破碎不堪的塔楼遗址上空，并毫不珍惜昔日曾属于自己的高塔。"
+				"&6其受到的爆炸伤害+70%且未加成前的爆炸伤害低于10点时按照10点计算"
+				"&6当恶魂死亡时，会对周围大范围内的玩家造成相当与玩家180%最大生命值的魔法伤害"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "6C37DABA7BC9F47F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27C6E4A7011270D7"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DEC6B26700EA22D"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BFD6B49E6001F0C"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CCA01B320E7A2D1"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "黑暗的气息席卷半毁的高塔，异变的灵魂窃居于无光的夜空"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "5913687966C619A3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炽厄&d之泪[领主]"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6934A985AD3A18FF"]
+			description: [
+				"&6你需要前往位于暮色森林中的娜迦庭院并击杀娜迦"
+				"&6当玩家的护甲值低于18点时，玩家被娜迦伤害而造成的护甲耐久降低会增加50%[消耗耐久比2小则消耗2点]"
+				"&6当玩家装备槽每装备了一件耐久低于120的盔甲或没有装备盔甲，娜迦都会增加撞击玩家所造成的击飞距离"
+				"&6娜迦的头部承受过多伤害时，娜迦将会陷入眩晕，并掉落5片娜迦鳞片。娜迦的愤怒冲撞的发动频率将会有概率被取消，也有小概率会直接眩晕。头部未破坏时，娜迦获得60%减伤,破坏后减伤为20% "
+			]
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			id: "030AF02F87F5A149"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CC0D1740484A66F"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22A0604BAE70BE0B"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "暮色森林的守门者，掌握着通往财富与荣耀的鳞片"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "3AA2013DDB4D46E8"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:naga"
+					id: "62600969FA33E443"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2剥鳞&d之时"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3924ADD1BA40A778"]
+			description: ["&d制作空白魔法地图，右键获取魔法地图用于更好的寻找暮色森林中的各种BOSS。"]
+			id: "6934A985AD3A18FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36C5100BF2BCDEFA"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "以火炬浆果汁液绘制的地图，通过与魔力共鸣来感应到远方的存在"
+			tasks: [{
+				advancement: "twilightforest:magic_map"
+				criterion: ""
+				id: "6E70D130E6AD1A7D"
+				type: "advancement"
+			}]
+			title: "&d我有&6千里眼"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7681C966C6A90B0B"]
+			description: ["&d相信许多人对这个世界并不陌生，首先挖一个2X2的水坑，再将周围种满花朵，最后将一颗 &6沉重之石[请务必注意] &d丢入其中即可开启传送门。"]
+			id: "3924ADD1BA40A778"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71FF6A3E76A2383B"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "199768D735B2D430"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "熟悉的世界"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "000FCFA8A6A68B46"
+				type: "advancement"
+			}]
+			title: "&d欢迎来到永夜之森"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"00F7DAD88057BC9C"
+				"6C37DABA7BC9F47F"
+				"2F3CE21A15B0E14A"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "1B3FDBE84D6E7BC6"
+			rewards: [
+				{
+					id: "0E909FD8B089B712"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "enigmaticlegacy:ichor_bottle"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					command: "/hostility player @a difficulty total add 10"
+					icon: "confluence:demon_heart"
+					id: "0427B6A0635DFF3A"
+					title: "难度提升"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55764D5BAB681F65"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "183098D4729A026B"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F16E0F5723FD6CA"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C3A6044BDB10649"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EA1F12D13E68DF5"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+			]
+			size: 1.11d
+			tasks: [
+				{
+					entity: "twilightforest:armored_giant"
+					id: "3BF90A2FE3BA9CF7"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "twilightforest:giant_miner"
+					id: "7F20075D5E5E62FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6云层之上"
+			x: -5.550000000000001d
+			y: -3.3300000000000005d
+		}
+		{
+			dependencies: ["030AF02F87F5A149"]
+			description: [
+				"&6你需要前往位于暮色森林中的巫妖塔顶层,并击杀巫妖王.他将是你亵渎路上的第一道门槛,他的实力不容小觑,请谨慎行事."
+				"&6一阶段可以使用治疗药水快速通过"
+				"&6第二,三形态下且自身生命值低于1/2时，立即获得80额外的护甲和护甲韧性。并在接下来3分钟内，每受到一次伤害，额外的护甲和护甲韧性便会-1,"
+				"&6且获得80%高额减伤。如果6分钟内没能够削减掉全部额外加成，巫妖将永久获得20%减伤(最高80%)并回复所有生命值，反之则会受到20%的伤害增加(最高40%)"
+			]
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "138127C31F5EFC69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CDF2405D5C3AFB3"
+					table_id: 2544174075653735952L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51E0C3CB89E414E4"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "记住，王权没有永恒……"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "7A357867FB0B431C"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:lich"
+					id: "483E55C0B89F7016"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6亡者&d之遗"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: [
+				"&6你需要前往雪怪巢穴中击杀雪怪首领，击杀雪怪首领后你将获得抵御冰川之寒挑战冰雪女王的资格。"
+				"&6雪怪会在狂暴时对周围创造细雪"
+				"&6怪拥有600点冰冻值，周围存在玩家在细雪中时，冰冻值每s减20。当冰冻值归零时，冻结周围所有的玩家并重置冰冻值"
+			]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "67FA37426B3A3F3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "310ACFB578A5AD65"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54EBCE629F86416A"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "体型巨大的雪怪之王，但它的臣下并不服从王的号召"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "739E58EB84874FBF"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "3C883051845B66F1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b首领的毛皮"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: [
+				"&6你需要前往牛头人迷宫中击杀米诺菇，并吃下它的掉落物沙拉酱肉，这样你就能获得前往火焰沼泽挑战九头蛇的资格。"
+				"&6米诺菇成功破盾后会获得持续1分钟的力量1效果"
+				"&6受到可追溯来源的远程攻击时，其攻击目标会转为远程攻击发出者"
+				"&6米诺菇当前攻击目标对米诺菇造成的伤害-80%，而非其攻击目标的攻击造成的伤害将+30%"
+				"&6生命值首次低于其最大生命值的90%时，获得8护甲与4护甲韧性与50最大生命值。并回复其所有生命值且推开附近的一切生物"
+			]
+			icon: "twilightforest:meef_stroganoff"
+			id: "75CCFE84E5370285"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DCF33480F72B27E"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1683CCBC00018CF8"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25959EF575B2BAEE"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "人的武术，牛的力量，怪物的灵魂"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "3C2295882CDAEB0C"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					id: "73511530DA5C1659"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6强力的&8牛头人沙拉酱肉"
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: [
+				"&6你需要前往骑士要塞击杀幻影骑士，这样你就能控制幽冥高塔中的砷铅铁机关，获得挑战暮初恶魂的资格。"
+				"&6骑士被玩家伤害时，若其不处于攻击状态(没有棕色躯干)，回复其20%最大生命值且对玩家造成相当其攻击力50%的魔法伤害"
+				"&6每位骑士死亡时，会对周围一定范围内的所有生物施加虚弱效果"
+			]
+			icon: "twilightforest:trophy_pedestal"
+			id: "3E834D2312AD6C0F"
+			rewards: [
+				{
+					count: 16
+					id: "0807F6AD1EBE1CCF"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "11EE3D900CCB4558"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2complements:cursed_blade"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F7400F04B09096"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "没有名字的坟墓底下，辉煌与荣耀蒙满苍苔"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "7AD3209B3C3C44F2"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "7BA1FBF72C648669"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4机关&8号令"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "7681C966C6A90B0B"
+			rewards: [
+				{
+					id: "6CB9C6ACC5B61A46"
+					item: "enigmaticaddons:adventure_charm"
+					type: "item"
+				}
+				{
+					id: "6B6B3D8785E37E91"
+					item: "confluence:trifold_map"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31B66D9933721A0F"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "098F42DE02F146BA"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C0581BB77999A01"
+					table_id: 2542286274920651320L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C4126A10ECC2BB4"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D68053B1BDEF0F6"
+					table_id: 6936762780169893034L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "&l&7整合包里最弱的BOSS！！！"
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "minecraft:bone"
+				id: "63DC5B928AFA3630"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7骨质鲨鱼&6[征途上的第一战]"
+			x: -6.0d
+			y: 12.0d
+		}
+	]
+	subtitle: [
+		"&6你应该会非常熟悉吧..."
+		"&6但愿你能在哪找到什么相关的回忆[也许不算是剧情]"
+	]
+	title: "&l&4暮色森林&6[主线]"
+}

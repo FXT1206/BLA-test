@@ -1,0 +1,9 @@
+{
+  "terramity:conductite_sword": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "modify": 0.45,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

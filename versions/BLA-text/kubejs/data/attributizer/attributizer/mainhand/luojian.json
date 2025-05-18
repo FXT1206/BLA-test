@@ -1,0 +1,9 @@
+{
+  "alexscaves:ortholance": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 31.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

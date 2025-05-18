@@ -1,0 +1,39 @@
+{
+  "name": "扭蛋机",
+  "icon": "terramity:slot_machine",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)扭蛋机有机会让你投入的物品翻倍、三倍甚至四倍，但也有可能永远夺走这些物品。$(br2)要使用扭蛋机，请将想要赌的物品放在手边，然后右击扭蛋机。"
+    },
+    {
+	  "type": "patchouli:multiblock",
+	  "enable_visualize": false,
+	  "multiblock": {
+		"pattern": [
+			  [
+				"0"
+			  ]
+			],
+		  "mapping": {
+			"0": "terramity:slot_machine"
+		  }
+		}
+	},
+	{
+      "type": "patchouli:image",
+      "title": "岩晶赌场",
+      "images": ["terramity:textures/screens/casino.png"],
+      "border": true
+    },
+	{
+      "type": "patchouli:text",
+      "text": "在$(l:terramity:structures/chthonic_dungeon)岩晶地牢$()中可以找到扭蛋机。一台扭蛋机可能会让你投入的金额翻三倍，但赔率较低；而另一台老虎机可能会让你投入的金额翻一番，赔率较高。回报率高的扭蛋机更有可能赔率较低。"
+    },
+	{
+      "type": "patchouli:text",
+      "text": "打破扭蛋机并将其放回原处会重新滚动赔率和回报。.$(br2)扭蛋机上的赔率是无法检查的，所以在赌掉你的整个存储系统之前一定要小心。"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+	id: "218D77DF8E41CAE5"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 24
+			item: {
+				Count: 1
+				id: "apotheosis:common_material"
+				tag: { }
+			}
+			weight: 7.0f
+		}
+		{
+			count: 18
+			item: {
+				Count: 1
+				id: "apotheosis:uncommon_material"
+				tag: { }
+			}
+			weight: 5.0f
+		}
+		{
+			count: 12
+			item: {
+				Count: 1
+				id: "apotheosis:rare_material"
+				tag: { }
+			}
+			weight: 3.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "apotheosis:epic_material"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "apotheosis:mythic_material"
+				tag: { }
+			}
+		}
+	]
+	title: "属性"
+}

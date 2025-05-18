@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:heavy_weapon",
+    "apotheosis:other_tome",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:knights_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "iceandfire:ghost_sword": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 1.75,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enigmaticlegacy:etherium_sword": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.025,
+      "operation": "ADDITION"
+    }
+  ]
+}

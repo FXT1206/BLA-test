@@ -1,0 +1,9 @@
+{
+  "traveloptics:infernal_devastator_level_three": [
+    {
+      "attribute": "l2damagetracker:magic_damage",
+      "modify": 32.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

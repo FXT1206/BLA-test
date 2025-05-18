@@ -1,0 +1,102 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "in_use",
+			"facing": "north"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "crafting",
+			"facing": "north"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "idle",
+			"facing": "south"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "in_use",
+			"facing": "south"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "crafting",
+			"facing": "south"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "idle",
+			"facing": "west"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "in_use",
+			"facing": "west"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "crafting",
+			"facing": "west"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "idle",
+			"facing": "east"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "in_use",
+			"facing": "east"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"status": "crafting",
+			"facing": "east"
+		},
+		"Name": "minecells:unbreakable_cell_crafter"
+	}
+]

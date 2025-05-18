@@ -1,0 +1,19 @@
+{
+  "name": "侏儒交易",
+  "icon": "terramity:red_gnome_hat_helmet",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "侏儒是 Terramity 新增的一种怪物，可以与之交易。$(br2)给任何侏儒一颗钻石，它就会给你一顶帽子。如果你给地精任何 Terramity Boss 的掉落物，它会随机给你一个贵重物品作为回报。"
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:cave_gnome",
+	  "text": "右键单击手持所需物品的地精，以物易物。",
+      "scale": 0.55,
+	  "offset": 0.45,
+	  "rotate": true
+    }
+  ]
+}

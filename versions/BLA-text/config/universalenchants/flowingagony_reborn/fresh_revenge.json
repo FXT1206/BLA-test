@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:flowingagony_reborn_axe_and_sword",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain",
+    "enigmaticlegacy:the_infinitum",
+    "enigmaticlegacy:eldritch_pan",
+    "enigmaticaddons:the_bless",
+    "enigmaticaddons:evil_dagger",
+    "enigmaticaddons:disaster_sword"
+  ],
+  "incompatible": []
+}

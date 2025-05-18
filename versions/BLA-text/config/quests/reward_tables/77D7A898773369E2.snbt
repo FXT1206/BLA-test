@@ -1,0 +1,44 @@
+{
+	id: "77D7A898773369E2"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "以太套抽取"
+}

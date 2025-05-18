@@ -1,0 +1,9 @@
+{
+  "celestisynth:aquaflora": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.0005,
+      "operation": "ADDITION"
+    }
+  ]
+}

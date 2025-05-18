@@ -1,0 +1,479 @@
+{
+	autofocus_id: "3D7E7C56337ADE49"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "6DD8AA58D6576128"
+	group: ""
+	icon: {
+		Count: 1
+		id: "enigmaticlegacy:enigmatic_eye"
+		tag: { }
+	}
+	id: "6DD8AA58D6576128"
+	images: [{
+		height: 3.5d
+		image: "terramity:block/hexing_circle"
+		rotation: 0.0d
+		width: 3.5d
+		x: 2.5d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "l2backpack:backpack_white"
+				tag: { }
+			}
+			icon_scale: 1.2d
+			id: "2B99128FD4C5730B"
+			rewards: [{
+				id: "0E24AEA131D0ED4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2backpack:backpack_white"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AC56FBF73E024E3"
+				type: "checkmark"
+			}]
+			title: "&6探险必备"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "confluence:magic_mirror"
+			id: "287F62FC700FD243"
+			rewards: [{
+				id: "75773A65C39E17D4"
+				item: "confluence:magic_mirror"
+				type: "item"
+			}]
+			subtitle: "&6看着它，返回到你的重生之地..."
+			tasks: [{
+				id: "547E1CF1F538FD5A"
+				type: "checkmark"
+			}]
+			title: "&6&l魔镜"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6它会出现在你开的第一个箱子里,指引你前进..."
+				""
+				"&6莫测之眼的拥有者曾经是一位伟大的亵渎英雄，他为了诛灭\"奇迹\"而牺牲了自己。他的眼睛被诅咒，成为了莫测之眼，但也因此给人世带来了千百年的和平..."
+				""
+				"&6到了异世界就要拿出真本事啊![算致敬吧owo]"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_eye"
+				tag: { }
+			}
+			icon_scale: 2.0d
+			id: "3D7E7C56337ADE49"
+			rewards: [
+				{
+					id: "7B39BB2E5F364C8E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ftbquests:book"
+					}
+					type: "item"
+				}
+				{
+					id: "1C7E27D00CA18946"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70E22F3F43F078F0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "&4&l奇迹将至,亵渎者终将复苏"
+			tasks: [{
+				id: "5BD15FE21E17C270"
+				type: "checkmark"
+			}]
+			title: "&6&l原初之眼"
+			x: 2.55d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: ["&6套装效果不再显示,但整合内大量套装都有独立的套装效果[BUFF]"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:revenge_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "731553CBBFB0138F"
+			subtitle: "&a我的显示呢?"
+			tasks: [{
+				id: "5348C5F5B9753EC0"
+				type: "checkmark"
+			}]
+			title: "&6套装效果"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&a内存泄漏问题一直是众多整合包的痛点,这个整合包也是一样的,不过呢,告诉你一个方法!"
+				""
+				"&e当运行内存占用过多时,咋办?重启游戏?那可太麻烦了!!!  FXT大蛇告诉你个小妙招owo! 打开你的PCL2&4[作者不知道其他启动器是否有相同功能]点击 &6更多-百宝箱 &e然后点击 &6内存优化 &e可以对你游戏性能带来优化甚至可以允许你在游玩该整合包期间去玩部分游戏!!!"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "alexscaves:disc_fragment_fusion"
+			id: "3EC4ED13BE2D7673"
+			subtitle: "&l什么?你跟我是同款渣机?"
+			tasks: [{
+				id: "2BD936C83FCA5EE0"
+				title: "如何让游戏飞速运行?"
+				type: "checkmark"
+			}]
+			title: "&a如果减少游戏占用内存?"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "dummmmmmy:target_dummy"
+			id: "3F3D149BB4188F76"
+			rewards: [{
+				id: "5A3D0D9B3CD4D41F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dummmmmmy:target_dummy"
+				}
+				type: "item"
+			}]
+			subtitle: "&l他可以帮你测试你的DPS!!!"
+			tasks: [{
+				id: "676F60FB3E24AB0D"
+				type: "checkmark"
+			}]
+			title: "&6测试你的伤害吧!!!"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&c任务中的难度提升务必开启作弊"
+				"&c整合包大部分BOSS都有适配等级词条"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "l2hostility:teleport"
+			}
+			id: "6A387DED6D3E28C6"
+			subtitle: "难度不再会自然增长"
+			tasks: [{
+				id: "515633DB7E29E658"
+				type: "checkmark"
+			}]
+			title: "&c莱特兰&6※&c恶意"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6流程章节会有详细介绍"
+				"&4当前版本存在bug，能够通过原版传送门抵达地狱&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:netherrack"
+			id: "4E684E221B346DC0"
+			rewards: [{
+				id: "4B57485890CAAC74"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6请跟着任务推进"
+			tasks: [{
+				id: "2FF259864C89A0AA"
+				type: "checkmark"
+			}]
+			title: "&c去不了下界?"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6制作 钻石砂轮 后手持该物品右键进行打磨"
+				"&6钻石砂轮不会有耐久一说可以放心使用"
+			]
+			hide_dependency_lines: true
+			id: "45100F65F33B0D6E"
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "矿石工匠"
+			tasks: [{
+				id: "74EEB416F2E6297D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spelunkery:rough_diamond"
+				}
+				type: "item"
+			}]
+			title: "&6打磨"
+			x: 1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: [
+				"&6可以在热源上利用热风向上飞行"
+				"&6在雷雨天务必慎用!!!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vc_gliders:paraglider_wood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5770D997241FE462"
+			rewards: [{
+				id: "538B0BE55CA0D899"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "探险必备"
+			tasks: [{
+				id: "3C46904B5A72345E"
+				type: "checkmark"
+			}]
+			title: "&6降落伞"
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "alexsmobs:ancient_dart"
+			id: "5CE73A24E484C135"
+			rewards: [{
+				id: "3582AC7AFBEB3FEE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "按Enter可以开关自动拾取"
+			tasks: [{
+				id: "03A7D95B46D52C51"
+				type: "checkmark"
+			}]
+			title: "&6自动拾取"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			description: ["&6请务必在平坦的地方领取该任务奖励,建筑点击后会立即生成!!!"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:paper"
+			id: "4ACFAA7C631346D9"
+			rewards: [{
+				command: "/place template kubejs:home ~ ~ ~"
+				icon: "minecraft:map"
+				id: "0DA38E4E38A5C206"
+				title: "新手小屋"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "自动生成新手小屋"
+			tasks: [{
+				id: "60FDF2AF904FDB42"
+				type: "checkmark"
+			}]
+			title: "&6永远的家"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3D7E7C56337ADE49"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "waystones:waystone"
+			}
+			id: "69DD59C4A855820C"
+			rewards: [{
+				id: "327E291272D3C991"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			subtitle: "留下标记吧!~"
+			tasks: [{
+				id: "218287BA2A8CC731"
+				type: "checkmark"
+			}]
+			title: "&d传送石"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Shift加右键使用"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "kubejs:home"
+			}
+			id: "204CC01CC8A7DFA5"
+			rewards: [{
+				id: "6BCB46D9CF82BB76"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:home"
+				}
+				type: "item"
+			}]
+			subtitle: "初始小屋"
+			tasks: [{
+				id: "37A9A6BA82BB34C8"
+				type: "checkmark"
+			}]
+			title: "新手小屋"
+			x: 3.5d
+			y: -3.0d
+		}
+	]
+	title: "&6&l提示"
+}

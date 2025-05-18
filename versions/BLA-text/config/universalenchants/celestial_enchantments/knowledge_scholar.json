@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_head"
+  ],
+  "incompatible": [
+    "celestial_enchantments:corrupt_scholar"
+  ]
+}

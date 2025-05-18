@@ -1,0 +1,9 @@
+{
+  "cataclysm:cursed_bow": [
+    {
+      "attribute": "l2damagetracker:bow_strength",
+      "modify": 5.8,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

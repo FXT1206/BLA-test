@@ -1,0 +1,27 @@
+{
+  "name": "虚空合金",
+  "icon": "terramity:void_alloy",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "虚空合金$(br2)虚空合金可以通过铱、黑色物质和虚妄精华制作获得。$(br2)黑色物质只有在击败监守者后才能获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "虚空合金",
+      "images": ["terramity:textures/screens/void.png"],
+      "border": true,
+      "text": "虚空合金拥有虚空的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:void_alloy_recipe",
+	  "recipe2": "terramity:void_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "匠人石板监守者处掉落，必须在铱上使用才能升级。"
+    }
+  ]
+}

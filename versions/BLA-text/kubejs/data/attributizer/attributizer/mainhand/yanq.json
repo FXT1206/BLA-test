@@ -1,0 +1,9 @@
+{
+  "cataclysm:gauntlet_of_maelstrom": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.025,
+      "operation": "ADDITION"
+    }
+  ]
+}

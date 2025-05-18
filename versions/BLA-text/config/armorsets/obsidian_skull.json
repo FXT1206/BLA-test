@@ -1,0 +1,34 @@
+{
+  "armorSetName": "obsidian_skull",
+  "performanceMode": true,
+  "additionalSetPieces": [
+    {
+      "itemKey": "artifacts:obsidian_skull",
+      "mustBeEmpty": false
+    }
+  ],
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.attack_damage",
+      "value": 0.4,
+      "modifierUUID": "4c637e99-43b3-4a37-9369-d02a5c025c4c",
+      "attributeOperation": 1,
+      "interactionType": "self",
+      "conditions": [
+        {
+          "type": "inLava"
+        }
+      ]
+    },
+    {
+      "type": "attribute",
+      "name": "minecraft:generic.armor_toughness",
+      "value": 0.1,
+      "modifierUUID": "c9eca423-5505-42fa-ac82-743c84b5244a",
+      "attributeOperation": 1,
+      "interactionType": "self"
+    }
+  ],
+  "hideGeneratedTooltip": true
+}

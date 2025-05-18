@@ -1,0 +1,122 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 300,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:ancient_remnant"
+      ],
+      "items": [
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "l2hostility:ring_of_divinity",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 600,
+          "slot": "curios/ring"
+        },
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "l2hostility:imagine_breaker",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 600,
+          "slot": "curios/hands"
+        }
+      ],
+      "traits": [
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:nausea"
+        },
+              {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        },
+              {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:fiery"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:weakness"
+        },
+      {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:reflect"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:invisible"
+        },
+       {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:repelling"
+        },
+         {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:blindness"
+        },
+     {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:gravity"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:erosion"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:poison"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:moonwalk"
+        }           ,         {"free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        }      ]
+    }
+  ]
+}

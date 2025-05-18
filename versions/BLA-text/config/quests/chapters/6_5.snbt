@@ -1,0 +1,758 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_5"
+	group: "59519DD26A0D9F38"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "ringsofascension:ring_flight"
+		tag: {
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "5FD34C2035560640"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "25B89887113ED3BC"
+			tasks: [{
+				id: "5D6B847C9D586E5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_fire_resistance"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4E64AEE86665C3EA"
+			tasks: [{
+				id: "49F1D1A3A172C853"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_invisibility"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4EE1773320CFB4F5"
+			tasks: [{
+				id: "2432206BCCCBFD4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_regeneration"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "63EB280D2DB49E5B"
+			tasks: [{
+				id: "4A9B1C9B4A65E6CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_slow_falling"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "29B279997F628BCA"
+			tasks: [{
+				id: "74B21FB8F6E1B688"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_magnetism"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "6C89C33AC52DCEC9"
+			tasks: [{
+				id: "3EA627E79B8BAC20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_dolphin"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "736ECA656271D227"
+			tasks: [{
+				id: "68A35B1B9954209E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_luck"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "5F1672CB13F52BA9"
+			tasks: [{
+				id: "2A3B8F72C59A5FD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_mining"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "7B50E75C42E12292"
+			tasks: [{
+				id: "7C6A2EF5EC45366E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_experience"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4530B0B0DA2CAE27"
+			tasks: [{
+				id: "767A90669DC1F298"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_steadfast_steps"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "45EC86D1BE8C0279"
+			tasks: [{
+				id: "66CB4B50105831FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_water_walking"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "255A889938722D63"
+			tasks: [{
+				id: "204F60EFF449ED3B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_wither"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "73819AD5687DD9D8"
+			tasks: [{
+				id: "68A067C20DC4B600"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_knockback_resistance"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "341CD75239AB847C"
+			tasks: [{
+				id: "1C99A1BFDA842F98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_slow_resistance"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "72F86B01B3BC8D1F"
+			tasks: [{
+				id: "309CBFEFC9022CE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_speed"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "71AB8B4E62BDA455"
+			tasks: [{
+				id: "360AD4E227198CCD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_strength"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "45F340888168ED7C"
+			tasks: [{
+				id: "3AD518399C207CAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_poison_resistance"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4A1CD7EDCA90ECE9"
+			tasks: [{
+				id: "15E31273BF848233"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_hungerless"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "1F562720EC6C3665"
+			tasks: [{
+				id: "1BD70E13D1D33B89"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_water_breathing"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "029BF053CA135955"
+			tasks: [{
+				id: "7D5B643EF3DBC1C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_night_vision"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "627E72B4E861B354"
+			tasks: [{
+				id: "5EC4F34A848A2098"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_growth"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "356448FC0A017DB9"
+			tasks: [{
+				id: "13431A41692DCA3C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_jump_boost"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4F76B2E1842A8576"
+			tasks: [{
+				id: "5E085D6EA469AE25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_health"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "299386BE2D5359D0"
+			tasks: [{
+				id: "664D43C85BFF7EF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_flight"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "3B2961CFD3E3B92B"
+			tasks: [{
+				id: "52E25874C8A9D32F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_sponge"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "50D6346A5C2214AA"
+			tasks: [{
+				id: "4A33987ED4CC816C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_undying"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4521B96B7AF17632"
+			tasks: [{
+				id: "0D28E4DCF29019CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_lava_sponge"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7B927835A421691E"
+			tasks: [{
+				id: "581AF9C7C5BB98DE"
+				type: "checkmark"
+			}]
+			title: "&6&l启程"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "4B32BD37ED57222F"
+			tasks: [{
+				id: "6746086E78FC1464"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_sponge"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "45679559F73F0579"
+			tasks: [{
+				id: "04ACB13CA014B8C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_dolphin"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B927835A421691E"]
+			id: "1D5EF3171C64E399"
+			tasks: [{
+				id: "2B82BBDE30F8A699"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ringsofascension:ring_dolphin"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+	title: "&6&l戒指录"
+}

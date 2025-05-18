@@ -1,0 +1,9 @@
+{
+  "cataclysm:the_immolator": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "enigmaticaddons:disaster_sword": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

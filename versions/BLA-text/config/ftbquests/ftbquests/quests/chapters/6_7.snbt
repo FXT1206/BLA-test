@@ -1,0 +1,2398 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_7"
+	group: "6116B6B6E2E8ED2A"
+	icon: "goety:witch_hat"
+	id: "2DB556EE4D75212A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5E3BE240BA1D55F4"]
+			description: [
+				"&d当你喝下万灵药后，将会瞬间领悟黑魔法的本质，变身为巫妖，这是一个不可逆的过程，除非使用作弊指令，否则不可能变回普通人类。"
+				""
+				"&d在喝下万灵药之前你需要做几个准备，否则就算喝下万灵药也无法变成巫妖，首先是需要有一个已经绑定的灵魂方舟，其次时间必须是满月的夜晚，在下界击杀使徒后会掉落黑夜信标，黑夜信标会将时间锁定为满月的夜晚。满足这两个条件后喝下万灵药将对自身造成50点凋零伤害，承受伤害后无论是死亡还是存活都会变为巫妖，&6&n极限模式玩家请提前准备好不死图腾！&r"
+				""
+				"&d成为巫妖后你将获得以下特性：获得永久的夜视效果、饥饿值将永远保持在17，永远吃不饱，也永远不会饿、不会溺水也不会被窒息、巫妖是亡灵生物，所以你会被瞬间伤害治疗，被瞬间治疗伤害，你也会像其他亡灵生物一样无视部分效果，你也会从亡灵杀手附魔中受到更多的伤害、无法获得生命恢复、中毒、失明、饥饿、反胃、饱和效果、将使用灵魂能量治疗自身、冰冻伤害对你减少50%、空手击打生物时，将会对生物造成45秒的冰冻效果、白天你将会像僵尸一样燃烧，可以通过戴头盔或者身上有抗火BUFF来解决这一难题、无论灵魂方舟拥有多少灵魂能量，都会进行奥数复活，然而，如果你在自身持有灵魂能量小于一次奥术复活的消耗阈值进行复活时，你将获得2分钟的灵魂饥饿V。如果你的灵魂方舟被移除，你将死亡，获得85%的魔法伤害减免。"
+				""
+				"&d按C键可以将自身模样变为人类，但这仅仅是外貌的改变，内在还是巫妖。"
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "78B84BAC5E731DE7"
+			shape: "rsquare"
+			subtitle: "你终于成为了终极亡灵。正如你所想的，你有不死之神的特点，真正的不死已经收入囊中了...."
+			tasks: [{
+				advancement: "goety:goety/become_lich"
+				criterion: ""
+				id: "15F4B3F622FB9B16"
+				type: "advancement"
+			}]
+			title: "&d超生为亡灵"
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5A8A2C2ADAB3B7FB"]
+			description: [
+				"&c你需要先找到&n禁书卷轴并阅读&r&a，&a这样就能在黑暗之书的合成章节中解锁新章节-超生为亡灵，并解锁大师级亡灵仪式，此时你的亡灵仪式已经到达了登峰造极的境界，可以制作万灵药，如果没有阅读被遗忘的卷轴就无法制作万灵药，被遗忘的卷轴除了合成也可以通过任务获得。"
+				""
+				"&c使用的魔法仪式类型为大师死灵（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+			]
+			id: "5E3BE240BA1D55F4"
+			shape: "rsquare"
+			subtitle: "成功地重建了禁书卷轴之后，它的秘密最终被揭开。这是死灵的终极艺术，抛却死亡，成为亡灵之王。"
+			tasks: [{
+				id: "3B75C8408497C74A"
+				item: "goety:undeath_potion"
+				type: "item"
+			}]
+			title: "&a万灵药"
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5E3BE240BA1D55F4"]
+			description: [
+				"&6贤者之石可以消耗自身耐久来量产粗金，不用担心它的耐久，贤者之石会吸收你的灵魂能量来修复自身。"
+				""
+				"&c使用的魔法仪式类型为魔法（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+			]
+			id: "44704F4BF28B511C"
+			shape: "rsquare"
+			subtitle: "使徒的血让你可以合成只存在于神话中的贤者之石，这是炼金术的终极奥义..."
+			tasks: [{
+				id: "070C2355E0B54268"
+				item: {
+					Count: 1
+					id: "goety:philosophers_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a贤者之石"
+			x: 17.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5E3BE240BA1D55F4"]
+			description: [
+				"&6穿上不洁圣冠与不洁长袍后，手持下界魔杖使用部分聚晶将会获得增强。"
+				"&c燃烧聚晶：&6召唤出来的烈焰人会变为狱焰，强度超越暗卫，最强仆从。"
+				"&c阴森聚晶：&6召唤出来的迷你恶魂变为凶魂。"
+				"&c飓风聚晶：&6龙卷风变为使徒同款的燃烧龙卷风，可造成百分比伤害。"
+				"&c熔岩炸弹聚晶：&6转变为狱火爆破。"
+				"&c火球聚晶：&6转变为狱火束。"
+				""
+				"{@pagebreak}"
+				"&c十二位有福的人便站出来了，他们坚信着那唯一的信仰。"
+				"&c于是有无底坑的使者作他们的王，按着神语，祂名唤亚玻伦。"
+				"&c祂欲要焚起那深渊的火，点燃深红的神之秘奥，照亮无光的岩浆之海与地狱牢笼，让人们脸上染上那高贵的灰，行那&c征伐四方的理。"
+				"&c而十二个环绕神位的受差遣者掩上了苍白的面具，隐藏那神赐的美丽面容，好让他们走入市井之中传颂那主的道。"
+				"&c又将深黑的朴素长衣披上，戴上了高贵的帽，让他们面对那异教的暴力时，机警若莽荒的渡鸦，而又强大如森林的黑&c豹。"
+				"&c登神的使者说，我不爱人蛮横的刀，亦不喜那昂扬的剑，使徒们从此举起弓箭进行那伟大的圣战。"
+				"&c他们的冥教之父又说，你应当爱你的朋友胜过自己，若有受苦的，便送他暖粮，若有遭难的，便让他安居。"
+			]
+			icon: "goety:unholy_fabric"
+			id: "69B26666A3CC99EA"
+			shape: "rsquare"
+			subtitle: "得到使徒的力量后，你还能保持本心吗"
+			tasks: [
+				{
+					id: "75267684C1151554"
+					item: "goety:unholy_robe"
+					type: "item"
+				}
+				{
+					id: "2A0F8916A7C68E75"
+					item: "goety:unholy_hat"
+					type: "item"
+				}
+			]
+			title: "&a灾厄的化身"
+			x: 13.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6使用安息仪式召唤使徒，需要在4个祭坛基座上放置女巫帽×1、巫婆帽×1、术士腰带×1、炼狱魔典×1，最后在中间的黑暗祭坛放入下界合金锭&c（巫婆帽通过击杀巫婆掉落，具体可以查看结构图鉴中的腐烂小屋任务）。"
+				""
+				"&d使徒攻击任何附近的玩家，并且如果他们对其他生物没有敌意，他会搜索周围64格方块的任何玩家。使徒可以透过墙壁看到后面的玩家，被方块困住时可以传送到玩家附近。使徒不会坐矿车和船。"
+				"&d使徒免疫由他们的仆从或他们自己引起的任何伤害，此外还包括坠落伤害，窒息，火焰和熔岩。"
+				"&d使徒对其他非召唤的生物射出的火球有85%的伤害抗性。在困难难度下，使徒会获得85%的魔法伤害抗性。"
+				"&d当使徒的生命值下降到一半以下时，使徒将进入第二阶段，二阶段的使徒将会有更多的招式，非常难对付。"
+				""
+				"&c在主世界与在下界召唤的使徒会有所不同，在下界召唤出来的使徒将会呈现它的最强形态，同时也会掉落一些主世界使徒不会掉落的珍贵道具。"
+				"{@pagebreak}"
+				"&c作为第一位冥教信徒亚玻伦的最亲密的追随者，这些可怕的生物在他们的主人身边传播圣火的信息，一些使徒曾经是国王、领主或贵族，而另一些使徒则从普通村民到最愚蠢的笨蛋都有。当使徒出现在主世界时，他们周围的海洋都会为之沸腾，天空被黑暗笼罩..."
+			]
+			id: "5A8A2C2ADAB3B7FB"
+			shape: "rsquare"
+			subtitle: "乌尔河旁的众民悲叹着他们的苦难，受扰于黑夜里的亡灵"
+			tasks: [{
+				advancement: "goety:goety/kill_a_apostle"
+				criterion: ""
+				id: "4CD6E70C59AF96C9"
+				type: "advancement"
+			}]
+			title: " &a第一使徒"
+			x: 15.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5A8A2C2ADAB3B7FB"]
+			description: [
+				"&6在下界使用安息仪式召唤的使徒将会呈现他的最强形态，远比在主世界召唤的使徒要强，请做好十足的准备，击杀下界使徒将会掉落至纯之血，用这瓶血做成的布料可以帮助你获得使徒的一部分能力。"
+				""
+				"&d下界使徒只会承受1/2的伤害阈值，哪怕伤害来源不是敌对玩家。"
+				""
+				"&c唤醒古老岁月里的神选之人，重新赋予神话的生机，即使它已被污染侵蚀……"
+			]
+			id: "362AA7068816F4E5"
+			shape: "rsquare"
+			subtitle: "凌驾于一切生物之上，这便是灾厄的洪流"
+			tasks: [{
+				id: "075B245360F87B6E"
+				item: {
+					Count: 1
+					id: "goety:unholy_blood"
+					tag: {
+						Pure: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "&a奇迹于你"
+			x: 17.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["22A925E112C73663"]
+			description: [
+				"&6与普通铁砧的作用相同，但是物品在使用黑暗铁砧修复后，修复它所需要的经验并不会翻倍，只会增加1级。“过于昂贵”的情况也不会发生，消耗的经验上限只取决于你的等级，你可以随意的更改物品的属性。也可以用来突破附魔上限（最高突破+4）。"
+				""
+				"&6每次使用黑暗铁砧，黑暗铁砧都会有12%的几率受损，每次铁砧的受损程度都会增加1级，先是轻微受损，然后是严重受损，最后它会被摧毁。当它被放在含有根之图腾、灵魂图腾或者连接宝石的诅咒之笼上方的时候，黑暗铁砧可以修复自己，使受损程度减少1级，并且会从诅咒之笼吸收1,000点灵魂能量。"
+			]
+			id: "742B353DAEE9076E"
+			shape: "rsquare"
+			subtitle: "铁砧是一个很麻烦的物品。它们会损坏，还会消耗过多经验，并且对经验的使用量有限制。但通过黑暗金属锭，你可以做出更好的铁砧来突破这些限制"
+			tasks: [{
+				id: "7A3CAA3BBC045722"
+				item: {
+					Count: 1
+					id: "goety:dark_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a突破上限的铁砧"
+			x: 21.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["55637EF750B301FE"]
+			description: [
+				"&6黑暗金属套的性能绝对是主世界护甲中顶级的存在，穿戴全套后免疫黑暗与失明效果，并且带有100%的爆炸和火焰抗性，80%的魔法抗性，还能使仆从在杀死生物后给予穿戴者灵魂能量（黑暗套还会自动消耗穿戴者身上的灵魂能量来修补自身的耐久）。 "
+				""
+				"&c使用的魔法仪式类型为锻造（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+			]
+			id: "76BB629C27A73B70"
+			shape: "rsquare"
+			subtitle: "由黑暗金属构成的防御套装"
+			tasks: [
+				{
+					id: "6391232C3E65338B"
+					item: {
+						Count: 1
+						id: "goety:dark_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "225B4BC149D8A27C"
+					item: {
+						Count: 1
+						id: "goety:dark_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08A66FCD36268908"
+					item: {
+						Count: 1
+						id: "goety:dark_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14E8F3053D6A72F7"
+					item: {
+						Count: 1
+						id: "goety:dark_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a黑暗套装"
+			x: 19.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["55637EF750B301FE"]
+			description: ["&6黑暗金属锭的用途非常多，可用来制作黑暗铁砧，你也可以拿它来制作黑暗套，黑暗套的防御性能十分不错。"]
+			id: "22A925E112C73663"
+			shape: "rsquare"
+			subtitle: "你做到了，你成功地将深暗之域的能量注入到一种金属中，这种金属可以使用灵魂能量自我修复"
+			tasks: [{
+				id: "768CCF49D9CE8A72"
+				item: "goety:dark_ingot"
+				type: "item"
+			}]
+			title: "&a黑暗金属锭"
+			x: 19.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["44C555E79EF81661"]
+			description: [
+				"&6亡灵火炉是合成黑暗金属锭必须要做的机器，&c请注意！只有当放置在深暗之域群落中时，亡灵火炉才会启动。&6摆放方法如下图所示，诅咒之笼中的灵魂图腾必须带有灵魂能量，诅咒之笼上方必须有灵魂蜡烛，亡灵火炉可以从其周围16x16x16区域内的多个灵魂蜡烛上吸取灵魂能量，如果灵魂能量不足以合成黑暗金属锭，那么所有的物品都会被浪费，手持物品右键亡灵火炉或扔在亡灵火炉上方即可进行合成。"
+				""
+				"&c使用的魔法仪式类型为锻造（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+				""
+			]
+			id: "55637EF750B301FE"
+			shape: "rsquare"
+			subtitle: "深暗之域中蕴含着很多死灵能量，大量的散布在地下的幽匿块就是佐证。将死灵元素注入阴影火盆，你就能合成这个设备"
+			tasks: [
+				{
+					id: "315473F208D88EFA"
+					item: "goety:necro_brazier"
+					type: "item"
+				}
+				{
+					id: "2005F1EFA7089F1C"
+					item: "goety:soul_candlestick"
+					type: "item"
+				}
+			]
+			title: "&a亡灵火炉"
+			x: 17.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["44C555E79EF81661"]
+			description: ["&6穿在饰品栏或直接放在物品栏中按C打开，可以用于存储法术聚晶。"]
+			id: "5C27B6D92D491019"
+			shape: "rsquare"
+			subtitle: "小背包，大作用"
+			tasks: [{
+				id: "70A8357FC127B886"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+							slot: 0
+						}
+					}
+					id: "goety:focus_bag"
+				}
+				type: "item"
+			}]
+			title: "&a聚晶包"
+			x: 19.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4B65E360C83A4680"]
+			description: [
+				"&6就跟它的名字一样，这些法杖会提升对应类型的法术效果。"
+				""
+				"&c阅读过往卷轴后，手持下界魔杖使用骨质聚晶召唤出来的仆从会从骷髅变为凋灵骷髅。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "goety:storm_staff"
+				tag: {
+					"Cast Time": 0
+					Cooldown: 0
+					Duration: 0
+					Shots: 0
+					"Soul Cost": 0
+					"Soul Use": 0
+					cap: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+				}
+			}
+			id: "5EC7A47C371A1FF2"
+			shape: "rsquare"
+			subtitle: "优秀的法师必须配有优秀的法杖"
+			tasks: [
+				{
+					id: "18E1BAB3C02E3DCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:frost_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E3B4105EBFBDE6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:ominous_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "748722E09B483626"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wind_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "289A975580F78928"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:storm_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B3191F135B63457"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:wild_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1655D14B78525E13"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:necro_staff"
+						tag: {
+							"Cast Time": 0
+							Cool: 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+							goety-dirty: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "095A9BFE1B652323"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:nameless_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "502705118B414762"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:nether_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+							goety-dirty: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12E49B585633A458"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:abyss_staff"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							Shots: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+							cap: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a更好的法杖"
+			x: 19.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5C27B6D92D491019"]
+			description: [
+				"&6大部分强力的法术聚晶都需要通过仪式来进行合成，但部分前期聚晶也可以直接合成。"
+				""
+				"&6法术聚晶拥有专属的附魔，你只需要将法术聚晶放入附魔台就可以了，如强效、持久、生命吸收等附魔都能让你的法术效果更上一层楼。"
+				""
+				"&6将鼠标放在法术聚晶上你可以看到这个聚晶的法术类型，比如冰刺聚晶，它的法术类型是霜冻，霜冻类型的法术可以拿霜冻法杖来施法，这会让你的法术获得增强。"
+				""
+				"&d整合包中的大部分聚晶都经过了调整，与MOD的原版数值会有所不同。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:ice_cube"
+				tag: { }
+			}
+			id: "54CF3AE09AAEA448"
+			rewards: [{
+				id: "67A9CDA73BE9E1B2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "goety:absorb"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "整合包中共有50+种法术聚晶，任务中只介绍一部分，更多的可以查看黑暗之书"
+			tasks: [{
+				id: "25F38949239E4027"
+				type: "checkmark"
+			}]
+			title: "&a法术聚晶介绍"
+			x: 21.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["38F5B5A029C096AC"]
+			description: [
+				"&6灵魂方舟的硬度和爆炸抗性仅次于基岩，灵魂方舟会将放置它的玩家视为主人，作为主人可以Shift+右键来瞬间破坏它，灵魂方舟能够存储你获得的灵魂能量，并且当你施放法术需要消耗灵魂能量时会优先消耗灵魂方舟内的能量，这意味着你不用随时随地的带着灵魂图腾在身上了。"
+				""
+				"&6使用连接宝石右键自己的灵魂方舟进行绑定，再将绑定后的连接宝石放到诅咒之笼里，它就会将已绑定的灵魂方舟内的灵魂能量源源不断的输送到诅咒之笼内。"
+				""
+				"&6将鼠标对着灵魂方舟按Shift可以查看灵魂方舟内有多少灵魂能量。"
+				""
+				"&c灵魂方舟使用的魔法仪式类型为锻造（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+			]
+			icon: "goety:soul_transfer"
+			id: "44C555E79EF81661"
+			shape: "rsquare"
+			subtitle: "高级的灵魂能量容器"
+			tasks: [
+				{
+					id: "4BEF9BAA70691989"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "2F801E87A81637C2"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			title: "&a灵魂方舟与连接宝石"
+			x: 17.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["57262C780280F306"]
+			description: [
+				"&6首先你需要先拥有一块法术聚晶才可以进行施法，手持法杖按Z可以进行装填，按X可以切换不同的法术聚晶，施法时会消耗灵魂能量，建议多备几个灵魂图腾在身上，灵魂能量条在屏幕右下角可以看到，大部分法术的释放都需要蓄力，需要注意右下角的能量条，当紫色完全覆盖时才算蓄力完成。"
+				""
+				"&6法术聚晶的种类非常多，推荐使用JEI配方或是直接查阅黑暗之术来了解，普通的工作台只能够合成部分最基础的法术聚晶，想要获得更强力的法术聚晶需要进行特殊的魔法仪式才行。"
+				""
+				"&6PS:这让作者想到了神秘时代的法杖核心。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "goety:dark_wand"
+				tag: {
+					"Cast Time": 0
+					Cooldown: 0
+					Duration: 0
+					"Soul Cost": 0
+					"Soul Use": 0
+					cap: {
+						Items: [ ]
+						Size: 1
+						slot: 0
+					}
+				}
+			}
+			id: "4B65E360C83A4680"
+			shape: "rsquare"
+			subtitle: "魔法师怎么能没有一把属于自己的法杖呢？"
+			tasks: [
+				{
+					id: "4C93D3710C1C5C1A"
+					item: "goety:empty_focus"
+					type: "item"
+				}
+				{
+					id: "64CA7A47AC06DAF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 1
+								slot: 0
+							}
+						}
+						id: "goety:dark_wand"
+						tag: {
+							"Cast Time": 0
+							Cooldown: 0
+							Duration: 0
+							"Soul Cost": 0
+							"Soul Use": 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a法术聚晶与黑暗魔杖"
+			x: 17.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["032245CB6F4D3AE4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6当玩家有足够高的灵魂能量时，灾厄教父就会跟灾厄猎杀队一起产生。它是不详核心的唯一来源，但只有在特殊条件下才会掉落&c（在不损坏灾厄教父的魔杖的情况下，杀死灾厄教父即可掉落，如果魔杖损坏就会掉落碎片，碎片可以合成完整的不详核心）。"
+				"&c在困难模式的袭击下也能见到灾厄教父，最好喝5瓶不详之瓶搞到不详之兆5。"
+				""
+				"&6击败灾厄教父之后，距离他们32个方块内的所有玩家都将有3个游戏日的休息期，在此期间，灾厄村民的追杀将不再发生。"
+				""
+				"&c请注意！2.0版本中的袭击将比1.9版本更加困难，在迎接袭击前请做好准备，最好找一些帮手，无论是诡厄巫法的各种仆从还是傀儡亦或是女仆，都可以。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:ominous_orb"
+				tag: { }
+			}
+			id: "6D089748FA2D3498"
+			shape: "rsquare"
+			subtitle: "灾厄教父在等级和声望上比唤魔者高。事实上，他们很可能是他们所属的灾厄村民的首领。灾厄教父以掠夺文明和他们的演讲技巧而臭名昭著，他们利用这些技巧来增强其他掠夺者的力量或恶毒地嘲笑他们的敌人。据说，他们挥舞的杖要么是受到一个无名王国的启发，要么是从这个王国掠夺和改造而来，杖的球体散发出巨大的魔力。灾厄教父也善于用他们的手杖阻挡攻击，不幸的是，他们的手杖不如标准的盾牌耐用"
+			tasks: [{
+				entity: "goety:minister"
+				id: "0249D173788B4A11"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a灾厄教父"
+			x: 13.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["032245CB6F4D3AE4"]
+			description: [
+				"&6事件发生的默认灵魂能量是玩家拥有1000或更多的灵魂能量，不论他们存储在灵魂图腾还是灵魂方舟中。玩家拥有的灵魂能量越多，猎杀队的队伍将会越来越庞大。"
+				""
+				"&6拥有的灵魂能量大于1、玩家是生存或冒险模式、难度不为和平，当满足以上3个条件时，每过12000个游戏刻，就会有5%的概率发生灾厄猎杀。"
+				""
+				"&6玩家拥有的灵魂能量越多，猎杀队的队伍就会越庞大。"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:white_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Color: 9
+								Pattern: "mr"
+							}
+							{
+								Color: 8
+								Pattern: "bs"
+							}
+							{
+								Color: 7
+								Pattern: "cs"
+							}
+							{
+								Color: 8
+								Pattern: "bo"
+							}
+							{
+								Color: 15
+								Pattern: "ms"
+							}
+							{
+								Color: 8
+								Pattern: "hh"
+							}
+							{
+								Color: 8
+								Pattern: "mc"
+							}
+							{
+								Color: 15
+								Pattern: "bo"
+							}
+						]
+						id: "minecraft:banner"
+					}
+					HideFlags: 32
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "7CC9022F64F572BD"
+			shape: "rsquare"
+			subtitle: "不同于村庄袭击，一支精英灾厄小队会专门来消灭那些偷取灾厄村民魔法的异教徒。"
+			tasks: [{
+				id: "49582737A9C837AF"
+				type: "checkmark"
+			}]
+			title: "&a灾厄猎杀"
+			x: 15.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: ["&6缠魂树苗长大后的木头与野蛮之牙和阴影石头是本模组中重要的魔法素材，建议多做一些。"]
+			icon: "goety:haunted_sapling"
+			id: "57262C780280F306"
+			shape: "rsquare"
+			subtitle: "充满了黑暗气息"
+			tasks: [
+				{
+					id: "5685B96DFADF311F"
+					item: "goety:haunted_sapling"
+					type: "item"
+				}
+				{
+					id: "24A9B5E0E53C32AB"
+					item: "goety:shade_stone"
+					type: "item"
+				}
+				{
+					id: "2DF94BC1380A2A7E"
+					item: "goety:savage_tooth"
+					type: "item"
+				}
+			]
+			title: "&a魔法素材"
+			x: 17.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6灵质可以通过击杀幽灵、边境幽灵、流躅死灵法师掉落，也可以通过战利品宝箱开出来。"
+				""
+				"&6你可以将图腾放在饰品栏或副手上，每杀死一只生物都会为你的图腾充能，击杀村民能获得更多的灵魂能量，灵魂能量在该模组中十分重要。"
+			]
+			id: "032245CB6F4D3AE4"
+			shape: "rsquare"
+			subtitle: "合理利用这些能量"
+			tasks: [{
+				id: "293545BD9E1341B5"
+				item: {
+					Count: 1
+					id: "goety:totem_of_roots"
+					tag: {
+						"Max Souls": 100
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a灵魂能量"
+			x: 15.0d
+			y: 28.0d
+		}
+		{
+			description: [
+				"&6黑暗艺术似乎与大多数人所知道的魔法大不相同。最常见的魔法是魔法。然而，魔法显然不仅仅是迷人的物品和魔咒。例如，召唤生物来执行自己的命令的行为可以被视为黑魔法。毕竟你遇到的大多数召唤都是由邪恶力量完成的，当你的黑魔法达到一定造诣时，你可以创造一支完全听命于你的亡灵军团，甚至是将自己化身亡灵。"
+				""
+				"&c此模组内容较多，单靠任务书很难介绍全面，强烈建议跟随任务以及这本&n&d黑暗秘典&r&r&6&c的指引来发展黑暗魔法，这将会对你的冒险起到很大的帮助。"
+			]
+			id: "3FF4DA46D3352CFB"
+			shape: "rsquare"
+			subtitle: "魔法的另一面-黑暗艺术"
+			tasks: [{
+				id: "4A03A6372F821402"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:black_book"
+					}
+				}
+				type: "item"
+			}]
+			title: "&a黑暗魔法"
+			x: 17.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["032245CB6F4D3AE4"]
+			description: ["&6非常重要的魔法素材，目前你只能通过消耗根之图腾内的灵魂能量来合成它。"]
+			id: "75720375CE4EBB39"
+			shape: "rsquare"
+			subtitle: "与不死图腾上的绿宝石有些相似"
+			tasks: [{
+				count: 2L
+				id: "2C0CB4F4412C543A"
+				item: {
+					Count: 1
+					id: "goety:magic_emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a觉醒绿宝石"
+			x: 13.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["75720375CE4EBB39"]
+			description: ["&6不死图腾的赝品，虽然它是赝品，但比正品要更强大，能够存储更多的灵魂能量，发展黑魔法离不开它。"]
+			id: "4E1F561428BDA5F7"
+			shape: "rsquare"
+			subtitle: "看起来跟不死图腾一样"
+			tasks: [{
+				id: "34106B9DCF8B921C"
+				item: {
+					Count: 1
+					id: "goety:totem_of_souls"
+					tag: {
+						"Max Souls": 10000
+						Souls: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a支配自我"
+			x: 11.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["75720375CE4EBB39"]
+			description: [
+				"&6当玩家身上的灵魂能量超过5000时，孤魂尸鬼就有概率在玩家周围生成，孤魂尸鬼的攻击会吸收目标的灵魂能量，并用于修复自身。"
+				""
+				"&6其掉落物可用于制作黑暗金属锭和一些道具。"
+			]
+			icon: {
+				Count: 1
+				id: "goety:shadow_essence"
+				tag: { }
+			}
+			id: "4ED12C5CB50BAAED"
+			shape: "rsquare"
+			subtitle: "游荡于世间的怨恨恶魔"
+			tasks: [{
+				advancement: "goety:goety/kill_a_wight"
+				criterion: ""
+				id: "72DE98A581588748"
+				type: "advancement"
+			}]
+			title: "&a孤魂尸鬼"
+			x: 9.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["4ED12C5CB50BAAED"]
+			description: ["&c使用的魔法仪式类型为大地（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"]
+			id: "6BA6AC4C72B539F5"
+			shape: "rsquare"
+			subtitle: "如果你喜欢召唤仆从来战斗的话这枚戒指会非常适合你"
+			tasks: [{
+				id: "3594470706C438E7"
+				item: {
+					Count: 1
+					id: "goety:ring_of_the_forge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a锻造之戒"
+			x: 9.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4ED12C5CB50BAAED"]
+			description: [
+				"&6灵魂修补器是一个强大的设备，可以使用灵魂能量修复损坏的武器和工具，需要放置在诅咒之笼上方，并且诅咒之笼内部放入能提供灵魂能量的道具（如灵魂图腾、连接宝石）才能使用，手持损坏的武器或工具右键点击灵魂修补器就可以放入其中。"
+				""
+				"&6每0.5秒，灵魂修补器将从笼子中吸取1点灵魂能量，修复物品的一点耐久。如果物品被附魔，每个附魔都会增加灵魂能量消耗。"
+				""
+				"&c使用的魔法仪式类型为锻造（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+			]
+			id: "566E3909206F76F9"
+			shape: "rsquare"
+			subtitle: "来使用灵魂能量修补你的装备吧"
+			tasks: [{
+				id: "299B519B3DFFD49B"
+				item: "goety:soul_mender"
+				type: "item"
+			}]
+			title: "&a灵魂修补器"
+			x: 7.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["3F0C9F6DD4F56AC9"]
+			description: ["&c使用的魔法仪式类型为死灵（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"]
+			hide_dependency_lines: true
+			id: "38712011CA9D5B19"
+			shape: "rsquare"
+			subtitle: "死灵王冠并不完美，因为它会为佩戴者带来负面影响"
+			tasks: [
+				{
+					id: "2853F89C5ABCE69D"
+					item: {
+						Count: 1
+						id: "goety:necro_crown"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2A3775B353DAA0C4"
+					item: {
+						Count: 1
+						id: "goety:necro_cape"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a死灵王冠"
+			x: 7.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["38712011CA9D5B19"]
+			description: [
+				"&c使用的魔法仪式类型为大师死灵（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+				""
+				"&c大师死灵仪式需要阅读禁书卷轴，阅读禁书卷轴后你之前搭建的死灵仪式就等于是大师死灵仪式了。"
+			]
+			id: "7855F306C3291BA9"
+			shape: "rsquare"
+			subtitle: "对于死灵召唤师来说这是完美的王冠"
+			tasks: [
+				{
+					id: "68F4B1E7888B84C2"
+					item: {
+						Count: 1
+						id: "goety:nameless_crown"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "370FA35030539781"
+					item: {
+						Count: 1
+						id: "goety:nameless_cape"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a无名王冠"
+			x: 5.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: ["&6如果你能熟练掌握巫术酿药法的话将会对你的冒险提供很大的帮助，这可比普通的酿药要厉害多了。"]
+			hide_dependency_lines: true
+			id: "78BC62ACE6B1BF01"
+			shape: "rsquare"
+			subtitle: "特别的炼药方法"
+			tasks: [{
+				id: "69C864ADA587088C"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "goety:witches_brew"
+					}
+				}
+				type: "item"
+			}]
+			title: "&a巫术酿造"
+			x: 3.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["78BC62ACE6B1BF01"]
+			description: ["&6用于将灵魂方舟或诅咒之笼中的灵魂能量传导到其它需要灵魂能量的地方。"]
+			id: "7C128039B536B811"
+			shape: "rsquare"
+			subtitle: "魔法导线"
+			tasks: [{
+				id: "6C408410EC333048"
+				item: "goety:soul_candlestick"
+				type: "item"
+			}]
+			title: "&a灵魂蜡烛"
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["78BC62ACE6B1BF01"]
+			description: ["&6穿在饰品栏或放在物品栏时按H打开，可以在里面放入投掷型巫术药水（只能为投掷型），里面放入药水后按L可以打开药水圆环进行切换使用，比手动使用药水方便多了。"]
+			id: "5AD039CECC757BF7"
+			shape: "rsquare"
+			subtitle: "如果你经常使用药水，强力推荐带一个药酿包"
+			tasks: [{
+				id: "03249FBA0DF9B8A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 11
+							slot: 0
+						}
+					}
+					id: "goety:brew_bag"
+				}
+				type: "item"
+			}]
+			title: "&a药酿包"
+			x: 1.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["78BC62ACE6B1BF01"]
+			description: [
+				"&6首先女巫坩埚的下方必须要有营火或岩浆块来进行加热，然后锅中要加满水，炼药的过程中需要消耗灵魂能量，具体的做法为，在女巫坩埚的附近摆放装着灵魂能量的灵魂方舟或诅咒之笼+灵魂图腾，然后将灵魂蜡烛摆在诅咒之笼或灵魂方舟上面，这样灵魂蜡烛就会将容器中的灵魂能量传导进坩埚中。"
+				""
+				"&6你也可以使用JEI来查看女巫药酿来查看配方（对着女巫坩埚按U键）。"
+				""
+			]
+			icon: "goety:witch_cauldron"
+			id: "1FA6D96EE3218CB6"
+			shape: "rsquare"
+			subtitle: "真正的酿药大师"
+			tasks: [
+				{
+					id: "399EBB25D649E42D"
+					item: "goety:witch_cauldron"
+					type: "item"
+				}
+				{
+					id: "5B025E95A02591E2"
+					item: "goety:cauldron_ladle"
+					type: "item"
+				}
+			]
+			title: "&a药水精酿"
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1FA6D96EE3218CB6"]
+			description: [
+				"&6药水酿造总共分为4个步骤：添加容量剂->催化剂->增强->结束，首先你要向装满水的女巫坩埚中投入1个下界疣，若投入之后坩埚中开始冒出紫色的粒子效果则说明第一步成功了。"
+				""
+				"&6接下来，药酿需要放入催化剂。催化剂是一种物品，用于指定药剂的效果。某些催化剂会占用一个以上的容量，并增加灵魂消耗成本。"
+				""
+				"&6最后你可以放入增强剂来延长药水的持续时间或是增强效果。"
+				""
+				"&6这里举一个例子，首先在坩埚中放入下界疣，然后放入绯红菌，再放入金苹果，最后放入萤石粉，然后使用坩埚巨勺邮件坩埚中的液体就可以完成酿造，这里下界疣为必放物品，无论酿造什么药都必须先放入下界疣，然后绯红菌为容量剂，可以增加药水投入物品的容量，金苹果为催化剂，催化剂将决定最后酿出来的药水为什么效果，比如金苹果最后酿出来的效果就是伤害吸收，最后萤石粉为增强剂，与原版的萤石粉增强效果，红石增加持续时间是一个道理，女巫酿造可以使用的增强剂非常多。"
+				""
+				"&6当你的所有药引都投放完毕后，手持坩埚巨勺右键坩埚的液体，这时候坩埚就会自动吸收附近带有灵魂蜡烛的诅咒之笼中的灵魂能量进行酿造。&n(在药引投放完毕最后若投入火药，则出来的药水就会是投掷形的，如果此时再投入龙息，药水就会变为滞留型的，在滞留型状态下投入烈风核心将会把药水变为气型态，气型药酿会生成大量药酿气体方块，在方块内的实体可以不断获得药剂效果，无论什么形态的药水，都需要用空瓶子来装)。"
+			]
+			id: "1F402F0A471111CD"
+			shape: "rsquare"
+			subtitle: "错一步，你的药水就没了"
+			tasks: [{
+				id: "46A05FFEFC4493C3"
+				item: { Count: 57, id: "minecraft:nether_wart" }
+				type: "item"
+			}]
+			title: "&a酿造步骤"
+			x: -1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["78BC62ACE6B1BF01"]
+			description: ["&6击杀女巫有极小的概率掉落。"]
+			id: "3C9C5A7E4078A984"
+			shape: "rsquare"
+			subtitle: "跟女巫一模一样"
+			tasks: [{
+				id: "33DE356BECE5667D"
+				item: "goety:witch_hat"
+				type: "item"
+			}]
+			title: "&a女巫帽"
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["78BC62ACE6B1BF01"]
+			description: ["&6有两个方法可以使你酿造药水时所消耗的灵魂能量减少，1是在沼泽地进行酿造，2就是做3根女巫之杖插在女巫坩埚附近。"]
+			id: "36C93C00A192CA9C"
+			shape: "rsquare"
+			subtitle: "某种仪式"
+			tasks: [{
+				count: 3L
+				id: "7B86491BF79EF90C"
+				item: { Count: 3, id: "goety:witch_pole" }
+				type: "item"
+			}]
+			title: "&a女巫之杖"
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3F0C9F6DD4F56AC9"]
+			description: ["&c使用的魔法仪式类型为专家下界（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"]
+			hide_dependency_lines: true
+			id: "26C13FE09D7BCFFC"
+			shape: "rsquare"
+			subtitle: "专家下界仪式需要在阅读过往卷轴后才可以搭建"
+			tasks: [
+				{
+					id: "6C4A3BEE0F69D6A1"
+					item: {
+						Count: 1
+						id: "goety:nether_crown"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2954A9765C503308"
+					item: {
+						Count: 1
+						id: "goety:nether_robe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a下界王冠"
+			x: 5.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3F0C9F6DD4F56AC9"]
+			description: ["&c使用的魔法仪式类型为活力（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"]
+			hide_dependency_lines: true
+			id: "7649F8C7263ECA1E"
+			shape: "rsquare"
+			subtitle: "荒野仆从的主人需要这个王冠"
+			tasks: [
+				{
+					id: "4058F5FFA898E5B7"
+					item: {
+						Count: 1
+						id: "goety:wild_crown"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E074C21CEB9EB7D"
+					item: {
+						Count: 1
+						id: "goety:wild_robe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a荒野王冠"
+			x: 7.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3F0C9F6DD4F56AC9"]
+			description: ["&c使用的魔法仪式类型为霜冻（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"]
+			hide_dependency_lines: true
+			id: "55D3E17571F83185"
+			shape: "rsquare"
+			subtitle: "霜冻仆从的主人需要这个王冠"
+			tasks: [
+				{
+					id: "77F466350F6529B2"
+					item: {
+						Count: 1
+						id: "goety:frost_crown"
+						tag: {
+							CurioAttributeModifiers: [{
+								Amount: 0.01d
+								AttributeName: "minecraft:generic.movement_speed"
+								Name: "CUcurios60"
+								Operation: 1
+								Slot: "head"
+								UUID: [I;
+									-141853452
+									405748849
+									-1150324383
+									-1593507419
+								]
+							}]
+							exmodifier_armor_modifier_applied: 1
+							exmodifier_armor_modifier_applied0: "CUcurios6"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09F95F72432009AC"
+					item: {
+						Count: 1
+						id: "goety:frost_robe"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a冰霜王冠"
+			x: 9.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4E1F561428BDA5F7"]
+			dependency_requirement: "all_started"
+			description: ["&6这套法袍能够让你隐身，使你不容易被敌对生物察觉（最好不要太过相信它的隐身效果），也能为你的幻境法术提供增益，让你分身的攻击能够造成真实伤害。"]
+			id: "013EBACE0C106D89"
+			shape: "rsquare"
+			subtitle: "镜面艺术"
+			tasks: [{
+				id: "3BA964A9EC550DDC"
+				item: "goety:illusion_robe"
+				type: "item"
+			}]
+			title: "&a海市蜃楼"
+			x: 11.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["013EBACE0C106D89"]
+			dependency_requirement: "all_started"
+			description: ["&6法术爱好者的必备装备。"]
+			icon: "goety:dark_robe"
+			id: "3F0C9F6DD4F56AC9"
+			rewards: [{
+				id: "6EBC3D06DB57A923"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						RepairCost: 0
+						author: "RuoLing"
+						display: {
+							Lore: ["{\"text\":\"§d祝你好运\"}"]
+							Name: "{\"text\":\"§d关于灾厄宰相维齐尔的情报书\"}"
+						}
+						pages: [
+							"{\"text\":\"灾厄宰相会将玩家、村民、铁傀儡和流浪商人作为他们的攻击目标。\\n灾厄宰相会攻击他们的目标，向他们猛扑，举起挥舞铁剑的手臂，就像恼鬼一样。一段时间后，他会复读之前施过的咒语。\\n施法时，灾厄宰相将获得自然的“维齐尔护甲”，使自身受到的所有伤害减半。\\n灾厄宰相默认情况下的伤害上限为20点生命值。\"}"
+							"{\"text\":\"灾厄宰相会漂浮在目标上方，同时挥舞双手，每半秒在目标的脚上召唤一个唤魔者尖牙，如果他低于其最大生命值的一半，则为四分之一秒，总共会持续8秒，第一个释放的技能必然是尖牙攻击。\\n如果他们的目标在半空中停留超过一秒钟，灾厄宰相就会像恶妒者一样向他们发射飞剑。\\n灾厄宰相在没有攻击性的情况下像恼鬼一样随机移动，也可以穿过墙壁。\"}"
+							"{\"text\":\"只有当周围有2个或2个以上的怒鬼时，灾厄宰相才能施展此法术。\\n灾厄宰相将再次在挥舞双手的同时漂浮在目标上方，但3秒后，灾厄宰相周围的每一个怒鬼都将死亡，灾厄宰相将吸取所有怒鬼当前生命值的总和，并且用以治疗自己。\"}"
+							"{\"text\":\"灾厄宰相可以施展这个法术而不是治疗法术，施展后一个法术的几率为50%，或者如果灾厄宰相周围的怒鬼少于2。\\n与之前的咒语不同，如果它们在空中停留超过一秒，灾厄宰相将在同一位置停留2秒，要么朝着召唤方的方向召唤一排皇家尖刺，要么朝目标发射三把飞剑。\\n皇家尖刺：\\n皇家尖刺是静止的实体，对站在它上面的生物持续造成1点魔法伤害。它不能被攻击，30秒后消失。\"}"
+							"{\"text\":\"跟随任务前进，你会知道如何找到它的。\"}"
+						]
+						resolved: 1b
+						title: "好"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "你看起来简直就是个唤魔者！"
+			tasks: [
+				{
+					id: "78556ED5236A39F8"
+					item: "goety:dark_hat"
+					type: "item"
+				}
+				{
+					id: "737FCD34D0FAFFB1"
+					item: "goety:dark_robe"
+					type: "item"
+				}
+			]
+			title: "&a生于暗影"
+			x: 11.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["443B2C4D146D2A70"]
+			description: [
+				"&6将这些布料与某些素材相结合能够获得不错的道具。"
+				""
+				"&6下面为你介绍一些在工作台就能合成的道具，还有一部分需要举行仪式才能合成。"
+				""
+				"&6玉石矿只有在高海拔的山峰上才能找到。"
+			]
+			icon: "goety:dark_fabric"
+			id: "002C4FCB79895525"
+			rewards: [{
+				count: 64
+				id: "480E96B2EA030666"
+				item: "goety:haunted_glass"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "这应该比羊毛暖和"
+			tasks: [
+				{
+					id: "48D847561AEAE852"
+					item: "goety:dark_fabric"
+					type: "item"
+				}
+				{
+					id: "14DFA1E176B87521"
+					item: "goety:magic_fabric"
+					type: "item"
+				}
+				{
+					id: "115C69DD40581659"
+					item: "goety:occult_fabric"
+					type: "item"
+				}
+				{
+					id: "5ED1698219E68633"
+					item: "goety:spirit_fabric"
+					type: "item"
+				}
+				{
+					id: "770E422A80D8518E"
+					item: "goety:gale_fabric"
+					type: "item"
+				}
+				{
+					id: "0E5105B85623F880"
+					item: "goety:chill_fabric"
+					type: "item"
+				}
+			]
+			title: "&a魔法布料"
+			x: 13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["032245CB6F4D3AE4"]
+			description: ["&6使用这把刀杀死生物会获得更多的灵魂能量。"]
+			icon: {
+				Count: 1
+				id: "goety:fanged_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E0CD2F618546873"
+			shape: "rsquare"
+			subtitle: "我的刀上可是涂了剧毒的！"
+			tasks: [{
+				id: "1AE6DBE75A48BAE3"
+				item: {
+					Count: 1
+					id: "goety:fanged_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a剧毒匕首"
+			x: 13.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["032245CB6F4D3AE4"]
+			id: "443B2C4D146D2A70"
+			shape: "rsquare"
+			subtitle: "也许可以拿来做刷怪笼？"
+			tasks: [{
+				id: "1A1CC81BC87DA389"
+				item: "goety:cursed_ingot"
+				type: "item"
+			}]
+			title: "&a亵渎金属"
+			x: 15.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["443B2C4D146D2A70"]
+			description: [
+				"&6你需要先手持捕捉笼右键野外的一个刷怪笼，然后将捕捉笼右键诅咒之笼，这样就可以实现将刷怪笼搬回家了。"
+				""
+				"&6诅咒注入器放在刷怪笼上面时将会吸取刷怪笼中的黑暗能量来产生灵魂能量。"
+				""
+				"&6有了这一套设备后你就可以高效的生产一些物品了，将鼠标放在诅咒刷怪笼上按U查看JEI配方。"
+			]
+			icon: "goety:cursed_cage"
+			id: "42EFDDC739B90F73"
+			rewards: [{
+				id: "153819F6829981DE"
+				item: "goety:flame_capture"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "人造刷怪笼"
+			tasks: [
+				{
+					id: "7B6582ECDEC85C89"
+					item: "goety:cursed_infuser"
+					type: "item"
+				}
+				{
+					id: "63D43C41DE21B0F0"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+			]
+			title: "&a诅咒注入器与诅咒之笼"
+			x: 15.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["42EFDDC739B90F73"]
+			description: [
+				"&6黑暗祭坛的下方必须是带有灵魂图腾（充满灵魂能量）的诅咒之笼，否则祭坛不会工作，手持灵魂图腾右击诅咒之笼进行装填。"
+				""
+				"&6黑暗祭坛的作用主要有2个，1是在周围的祭坛基座上放置一些素材来进行合成。2是通过在祭坛周围摆放一些方块来进行某种仪式。"
+				""
+				""
+			]
+			icon: "goety:dark_altar"
+			id: "38F5B5A029C096AC"
+			shape: "rsquare"
+			subtitle: "魔法仪式是必不可少的"
+			tasks: [
+				{
+					id: "14975B055A14A2FB"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0F9D2C29B9376884"
+					item: { Count: 32, id: "goety:pedestal" }
+					type: "item"
+				}
+			]
+			title: "&a仪式进行中"
+			x: 15.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["38F5B5A029C096AC"]
+			dependency_requirement: "all_started"
+			description: ["&6进入林地府邸，然后右键使用它，将会召唤灾厄宰相。"]
+			icon: "goety:dark_scroll"
+			id: "0221898EC2089E60"
+			rewards: [{
+				id: "0C9C2B38FA685349"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 21
+							slot: 0
+						}
+					}
+					id: "goety:focus_pack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "黑暗降临"
+			tasks: [{
+				id: "5C8BFDABCF5317BB"
+				item: "goety:dark_scroll"
+				type: "item"
+			}]
+			title: "&a卷轴中藏着恶魔"
+			x: 13.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0221898EC2089E60"]
+			description: ["&6只会刷新在林地府邸的战利品箱中，使用后将解锁蹂躏者仪式，允许你拥有自己的掠夺兽。"]
+			id: "78FA0745B9E585B7"
+			shape: "rsquare"
+			subtitle: "你已经思索过了劫掠兽是如何出现的，以及刌民们是如何得到它们的。有传言说它们是可恶的黑暗魔法的结果。也许真相隐匿于 林地府邸 之中..."
+			tasks: [{
+				id: "57BC5D9DA6B07E50"
+				item: "goety:ravaging_scroll"
+				type: "item"
+			}]
+			title: "&a蹂躏者仪式"
+			x: 11.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["78FA0745B9E585B7"]
+			description: [
+				"&6灾厄宰相为本模组第二强的[与使徒强度相当]BOSS，击杀后会掉落灵魂红宝石，红宝石可以用于合成一些特殊的道具。"
+				""
+				"&6在林地府邸手持黑暗卷轴右键来召唤。"
+			]
+			icon: "goety:soul_ruby"
+			id: "6D82E977B51B2F22"
+			rewards: [
+				{
+					id: "2E1608FE3527560C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "goety:soul_eater"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F43E1C7FA1A4D34"
+					item: "enigmaticlegacy:etherium_scraps"
+					type: "item"
+				}
+				{
+					id: "1BBFEE72E189F50A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "29FE1C234167A5A8"
+					item: "goety:shrouded_blueprint"
+					type: "item"
+				}
+				{
+					id: "1A4488DF803A0B2E"
+					item: "goety:redstone_golem_skull"
+					type: "item"
+				}
+				{
+					id: "4B7EE2A7A1DCA68E"
+					item: {
+						Count: 1
+						id: "goety:infernal_tome"
+						tag: {
+							"Chant Times": 0
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "作为所有灾厄村民中等级最高的存在，灾厄宰相有一块能够放大法术威力的红宝石.....有传言说他们会把红宝石碎片赏赐给一些唤魔者。"
+			tasks: [{
+				entity: "goety:vizier"
+				id: "40CE3A2765C51E9D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a灾厄宰相-维齐尔"
+			x: 9.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"6D82E977B51B2F22"
+				"78FA0745B9E585B7"
+			]
+			description: [
+				"&6阅读战争卷轴后再阅读终结卷轴，你就会领悟红石巨兽的搭建方法，具体方法可以查看黑暗秘典召唤章节中的红石巨兽，会有具体的可视化摆法。"
+				""
+				"&6红石巨兽体型庞大，与下界合金巨兽相当，拥有1600生命值及不俗的攻击力，由于体型庞大建议玩家使用契约之戒将其收起来以便随时可以拿出来战斗。"
+			]
+			icon: "goety:redstone_monstrosity_head"
+			id: "1CA6113F930BC9E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6834D16DA95AE0D4"
+				table_id: 1360171287120778445L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			subtitle: "在古代，一位君主于引导之下，制造了一种强大的武器，它比红石傀儡更强大、更可怕，但是，出于未知原因，武器被放逐至极远之地。然而，创造过程被记录了下来，也许是别有用心之人秘密的记录，但是你可以用它来复制这个可怕的怪物...."
+			tasks: [
+				{
+					id: "5A5B57B87568A190"
+					item: "goety:terminus_scroll"
+					type: "item"
+				}
+				{
+					advancement: "goety:goety/summon_redstone_monstrosity"
+					criterion: ""
+					id: "23D29CF71A940059"
+					type: "advancement"
+				}
+			]
+			title: "&a终极战争机器"
+			x: 7.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在墓穴的战利品箱中概率刷新。"
+				""
+				"&6阅读后解锁缠魂盔甲架的合成配方以及制作缠魂仆胄的方式，如果你也解锁了战争卷轴，那么就会解锁制作墓灵巨像的方式。"
+			]
+			hide_dependency_lines: true
+			id: "5ACBB9AFAD16EACC"
+			shape: "rsquare"
+			subtitle: "尘归尘，土归土。"
+			tasks: [{
+				id: "4E58D1D419BA5356"
+				item: "goety:haunting_scroll"
+				type: "item"
+			}]
+			title: "&a作祟卷轴"
+			x: 5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在丛林神庙中有概率刷新。"
+				""
+				"&6阅读后可以获得腾跃之叶的召唤方法。"
+			]
+			hide_dependency_lines: true
+			id: "71D95B9157F46212"
+			shape: "rsquare"
+			subtitle: "大自然的力量"
+			tasks: [{
+				id: "09F7085BF3AF0449"
+				item: {
+					Count: 1
+					id: "goety:floral_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a花纹卷轴"
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在沙漠神殿的战利品箱中概率刷新。"
+				""
+				"&6阅读后解锁先锋聚晶的合成方式。"
+			]
+			hide_dependency_lines: true
+			id: "73705DE5156C26B8"
+			shape: "rsquare"
+			subtitle: "当你听到一些事情之前，你一直在努力让自己变得更像是个亡灵法师，但是在那之后，你发现有些捷径可以走，沙漠中有一些东西可以增长你的知识，就在那些金字塔之下..."
+			tasks: [{
+				id: "057B2B0C5A637D5B"
+				item: "goety:front_scroll"
+				type: "item"
+			}]
+			title: "&a先锋卷轴"
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: ["&6凋灵死灵法师需要在下界堡垒中使用炽烈号角召唤。"]
+			hide_dependency_lines: true
+			id: "14CE30063381626B"
+			shape: "rsquare"
+			subtitle: "借助凋灵死灵法师的力量，你的法术知识变得更多了"
+			tasks: [{
+				id: "55E477D71E6F779E"
+				item: "goety:bygone_scroll"
+				type: "item"
+			}]
+			title: "&6过往卷轴"
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在烈风神殿中可以找到。"
+				""
+				"&6右键阅读解锁呼啸傀儡的制作方法。"
+			]
+			hide_dependency_lines: true
+			id: "49A878D81B45D2D4"
+			shape: "rsquare"
+			subtitle: "借助风的力量，你可以制造强力的傀儡仆从"
+			tasks: [{
+				id: "56AD80CDEE2F18CC"
+				item: "goety:mistral_scroll"
+				type: "item"
+			}]
+			title: "&a狂风卷轴"
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在要塞图书馆或远古城市的箱子中有概率发现。"
+				""
+				"&6右键阅读可以解锁红石傀儡的制作方法。"
+			]
+			hide_dependency_lines: true
+			id: "7C4931726E950D2F"
+			shape: "rsquare"
+			subtitle: "传言这些可怕的机器失传了，但是古城和埋藏的地牢或许记载他们的制造方法...."
+			tasks: [{
+				id: "27C2150FDA9E25D5"
+				item: "goety:warred_scroll"
+				type: "item"
+			}]
+			title: "&a战争卷轴"
+			x: 5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3FF4DA46D3352CFB"]
+			description: [
+				"&6在沙漠神殿的战利品箱中概率刷新。"
+				""
+				"&6阅读后解锁研究进度，允许你将骷髅或骷髅仆从转化为死灵法师仆从。"
+			]
+			hide_dependency_lines: true
+			id: "6DA1D0D4C4C0CF13"
+			shape: "rsquare"
+			subtitle: "当你听到一些事情之前，你一直在努力让自己变得更像是个亡灵法师，但是在那之后，你发现有些捷径可以走，沙漠中有一些东西可以增长你的知识，就在那些金字塔之下..."
+			tasks: [{
+				id: "50BFE8762FBA1529"
+				item: "goety:buried_scroll"
+				type: "item"
+			}]
+			title: "&a埋葬卷轴"
+			x: 7.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7B45F205D64E6554"]
+			description: ["&6手持不详之鞍右键那些没有穿戴装备的劫掠兽让它臣服于你。"]
+			id: "791FC4943D8818DB"
+			shape: "rsquare"
+			subtitle: "能够为你驯服巨兽"
+			tasks: [{
+				id: "39437C0260C69602"
+				item: "goety:ominous_saddle"
+				type: "item"
+			}]
+			title: "&a不详之鞍"
+			x: 9.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["78FA0745B9E585B7"]
+			description: [
+				"&6将方尖碑放在带有灵魂图腾的诅咒之笼上即可激活方尖碑，当玩家在已激活的方尖碑周围时将不会触发灾厄猎杀，可以在方尖碑周围摆放高头骨来扩大范围。"
+				""
+				"&c使用的魔法仪式类型为锻造（魔法仪式的摆放方式请查上方的任务或是黑暗之书）。"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "goety:shriek_obelisk"
+				tag: { }
+			}
+			id: "7B45F205D64E6554"
+			shape: "rsquare"
+			subtitle: "让那些该死的灾厄村民们见识一下什么是恐怖"
+			tasks: [{
+				id: "2464DAB2DFF122DE"
+				item: {
+					Count: 1
+					id: "goety:shriek_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&a尖啸方尖碑"
+			x: 11.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6锻造仪式的主要作用是用于合成魔法装备，可以通过JEI或查阅黑暗之书来查看具体配方。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:anvil"
+			id: "53B5DD1B1453A6EF"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "魔法武器加工厂"
+			tasks: [
+				{
+					id: "6BCB62E90558D8A7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "039E5F4508A88767"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "123DB3D7C697F9AC"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "24566C58DEE9AA43"
+					item: { Count: 2, id: "minecraft:furnace" }
+					type: "item"
+				}
+			]
+			title: "&a锻造仪式"
+			x: 13.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6可以通过JEI或黑暗之书来查询具体配方。"
+				""
+				"&6必须建造在可以降雪的群系才能使用。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "goety:freezing_lamp"
+			id: "5BC431CF5E6289F7"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "用极寒凛冰与冷冽之雪包围祭坛，可以让祭坛利用冰霜的力量来制造各种魔法"
+			tasks: [
+				{
+					count: 8L
+					id: "28FB079E8B605BE5"
+					item: { Count: 8, id: "minecraft:snow_block" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "37E3FCBA121B2A92"
+					item: { Count: 16, id: "minecraft:ice" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F1628CD71C9305F"
+					item: { Count: 4, id: "goety:freezing_lamp" }
+					type: "item"
+				}
+			]
+			title: "&a冰霜仪式"
+			x: 13.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6可以通过JEI或黑暗之书来查询具体配方。"
+				""
+				"&6祭坛高度必须高于128，祭坛必须暴露在风暴之中才能工作。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:lightning_rod"
+			id: "725152A9589EBBAC"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "风暴将为你的祭坛提供无与伦比的力量"
+			tasks: [
+				{
+					count: 4L
+					id: "4F760985E2EA9534"
+					item: { Count: 4, id: "minecraft:lightning_rod" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "34879F197315A264"
+					item: { Count: 12, id: "minecraft:copper_block" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "474D2672F40FB5AF"
+					item: { Count: 20, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
+			title: "&a风暴仪式"
+			x: 11.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6只要将黑暗祭坛放在128高度以上便可以进行天空仪式，可以通过JEI或查阅黑暗之书来查看具体配方。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:feather"
+			id: "0D164B4755D57725"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "利用风和天空来为你的魔法充能"
+			tasks: [
+				{
+					id: "64902499E385552B"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5CDE72B1FB86FCCB"
+					item: { Count: 8, id: "goety:pedestal" }
+					type: "item"
+				}
+				{
+					id: "24CCC531A7498A81"
+					item: {
+						Count: 1
+						id: "goety:cursed_cage"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "627155F49F1D9A89"
+					item: {
+						Count: 1
+						id: "goety:totem_of_souls"
+						tag: {
+							"Max Souls": 10000
+							Souls: 10000
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a天空仪式"
+			x: 9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6大地仪式的主要作用是可以用来合成一些本模组内的饰品。"
+				""
+				"&6祭坛的高度必须低于32，且不会暴露在空气中，摆放方法如下图所示。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:amethyst_block"
+			id: "1C101C619E48E30C"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "将祭坛放置在临近地核之处，并用深板岩和紫水晶围绕它，它将能够驾驭地球来创造各种宝石和魔法"
+			tasks: [
+				{
+					count: 16L
+					id: "2BC4222BF117A82A"
+					item: { Count: 16, id: "minecraft:deepslate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "19D73531CA44214D"
+					item: { Count: 8, id: "minecraft:amethyst_block" }
+					type: "item"
+				}
+				{
+					id: "2EF0F4FA2E49DDCE"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+			]
+			title: "&a大地仪式"
+			x: 7.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6你可以通过魔法仪式来合成许多好用的饰品装备，可以通过JEI或查阅黑暗之书来查看具体配方。"
+				""
+				"&6讲台上必须放着书。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:enchanting_table"
+			id: "70DABC72C211A826"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "知识就是力量"
+			tasks: [
+				{
+					id: "6B0201E2F8EC1705"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "758F80B748978D66"
+					item: "minecraft:lectern"
+					type: "item"
+				}
+				{
+					id: "5C1A05AA4DDBC609"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6E2B8FBB1C00FC8B"
+					item: { Count: 16, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+			]
+			title: "&a魔法仪式"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6祭坛必须位于海平面以下的深海生物群系，必须在水下进行。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:sea_lantern"
+			id: "66E2E2F3293A6A44"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "利用海洋的力量"
+			tasks: [
+				{
+					count: 4L
+					id: "0D9DEF0BBA13F73F"
+					item: { Count: 4, id: "minecraft:sea_lantern" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C1098719F9F2652"
+					item: { Count: 16, id: "minecraft:prismarine" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "119A09069145446D"
+					item: { Count: 16, id: "minecraft:granite" }
+					type: "item"
+				}
+			]
+			title: "&a深渊仪式"
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6必须在下界之中才可以进行该仪式。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:nether_bricks"
+			id: "597F657D3CEFBC16"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "即使死亡之后，他们仍然拥有魔力"
+			tasks: [
+				{
+					count: 4L
+					id: "5270849D7BD9B66B"
+					item: { Count: 4, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "05A65EE10CAACB20"
+					item: { Count: 8, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2E7D70BF98EF17A7"
+					item: { Count: 8, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1D1C08B88C80B168"
+					item: { Count: 32, id: "minecraft:nether_bricks" }
+					type: "item"
+				}
+			]
+			title: "&a专家下界仪式"
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6必须在下界之中才可以进行该仪式。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:blackstone"
+			id: "49B8ED9E27FCA3ED"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "下界是一个充满灵魂能量的维度"
+			tasks: [
+				{
+					count: 8L
+					id: "480249D15C2E3CE5"
+					item: { Count: 8, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4452E87807CF623C"
+					item: { Count: 16, id: "minecraft:blackstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48E2190187FCCAF6"
+					item: { Count: 4, id: "minecraft:glowstone" }
+					type: "item"
+				}
+			]
+			title: "&a进阶下界仪式"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6你可以通过亡灵仪式来合成一些重要的物品装备，可以通过JEI或查阅黑暗之书来查看具体配方。"
+				""
+				"&6任何花朵都可以，只要花盆不是空的就行，台阶除了木台阶都可以，必须是夜晚才能进行死灵仪式。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "goety:rotting_focus"
+			id: "2366BD022E109BE9"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "亡灵们的坟墓"
+			tasks: [
+				{
+					count: 8L
+					id: "61D3BBCC6CD2503A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
+					title: "Any #minecraft:flowers"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "20EA7423556656A0"
+					item: { Count: 8, id: "minecraft:flower_pot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "22B0340D1620F66A"
+					item: { Count: 16, id: "minecraft:sculk" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "188341D4D8538122"
+					item: { Count: 16, id: "minecraft:cobblestone_slab" }
+					type: "item"
+				}
+			]
+			title: "&a死灵仪式"
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["448BDF4439CF0E98"]
+			description: [
+				"&6活力仪式可以用来合成很多重要的物品，可以通过JEI或查阅黑暗之书来查看具体配方。"
+				""
+				"&6使用剪刀右键南瓜来获得雕刻南瓜。"
+				""
+				""
+			]
+			hide_dependency_lines: true
+			icon: "goety:animation_core"
+			id: "2E9190A766D6398C"
+			shape: "rsquare"
+			size: 1.2d
+			subtitle: "创造生命总是令人激动的"
+			tasks: [
+				{
+					id: "08EBAD823FF34CD5"
+					item: "minecraft:carved_pumpkin"
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "1559027CEDF01DB2"
+					item: { Count: 15, id: "minecraft:ladder" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "192057430DE31C77"
+					item: { Count: 15, id: "minecraft:rail" }
+					type: "item"
+				}
+			]
+			title: "&a活力仪式"
+			x: 11.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["55637EF750B301FE"]
+			icon: "minecraft:crying_obsidian"
+			id: "448BDF4439CF0E98"
+			shape: "rsquare"
+			subtitle: "你听说过一个强大的存在潜伏在下界之中的传言。有传言说，一个下界邪教阴谋集团在黑曜石怪圈中遇到了一个他们称之为“使徒”的人，他出现在他们面前，告诉了他们秘密..."
+			tasks: [
+				{
+					count: 8L
+					id: "7C470BBECD96CEC8"
+					item: { Count: 8, id: "minecraft:crying_obsidian" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "729F96817834496D"
+					item: { Count: 16, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					id: "20D7C4B55E42CF5A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a安息仪式"
+			x: 15.0d
+			y: 20.0d
+		}
+	]
+	title: "&6&l诡恶巫法"
+}

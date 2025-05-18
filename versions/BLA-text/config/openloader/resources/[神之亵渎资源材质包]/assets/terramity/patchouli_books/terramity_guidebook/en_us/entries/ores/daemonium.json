@@ -1,0 +1,28 @@
+{
+  "name": "魔石",
+  "icon": "terramity:daemonium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "魔石是由 Terramity 添加的新宝石。$(br2)魔石用于微晶石、宙晶和瓦伦蒂姆的匠人石板。$(br2)魔石矿石可以在地狱的顶层上找到。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "魔石",
+      "images": ["terramity:textures/screens/daemonium.png"],
+      "border": true,
+      "text": "魔石是枪支的重要基础。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:advanced_gun_parts_recipe",
+	  "recipe2": "terramity:dimlite_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:crafting",
+	  "recipe": "terramity:cosmilite_upgrade_recipe",
+	  "recipe2": "terramity:virentium_upgrade_recipe"
+    }
+  ]
+}

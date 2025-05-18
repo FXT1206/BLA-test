@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_feet",
+    "alexsmobs:pigshoes"
+  ],
+  "incompatible": [
+    "celestial_enchantments:life_shield",
+    "celestial_enchantments:rabbit_assimilation",
+    "celestial_enchantments:gift_of_thunder_god",
+    "celestial_enchantments:holy_prayer",
+    "celestial_enchantments:have_a_nice_dream",
+    "celestial_enchantments:sun_blessing",
+    "celestial_enchantments:pure_body",
+    "celestial_enchantments:origin_of_life",
+    "celestial_enchantments:fireproof_boots",
+    "celestial_enchantments:moon_blessing",
+    "celestial_enchantments:leopard_assimilation",
+    "celestial_enchantments:eyes_in_the_shadows",
+    "celestial_enchantments:fleet_of_foot",
+    "celestial_enchantments:turtle_assimilation",
+    "celestial_enchantments:dolphin_assimilation",
+    "celestial_enchantments:rain_and_dew_grace",
+    "celestial_enchantments:potion_affinity"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Hexed",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Hexed 是 Terramity 新增的药水/状态效果。$(br2)当此效果结束时，会将你的生命值减半。该效果在结束或再次应用前不会做任何事情。Hexed 会对非玩家实体造成 20 点伤害。"
+    }
+  ]
+}

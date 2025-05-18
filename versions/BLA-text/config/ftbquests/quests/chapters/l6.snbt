@@ -1,0 +1,2091 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "l6"
+	group: "4790DD6287EE2AC2"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "confluence:terraspark_boots"
+		tag: { }
+	}
+	id: "558DAA80737CBE44"
+	images: [{
+		height: 20.0d
+		image: "confluence:item/curio/terraspark_boots"
+		rotation: 0.0d
+		width: 20.0d
+		x: -2.5d
+		y: 8.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4ACC814F875B1F56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39BFD9DACDE7446D"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DF0489A063F8887"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:climbing_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 0.5d
+		}
+		{
+			id: "355F4D987C931A51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "351DEA03BCD17171"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6786AEA480E586A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:shoe_spikes"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"355F4D987C931A51"
+				"4ACC814F875B1F56"
+			]
+			id: "52E941DC3C8D6D13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E746AD22F42957F"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D0978911AF21863"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:tiger_climbing_gear"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -0.5d
+		}
+		{
+			id: "0E7B307F9204DF1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4BBAA048CB9263"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "40E61E17B84E5A2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:black_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 0.5d
+		}
+		{
+			id: "32C08E9BE3B56DF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A14C10E705E0EA0"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26EBBB45F93777C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:tabi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0E7B307F9204DF1A"
+				"52E941DC3C8D6D13"
+				"32C08E9BE3B56DF1"
+			]
+			id: "7D079EF20B0D28AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21FB7767CAA96039"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C61EF55FCF32991"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "76155B5929C6FD6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:master_ninja_gear"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 0.5d
+		}
+		{
+			id: "5CC16FF5323EAA70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E87A9B7ED258134"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D16AAB6C4185C37"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:putrid_scent"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5CC16FF5323EAA70"
+				"25E91A8260226FFC"
+			]
+			id: "30BBCADFAC793CE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "446DF42CE4D8F52C"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2763F8AD172E443E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:recon_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DD4EF5FC90A59A8"
+				"5CC16FF5323EAA70"
+			]
+			id: "4A9550E420EAC238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39098744C71A1E19"
+				table_id: 1021012714640519503L
+				type: "random"
+			}]
+			tasks: [{
+				id: "67A6B2F87D782DEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:stalkers_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.0d
+		}
+		{
+			id: "050B6FCEFDE9DD37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A95F3C0D5423BF"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "19518CC5F73BD0F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:magma_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 4.0d
+		}
+		{
+			id: "1DD4EF5FC90A59A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A705B210EA1B26C"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "115F427ED13D5D9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:magic_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1DD4EF5FC90A59A8"
+				"050B6FCEFDE9DD37"
+			]
+			id: "534D8296D8EC6489"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BC0C64A42093DDC"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "174E2A6B5C5340A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:molten_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25E91A8260226FFC"]
+			id: "6235600100C92C7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01F954FB492892B5"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "47B9AC64571EFB07"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sniper_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			id: "25E91A8260226FFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F14C686F15F7323"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FA9D51119212B76"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:rifle_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 6.0d
+		}
+		{
+			id: "783855E9F8619E88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D51597BC9616506"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FAAA4E818C8B9F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:blizzard_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"783855E9F8619E88"
+				"33B0ADA287A0A3DC"
+			]
+			id: "11E5FD0C153852B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71694C51985C85B5"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6B69519BFA916A1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:blizzard_in_a_balloon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1756C3D26EA07EDD"
+				"33B0ADA287A0A3DC"
+			]
+			id: "5C13C37791CAE9A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51BD1EBF46B48477"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "570971C502FB2F1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sandstorm_in_a_balloon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"53C11F374A444B97"
+				"11E5FD0C153852B8"
+				"5C13C37791CAE9A5"
+			]
+			id: "0A7D2154E8F7439B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "036FA3DB29FEC2AB"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "5C3A4D8508240317"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:bundle_of_balloons"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 4.5d
+		}
+		{
+			id: "33B0ADA287A0A3DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52B9DB3B5754A3BA"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1C86F99ADF92FD86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:shiny_red_balloon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.25d
+			y: 4.5d
+		}
+		{
+			id: "1756C3D26EA07EDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E0AF7DD839F384"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32E7547318E2A98E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sandstorm_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"561E6367412766FD"
+				"33B0ADA287A0A3DC"
+			]
+			id: "53C11F374A444B97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72D9A120C54612C2"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D75B3BAC34249C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:cloud_in_a_balloon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.0d
+		}
+		{
+			id: "561E6367412766FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "723F47BB2741683D"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "21E06F52D3FC8BC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:cloud_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31299B84556E1AFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37A60FD38CA1C545"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "200F313CB4AFE6C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:obsidian_skull"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "40F7450928C0F080"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E8528F1A735442F"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "68DAB449CB70B000"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:cobalt_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 10.2d
+		}
+		{
+			dependencies: [
+				"40F7450928C0F080"
+				"31299B84556E1AFC"
+			]
+			id: "1F5F4DB28B23DD86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25D1DEA849D65A2A"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "605171603C2000F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:obsidian_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F5F2411FF4782EF"
+				"1F5F4DB28B23DD86"
+			]
+			id: "589E03141F7A23B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BBDF8A8EC1B89BD"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7FB779D732B3988E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:frozen_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 8.0d
+		}
+		{
+			id: "7F5F2411FF4782EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "799570634D82D315"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1589B52A22AFABE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:frozen_turtle_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4C2719E0B8F7C0B1"
+				"1F5F4DB28B23DD86"
+			]
+			id: "1E3779789886750B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43476B2E0776E999"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "663ABA1CD87A9287"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:hero_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 8.0d
+		}
+		{
+			id: "4C2719E0B8F7C0B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E1FD19CE06A807B"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67718C9FFDAF91DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:paladins_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 9.0d
+		}
+		{
+			id: "71D0A789E475BB0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A03A3DB111431BB"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "575280992654017F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:ankh_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"71D0A789E475BB0B"
+				"1F5F4DB28B23DD86"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6C5EB4B3F9AD00DB"
+			size: 2.0d
+			tasks: [{
+				id: "45FFE706DAE1E2DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:ankh_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 6.0d
+		}
+		{
+			id: "36950CD9B2FF2695"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "458E98E00B4CFE35"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "41D7C23A38154FA6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:lucky_horseshoe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"36950CD9B2FF2695"
+				"31299B84556E1AFC"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "553FCC987443C9A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1777B7C1CB380383"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4338E4B7694E5FEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:obsidian_horseshoe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"08095B9349DC4FD2"
+				"65B40879263466A5"
+			]
+			id: "5C684FE67E598908"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4259DFD8B5EFCBFF"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "28E9D73F386C2D54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:berserkers_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 15.0d
+		}
+		{
+			id: "65B40879263466A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B8D80AD03618541"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4401F521C57E105F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:flesh_knuckles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"46AB71A6C6B840B5"
+				"0F2136B8D8F466D8"
+			]
+			id: "08095B9349DC4FD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08D9258B4B6AD0FD"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0875D297BEC84687"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:mechanical_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 14.0d
+		}
+		{
+			dependencies: ["08095B9349DC4FD2"]
+			id: "05E30C771B8495AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2340BFC516D34259"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "31D2AAE03042F1E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:fire_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"265553B43248935A"
+				"1EAAAF6ED2838A99"
+			]
+			id: "46AB71A6C6B840B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C5E96A5E63562DE"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2649537FB4D6F95A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:power_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 14.5d
+		}
+		{
+			id: "0F2136B8D8F466D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA99E783E725852"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3465CCE6F4D22F1D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:avenger_emblem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 13.0d
+		}
+		{
+			id: "78EB4753E944389B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD1B9460C78D6E7"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61AB5F91ECF5DB96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:eye_of_the_golem"
+					tag: {
+						can_has_attribute: 1b
+						can_has_curio: 1b
+						curioattribute: 1b
+						germStringLvlSize: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"78EB4753E944389B"
+				"0F2136B8D8F466D8"
+			]
+			id: "4D937904E6E0A44F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "228265AA6ACEE2E2"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A393B42243A55B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:destroyer_emblem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 12.5d
+		}
+		{
+			id: "1EAAAF6ED2838A99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F9D3F1A47781685"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1552C4374A840E30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:titan_glove"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 15.0d
+		}
+		{
+			id: "265553B43248935A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7F820EC1D2DD0F"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53AD3A156878F6A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:feral_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.25d
+			y: 14.0d
+		}
+		{
+			id: "517F3055643D90DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2150AF48BE3B1207"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "568BC3A7967758BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:obsidian_rose"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"517F3055643D90DF"
+				"31299B84556E1AFC"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "37D32D44CFB1DA4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "700248EDDC303829"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3EC168959F473AAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:obsidian_skull_rose"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 8.0d
+		}
+		{
+			id: "64139C01CB5B20C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493CA3C657F7C353"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "725EA9A20D5C3D08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:hermes_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.5d
+		}
+		{
+			id: "31D36B3A3B14B484"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A76D9C5F7035F77"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0EE404181636B732"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:flurry_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 12.0d
+		}
+		{
+			id: "6C1C72A5D2B8B55B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C98D08310A32067"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "202232DA6E89CFE5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sailfish_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 12.0d
+		}
+		{
+			id: "51D8B62DE3454BFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "529BDDFECE515427"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3580AD45B11C79B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:dunerider_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 10.5d
+		}
+		{
+			id: "0E108AD3728C111D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42D567E9C375BBEB"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "46D48A86B7442568"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:rocket_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0E108AD3728C111D"
+				"31D36B3A3B14B484"
+				"6C1C72A5D2B8B55B"
+				"51D8B62DE3454BFA"
+				"64139C01CB5B20C7"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "248A75865645205E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75363952553BDF21"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "29FDAC6085A0D4F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:spectre_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 8.25d
+		}
+		{
+			id: "6F3B99844AF5661E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08151700F9449088"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29FC0AD6642A1C86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:anklet_of_the_wind"
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: 8.5d
+		}
+		{
+			id: "596925301D557E2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FB45B39AEF56F41"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3089AEF241483D72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:aglet"
+				}
+				type: "item"
+			}]
+			x: 2.75d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6F3B99844AF5661E"
+				"596925301D557E2B"
+				"248A75865645205E"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B05B8CC00181FDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE20E624651B2A9"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "699C2E29C4FDE8AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:lightning_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 5.5d
+		}
+		{
+			id: "483B1A999EA6C04E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "439AFE6D5B2CB516"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27EC5EE5C3C0D7AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:ice_skates"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"483B1A999EA6C04E"
+				"2B05B8CC00181FDF"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "170B185E611C6872"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E68B783B4A4E5BF"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "09B80556936ABC21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:frostspark_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 4.0d
+		}
+		{
+			id: "50586812D1CBCE61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10BDE79B36E0B6F2"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64D8B61859952939"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:lava_waders"
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"50586812D1CBCE61"
+				"170B185E611C6872"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "17F7DC4F251FC900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F9FF37617FA6060"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DAE94E5BF9EA5D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:terraspark_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 1.0d
+		}
+		{
+			id: "1D07EF094C625FDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BE7A1EFA47E1A5B"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "00A2CEE0F8613409"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:pda"
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 8.0d
+		}
+		{
+			id: "0D0CCCBBB5861A3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7726492E3395DC22"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23A080C719AF6EBD"
+				item: {
+					Count: 1
+					id: "confluence:magic_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1D07EF094C625FDE"
+				"0D0CCCBBB5861A3C"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "427A489F0E0AC23F"
+			size: 2.0d
+			tasks: [{
+				id: "4D1BE12EEDF56E9D"
+				item: "confluence:cell_phone"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.0d
+		}
+		{
+			id: "691139C3D7F8AA5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A65AE9506DDD939"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A32A05753F09B9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:moon_stone"
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 11.5d
+		}
+		{
+			id: "530B620B3D752FEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "592FCAFF6BBC8DC2"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CDD1224623F0462"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sun_stone"
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"691139C3D7F8AA5E"
+				"530B620B3D752FEA"
+			]
+			id: "66CE4D607B0E62FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E24ED4187C7F10B"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2A72EB6F932C6893"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:celestial_stone"
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 14.5d
+		}
+		{
+			id: "768AD3E29AC977DE"
+			rewards: [{
+				id: "36A19FC4006FA0C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "3AC8413BD9FE3B27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:brain_of_confusion"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.75d
+		}
+		{
+			description: [""]
+			id: "2761EDC88CEBEA21"
+			rewards: [{
+				id: "41CF40BD1AEC8151"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			subtitle: "&6由 &4娜迦 &6掉落"
+			tasks: [{
+				id: "599F2B60515A9625"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:worm_scarf"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.25d
+		}
+		{
+			id: "2326A30FAADA398D"
+			rewards: [{
+				id: "5F9ACA873223ADD9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			subtitle: "&6由 &4娜迦 &6掉落"
+			tasks: [{
+				id: "2FE7147640791218"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:shield_of_cthulhu"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.25d
+		}
+		{
+			id: "314663CDCA4C5B2C"
+			rewards: [{
+				id: "3462ABC6B342E6CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "67AA385B410C1A85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:gravity_globe"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.25d
+		}
+		{
+			id: "59F8BD5E49F9C873"
+			rewards: [{
+				id: "7CA816E7DCB3D38B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			subtitle: "&6由 &4 &6掉落"
+			tasks: [{
+				id: "44D3C678E247E0B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:hive_pack"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.25d
+		}
+		{
+			description: ["&6由 &4凋零 &6掉落"]
+			id: "367C6C560744696E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ED3089CA5C75476"
+				table_id: 3477112912147049259L
+				type: "choice"
+			}]
+			shape: "square"
+			size: 5.0d
+			tasks: [{
+				id: "7D14C77410769D8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:demon_heart"
+				}
+				type: "item"
+			}]
+			x: -7.25d
+			y: 2.5d
+		}
+		{
+			id: "1CE4447AB6670346"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "332AB422DE164ABC"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1AE8FA5A279C80D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:sharkron_balloon"
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"36950CD9B2FF2695"
+				"1CE4447AB6670346"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6A22B6B0B875CFF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34BBC79222941E46"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08A1AA17AA40824B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:pink_horseshoe_balloon"
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 10.5d
+		}
+		{
+			id: "0599DCE7A0D196E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ECA8645D3F63935"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54FD4A69129E0288"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:fart_in_a_balloon"
+				}
+				type: "item"
+			}]
+			x: 0.25d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"36950CD9B2FF2695"
+				"0599DCE7A0D196E5"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "241B3A45D8D3AEAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70D5FF131CBDF981"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B7D826DD6CB5F91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:green_horseshoe_balloon"
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 11.5d
+		}
+		{
+			id: "55240738EE9CA3BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05DF19E2577540DC"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6BF2DB8E1DC16C9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:star_cloak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "27CA9DAE488201D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59A8CE92799BB3DD"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18B4B4299B1B8FD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:cross_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"27CA9DAE488201D8"
+				"55240738EE9CA3BE"
+			]
+			id: "4FCD115731DE26DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "424D992345E194AC"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "294A0EF47E43E790"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:star_veil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+	]
+	title: "&l&6泰拉饰品"
+}

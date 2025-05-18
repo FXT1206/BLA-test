@@ -1,0 +1,9 @@
+{
+  "minecells:balanced_blade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 2.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

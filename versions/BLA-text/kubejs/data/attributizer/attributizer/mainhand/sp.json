@@ -1,0 +1,9 @@
+{
+  "minecells:spite_sword": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.35,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

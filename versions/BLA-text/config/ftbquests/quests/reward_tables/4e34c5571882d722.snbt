@@ -1,0 +1,71 @@
+{
+	id: "4E34C5571882D722"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:squid_ink_pasta"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:ratatouille"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:steak_and_potatoes"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:bacon_and_eggs"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:pasta_with_meatballs"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:pasta_with_mutton_chop"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:mushroom_rice"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:roasted_mutton_chops"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "farmersdelight:vegetable_noodles"
+				tag: { }
+			}
+		}
+	]
+	title: "食物补给箱"
+}

@@ -1,0 +1,22 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 40,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "twilightforest:lich"
+      ],
+      "items": [],
+      "traits": [
+       
+             ]
+    }
+  ]
+}

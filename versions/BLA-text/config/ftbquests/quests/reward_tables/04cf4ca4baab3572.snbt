@@ -1,0 +1,11 @@
+{
+	id: "04CF4CA4BAAB3572"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 4, item: "minecraft:emerald", weight: 3.0f }
+		{ item: "minecraft:emerald_block", weight: 2.0f }
+		{ count: 4, item: "minecraft:emerald_block" }
+	]
+	title: "绿宝石抽奖"
+}

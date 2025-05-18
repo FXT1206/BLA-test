@@ -1,0 +1,11 @@
+{
+  "name": "Dripleaf Step",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Dripleaf step 是 Terramity 新增的药水/状态效果。$(br2)该效果仅由瓦伦蒂姆盔甲的套装奖励提供，可在你的脚下放置滴水方块，让你在半空中行走。"
+    }
+  ]
+}

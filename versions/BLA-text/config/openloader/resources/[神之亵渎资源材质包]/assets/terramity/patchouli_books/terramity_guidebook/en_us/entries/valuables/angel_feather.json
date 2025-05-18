@@ -1,0 +1,16 @@
+{
+  "name": "天使之羽",
+  "icon": "terramity:angel_feather",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "天使羽毛是 $(l:terramity:ores/reverium)雷弗列姆$()的必备材料。$(br2)天使羽毛可以在向主世界的天空投掷亵渎之矛 后获得，它可以刺穿天堂并召唤它的愤怒..."
+    },
+    {
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:unholy_lance_recipe",
+	  "recipe2": "terramity:reverium_recipe"
+	}
+  ]
+}

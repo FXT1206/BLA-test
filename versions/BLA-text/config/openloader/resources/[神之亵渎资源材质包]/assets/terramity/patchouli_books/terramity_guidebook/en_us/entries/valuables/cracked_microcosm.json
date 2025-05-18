@@ -1,0 +1,16 @@
+{
+  "name": "破碎的微缩宇宙",
+  "icon": "terramity:cracked_microcosm",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "破碎的微缩宇宙是$(l:terramity:ores/exodium)起源$()的必备材料，.$(br2)将空洞精华扔进由黑洞炸弹造成的黑洞后即可获得破碎的微缩宇宙。"
+    },
+    {
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:black_hole_bomb_recipe",
+	  "recipe2": "terramity:exodium_ingot_recipe"
+	}
+  ]
+}

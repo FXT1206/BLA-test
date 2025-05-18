@@ -1,0 +1,791 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2D384BD5F6C387E1"
+	group: "52A647A032D879B8"
+	icon: "gobber2:gobber2_glob"
+	id: "2D384BD5F6C387E1"
+	images: [{
+		height: 6.0d
+		image: "iceandfire:block/dragonforge_ice_brick_grill"
+		rotation: 0.0d
+		width: 8.0d
+		x: -5.0d
+		y: -4.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C99260AA176B361"]
+			id: "67ADEBAF477C0A5E"
+			tasks: [{
+				id: "23BECF4A08311048"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:deepslate_bricks_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C99260AA176B361"]
+			id: "50F2BFD543A7FDFD"
+			tasks: [{
+				id: "0FC5375FC85AE38E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:stone_bricks_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			id: "20797DF5379C2A8D"
+			tasks: [{
+				id: "4CB785E94092ACF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:polished_blackstone_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			id: "00A95DCD3B78278C"
+			tasks: [{
+				id: "43FA7A0EB31697CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:prismarine_bricks_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["419C30742F07EFA7"]
+			id: "2E317184ABF3FE74"
+			tasks: [{
+				id: "5A3EA55046807046"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:adamantite_block_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["419C30742F07EFA7"]
+			id: "5B39EC0A0EE96ABA"
+			tasks: [{
+				id: "3DB4F11713177B96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alloy_forgery:end_stone_bricks_forge_controller"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "419C30742F07EFA7"
+			tasks: [{
+				id: "06B1E9396A91C189"
+				type: "checkmark"
+			}]
+			title: "&4三阶炼制器"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			id: "29A63F1B3CA3BCA0"
+			tasks: [{
+				id: "6647F313F10F3FC7"
+				type: "checkmark"
+			}]
+			title: "&4二阶炼制器"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "2C99260AA176B361"
+			tasks: [{
+				id: "55A237966E1F133A"
+				title: "&4一阶炼制器"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2C99260AA176B361"]
+			description: ["&b需要一阶炼制炉炼放入 激水锭+紫水晶+铁锭+戈伯团+藓牙+钻石"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4C0B959F85A18F20"
+			min_width: 300
+			rewards: [{
+				id: "0786E2DEB5B2EB8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:mysterious_trinket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "6C98F8A44917FEE6"
+				item: {
+					Count: 8
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gobber2:gobber2_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b更好的锭"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			description: ["&6需要二阶炼制炉放入 下界合金 坚守者骨片 铜块 古代灵魂 回响碎片  魔眼燃石"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "491EBFA459D7F85F"
+			min_width: 300
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "74F412DCA9A63230"
+				item: {
+					Count: 6
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2complements:sculkium_ingot"
+				}
+				type: "item"
+			}]
+			title: "&3幽暗之钢"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C99260AA176B361"]
+			description: ["&4需要  山铜+秘银+精金+炽热之血"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "mythicmetals:hallowed_ingot"
+			id: "595DA68A098BAA42"
+			rewards: [{
+				id: "140F18C0184DABF5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nameless_trinkets:mysterious_trinket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6CB22B8D57086F0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mythicmetals:hallowed_ingot"
+				}
+				type: "item"
+			}]
+			title: "&6神圣钢锭"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08D4970CA9ED03E7"]
+			id: "3D8A45F1D78A44CF"
+			tasks: [{
+				id: "1BB32983D49DD8EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2complements:eternium_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b永恒之物"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["084171F758E17A98"]
+			id: "08D4970CA9ED03E7"
+			rewards: [{
+				count: 81
+				id: "1B18BE20B28CBB92"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mythicmetals:adamantite_ingot"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "0C3A03242127DE26"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gobber2:gobber2_ingot_end"
+					}
+					type: "item"
+				}
+				{
+					id: "0AFDE429DE71C93B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:hellspec_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "6F3E395AE9772896"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:conductite"
+					}
+					type: "item"
+				}
+				{
+					id: "1EFC187D757FFCA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:cosmilite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "5A2D11C387495D21"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:tectonic_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "19AA0842B90F4B2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:void_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "2AD27624A32AF16D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicmetals:unobtainium"
+					}
+					type: "item"
+				}
+				{
+					id: "6026F673FD464964"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bosses_of_mass_destruction:obsidian_heart"
+					}
+					type: "item"
+				}
+			]
+			title: "&b&l永恒之物&8(合成材料)"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			description: ["&6戈伯方块+下界戈伯团+风暴锭+钯金锭+炽铁锭"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "gobber2:gobber2_ingot_nether"
+			}
+			id: "16190023C3E9BDB0"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "782DE0068A441047"
+				item: {
+					Count: 8
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gobber2:gobber2_ingot_nether"
+				}
+				type: "item"
+			}]
+			title: "&4更好的材料"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			description: ["&6黑曜石碎片+古代灵魂+暮光紫罗兰+难得素+纯粹黑暗"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6F7ED8DD3FC19246"
+			rewards: [{
+				count: 6
+				id: "6BC36B69C421D56B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2hostility:chaos_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2C721372EC48FCAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2hostility:chaos_ingot"
+				}
+				type: "item"
+			}]
+			title: "&6混沌之物"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25AB0F103AC81B3C"]
+			id: "5A1101978C0FA6E1"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "213DB991ED312C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2hostility:miracle_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b奇迹诞生"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["419C30742F07EFA7"]
+			hide_dependency_lines: true
+			id: "25AB0F103AC81B3C"
+			progression_mode: "linear"
+			size: 1.3d
+			tasks: [
+				{
+					id: "4A917F5762998764"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "terramity:prismatic_jewel"
+					}
+					type: "item"
+				}
+				{
+					id: "3B946457AFCE71D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2complements:eternium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2EAD81A19B21AEE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2hostility:chaos_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4716CD43B88F462F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "enigmaticlegacy:astral_block"
+					}
+					type: "item"
+				}
+				{
+					id: "28E3C449805A5A29"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2complements:heirophant_green"
+					}
+					type: "item"
+				}
+			]
+			title: "&c&l奇迹之物&8(合成材料)"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2C99260AA176B361"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "2BD134B4712E1C9C"
+			subtitle: "&6铁锭+金锭+烈焰粉+下界合金碎片+下界合金碎片"
+			tasks: [{
+				id: "29B7E75C6F31E611"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "&8下界合金"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			description: ["&6玛瑙+黄玉+蓝宝石+虹彩宝石+红宝石+月岩"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0AC502DBA4644B24"
+			tasks: [{
+				id: "7C45E12BB7E41615"
+				item: "terramity:prismatic_jewel"
+				type: "item"
+			}]
+			title: "&d复制粘贴!!!"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C99260AA176B361"]
+			description: ["&6绿宝石+绿宝石+棱镜宝石可以制作绿宝石块！！！"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "1153064AD759A3EC"
+			tasks: [{
+				id: "18E80CBCA7DBE731"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			title: "&c好多绿宝石!!!"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17F5081A6D97B5D9"]
+			id: "445A6CA420B91503"
+			tasks: [{
+				id: "1E43544E303312A7"
+				item: "terramity:exodium_superalloy"
+				type: "item"
+			}]
+			title: "&d破维之物"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["419C30742F07EFA7"]
+			hide_dependency_lines: true
+			id: "17F5081A6D97B5D9"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1C49EEE454F1D78B"
+					item: "terramity:cracked_microcosm"
+					type: "item"
+				}
+				{
+					id: "2508A9EEEE0B5B43"
+					item: "terramity:antiprism"
+					type: "item"
+				}
+				{
+					id: "00349F01919E5961"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+				{
+					id: "3B4B6A820399D1AB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "4FF9A30820D55953"
+					item: "legendary_monsters:lava_eaters_skin"
+					type: "item"
+				}
+			]
+			title: "&d&l破维之物&8(合成材料)"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			description: ["&6 下界戈伯块  末影戈伯团 纯粹黑暗 龙息 紫颂花"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "79173DDD78AD0A77"
+			tasks: [{
+				id: "337216AEF20838B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gobber2:gobber2_ingot_end"
+				}
+				type: "item"
+			}]
+			title: "&3最强戈伯！"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65157D844E5F2090"]
+			id: "0788E902C2E19223"
+			tasks: [{
+				id: "5276F492F96E489F"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			title: "&b天堂制造"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2C99260AA176B361"]
+			hide_dependency_lines: true
+			id: "65606AC4B9CA4EA3"
+			subtitle: "&6海晶砂砾+海晶碎片+鹦鹉螺+铁锭+戈伯锭"
+			tasks: [{
+				id: "42DD29F3F59A5D8D"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			title: "&b波塞冬遗物"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29A63F1B3CA3BCA0"]
+			hide_dependency_lines: true
+			id: "31C93E5A3DFD0D51"
+			subtitle: "&6不死图腾+闪耀的西瓜+闪耀的西瓜+下界戈伯锭+月蛋白石+灵液"
+			tasks: [{
+				id: "114A7E7F4D53C518"
+				item: "l2complements:totemic_gold_ingot"
+				type: "item"
+			}]
+			title: "&6生命之源"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["419C30742F07EFA7"]
+			hide_dependency_lines: true
+			id: "65157D844E5F2090"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3A8497202BDA452C"
+					item: "enigmaticlegacy:etherium_ore"
+					type: "item"
+				}
+				{
+					id: "3959240A44CACE80"
+					item: "bosses_of_mass_destruction:ancient_anima"
+					type: "item"
+				}
+				{
+					id: "0DC86042ACE2B8DD"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+				{
+					id: "430F22CB91EC6882"
+					item: "gobber2:gobber2_ingot_end"
+					type: "item"
+				}
+				{
+					id: "2BBBA809FB51E68B"
+					item: "terramity:opaline_moonstone"
+					type: "item"
+				}
+			]
+			title: "&b天堂之物&8(合成材料)"
+			x: 3.5d
+			y: -6.5d
+		}
+	]
+	title: "&b&l炼制矿石"
+}

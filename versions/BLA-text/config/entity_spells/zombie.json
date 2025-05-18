@@ -1,0 +1,15 @@
+{
+  "entityId": "eeeabsmobs:nameless_guardian",
+  "checkInterval": 30,
+  "spells": [
+    {
+      "spellId": "irons_spellbooks:shockwave",
+      "minLevel": 2,
+      "maxLevel": 2,
+      "minCastTime": 200,
+      "maxCastTime": 400,
+      "weight": 1,
+      "chance": 0.8
+    }
+  ]
+}

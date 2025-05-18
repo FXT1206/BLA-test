@@ -1,0 +1,19 @@
+{
+	id: "478596432AFD591E"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 8, item: "farmersdelight:oak_cabinet" }
+		{ count: 8, item: "farmersdelight:spruce_cabinet" }
+		{ count: 8, item: "farmersdelight:birch_cabinet" }
+		{ count: 8, item: "farmersdelight:acacia_cabinet" }
+		{ count: 8, item: "farmersdelight:jungle_cabinet" }
+		{ count: 8, item: "farmersdelight:dark_oak_cabinet" }
+		{ count: 8, item: "farmersdelight:mangrove_cabinet" }
+		{ count: 8, item: "farmersdelight:cherry_cabinet" }
+		{ count: 8, item: "farmersdelight:bamboo_cabinet" }
+		{ count: 8, item: "farmersdelight:crimson_cabinet" }
+		{ count: 8, item: "farmersdelight:warped_cabinet" }
+	]
+	title: "橱柜"
+}

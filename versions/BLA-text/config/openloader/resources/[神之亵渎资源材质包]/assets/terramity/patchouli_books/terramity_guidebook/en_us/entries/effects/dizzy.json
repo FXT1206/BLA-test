@@ -1,0 +1,11 @@
+{
+  "name": "眩晕",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "晕眩是 Terramity 新增的药水/状态效果。$(br2)这个效果会让你真的晕眩... 有晕动症或癫痫症的人可能不想使用发酵苹果酒饰品。"
+    }
+  ]
+}

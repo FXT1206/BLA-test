@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:magneticism_category",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

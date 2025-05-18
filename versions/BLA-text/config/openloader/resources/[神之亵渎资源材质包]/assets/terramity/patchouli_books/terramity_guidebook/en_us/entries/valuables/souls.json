@@ -1,0 +1,44 @@
+{
+  "name": "灵魂",
+  "icon": "terramity:spectral_soul",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "灵魂是 Terramity 世界中一些强大物品的重要制作材料。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "凶险灵魂可通过杀死村民获得。另外，它们也可以从地狱岩中掉落。",
+	  "item": {
+		"item": "terramity:spiteful_soul"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "失落灵魂可以在陵墓中找到，也可以从Duskrok处掉落，还可以从试炼尖塔中的小怪身上掉落。",
+	  "item": {
+		"item": "terramity:lost_soul"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "诅咒灵魂可以通过击碎任何类型的刷怪笼获得。",
+	  "item": {
+		"item": "terramity:accursed_soul"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "暗影之魂只需击败MC监守者即可获得。祝你好运",
+	  "item": {
+		"item": "terramity:warden_soul"
+	  }
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:spectral_soul_recipe",
+	  "recipe2": "terramity:hero_sword_recipe"
+	}
+  ]
+}

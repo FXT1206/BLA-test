@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "enigmaticlegacy:blazing_core"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 5000,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "terramity:antiprism"
+    },
+    {
+      "item": "terramity:antiprism"
+    },
+    {
+      "item": "alexscaves:pure_darkness"
+    },
+    {
+      "item": "alexscaves:immortal_embryo"
+    },
+    {
+      "item": "terramity:hellspec_alloy"
+    },
+    {
+      "item": "terramity:hellspec_alloy"
+    },
+    {
+      "item": "terramity:hellspec_alloy"
+    }
+  ],
+  "result": {
+    "item": "enigmaticaddons:scorched_charm"
+  }
+}

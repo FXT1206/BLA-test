@@ -1,0 +1,16 @@
+{
+  "name": "幸运空弹",
+  "icon": "minecraft:enchanted_book",
+  "category": "terramity:enchants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "幸运空弹是由 Terramity 添加的附魔。$(br)$(br)这个附魔增加了你装弹时节省弹药的能力。每升一级额外增加 5%的几率，从 10%开始。$(br)$(br)最高等级：4"
+    },
+	{
+      "type": "patchouli:image",
+      "images": ["terramity:textures/screens/guns.png"],
+      "border": true
+    }
+  ]
+}

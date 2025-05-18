@@ -1,0 +1,31 @@
+{
+  "name": "钻月大炮",
+  "icon": "terramity:moondrill_cannon",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "要想得到一些月光石，你的钻月大炮是必不可少的。$(l:terramity:valuables/opaline_moonstone)乳色月岩$()。$(br2)钻月大炮只能在午夜月亮直射时使用。"
+    },
+	{
+      "type": "patchouli:image",
+      "title": "钻月大炮",
+      "images": ["terramity:textures/screens/moondrill.png"],
+      "border": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "要使用钻月大炮，你必须先确保它已充满电。要给它充电，只需在下面放一块电池，电池就会被消耗并给钻月大炮充电。$(br2)当钻月大炮发出黄色光芒时，你就知道它已经充满电了。剩下的就是给它一个红石信号，看着它向天空发射了。",
+	  "item": {
+		"item": "terramity:moondrill_cannon"
+	  }
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "一旦你炸毁了月球，大块的月球石就会掉落在你发射的地方附近。$(br2)从这里开始，就是寻找月光石和$(l:terramity:valuables/opaline_moonstone)乳色月岩$().",
+	  "item": {
+		"item": "terramity:moonstone_rock"
+	  }
+    }
+  ]
+}

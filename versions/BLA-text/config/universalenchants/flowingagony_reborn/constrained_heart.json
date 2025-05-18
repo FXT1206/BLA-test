@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest",
+    "apotheosis:chestplate_tome"
+  ],
+  "incompatible": [
+    "flowingagony_reborn:destruction_worship",
+    "flowingagony_reborn:piercing_fever"
+  ]
+}

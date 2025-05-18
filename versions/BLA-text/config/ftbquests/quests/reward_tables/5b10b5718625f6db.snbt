@@ -1,0 +1,28 @@
+{
+	id: "5B10B5718625F6DB"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "goety:vexing_focus" }
+		{ item: "goety:biting_focus" }
+		{ item: "goety:feast_focus" }
+		{ item: "goety:teeth_focus" }
+		{ item: "goety:barricade_focus" }
+		{ item: "goety:pulverize_focus" }
+		{ item: "goety:illusion_focus" }
+		{ item: "goety:fire_breath_focus" }
+		{ item: "goety:fireball_focus" }
+		{ item: "goety:lavaball_focus" }
+		{ item: "goety:soul_bolt_focus" }
+		{ item: "goety:magic_bolt_focus" }
+		{ item: "goety:sword_focus" }
+		{ item: "goety:frost_breath_focus" }
+		{ item: "goety:ice_spike_focus" }
+		{ item: "goety:hail_focus" }
+		{ item: "goety:grapple_focus" }
+		{ item: "goety:whispering_focus" }
+		{ item: "goety:frostborn_focus" }
+		{ item: "goety:swarm_focus" }
+	]
+	title: "聚晶抽奖"
+}

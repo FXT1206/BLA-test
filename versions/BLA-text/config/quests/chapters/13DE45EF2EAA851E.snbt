@@ -1,0 +1,457 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13DE45EF2EAA851E"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		id: "gobber2:gobber2_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "13DE45EF2EAA851E"
+	images: [
+		{
+			height: 12.0d
+			image: "twilightdelight:block/ironwood_sapling"
+			rotation: 0.0d
+			width: 12.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			height: 8.0d
+			image: "nameless_trinkets:item/fragile_cloud"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.0d
+			y: -3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75CCFE84E5370285"]
+			description: ["&6强大的九头蛇栖身于火焰沼泽的深处，当玩家接近它所栖身的洞穴时，九头蛇就会出现，并毫不留情地杀死一切试图闯入它的领地范围的人。"]
+			icon: "twilightforest:hydra_trophy"
+			id: "2F3CE21A15B0E14A"
+			rewards: [
+				{
+					count: 12
+					id: "21C6B1CF6980C1FB"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3F16C6BF50330339"
+					item: "apotheosis:epic_material"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4DD55715CF337A20"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "神话中古老的存在，炽热的血与火见证传奇般的战斗"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "6846B08E44D7D34C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6铲除&4祸害[领主]"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67FA37426B3A3F3C"]
+			description: ["&6冰雪女王是这片森林中最危险的独裁者。她将自己封藏在冰川之上，于极光宫殿的最顶层的禁室中，妄图以此隔绝一切外来的威胁。"]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "00F7DAD88057BC9C"
+			rewards: [
+				{
+					count: 6
+					id: "429731E104D388D6"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "35AA66803756E339"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "战啊，来战吧！我的心炽热如火！"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "33C383E341F23148"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b澄澈之&6空[领主]"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E834D2312AD6C0F"]
+			description: ["&6没人知道在过去发生了什么，这片森林只是伴随着一场灾难永远地成为了文明的遗迹。如今被称作暮初恶魂的生物盘踞在幽冥高塔顶部，终日徘徊在破碎不堪的塔楼遗址上空，并毫不珍惜昔日曾属于自己的高塔。"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "6C37DABA7BC9F47F"
+			rewards: [
+				{
+					count: 8
+					id: "271AA2FA6D6DC9CC"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27C6E4A7011270D7"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "黑暗的气息席卷半毁的高塔，异变的灵魂窃居于无光的夜空"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "5913687966C619A3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炽厄&d之泪[领主]"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: ["&6你需要前往骑士要塞击杀幻影骑士，这样你就能控制幽冥高塔中的砷铅铁机关，获得挑战暮初恶魂的资格。"]
+			icon: "twilightforest:trophy_pedestal"
+			id: "3E834D2312AD6C0F"
+			rewards: [
+				{
+					count: 16
+					id: "0807F6AD1EBE1CCF"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "11EE3D900CCB4558"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2complements:cursed_blade"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "没有名字的坟墓底下，辉煌与荣耀蒙满苍苔"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+					id: "7AD3209B3C3C44F2"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "7BA1FBF72C648669"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&4机关&8号令"
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: ["&6你需要前往雪怪巢穴中击杀雪怪首领，击杀雪怪首领后你将获得抵御冰川之寒挑战冰雪女王的资格。"]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "67FA37426B3A3F3C"
+			rewards: [
+				{
+					count: 16
+					id: "6B61ACCEA59B38C1"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "310ACFB578A5AD65"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "体型巨大的雪怪之王，但它的臣下并不服从王的号召"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+					id: "739E58EB84874FBF"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					id: "3C883051845B66F1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&b首领的毛皮"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["138127C31F5EFC69"]
+			description: ["&6你需要前往牛头人迷宫中击杀米诺菇，并吃下它的掉落物沙拉酱肉，这样你就能获得前往火焰沼泽挑战九头蛇的资格。"]
+			icon: "twilightforest:meef_stroganoff"
+			id: "75CCFE84E5370285"
+			rewards: [
+				{
+					count: 8
+					id: "5253B6A37D863398"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DCF33480F72B27E"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "人的武术，牛的力量，怪物的灵魂"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+					id: "3C2295882CDAEB0C"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					id: "73511530DA5C1659"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6强力的&8牛头人沙拉酱肉"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["030AF02F87F5A149"]
+			description: ["&6你需要前往位于暮色森林中的巫妖塔顶层，并击杀巫妖王。"]
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "138127C31F5EFC69"
+			rewards: [
+				{
+					count: 3
+					id: "5B4A0896E4DC5A95"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:epic_ink"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CDF2405D5C3AFB3"
+					table_id: 2544174075653735952L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "记住，王权没有永恒……"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+					id: "7A357867FB0B431C"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:lich"
+					id: "483E55C0B89F7016"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6亡者&d之遗"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6934A985AD3A18FF"]
+			description: ["&6你需要前往位于暮色森林中的娜迦庭院并击杀娜迦。"]
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			id: "030AF02F87F5A149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CC0D1740484A66F"
+				table_id: 2544174075653735952L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "暮色森林的守门者，掌握着通往财富与荣耀的鳞片"
+			tasks: [
+				{
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+					id: "3AA2013DDB4D46E8"
+					type: "advancement"
+				}
+				{
+					entity: "twilightforest:naga"
+					id: "62600969FA33E443"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&2剥鳞&d之时"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3924ADD1BA40A778"]
+			description: ["&d制作空白魔法地图，右键获取魔法地图用于更好的寻找暮色森林中的各种BOSS。"]
+			id: "6934A985AD3A18FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2316138CA022722E"
+				table_id: 2417720377015913189L
+				type: "random"
+			}]
+			shape: "rsquare"
+			subtitle: "以火炬浆果汁液绘制的地图，通过与魔力共鸣来感应到远方的存在"
+			tasks: [{
+				advancement: "twilightforest:magic_map"
+				criterion: ""
+				id: "6E70D130E6AD1A7D"
+				type: "advancement"
+			}]
+			title: "&d我有&6千里眼"
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7681C966C6A90B0B"]
+			description: ["&d相信许多人对这个世界并不陌生，首先挖一个2X2的水坑，再将周围种满花朵，最后将一颗钻石丢入其中即可开启传送门。"]
+			id: "3924ADD1BA40A778"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "熟悉的世界"
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "000FCFA8A6A68B46"
+				type: "advancement"
+			}]
+			title: "&d欢迎来到永夜之森"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"00F7DAD88057BC9C"
+				"6C37DABA7BC9F47F"
+				"2F3CE21A15B0E14A"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			icon_scale: 2.0d
+			id: "1B3FDBE84D6E7BC6"
+			rewards: [{
+				id: "0E909FD8B089B712"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:ichor_bottle"
+					tag: { }
+				}
+				team_reward: false
+				type: "item"
+			}]
+			size: 1.11d
+			tasks: [
+				{
+					entity: "twilightforest:armored_giant"
+					id: "3BF90A2FE3BA9CF7"
+					type: "kill"
+					value: 2L
+				}
+				{
+					entity: "twilightforest:giant_miner"
+					id: "7F20075D5E5E62FE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&6云层之上"
+			x: -5.550000000000001d
+			y: -3.3300000000000005d
+		}
+		{
+			id: "7681C966C6A90B0B"
+			size: 2.0d
+			subtitle: "&l&7整合包里最弱的BOSS！！！"
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: "minecraft:bone"
+				id: "63DC5B928AFA3630"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7骨质鲨鱼"
+			x: -6.0d
+			y: 11.0d
+		}
+	]
+	title: "&l&4暮色森林(主线)"
+}

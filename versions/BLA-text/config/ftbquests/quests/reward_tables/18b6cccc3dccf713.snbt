@@ -1,0 +1,53 @@
+{
+	id: "18B6CCCC3DCCF713"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:primordial_caves"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:abyssal_chasm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:forlorn_hollows"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:toxic_caves"
+				}
+			}
+		}
+	]
+	title: "地图"
+}

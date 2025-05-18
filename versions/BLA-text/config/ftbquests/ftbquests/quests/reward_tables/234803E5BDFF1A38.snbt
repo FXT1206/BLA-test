@@ -1,0 +1,22 @@
+{
+	id: "234803E5BDFF1A38"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:bread", weight: 3.0f }
+		{ item: "minecraft:cooked_beef" }
+		{ item: "minecraft:cooked_chicken" }
+		{ item: "minecraft:pumpkin_pie" }
+		{ item: "minecraft:cooked_mutton" }
+		{ item: "minecraft:beetroot_soup" }
+		{ item: "minecraft:cooked_rabbit", weight: 2.0f }
+		{ item: "farmersdelight:barbecue_stick" }
+		{ item: "farmersdelight:nether_salad" }
+		{ item: "farmersdelight:smoked_ham" }
+		{ item: "farmersdelight:cooked_rice" }
+		{ item: "enigmaticlegacy:astral_potato" }
+	]
+	title: "食物抽取箱"
+}

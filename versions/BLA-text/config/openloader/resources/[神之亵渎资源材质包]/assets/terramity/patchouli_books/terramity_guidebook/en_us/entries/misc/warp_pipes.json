@@ -1,0 +1,33 @@
+{
+  "name": "管道",
+  "icon": "terramity:warp_pipe",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "管道是 Terramity 添加的一种很好的短程快速旅行解决方案。$(br2)使用它们可以快速到达你的基地，做一个只有你知道的迷宫，或者用许多管道连接起来进行长途旅行。"
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "管道工扳手可以让你将管道绑定或解除绑定。$(br2)有些管道只能绑定到另一根管道上，而有些管道可以单向绑定。白管和黑管的交互方式很特别，黑管只能与白管绑定。",
+	  "item": {
+		"item": "terramity:plumbers_wrench"
+	  }
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:warp_pipe_recipe",
+	  "recipe2": "terramity:red_warp_pipe_recipe"
+	},
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:blue_warp_pipe_recipe",
+	  "recipe2": "terramity:yellow_warp_pipe_recipe"
+	},
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:white_warp_pipe_recipe",
+	  "recipe2": "terramity:black_warp_pipe_recipe"
+	}
+  ]
+}

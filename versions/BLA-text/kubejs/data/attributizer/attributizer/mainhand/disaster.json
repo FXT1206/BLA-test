@@ -1,0 +1,9 @@
+{
+  "traveloptics:harbingers_wrathr": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 22.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

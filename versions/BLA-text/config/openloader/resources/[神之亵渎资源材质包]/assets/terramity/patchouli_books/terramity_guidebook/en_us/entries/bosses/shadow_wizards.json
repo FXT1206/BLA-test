@@ -1,0 +1,46 @@
+{
+  "name": "暗影巫师",
+  "icon": "terramity:gundalfs_hat_helmet",
+  "category": "terramity:bosses",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "暗影巫师是 Terramity 的第四个也是最后一个 Boss。$(br2)它可以通过在岩晶大教堂中的基座上使用神秘织物来召唤。$(br2)推荐装备：$(br) -虚空/炼狱/电石盔甲$(br) -强力武器和配件"
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:enchanter_merlin",
+      "scale": 0.65,
+	  "offset": 0.65,
+	  "rotate": true
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:sorceress_circe",
+      "scale": 0.65,
+	  "offset": 0.65,
+	  "rotate": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "可通过在岩晶大教堂的基座上使用神秘织物召唤。岩晶大教堂可以在地狱顶部的任何地方找到。$(br2)可以在岩晶地牢中找到神秘织物。",
+	  "item": {
+		"item": "terramity:occult_fabric"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "岩晶大教堂",
+      "images": ["terramity:textures/screens/cathedral.png"],
+      "border": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "暗影巫师被击败后会掉落翻转棱镜，这是用于制作最终金属的必需品。",
+	  "item": {
+		"item": "terramity:antiprism"
+	  }
+    }
+  ]
+}

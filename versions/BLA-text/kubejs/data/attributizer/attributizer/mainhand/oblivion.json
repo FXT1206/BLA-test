@@ -1,0 +1,9 @@
+{
+  "traveloptics:thorns_of_oblivion": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 12.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

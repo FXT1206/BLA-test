@@ -1,0 +1,9 @@
+{
+  "terramity:nihility": [
+    {
+      "attribute": "l2damagetracker:damage_reduction",
+      "modify": 0.25,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

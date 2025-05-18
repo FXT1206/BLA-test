@@ -1,0 +1,50 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 0,
+        "min": 200,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "alexsmobs:void_worm"
+      ],
+      "items": [],
+      "traits": [
+      {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:protection"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 4,
+          "min": 4,
+          "trait": "l2hostility:cursed"
+        },      {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:dispell"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        }
+      ]
+    }
+  ]
+}

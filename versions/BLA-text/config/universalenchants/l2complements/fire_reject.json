@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "mutantmonsters:mutant_skeleton_skull"
+  ],
+  "incompatible": [
+    "l2complements:environment_reject",
+    "l2complements:projectile_reject",
+    "l2complements:invincible",
+    "l2complements:explosion_reject",
+    "l2complements:magic_reject",
+    "l2complements:owner_protection"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 20,
+        "min": 30,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "goety:bone_lord"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:grenade"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:wither"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "12A320D4D120D151"
+	group: "52A647A032D879B8"
+	icon: "iceandfire:dragon_horn"
+	id: "12A320D4D120D151"
+	images: [{
+		height: 6.0d
+		image: "goety:textures/entity/projectiles/void_rift/open_2.png"
+		order: 3
+		rotation: 0.0d
+		width: 6.0d
+		x: -3.5d
+		y: 9.0d
+	}]
+	order_index: 1
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "61FE1B86E799EEE8"
+			shape: "pentagon"
+			tasks: [{
+				id: "24F917DE14CF25E3"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			title: "&6冰火之歌"
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			description: ["&2手册上说看到她的脸的人会变成石像,所以她到底漂不漂亮呢?"]
+			icon: {
+				Count: 1
+				id: "iceandfire:gorgon_head"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1459A0F97141AD89"
+			rewards: [
+				{
+					count: 3
+					id: "2B3718B9D21BC301"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "7FE1B822952BF7D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestial_artifacts:cursed_totem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "0C836BC65AA4557E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a千万不要看她的脸！"
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			description: ["&3它到底是好是坏?不管了！都看到了它先打我的！"]
+			id: "4A08CDCD806AB4F8"
+			rewards: [
+				{
+					count: 3
+					id: "4A4E5A7DE339148F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "63ED076AEBB3231D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "lkartifacts:dragon_tear"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_if_dragon"
+				criterion: ""
+				icon: "iceandfire:dragon_horn"
+				id: "17692BBBA498FD8B"
+				type: "advancement"
+			}]
+			title: "&d屠龙勇士"
+			x: -9.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			description: ["&4看到他的眼睛了吗?看起来好瘆人..."]
+			icon: {
+				Count: 1
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59C587A8F74C302C"
+			rewards: [
+				{
+					count: 3
+					id: "2BA13F54D21FE01D"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "5BE854F7D57F7F57"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:eye_of_the_golem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "36C49F376A9D0107"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&c进击的巨人！"
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			description: ["&e好恶心的虫子,在沙地跳来跳去的！"]
+			id: "66EFD94ADDDC8170"
+			rewards: [
+				{
+					count: 3
+					id: "5A52743EE7CD86B5"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "4CD72053F992D17C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:worm_scarf"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "iceandfire:deathworm_egg_giant"
+					tag: { }
+				}
+				id: "6063F58DA9518675"
+				type: "kill"
+				value: 10L
+			}]
+			title: "&6好大的虫子!"
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			id: "257069401F30B781"
+			rewards: [
+				{
+					count: 3
+					id: "09A8DF0974013C8E"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "219AEBE4E58917A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:ankh_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				icon: "alexsmobs:leafcutter_ant_chamber"
+				id: "709974604C60F7B1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6这是他们的皇后吗?"
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3B2613BA4DE9C23D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "curseofpandora:hellfire_skull"
+				tag: { }
+			}
+			id: "2213938AB6E16DA0"
+			tasks: [{
+				id: "188D9A92A5D5AA5A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "graveyard:nameless_hanged"
+				type: "observation"
+			}]
+			title: "&4悬吊"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			id: "6AB31AA0A79E3A45"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "713612F6301847DB"
+				type: "advancement"
+			}]
+			title: "&a屠杀九头蛇"
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3E4DF58CCF9ADEEF"]
+			icon: {
+				Count: 1
+				id: "aquamirae:ship_graveyard_echo"
+				tag: { }
+			}
+			id: "2E5C8BEBA893311F"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "322D4D83AB0CED5B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4破&8舰&b兽"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E4DF58CCF9ADEEF"]
+			icon: {
+				Count: 1
+				id: "alexscaves:cloak_of_darkness"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2C07B0094184D679"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "0BDA8E65AA39AAE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4邪&8兽"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E4DF58CCF9ADEEF"]
+			icon: {
+				Count: 1
+				id: "alexscaves:jelly_bean"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			id: "5AA058087C9844F3"
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				id: "3D783E1D0498A9DD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b糖&a果&8蠕虫"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E4DF58CCF9ADEEF"]
+			icon: {
+				Count: 1
+				id: "alexscaves:nuclear_bomb"
+				tag: { }
+			}
+			id: "793DB12456C95401"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "05B5822E9688F98C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2辐射&6产物"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B2613BA4DE9C23D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "confluence:cross_necklace"
+				tag: { }
+			}
+			id: "26606F1F821EA804"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				id: "601E258F0825C1B7"
+				type: "kill"
+				value: 20L
+			}]
+			title: "&8传教者"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:primordial_caves"
+				}
+			}
+			id: "3E4DF58CCF9ADEEF"
+			tasks: [{
+				id: "06C06549C9DC1EAE"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_book"
+					tag: { }
+				}
+				title: "&4look me!!!"
+				type: "item"
+			}]
+			title: "&8洞穴探索"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E4DF58CCF9ADEEF"]
+			icon: {
+				Count: 1
+				id: "alexscaves:telecore"
+				tag: { }
+			}
+			id: "47AAE74E902BA367"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "197CF731D0DEC01E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4磁&1极"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7333E2052702CCE0"]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_tombstone"
+				tag: { }
+			}
+			id: "3B2613BA4DE9C23D"
+			tasks: [{
+				id: "285D1046DC2364FC"
+				type: "checkmark"
+			}]
+			title: "&4&l不死者"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			id: "60E1175123F87459"
+			tasks: [{
+				id: "5FC6CC92CBAAE95B"
+				type: "checkmark"
+			}]
+			title: "&5突变&8生物"
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["60E1175123F87459"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mutantmonsters:mutant_enderman_spawn_egg"
+				tag: { }
+			}
+			id: "25DAF90D6012B3A6"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "6FDFD7FD0BDD3665"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5末影人变异体"
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["60E1175123F87459"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mutantmonsters:spider_pig_spawn_egg"
+				tag: { }
+			}
+			id: "398AEAE4A0C1EE28"
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				id: "4099D75E7273F3E5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4蜘与猪"
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["60E1175123F87459"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mutantmonsters:mutant_zombie_spawn_egg"
+				tag: { }
+			}
+			id: "661EBA818A6096C8"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "214B35812CF2A28D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2僵尸变异体"
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["60E1175123F87459"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mutantmonsters:mutant_creeper_spawn_egg"
+				tag: { }
+			}
+			id: "64126FE823C62887"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "3717407DF3596AB3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2苦力怕&4变异体"
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["60E1175123F87459"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mutantmonsters:mutant_skeleton_spawn_egg"
+				tag: { }
+			}
+			id: "2EFF9E0A1B9C3CEB"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "3D6D4545A70FE04A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8骷髅变异体"
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:foliaath_seed"
+				tag: { }
+			}
+			id: "1072B1B186B5A375"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "5E5D8BE7420FCBB3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5食人&2花"
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B2613BA4DE9C23D"]
+			id: "390F767A40B25240"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "17EFC7CCB9795AF1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3古代城的&6守护者"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61FE1B86E799EEE8"]
+			icon: {
+				Count: 1
+				id: "twilightforest:magic_beans"
+				tag: { }
+			}
+			id: "677DBFEB8266FB3E"
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "3041D6DD2AF83329"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8魔人"
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexsmobs:animal_dictionary"
+				tag: { }
+			}
+			id: "12DB0A8293238E60"
+			tasks: [{
+				id: "6D6EA6D701D08553"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:animal_guidebook"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&2动物图鉴"
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:centipede_leg"
+				tag: { }
+			}
+			id: "245D2D4D6DE91128"
+			tasks: [{
+				entity: "alexsmobs:centipede_head"
+				id: "6A0234749CE99D9F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2剧毒&5蜈蚣"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:farseer_arm"
+				tag: { }
+			}
+			id: "3015CC0EF9A55EF9"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				id: "48B40BE5AE2D348F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&l世界&8边境者"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:warped_muscle"
+				tag: { }
+			}
+			id: "16DF683B242DA485"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "1645A18715FB73A4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炼狱&8未知&3蚊"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			icon: {
+				Count: 1
+				id: "alexsmobs:straddleboard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "585F1FB7FADEF6B2"
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				id: "51469D99DBA84588"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6熔岩&8行者"
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			id: "268445E948A6497B"
+			tasks: [{
+				entity: "alexsmobs:sunbird"
+				icon: {
+					Count: 1
+					id: "alexsmobs:emu_feather"
+					tag: { }
+				}
+				id: "40953C0782D68B33"
+				title: "&6凤凰之羽"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["12DB0A8293238E60"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:trilocaris_tail"
+			}
+			id: "2C683C58A9ADFC55"
+			tasks: [{
+				entity: "alexsmobs:komodo_dragon"
+				id: "652399CB1026671B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8大壁虎"
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "immersive_aircraft:enhanced_propeller"
+				tag: { }
+			}
+			id: "10CBD865216E3282"
+			tasks: [{
+				id: "663A947174B36A16"
+				type: "checkmark"
+			}]
+			title: "&6翱翔&b于空"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "21232BCB99779C12"
+			tasks: [{
+				id: "34A10BD23347A82D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:cargo_airship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b货运飞船"
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "770E9A0864BD65DB"
+			tasks: [{
+				id: "5D0CFF0AFB1459BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:airship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b飞艇"
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "44564FE5002A7FC8"
+			tasks: [{
+				id: "161D159C3F177217"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:warship"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6战斗&b飞艇"
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "2C009DA368C121E2"
+			tasks: [{
+				id: "792A90DAF20F9855"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:gyrodyne"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6固定&b螺旋机"
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "2369550143956458"
+			tasks: [{
+				id: "287B2BD15A9DD335"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:quadrocopter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b飞行器"
+			x: -10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["10CBD865216E3282"]
+			id: "23269FC6042139AA"
+			tasks: [{
+				id: "1790F9759B703EF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_aircraft:biplane"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6滑翔机"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			description: ["&d它们会掉落非常稀有的&6材料&d！！！"]
+			icon: "legendary_monsters:corrupted_soul"
+			icon_scale: 2.0d
+			id: "4BFC23D0ED625249"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "351BE4DB51795B09"
+				table_id: 7584041406449958135L
+				type: "random"
+			}]
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "4548008A42FA61C4"
+				type: "kill"
+				value: 20L
+			}]
+			title: "&6神话怪物"
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "legendary_monsters:corrupted_soul"
+			}
+			id: "2980E462A80C9897"
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "20A195D45A54B0E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecells:skeleton"
+			}
+			id: "7C14E0EAF7F613EB"
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				id: "3361F2783645EA19"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3B3EC68E38C91710"
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				id: "3EB1DA2486717B81"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "legendary_monsters:chiseled_ancient_dripstone_shard"
+			}
+			id: "338AA441E46A818A"
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				id: "32AC7A88A61CADC9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "nameless_trinkets:fragile_cloud"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "01806BC70306CA15"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "043445A9F4185E21"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enigmaticlegacy:infinimeal"
+			}
+			id: "363E4A91F56F7314"
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				id: "2B7609687758A019"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecells:frost_blast"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "49E210E15A5935C9"
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				id: "53E5BF5E71F4C70F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "legendary_monsters:warped_mushroom_cap_part"
+			}
+			id: "5D897E8B26610DCF"
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				id: "525FF7F1EF9FEEEA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "curseofpandora:charm_of_calmness"
+			}
+			icon_scale: 1.5d
+			id: "03C637ECF83B8273"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				id: "3E25ADB2AD73E606"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "goety:magma_bomb_focus"
+			}
+			id: "1A0E4972662BB02A"
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				id: "387B472B46A3A2A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:sandstone_poison_dart_trap"
+			}
+			id: "3DE9BB4A02A04A6F"
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				id: "759EB8CFB65D6A87"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BFC23D0ED625249"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:shulker_shell"
+			}
+			id: "418300A1085E0991"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				id: "105BA01D6DFAAA3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+	]
+	title: "&b&l奇闻录"
+}

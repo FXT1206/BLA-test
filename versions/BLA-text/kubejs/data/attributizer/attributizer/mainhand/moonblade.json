@@ -1,0 +1,9 @@
+{
+  "terramity:crescent_moonblade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

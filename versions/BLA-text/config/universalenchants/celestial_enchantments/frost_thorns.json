@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "celestial_enchantments:the_source_of_sin",
+    "celestial_enchantments:destroy_resonance",
+    "minecraft:thorns",
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:corruption_body"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "curseofpandora:cursed_karma": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 25.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

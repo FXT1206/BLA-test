@@ -1,0 +1,9 @@
+{
+  "born_in_chaos_v1:frostbitten_blade": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

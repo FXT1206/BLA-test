@@ -1,0 +1,63 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 0,
+        "min": 160,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "alexscaves:forsaken"
+      ],
+      "items": [],
+      "traits": [
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:poison"
+        },      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:blindness"
+        },     
+{
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:gravity"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:cursed"
+        },      {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:dementor"
+        },
+    {
+          "free": 3,
+          "min": 3,
+          "trait": "curseofpandora:reality"
+        },    {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:wither"
+        }
+      ]
+    }
+  ]
+}

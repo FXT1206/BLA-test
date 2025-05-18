@@ -1,0 +1,17 @@
+{
+  "name": "半自动",
+  "icon": "minecraft:enchanted_book",
+  "category": "terramity:enchants",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "半自动是由 Terramity 添加的附魔。$(br)$(br)这个附魔根据枪支的不同有不同的效果。对于自动手枪，它会使其变成半自动并增加伤害。对于泵动霰弹枪，霰弹枪将变成半自动。对于栓动狙击步枪，狙击步枪将变成半自动。$(br)$(br)最高等级: 1"
+    },
+	{
+      "type": "patchouli:image",
+      "images": ["terramity:textures/screens/guns.png"],
+      "border": true,
+	  "text": "Incompatible with Rapid Reload"
+    }
+  ]
+}

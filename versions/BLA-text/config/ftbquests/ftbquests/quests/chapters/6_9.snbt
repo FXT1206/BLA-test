@@ -1,0 +1,176 @@
+{
+	autofocus_id: "5304F7FD0CDAC473"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_9"
+	group: ""
+	icon: "minecraft:dragon_head"
+	id: "448BF09355640975"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5CD189B8BA022F74"]
+			description: [
+				"&61&c: 战利品有5%几率翻倍"
+				"&62&c: 所有来源的经验数量增加5%"
+				"&63&c: 所有生物的最大生命值25%伤害增加5%"
+				"&64&c: 精锐骷髅会在夜间稀有地生成"
+				"&65&c: 幻术师和坦克会在夜间十分稀有地自然生成"
+				"&66&c: 苦力怕只会受到其他苦力怕造成的伤害的10%"
+				"&67&c: 苦力怕的爆炸现在会点燃附近的苦力怕"
+				"{@pagebreak}"
+				"&68&c:蜘蛛骑士现在会更频繁地生成"
+				"&69&c: 蜘蛛在攻击时有几率使敌人中毒"
+				"&610&c:溺尸的三叉戟攻击可能会产生闪电"
+				"&611&c:史莱姆有几率造成缓慢效果"
+				"&612&c:凋灵骷髅可以用凋零之剑而不是石剑"
+				"&613&c:每当你死于流血或被僵尸杀死时，都会生成一个戴着使用你的皮肤的头颅特殊的僵尸"
+				"&614&c:现在你每钓到15件物品就会获得一个渔夫宝藏袋"
+			]
+			icon_scale: 2.0d
+			id: "5304F7FD0CDAC473"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&7怪物们逐渐开始躁动了"
+			tasks: [{
+				advancement: "majruszsdifficulty:game_stage_expert"
+				criterion: ""
+				id: "126064E5DACF912A"
+				type: "advancement"
+			}]
+			title: "&c专家模式"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01E903A115C198F2"]
+			description: [
+				"&61:&c战利品有10%几率翻倍"
+				"&62:&c所有来源的经验数量增加15%"
+				"&63:&c所有生物的最大生命值40%伤害增加10%"
+				"&64:&c幻翼会在新的末地结构附近自然生成"
+				"&65:&c幻翼的攻击可能会造成飘浮效果"
+				"&66:&c末影人可以在命中时传送目标"
+				"&67:&c潜影贝的导弹可能会造成失明效果"
+				"&68:&c现在你每钓到10件物品就会获得一个渔夫宝藏袋"
+			]
+			icon_scale: 2.0d
+			id: "5477B7C97345112B"
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "怪物们已经疯狂了...."
+			tasks: [{
+				advancement: "majruszsdifficulty:game_stage_master"
+				criterion: ""
+				id: "5ED534AA3900A543"
+				type: "advancement"
+			}]
+			title: "&4大师模式"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BE0F7434F012FDD"]
+			description: [
+				"&61:&c生成的苦力怕可能会自带负面效果"
+				"&62:&c生成的苦力怕有概率转变为闪电苦力怕"
+				"&63:&c当玩家离一面墙不远时，墙后的苦力怕也能爆炸"
+				"{@pagebreak}"
+				" &64:&c摔落伤害会导致缓慢和反胃（效果持续时间和等级取决于坠落伤害的大小）    &65:&c溺水会导致反胃和虚弱（效果持续时间取决于溺水时间）"
+				"&66:&c唤魔者生成时总是自带1个不死图腾    &67:&c现在你每钓到20件物品会获得一个渔夫宝藏袋   &68:&c现在所有爆炸都比原先大了2倍*"
+			]
+			icon: "majruszsdifficulty:advancement_normal"
+			icon_scale: 2.0d
+			id: "1E6E3DBB00D6279F"
+			rewards: [{
+				id: "76EB8158F9BEC458"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "&7世界犹如往常一般平静"
+			tasks: [{
+				advancement: "minecraft:story/root"
+				criterion: ""
+				id: "4ED3ADEC070184B5"
+				title: "普通模式"
+				type: "advancement"
+			}]
+			title: "&6普通模式"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "majruszsdifficulty:advancement_normal"
+			}
+			id: "4BE0F7434F012FDD"
+			shape: "diamond"
+			tasks: [{
+				id: "30739DE3D5E1B4FF"
+				title: "需玩家自行开启 普通难度[或困难]"
+				type: "checkmark"
+			}]
+			title: "&c需玩家自行开启 普通难度[或困难]"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4BE0F7434F012FDD"
+				"7681C966C6A90B0B"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "majruszsdifficulty:advancement_expert"
+			}
+			id: "5CD189B8BA022F74"
+			shape: "diamond"
+			tasks: [{
+				id: "5B2A1530B0533CF1"
+				type: "checkmark"
+			}]
+			title: "&c击败沼泽巨鳄"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5CD189B8BA022F74"
+				"61E081D48BB0B568"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "majruszsdifficulty:advancement_master"
+			}
+			id: "01E903A115C198F2"
+			shape: "diamond"
+			tasks: [{
+				id: "1C01FCEC5FD3D6B4"
+				type: "checkmark"
+			}]
+			title: "&c击败突变嗅探兽"
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+	title: "&6难度阶段"
+}

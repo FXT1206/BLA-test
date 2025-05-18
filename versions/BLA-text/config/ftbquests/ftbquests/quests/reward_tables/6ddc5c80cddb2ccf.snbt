@@ -1,0 +1,39 @@
+{
+	icon: "minecraft:enchanted_golden_apple"
+	id: "6DDC5C80CDDB2CCF"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			count: 5
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blasphemouspatch:health_bottle_large"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "extraalchemy:breakable_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_four"
+				}
+			}
+		}
+		{ count: 2, item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:golden_apple", weight: 0.5f }
+	]
+	title: "高级药剂礼包"
+}

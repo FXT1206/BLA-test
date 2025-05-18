@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:axe_of_lightning": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.5,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

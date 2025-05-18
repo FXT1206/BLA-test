@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "terramity:hero_sword"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 500,
+  "duration": 60,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "enigmaticlegacy:evil_essence"
+    },
+    {
+      "item": "terramity:crescent_moonblade"
+    },
+    {
+      "item": "terramity:guiding_moonlight"
+    },
+    {
+      "item": "l2complements:explosion_shard"
+    },
+    {
+      "item": "l2complements:explosion_shard"
+    },
+    {
+      "item": "alexscaves:pure_darkness"
+    },
+    {
+      "item": "enigmaticaddons:hell_blade_charm"
+    },
+    {
+      "item": "l2hostility:chaos_ingot"
+    },
+    {
+      "item": "l2hostility:chaos_ingot"
+    },
+    {
+      "item": "l2hostility:chaos_ingot"
+    }
+  ],
+  "result": {
+    "item": "terramity:sword_of_the_imprisoned"
+  }
+}

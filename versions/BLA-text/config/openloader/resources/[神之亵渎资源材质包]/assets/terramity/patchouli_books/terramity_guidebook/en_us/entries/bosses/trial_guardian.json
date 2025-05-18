@@ -1,0 +1,40 @@
+{
+  "name": "监守者",
+  "icon": "terramity:spire_key",
+  "category": "terramity:bosses",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "监守者是 Terramity 进程中的第三个 Boss。$(br2)将尖塔钥匙插入试炼尖塔的锁中即可召唤它。$(br2)推荐装备：$(br) -微晶/瓦伦蒂姆/宙晶盔甲$(br) -强力近战武器"
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:trial_guardian",
+	  "text": "免疫所有射弹伤害。",
+      "scale": 0.5,
+	  "offset": 0.65,
+	  "rotate": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "将尖塔钥匙插入试炼尖塔的锁中即可召唤。试炼尖塔可以在海洋的任何地方找到$(br2)尖塔钥匙可以在整个试炼尖塔中找到。",
+	  "item": {
+		"item": "terramity:spire_key"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "试炼尖塔",
+      "images": ["terramity:textures/screens/spire.png"],
+      "border": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "监守者被击败后会掉落一根劣化权杖，这是前进的必备物品。在基岩 ???矿石上使用劣化权杖会使其劣化，从而可以进行开采。",
+	  "item": {
+		"item": "terramity:perish_staff"
+	  }
+    }
+  ]
+}

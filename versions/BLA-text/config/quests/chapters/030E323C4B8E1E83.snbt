@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "030E323C4B8E1E83"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		id: "minecells:frost_blast"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "030E323C4B8E1E83"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"37909876257F8252"
+				"5F0585343BEDE6EE"
+			]
+			description: [
+				""
+				"&b夜巫妖是夜晚的统治者，她拥有操控暗影和恐惧的力量，能够使敌人陷入绝望。"
+			]
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:ancient_anima"
+				tag: { }
+			}
+			id: "01B5236490FE8777"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "042D6363827398A0"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					id: "3E5AE1F20146F2CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bosses_of_mass_destruction:mob_ward"
+					}
+					type: "item"
+				}
+			]
+			size: 1.2d
+			subtitle: "&b将冰魔法炼至巅峰造极者"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "1740D101D998E01E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b永夜消散"
+			x: 1.7999999999999998d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37909876257F8252"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62DA4AEF21563020"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F6B8E5A43A5C9FB"
+				table_id: 2544174075653735952L
+				type: "random"
+			}]
+			size: 1.2d
+			subtitle: "&b浑身被冰雪覆盖,口中含着远古时期初代冰魔法师所造的寒冰护符成为古时的村民的守护神，不知什么原因如今的它暴躁异常,会屠杀它看见的所有人类."
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "22DCB0B8790F9CC4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b冰冻巨兽"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"62DA4AEF21563020"
+				"01B5236490FE8777"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "aquamirae:coral_lance"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4s
+					}]
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 1.0f
+						}
+					}
+				}
+			}
+			id: "1645B1F8408ADD7C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18F8FCFFB3035590"
+					table_id: 5582430196127655637L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "416EB11C80AF566D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicmetals:unobtainium"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "606D319843ED5875"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b波塞冬&6使徒[领主]"
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+	title: "&4冰雪之地"
+}

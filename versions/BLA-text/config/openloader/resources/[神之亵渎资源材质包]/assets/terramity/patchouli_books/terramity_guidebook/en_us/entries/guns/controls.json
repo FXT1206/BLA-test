@@ -1,0 +1,15 @@
+{
+  "name": "控制",
+  "icon": "terramity:basic_pistol",
+  "category": "terramity:guns",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Terramity 将枪作为一种新的武器类型添加进来，它可以像近战武器一样成为你的武器装备，因此了解如何使用它们非常重要。$(br2)与我的世界中的弓和其他远程武器类似，枪可以通过右键单击来发射."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "蹲下并点击右键将尝试重新加载它们。$(br2)在你的按键绑定中，你会发现一个名为 “自动开火 ”的按键绑定，但不要将其从右键中移除，除非你将右键设置为其他功能！"
+    }
+  ]
+}

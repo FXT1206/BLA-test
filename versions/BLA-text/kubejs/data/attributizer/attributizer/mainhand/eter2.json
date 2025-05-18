@@ -1,0 +1,9 @@
+{
+  "l2weaponry:eternium_nunchaku": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 30.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

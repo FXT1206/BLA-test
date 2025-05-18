@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aaaaaa"
+	group: ""
+	id: "3F1E085C75A59337"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "2A0A7503E9951017"
+		tasks: [{
+			id: "496658F3D94F77A9"
+			item: "minecraft:oak_wood"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "aaaaaa"
+}

@@ -1,0 +1,9 @@
+{
+  "l2weaponry:blade_of_illusion": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 8.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

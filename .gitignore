@@ -1,0 +1,39 @@
+# 首先忽略根目录下所有内容
+/*
+
+# 保留 versions 目录
+!/versions/
+
+# 忽略versions/BLA-text目录下的所有内容
+/versions/BLA-text/**
+
+# 然后明确保留需要的文件和目录
+# 配置文件
+!/versions/BLA-text/
+!/versions/BLA-text/options.txt
+!/versions/BLA-text/config/
+!/versions/BLA-text/config/**
+# 添加defaultconfigs目录
+!/versions/BLA-text/defaultconfigs/
+!/versions/BLA-text/defaultconfigs/**
+
+# kubejs相关文件
+!/versions/BLA-text/kubejs/
+!/versions/BLA-text/kubejs/config/
+!/versions/BLA-text/kubejs/config/**
+!/versions/BLA-text/kubejs/assets/
+!/versions/BLA-text/kubejs/assets/**
+!/versions/BLA-text/kubejs/server_scripts/
+!/versions/BLA-text/kubejs/server_scripts/**
+!/versions/BLA-text/kubejs/startup_scripts/
+!/versions/BLA-text/kubejs/startup_scripts/**
+!/versions/BLA-text/kubejs/data/
+!/versions/BLA-text/kubejs/data/**
+!/versions/BLA-text/kubejs/jsconfig.json
+
+# 确保忽略kubejs中的其他目录
+/versions/BLA-text/kubejs/client_scripts/
+/versions/BLA-text/kubejs/exported/
+
+# 保留.gitignore文件
+!/.gitignore

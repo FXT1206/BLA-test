@@ -1,0 +1,238 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l_2"
+	group: "4790DD6287EE2AC2"
+	icon: "meetyourfight:blossoming_mind"
+	id: "5D7A190B044AC87B"
+	images: [{
+		height: 8.0d
+		image: "meetyourfight:item/violet_bloom"
+		rotation: 0.0d
+		width: 8.0d
+		x: -1.5d
+		y: 1.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "208CE83F59DA4DC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EADCBED1493DE5B"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4819C886B18B9B8A"
+				item: "meetyourfight:mossy_tooth"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["208CE83F59DA4DC6"]
+			id: "5A28CF85E670988F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F6A64A0CE0009C9"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76B0E9DDE753B74F"
+				item: "meetyourfight:bone_raker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["208CE83F59DA4DC6"]
+			id: "0DFAE8002BC40CD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C8B8E688D919DF"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27E2D350F67A8ABE"
+				item: "meetyourfight:caged_heart"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "59BAB559DA3C76FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27CFFCE027A783C5"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FC9DEFF452A909B"
+				item: "meetyourfight:phantoplasm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4A4214BABE8D9F26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15B1DA2CBFAAF3FD"
+				table_id: 1021012714640519503L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5D4636654FF44422"
+				item: "meetyourfight:fortunes_favor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["59BAB559DA3C76FF"]
+			id: "6DD130DA174A30E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "335A74A251427771"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77C2487DA1D1F4D5"
+				item: "meetyourfight:spectres_grasp"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59BAB559DA3C76FF"]
+			id: "7D9F477ED40D5835"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5727AC901465AA57"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58832194C4C5C7EA"
+				item: "meetyourfight:spectres_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A4214BABE8D9F26"]
+			id: "7DDF33DCDB349DD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19CD55E40B0F42E4"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B4A9E75FAEFA55D"
+				item: "meetyourfight:slicers_dice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A4214BABE8D9F26"]
+			id: "076571EE916ACF96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E04F8FB9A996296"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6EF55FDA0E3790D3"
+				item: "meetyourfight:ace_of_iron"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "7BC3D9CD7D343B56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CF0540A9DF9CBDB"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "270B0D54888A48F6"
+				item: "meetyourfight:violet_bloom"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7BC3D9CD7D343B56"]
+			id: "04153C4062BD51DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A2AACE467FA3F95"
+				table_id: 1021012714640519503L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33BCA471F7F411EF"
+				item: "meetyourfight:blossoming_mind"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BC3D9CD7D343B56"]
+			id: "3EF24B68543E09CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1739048D1C55A09C"
+				table_id: 1021012714640519503L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0885A26BCB63054D"
+				item: "meetyourfight:wilted_ideals"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BC3D9CD7D343B56"]
+			id: "59223C439FFC02DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403F0A93AE415B16"
+				table_id: 1021012714640519503L
+				type: "random"
+			}]
+			tasks: [{
+				id: "603EC8C135B367DB"
+				item: "meetyourfight:tomb_planter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+	]
+	title: "&6&l迎战饰品集"
+}

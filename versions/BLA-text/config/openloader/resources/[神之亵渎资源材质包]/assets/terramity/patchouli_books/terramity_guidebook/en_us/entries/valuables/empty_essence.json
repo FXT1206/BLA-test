@@ -1,0 +1,29 @@
+{
+  "name": "虚妄精华",
+  "icon": "terramity:empty_essence",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "虚妄精华是$(l:terramity:ores/void)虚空合金$()和其他重要物品和其他重要物品的必备材料。$(br2)将$(l:terramity:valueables/black_matter)黑物质$()扔进冥河之血中可以获得空精华，冥河之血可以在某些 Terramity 建筑中找到，比如试炼尖塔。"
+    },
+    {
+	  "type": "patchouli:multiblock",
+	  "name": "冥河之血",
+	  "enable_visualize": false,
+	  "multiblock": {
+			  "pattern": [
+			  [
+				"SSS",
+				"S0S",
+				"SSS"
+			  ]
+			],
+		  "mapping": {
+			"S": "terramity:stygian_blood",
+			"0": "terramity:stygian_blood"
+		  }
+		}
+	}
+  ]
+}

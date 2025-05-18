@@ -1,0 +1,33 @@
+{
+  "entityId": "twilightforest:lich",
+  "checkInterval": 30,
+  "spells": [
+    {
+      "spellId": "irons_spellbooks:fang_ward",
+      "minLevel": 2,
+      "maxLevel": 2,
+      "minCastTime": 300,
+      "maxCastTime": 500,
+      "weight": 1,
+      "chance": 0.8
+    },
+    {
+      "spellId": "irons_spellbooks:fang_strike",
+      "minLevel": 2,
+      "maxLevel": 2,
+      "minCastTime": 300,
+      "maxCastTime": 500,
+      "weight": 2,
+      "chance": 0.8
+    },
+    {
+      "spellId": "irons_spellbooks:firecracker",
+      "minLevel": 1,
+      "maxLevel": 1,
+      "minCastTime": 300,
+      "maxCastTime": 500,
+      "weight": 1,
+      "chance": 0.8
+    }
+  ]
+}

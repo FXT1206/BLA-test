@@ -1,0 +1,65 @@
+{
+	icon: {
+		Count: 16
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "mythicmetals:unobtainium"
+	}
+	id: "3813017A3EE28CD0"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:mythic_material"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mythicmetals:unobtainium"
+			}
+		}
+		{
+			count: 12
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "gobber2:dragon_star"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enigmaticlegacy:etherium_ingot"
+			}
+		}
+	]
+	title: "高级表"
+}

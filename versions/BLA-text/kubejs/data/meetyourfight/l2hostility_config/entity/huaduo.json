@@ -1,0 +1,46 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 180,
+        "min": 250,
+        "scale": 1.0,
+        "trait_chance": 1.0,
+        "variation": 1.0
+      },
+      "entities": [
+        "meetyourfight:rosalyne"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:nausea"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:cursed"
+        },
+
+      {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        }          ]
+    }
+  ]
+}

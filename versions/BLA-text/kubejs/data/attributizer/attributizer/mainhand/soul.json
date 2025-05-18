@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:soul_great_sword": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.2,
+      "operation": "ADDITION"
+    }
+  ]
+}

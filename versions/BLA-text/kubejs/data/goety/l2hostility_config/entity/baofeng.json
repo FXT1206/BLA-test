@@ -1,0 +1,31 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 0,
+        "min": 20,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "goety:storm_caster"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:weakness"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:protection"
+        }
+   ]
+    }
+  ]
+}

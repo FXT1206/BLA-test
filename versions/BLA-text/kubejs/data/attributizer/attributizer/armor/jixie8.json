@@ -1,0 +1,8 @@
+{ "traveloptics:mechanized_exoskeleton_chestplate": [
+        {
+            "attribute": "l2damagetracker:explosion_damage",
+            "modify": 2.0,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

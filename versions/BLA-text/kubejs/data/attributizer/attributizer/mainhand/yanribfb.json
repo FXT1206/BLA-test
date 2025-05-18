@@ -1,0 +1,9 @@
+{
+  "celestisynth:solaris": [
+    {
+      "attribute": "attributeslib:overheal",
+      "modify": 0.2,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_4"
+	group: "6C11F5C97E337818"
+	icon: "alexscaves:pure_darkness"
+	id: "233FD952A42658FA"
+	images: [{
+		height: 9.0d
+		image: "born_in_chaos_v1:item/cursing_eye"
+		rotation: 0.0d
+		width: 9.0d
+		x: -1.0d
+		y: 1.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		dependencies: [
+			"6F3C51651DA66123"
+			"2689C97CF684C7CA"
+		]
+		hide_dependency_lines: true
+		hide_dependent_lines: true
+		id: "3E927ED45E9362B9"
+		subtitle: "&6尚未完成的最终BOSS..."
+		tasks: [{
+			entity: "invasioncodered:gashslit"
+			id: "3888AF365FF8F9CD"
+			type: "kill"
+			value: 1L
+		}]
+		title: "&4&l&m神之影"
+		x: -1.0d
+		y: 1.5d
+	}]
+	title: "&4&l虚假之神（终)"
+}

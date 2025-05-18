@@ -1,0 +1,9 @@
+{
+  "celestisynth:solaris": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 1.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

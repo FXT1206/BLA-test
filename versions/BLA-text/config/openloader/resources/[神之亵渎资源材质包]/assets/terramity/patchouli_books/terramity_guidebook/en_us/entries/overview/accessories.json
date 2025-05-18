@@ -1,0 +1,18 @@
+{
+  "name": "配件",
+  "icon": "terramity:ring_of_rejuvenation",
+  "category": "terramity:overview",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "配件是 Terramity 的重要组成部分，也要多做尝试，看看什么最适合你。$(br2)有一些配件可以增加你的防御、攻击伤害、移动速度、能力等。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "text": "例如，你可以将'幸运指环 +'组合成一个幸运构建，让自己随时都能获得幸运 II，同时使用'幸运骰子'能够造成暴击。$(br2)'幸运戒指 +'将与骰子符协同增效，增加你造成暴击的几率！",
+	  "item": {
+		"item": "terramity:lucky_dice"
+	  }
+    }
+  ]
+}

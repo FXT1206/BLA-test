@@ -1,0 +1,9 @@
+{
+        "terramity:dimlite_chestplate": [
+        {
+            "attribute": "minecraft:generic.armor",
+            "modify": 6.0,
+            "operation": "ADDITION"
+        }
+    ]
+}

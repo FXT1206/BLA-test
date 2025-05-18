@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:double_wield",
+    "apotheosis:other_tome"
+  ],
+  "incompatible": []
+}

@@ -1,0 +1,14 @@
+{
+	id: "6503BC3E147ED54F"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "enigmaticlegacy:cursed_stone" }
+		{ count: 4, item: "minecraft:spider_eye", weight: 9.0f }
+		{ count: 4, item: "minecraft:gunpowder", weight: 9.0f }
+		{ count: 4, item: "minecraft:bone", weight: 9.0f }
+		{ count: 4, item: "minecraft:rotten_flesh", weight: 9.0f }
+		{ item: "minecraft:grass_block", weight: 10.0f }
+	]
+	title: "邪恶之石抽奖"
+}

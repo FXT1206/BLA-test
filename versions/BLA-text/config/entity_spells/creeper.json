@@ -1,0 +1,15 @@
+{
+  "entityId": "mowziesmobs:ferrous_wroughtnaut",
+  "checkInterval": 30,
+  "spells": [
+    {
+      "spellId": "irons_spellbooks:slow",
+      "minLevel": 1,
+      "maxLevel": 1,
+      "minCastTime": 100,
+      "maxCastTime": 120,
+      "weight": 1,
+      "chance": 0.8
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "zenith:zenith": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 28.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "celestisynth:frostbound": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "modify": 24.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

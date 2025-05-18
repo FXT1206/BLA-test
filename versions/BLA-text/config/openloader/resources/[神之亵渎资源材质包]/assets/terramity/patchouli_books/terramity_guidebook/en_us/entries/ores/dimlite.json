@@ -1,0 +1,27 @@
+{
+  "name": "微晶石",
+  "icon": "terramity:dimlite_ingot",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "微晶石是由 Terramity 添加的新金属。$(br2)将未雕琢的微晶石和回声碎片制作在一起可以获得微晶石。$(br2)微晶石矿石可以在主世界的 Y=-44 和 Y=-64 之间以统一的生成模式找到。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "微晶石",
+      "images": ["terramity:textures/screens/dimlite.png"],
+      "border": true,
+      "text": "微晶石拥有深暗的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:dimlite_to_ingot",
+	  "recipe2": "terramity:dimlite_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "侏儒之王戈布会掉落匠人石板，必须使用下界合金才能升级。"
+    }
+  ]
+}

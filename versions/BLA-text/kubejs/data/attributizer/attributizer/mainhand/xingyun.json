@@ -1,0 +1,9 @@
+{
+  "celestisynth:crescentia": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 23.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

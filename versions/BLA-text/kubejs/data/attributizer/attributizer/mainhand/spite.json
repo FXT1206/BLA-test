@@ -1,0 +1,9 @@
+{
+  "minecells:spite_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 9.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

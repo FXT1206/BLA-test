@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 80,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "iceandfire:hydra"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:poison"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:regenerate"
+        }
+      ]
+    }
+  ]
+}

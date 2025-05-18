@@ -1,0 +1,9 @@
+{
+  "terramity:guiding_moonlight": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.015,
+      "operation": "ADDITION"
+    }
+  ]
+}

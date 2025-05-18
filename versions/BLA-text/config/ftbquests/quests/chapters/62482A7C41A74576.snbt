@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "62482A7C41A74576"
+	group: "6C11F5C97E337818"
+	icon: {
+		Count: 1
+		id: "dragonloot:dragon_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "62482A7C41A74576"
+	images: [{
+		height: 9.0d
+		image: "aoa3:item/gods_greatblade"
+		rotation: -135.0d
+		width: 9.0d
+		x: 0.0d
+		y: 1.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: [
+				"&c据说是远古实验室中远古时代科学家为了战争而仿造凋零建造的战争兵器，不过因为奇迹的降临所以科学家被迫撤离实验室，将他废弃在地底..."
+				"&c在地下的远古遗迹中远古神谕者，是无面尊容的守护神之一，先驱者的独特之处在于其双臂装配的激光发射器，能够发射破坏力极强的激光束。同时，它还具备引发强大的等离子冲撞能力，可以在战斗中创造攻防一体的战法，让敌人防不胜防，不过在地下遗迹中有着无面尊容限制它暴走的机器也许我们也能利用利用..."
+			]
+			icon: "cataclysm:mech_eye"
+			id: "018C1132EEBFA459"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05BE5AE2505C56AE"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25FE1CE762041302"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FDC3EF490775921"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "&4为什么他跟凋零长怎么像啊?"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "5B148E62B38EA7E9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&6神明&4机械&d造物[领主]"
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: ["&6阎魔站于炼狱之地的竞技场之中，是神谕者中最强的一位。身后的阎魔军团静默而待命。他的巨剑和盾牌在昏暗的天色下闪烁着死亡的光华。不光是武器，阎魔自身也是一位拥有魔法的主宰者。他的烈焰魔法像是一条条穿梭于战场的火蛇能够瞬间清理战局，近身远程皆有强势的技能，防御也是牢不可破，也许我们需要以毒攻毒..."]
+			icon: "cataclysm:flame_eye"
+			id: "4500DF937900AB75"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68C9AD2577CD0C65"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37BF855BE719C538"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "606AF1D1D3CDE4EE"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "77D91398AEBB2F46"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&c火焰&4战争&6统领[领主]"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: [""]
+			icon: "cataclysm:cursed_eye"
+			id: "488BC44FAEBACB92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E350B740F0CDEE0"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EE4F91B279BE03C"
+					table_id: 9211345271699213570L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A21494D28F6E8AA"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "07FA655037820558"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&l堕落&8残骸&3英灵[领主]"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6C06C96D5BB13392"
+				"418FD590ED9FB7F4"
+				"084171F758E17A98"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "397E4D0241D62587"
+			min_width: 1
+			rewards: [{
+				auto: "enabled"
+				command: "/hostility player @a difficulty base add 100"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:demon_heart"
+					tag: { }
+				}
+				id: "77FD20BAB1952D4B"
+				title: "&4难度上升"
+				type: "command"
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "6CACA88043E10BDC"
+				type: "checkmark"
+			}]
+			title: "&l&4六阶段BOSS"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: [
+				"&6末影龙在末影人们创造了末影守卫后，便再也无法以武力统治它们了。因为末影守卫可以用强大的引力将末影龙吸至地面，并召唤虚空符文杀死它。不过所幸，末影守卫不会飞并且身躯庞大无法通过折跃门，所以没有跟着末影龙来到主岛上...   &e[出自灾变Mod原剧情]"
+				""
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:void_eye"
+				tag: { }
+			}
+			id: "1F6D6AF0C699AB9C"
+			rewards: [
+				{
+					id: "351CD40D44C3A6D2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "l2complements:eternal"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3783FE9C9B3A019E"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A4B54BAC7B70CFE"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F58D08C0B9868DE"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "末影之地的改革..."
+			tasks: [
+				{
+					id: "1A796257184365C1"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "400EA5094E126082"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&l&d末影&4最终&6兵器[领主]"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: [
+				"&d深海巨兽,据说它是奇迹的来源之一.人们对它知之甚少,但是唯一可以确定的是它具有虚空之力..."
+				"&d利维坦象征着混沌与恐怖，是一种巨大无匹、掌管海洋的巨兽。被视为神创造出来的破坏力极强的生灵。常描绘为庞大如岛屿，遍体鳞片的巨蛇或龙型生物，甚至有时被描述为有着鲸鱼的形态，却拥有无与伦比的力量与威严。在沉沦之城的背景里，利维坦成为了被封印的恶神化身，代表着深海中最原始的恐惧和力量。由于它的存在威胁到了海洋的平衡，乃至整个世界的安宁，因此不得不被拥有秘法的深海祭司们以繁复的仪式封印在深海的黑暗之中"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:abyss_eye"
+				tag: { }
+			}
+			id: "34497559F67CFA6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F4CC252D68A4314"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A00841964B83DDE"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DCE4239905878E0"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "深海奇迹巨兽利维坦"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "22D05A547F429B17"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&b深海&d维度&6巨兽[领主]"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: [
+				"&6在猪灵这种罪恶的种族刚刚被神明放逐到下界时，猪灵内部中的主导者曾妄图反抗神明以夺回主世界，于是它们召集了掌握强大魔法的巫师与拥有精湛技艺的巧匠，使用最为坚韧的材料—远古时期的下界合金与足以摧毁一切的熔岩打造了这么一个恐怖的战争机器，但在驱动材料选择上却犯了难，因为当时没有任何一种能够赋予这头巨兽动力的能源."
+				""
+				"&e于是那些猪灵巫师们想起了一种早已被禁止的最为残忍的手段来获取能源...[这就是灵魂沙的来源]"
+				""
+				"&d特别鸣谢：whh [剧情设计]"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "6E5101B29C8307CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73A0215DBCB7FB5D"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77B086C22DC6BC09"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18C18EC62ED6A795"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "以合金为躯体,以灵魂而驱动..."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "44E25D7A806174EF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&4泰坦&8合金&6巨兽[领主]"
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["397E4D0241D62587"]
+			description: ["&4在世界上的一个未被探明的角落建立了一个泰坦族的王国。这个王国中，最珍贵的遗产之一便是泰坦族的守护神兽——一只体型庞大拥有沙暴之力的原始恐龙，它的存在使得整个王国受到庇护。然而，一场突如其来的天变地异打破了王国的平静，一位被诅咒者带来了一股不为人知的诅咒力量。这股诅咒力量将泰坦族的守护神兽变成了一个充满恶意与诅咒的巨型骷髅恐龙骨架。灾难过后，泰坦族人无法幸存，他们的王国成为了废墟，唯独金字塔依旧屹立，里面藏匿着被诅咒的恐龙骨架。随着时间的流逝，金字塔变成了一座诅咒之地，任何试图接近它的生命都会被骷髅守护者驱逐或消灭。骷髅守护者是泰坦族的后裔，他们转变成亡灵形态，继续他们的使命——永恒地守护着那具巨大骷髅和它身上的诅咒，防止它再次危害世间。"]
+			id: "5C2322B225C29211"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A7A240692DB0DE3"
+					table_id: 7916303953289751759L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54EA96C4DF03094C"
+					table_id: 9211345271699213570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76BB3D5712F1192E"
+					table_id: 5582430196127655637L
+					type: "loot"
+				}
+			]
+			size: 1.5d
+			subtitle: "远古暴龙的沉沦..."
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:desert_eye"
+					tag: { }
+				}
+				id: "1B7957E1C08BD8E8"
+				title: "诅咒骨架"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6&l远古&d诅咒&8骨架[领主]"
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	title: "&l&4神谕者&6[主线]"
+}

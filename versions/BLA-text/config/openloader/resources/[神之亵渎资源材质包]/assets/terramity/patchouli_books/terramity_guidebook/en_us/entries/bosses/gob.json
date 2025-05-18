@@ -1,0 +1,31 @@
+{
+  "name": "戈布（侏儒之王）",
+  "icon": "terramity:gobs_gilded_hat_helmet",
+  "category": "terramity:bosses",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "'侏儒之王-戈布是 Terramity 流程中的第一个 Boss。$(br2)他可以在 “侏儒之庭 ”中找到，“侏儒之庭 ”是一种只在黑暗森林和沼泽中才能找到的建筑。$(br2)推荐装备：$(br) -钻石/下界合金盔甲$(br) -强力武器"
+    },
+	{
+      "type": "patchouli:entity",
+      "entity": "terramity:gob",
+      "scale": 0.55,
+	  "offset": 0.45,
+	  "rotate": true
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "可通过右键单击带有 $(l:terramity:misc/gnome_bartering)red gnome hat$().$(br2) 的黄金侏儒雕像来召唤，黄金侏儒雕像可在 “侏儒之庭 ”建筑中找到，只有在黑暗森林和沼泽中才能找到。",
+	  "item": {
+		"item": "terramity:red_gnome_hat_helmet"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "侏儒之庭",
+      "images": ["terramity:textures/screens/court.png"],
+      "border": true
+    }
+  ]
+}

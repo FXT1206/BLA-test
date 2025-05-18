@@ -1,0 +1,9 @@
+{
+  "mythicmetals:metallurgium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 20.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

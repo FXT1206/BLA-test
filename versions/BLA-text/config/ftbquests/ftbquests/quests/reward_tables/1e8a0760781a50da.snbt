@@ -1,0 +1,44 @@
+{
+	id: "1E8A0760781A50DA"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "eeeabsmobs:ghost_warrior_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "幽冥"
+}

@@ -1,0 +1,9 @@
+{
+  "terramity:hellspec_sword": [
+    {
+      "attribute": "attributeslib:fire_damage",
+      "modify": 6.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

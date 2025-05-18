@@ -1,0 +1,27 @@
+{
+  "name": "电石",
+  "icon": "terramity:conductite",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "电石是 Terramity 新添加的一种金属。$(br2)电石可以通过将铱、黑色物质和电路板制作在一起而获得。$(br2)只有击败监守者后才能获得黑色物质。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "电石",
+      "images": ["terramity:textures/screens/conductite.png"],
+      "border": true,
+      "text": "电石拥有电的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:conductite_recipe",
+	  "recipe2": "terramity:conductite_upgrade_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "匠人石板从监守者处掉落，必须在铱上使用才能升级。"
+    }
+  ]
+}

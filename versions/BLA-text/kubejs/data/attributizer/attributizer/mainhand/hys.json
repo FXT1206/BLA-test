@@ -1,0 +1,9 @@
+{
+  "composite_material:obsidian_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

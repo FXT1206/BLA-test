@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:bow_and_crossbow"
+  ],
+  "incompatible": [
+    "minecraft:flame",
+    "celestial_enchantments:arrow_of_traction",
+    "celestial_enchantments:explosive_arrow"
+  ]
+}

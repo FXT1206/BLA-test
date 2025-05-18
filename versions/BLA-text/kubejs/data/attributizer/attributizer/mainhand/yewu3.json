@@ -1,0 +1,9 @@
+{
+  "terramity:yoru": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

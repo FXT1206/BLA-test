@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:dinosaur_bone_club": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.5,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

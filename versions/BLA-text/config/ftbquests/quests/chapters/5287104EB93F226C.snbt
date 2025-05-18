@@ -1,0 +1,400 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5287104EB93F226C"
+	group: "51CE6D8B8AF8E96F"
+	icon: "soulsweapons:moonstone"
+	id: "5287104EB93F226C"
+	images: [
+		{
+			height: 6.0d
+			image: "aoa3:item/shyre_sword"
+			rotation: -135.0d
+			width: 6.0d
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 180.0d
+			width: 1.0d
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"033A4A8A0E961665"
+			]
+			description: [
+				"&4全身以&b难得素&4覆盖,坚不可摧,其武器可以吸收亡魂,强迫其为己所用,在战斗中他的攻击也是相当致命的..."
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "soulsweapons:altar_block"
+			}
+			id: "34DAD6B9E2E03613"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A2446A521C5D1B1"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70A62C3E2027FDF7"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66E5BA77BA634AEF"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0701096358EE8665"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58C54E73389938B5"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "43F88336E546AD0A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4怨念&b骑士"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"033A4A8A0E961665"
+			]
+			description: [
+				"&4腐朽英雄是一位曾经斩杀初代神从而被敬仰的英雄,但现在他的身体和灵魂都被腐蚀,变得疯狂和危险."
+				"&4注：他的身后似乎隐藏着什么秘密?"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "goety:howling_soul"
+				tag: { }
+			}
+			id: "00EF139FDBEF0F3B"
+			rewards: [
+				{
+					id: "6ED64254CBB31E64"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:paladins_shield"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07108ACC5A0EA1F0"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BF8EF3513EA26A9"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F16459C662BF64"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3566C3ED7A9DA84A"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				id: "2A465F688D6851D4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8远古&6英雄"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "033A4A8A0E961665"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "692564AFEFC428B6"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3681021E6378D543"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706C4D6AEAC4BA78"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5E5E05BD91F2C824"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "soulsweapons:boss_compass"
+				}
+				type: "item"
+			}]
+			title: "&6指向被束缚之人&l&4!"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"033A4A8A0E961665"
+			]
+			description: ["&4月光圣骑是月光下的守护者&b,他们拥有&6治愈&b和&6保护&b的力量,但当他们被激怒时,也会展现出强大的战斗力.是复仇骑士同父异母的亲兄弟...."]
+			icon: {
+				Count: 1
+				id: "soulsweapons:holy_moonlight_greatsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0C3C0A2C21ADFF18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F8E801DF37CA3F1"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "004FBB4CECC3D49D"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49ACF3886FE73A6D"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C481D272659B5C"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "77AB842786C92605"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4堕落&6王者"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"033A4A8A0E961665"
+			]
+			icon: {
+				Count: 1
+				id: "soulsweapons:darkin_blade"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "502B356043618D82"
+			rewards: [
+				{
+					id: "6377C3736FDFADC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "confluence:molten_skull_rose"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7865A9E91D3233D3"
+					table_id: 2544174075653735952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B2A3D2C91A4461"
+					table_id: 346579966720947570L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A02688F98E11D88"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67440CA31A94933E"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "189C1363F724C0B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4炼狱&6王者"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["033A4A8A0E961665"]
+			icon: {
+				Count: 1
+				id: "nameless_trinkets:fragile_cloud"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "01806BC70306CA15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A40E0DD66CD5E12"
+					table_id: 5635346011611387682L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26084C036D31A874"
+					table_id: 6744234503431766096L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20C2A58F09D83A83"
+					table_id: 1021012714640519503L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2529812D4723274A"
+					table_id: 3733134472497261582L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "043445A9F4185E21"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6神云傀儡"
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	title: "&4亵渎骑士"
+}

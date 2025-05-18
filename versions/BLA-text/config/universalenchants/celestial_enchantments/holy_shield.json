@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shield"
+  ],
+  "incompatible": [
+    "celestial_enchantments:scorching_shield",
+    "celestial_enchantments:constraints_shield",
+    "celestial_enchantments:reactive_block"
+  ]
+}

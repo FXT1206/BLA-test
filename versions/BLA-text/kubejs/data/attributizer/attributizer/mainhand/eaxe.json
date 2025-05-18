@@ -1,0 +1,9 @@
+{
+  "eeeabsmobs:guardian_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 70.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

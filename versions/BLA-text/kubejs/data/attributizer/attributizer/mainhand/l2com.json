@@ -1,0 +1,9 @@
+{
+  "l2complements:eternium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 32.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

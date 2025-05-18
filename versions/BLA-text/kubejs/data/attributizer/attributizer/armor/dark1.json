@@ -1,0 +1,9 @@
+{
+        "traveloptics:forlorn_harbinger_robe": [
+        {
+            "attribute": "l2damagetracker:magic_damage",
+            "modify": 0.5,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

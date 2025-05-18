@@ -1,0 +1,45 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 20,
+        "min": 150,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "goety:skull_lord"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 1,
+          "min": 0,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:repelling"
+        },
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:corrosion"
+        },
+        {
+          "free": 1,
+          "min": 2,
+          "trait": "l2hostility:tank"
+        }
+ ,{
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:allow_repelling"
+        }     ]
+    }
+  ]
+}

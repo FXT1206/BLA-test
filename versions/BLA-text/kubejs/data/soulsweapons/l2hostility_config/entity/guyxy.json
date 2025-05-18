@@ -1,0 +1,45 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 40,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "soulsweapons:draugr_boss"
+      ],
+      "items": [],
+      "traits": [
+             
+            {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:cursed"
+        }, 
+ {
+           "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+    },            {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:reflect"
+        },
+    {
+          "free": 1,
+          "min": 1,
+          "trait": "curseofpandora:reality"
+        },     {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:erosio"
+        }
+      ]
+    }
+  ]
+}

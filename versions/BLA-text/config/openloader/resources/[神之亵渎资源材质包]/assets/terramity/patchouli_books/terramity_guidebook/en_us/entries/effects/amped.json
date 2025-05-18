@@ -1,0 +1,11 @@
+{
+  "name": "Amped",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Amped 是 Terramity 新增的药水/状态效果。$(br2)该效果会将所有伤害提高 1.5 倍。"
+    }
+  ]
+}

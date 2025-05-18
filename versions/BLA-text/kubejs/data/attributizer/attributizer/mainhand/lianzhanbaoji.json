@@ -1,0 +1,9 @@
+{
+  "celestisynth:crescentia": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "modify": 0.3,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

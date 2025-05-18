@@ -1,0 +1,19 @@
+{
+	id: "693FED7A294DBCF7"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "legendary_monsters:eye_of_sandstorm" }
+		{ item: "legendary_monsters:eye_of_ghost" }
+		{ item: "legendary_monsters:eye_of_many_ribs" }
+		{ item: "legendary_monsters:eye_of_moss" }
+		{ item: "legendary_monsters:eye_of_air" }
+		{ item: "legendary_monsters:eye_of_frost" }
+		{ item: "legendary_monsters:eye_of_magma" }
+		{ item: "legendary_monsters:eye_of_soul" }
+		{ item: "legendary_monsters:eye_of_bones" }
+		{ item: "legendary_monsters:eye_of_shulker" }
+		{ item: "legendary_monsters:eye_of_chorus" }
+	]
+	title: "追随之眼"
+}

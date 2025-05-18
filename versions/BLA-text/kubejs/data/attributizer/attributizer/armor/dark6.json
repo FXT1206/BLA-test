@@ -1,0 +1,9 @@
+{
+        "traveloptics:forlorn_harbinger_robe": [
+        {
+            "attribute": "attributeslib:dodge_chance",
+            "modify": 0.4,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

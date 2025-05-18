@@ -1,0 +1,9 @@
+{
+  "terramity:icebrand": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

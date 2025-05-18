@@ -1,0 +1,9 @@
+{
+  "cataclysm:tidal_claws": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 20.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

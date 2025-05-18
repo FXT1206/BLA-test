@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:shotgun"
+  ],
+  "incompatible": [
+    "minecraft_121_update:wind_burst",
+    "minecraft:quick_charge",
+    "minecraft_121_update:breach"
+  ]
+}

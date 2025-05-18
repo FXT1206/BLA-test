@@ -1,0 +1,56 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+     "item": "minecells:boss_stem_cell"
+  },
+  "craftType": "necroturgy",
+  "research": "forbidden",
+  "entity_to_sacrifice": {
+    "tag": "goety:villagers",
+    "display_name": "entity.minecraft.villager"
+  },
+  "soulCost": 800,
+  "duration": 90,
+  "ingredients": [
+    {
+      "item": "enigmaticlegacy:twisted_heart"
+    },
+    {
+      "item": "enigmaticlegacy:void_stone"
+    },
+    {
+      "item": "enigmaticlegacy:golem_heart"
+    },
+    {
+      "item": "terramity:exodium_superalloy"
+    },
+    {
+      "item": "enigmaticaddons:hell_blade_charm"
+    },
+    {
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    {
+      "item": "terramity:exodium_superalloy"
+    },
+    {
+      "item": "terramity:exodium_superalloy"
+    },
+    {
+      "item": "alexscaves:polymer_plate"
+    },
+    {
+      "item": "enigmaticlegacy:abyssal_heart"
+    },
+    {
+      "item": "enigmaticlegacy:evil_ingot"
+    },
+    {
+      "item": "enigmaticlegacy:evil_ingot"
+    }
+  ],
+  "result": {
+    "item": "enigmaticlegacy:eldritch_pan"
+  }
+}

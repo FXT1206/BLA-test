@@ -1,0 +1,9 @@
+{
+  "terramity:hellspec_sword": [
+    {
+      "attribute": "attributeslib:crit_damage",
+      "modify": 0.35,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

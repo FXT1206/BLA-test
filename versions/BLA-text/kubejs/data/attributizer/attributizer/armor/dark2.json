@@ -1,0 +1,9 @@
+{
+        "traveloptics:forlorn_harbinger_robe": [
+        {
+            "attribute": "irons_spellbooks:mana_regen",
+            "modify": 0.8,
+            "operation": "MULTIPLY_TOTAL"
+        }
+    ]
+}

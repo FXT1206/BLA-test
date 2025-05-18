@@ -1,0 +1,125 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 300,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:ender_guardian"
+      ],
+      "items": [
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "cataclysm:the_incinerator",
+                "nbt": "{Enchantments:[{id:\"l2complements:void_touch\",lvl:10s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"l2hostility:vanish\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 600,
+          "slot": "equipment/mainhand"
+        },
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "l2hostility:ring_of_divinity",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 300,
+          "slot": "curios/ring"
+        },
+        {
+          "chance": 1.0,
+          "entries": [
+            {
+              "stack": {
+                "item": "l2hostility:imagine_breaker",
+                "nbt": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
+              },
+              "weight": 100
+            }
+          ],
+          "level": 300,
+          "slot": "curios/hands"
+        }
+      ],
+      "traits": [
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+        {
+          "free": 7,
+          "min": 7,
+         "trait": "curseofpandora:reality"
+        },
+        {
+          "free": 4,
+          "min": 4,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:ragnarok"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:drain"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:arena"
+        },
+        {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:levitation"
+       },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:dispell"
+        },
+        {
+          "free": 2,
+          "min": 3,
+          "trait": "l2hostility:soul_burner"
+        }
+ ,
+        {
+          "free": 2,
+          "min": 2,
+          "trait": "l2hostility:rank"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:freezing"
+        },
+ {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:slowness"
+        }
+     ]
+    }
+  ]
+}

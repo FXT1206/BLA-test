@@ -1,0 +1,32 @@
+{
+  "name": "黑物质",
+  "icon": "terramity:black_matter",
+  "category": "terramity:valuables",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "黑色物质是获得强大的 Terramity 金属的必需品。$(br2)只有击败 $(l:terramity:bosses/trial_guardian)监守者$()并获得劣化权杖后才能获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "基岩 ???矿石",
+      "images": ["terramity:textures/screens/black_matter.png"],
+      "border": true,
+      "text": "基岩黑物质矿石，存在于地狱表面。"
+    },
+	{
+      "type": "patchouli:image",
+      "title": "Decayed Black Matter Ore",
+      "images": ["terramity:textures/screens/decayed_black_matter.png"],
+      "border": true,
+      "text": "劣化的黑物质矿石，现在可以开采。"
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/trial_guardian)监守者$() 被击败后会掉落一根劣化权杖，这是前进的必备物品。在基岩黑物质矿石上使用劣化权杖会使其劣化，从而可以进行开采。",
+	  "item": {
+		"item": "terramity:perish_staff"
+	  }
+    }
+  ]
+}

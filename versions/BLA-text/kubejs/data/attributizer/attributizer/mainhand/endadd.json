@@ -1,0 +1,9 @@
+{
+  "enigmaticaddons:astral_spear": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 42.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

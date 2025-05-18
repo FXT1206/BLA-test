@@ -1,0 +1,22 @@
+{
+	id: "5FEA99B3C9E513E8"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "goety:necro_cape"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "goety:warlock_robe_dark"
+				tag: { }
+			}
+		}
+	]
+	title: "长袍"
+}

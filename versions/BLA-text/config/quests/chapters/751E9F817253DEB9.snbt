@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "751E9F817253DEB9"
+	group: "7571899CDEDDF9F5"
+	icon: "minecraft:skeleton_skull"
+	id: "751E9F817253DEB9"
+	images: [{
+		height: 1.5d
+		image: "minecraft:block/campfire_fire"
+		rotation: 0.0d
+		width: 1.5d
+		x: -3.0d
+		y: -0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B3FDBE84D6E7BC6"]
+			id: "744CB29D0DFACC71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "660B1E56369E95AB"
+				table_id: 9211345271699213570L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "goety:skull_lord"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "6EEE36092C6E30BA"
+				title: "&6骷髅领主"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3FDBE84D6E7BC6"]
+			id: "3A46E154899237F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5407CBBD06930378"
+				table_id: 9211345271699213570L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "goety:crone"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:netherite_mage_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "5BACAE7A0CAEECC2"
+				title: "&4女巫"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"37909876257F8252"
+				"3A46E154899237F3"
+				"744CB29D0DFACC71"
+			]
+			description: ["&b该BOSS需要旅途指南针寻找,若指南针指向出生点说明未找到亡灵墓穴位置需要跑图待到旅途指南针找到并定位..."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "nameless_trinkets:cracked_crown"
+				tag: { }
+			}
+			id: "571BDAA7017A06D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AFA928A88032F1E"
+					table_id: 5582430196127655637L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:mythic_material"
+					}
+					id: "0DE5B07131528BFA"
+					table_id: 4040574915234139344L
+					type: "choice"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "&4亡灵君主,魔法的创始者,在创造亡灵魔法时不幸出现意外,将自己转化为亡灵生物.因为控制不住亡灵生物嗜血天性想要自首却无力回天,只能等待一位勇士将他彻底解脱.."
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "nameless_trinkets:cracked_crown"
+				id: "4780A5EF68848164"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4不死者&6之王[领主]"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "&4亵渎产物"
+}

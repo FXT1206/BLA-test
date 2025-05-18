@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:legends_and_dungeons_fury_flames"
+  ],
+  "incompatible": [
+    "legends_and_dungeons:auto_smelt"
+  ]
+}

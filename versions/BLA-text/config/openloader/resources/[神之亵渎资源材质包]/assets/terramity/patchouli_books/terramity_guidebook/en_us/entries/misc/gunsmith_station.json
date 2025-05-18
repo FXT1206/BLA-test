@@ -1,0 +1,15 @@
+{
+  "name": "枪匠工作站",
+  "icon": "terramity:gunsmith_station",
+  "category": "terramity:misc",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "枪匠工作站是 Terramity 新增的村民站。$(br2)枪匠工作站可以放置在村民旁边，以获得枪匠，可以与枪匠换取与枪械相关的物品，甚至火药！"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:gunsmith_station_recipe"
+	}
+  ]
+}

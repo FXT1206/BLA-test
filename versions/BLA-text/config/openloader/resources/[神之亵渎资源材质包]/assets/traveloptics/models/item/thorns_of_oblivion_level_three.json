@@ -1,0 +1,6 @@
+{
+  "parent": "traveloptics:displaysettings/thorns_of_oblivion_display",
+  "textures": {
+    "layer0": "traveloptics:block/thorns_of_oblivion"
+  }
+}

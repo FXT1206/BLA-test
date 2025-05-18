@@ -1,0 +1,9 @@
+{
+  "terramity:simmeredge": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 3.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+
+[DeathButThree]
+	#Before ';': boss' registry name
+	#After ';': its max death times
+	ValidBossesAndMaxDeathTimes = ["cataclysm:ignis;3", "minecells:concierge;1", "minecells:conjunctivius;1", "minecells:conjunctivius;1", "bosses_of_mass_destruction:obsidilith;2", "bosses_of_mass_destruction:void_blossom;1", "bosses_of_mass_destruction:lich;1", "bosses_of_mass_destruction:gauntlet;1", "alexscaves:luxtructosaurus;2", "goety:apostle;1", "irons_spellbooks:dead_king;1", "soulsweapons:day_stalker;1", "soulsweapons:night_prowler;1", "soulsweapons:accursed_lord_boss;1", "soulsweapons:returning_knight;3", "eeeabsmobs:nameless_guardian;1", "terramity:super_sniffer;2", "terramity:trial_guardian;2", "terramity:virtue;3", "terramity:gundalf;2", "terramity:gob;1", "cataclysm:netherite_monstrosity;2", "cataclysm:the_harbinger;2", "cataclysm:the_leviathan;1", "cataclysm:ancient_remnant;2", "cataclysm:ender_guardian;2", "cataclysm:maledictus;1"]
+

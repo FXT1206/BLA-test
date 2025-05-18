@@ -1,0 +1,5571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bl"
+	group: "324A4E3124CEE585"
+	icon: {
+		Count: 1
+		id: "terramity:sword_of_the_imprisoned"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5B3F28AD7523D016"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7881C7CCB27FC154"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E584887E6905581"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FB3707586A0339E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56AD293CDEBCE15E"]
+			id: "2E040696A2910B47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AAE17D366E01FEE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "554A7CFE0A372487"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:void_assault_shoulder_weapon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.5d
+		}
+		{
+			id: "01FA758869F82DF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B0490055A87E327"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "62AE430DE7A61A08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Charged: 0b
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 3.5d
+		}
+		{
+			id: "374F67518F910500"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D2CF9AD69625C40"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67C730F4FC1FCB38"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursed_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			id: "142A1F80BFFDAF55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F324AEE750AB213"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7CCF4F018E6CED11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_annihilator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 5.0d
+		}
+		{
+			id: "278D07443FEACB8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "070E875A906F38BA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "01A9D90316C56A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:gauntlet_of_guard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["278D07443FEACB8A"]
+			id: "43CCD8BE87D7AB66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2A031286543E53"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "189CCAAD74D331A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:gauntlet_of_bulwark"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 3.5d
+		}
+		{
+			id: "56AD293CDEBCE15E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "390564B5C81A130F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "072ADF3BBBACA964"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:wither_assault_shoulder_weapon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			id: "6E825CAAC86133D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E0BDF2139AEE3EB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DBFC19D92D276A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:meat_shredder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 3.5d
+		}
+		{
+			id: "7D59510CAA41EC9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34E62A7F935FB78F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3748847C2BA711F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:soul_render"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			id: "44FD8758DD84CB95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "090B5A74C2A87357"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "375F65FA0B24FFA2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_incinerator"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			id: "13E4D1B7447AD466"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DCE9DB08FB1A537"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "440A0E50AA86E542"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			id: "1555D4EAFB7A2D8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68BE9057CDBFBEF2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D0F783A0F945E03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:tidal_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			id: "77B5A870349CACA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B21B369625F1AB7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "56056D9A1871C378"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecells:cursed_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			id: "455FFFBECBCF57D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43239B6D7FC76D2F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67B98100B6053F39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "eeeabsmobs:guardian_axe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			id: "5BF64C995C0E62D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "669E160471444AE1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6CF473770CF4A2AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "eeeabsmobs:netherworld_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			id: "47B2FD4FB475387D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0809D30418CFE78F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0BF94749B0011510"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			id: "397410A3882F376D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB776431AD1105E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "36A37130C5E4D8AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:death_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "2F74F5BB15EBAE95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "412B2E51C2C1940A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F23B3BFFF1F092F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:dogmatic_standoff"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "26AED99762C159F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E53984AB3AA96D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "55B932BA9ECC8A59"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:poseidon_madness"
+					tag: {
+						Damage: 0
+						UserInWater: 0b
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "16A1DE011D8BDDCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B27AE2C884E8168"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70A6B0AA3F0B2FD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:abyss_echo"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "248B555153122E85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF53CBEAAD168CF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4917D9809D6F78D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:abyss_terror"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "3205927601FE3BD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073DE54007A4CE05"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0710B49CB0E43ABE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2weaponry:spear_of_winter_storm"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "2DCAFA04D9D2BB28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "674822CDD3617A64"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DACD4539C68F427"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecells:flint"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			id: "4C99AE6D814F0A8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A1F9F270BE8601B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13A0EF4BBEECD7C1"
+				item: {
+					Count: 1
+					id: "minecells:tentacle"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			id: "1262A2BBEF3E46D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B01AD5E040D9E81"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "782C1EDB71999148"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2archery:wind_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			id: "30D8425C1EBD078E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3361C8AA47D8EFB7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "241A41A6C1711698"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2archery:gaia_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			id: "34787F3C7255B4D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17A891C8F7F1AF42"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3347D63D75C2C400"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2archery:winter_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.5d
+		}
+		{
+			id: "1735D8B6F0D692E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FC607C874C4E156"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7DC17F6EF4C44869"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "l2archery:sun_bow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			id: "47D9BF8B66BB677B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4966D33BF55D38DB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64DE0FDC6E374765"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "465528B49A28CC6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F3F2701F357095D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3836BC6320BD946E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "22EE4CD5747862E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01A35DF741B280DB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4710AA02DFE48736"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:sword_of_the_imprisoned"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.0d
+		}
+		{
+			id: "6CC975434C3A9AC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64A251B742C73398"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "71B1409D4557176F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:murasama"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.5d
+		}
+		{
+			id: "0407B4D411295911"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B51D6110B129329"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3726F00E51EDDD4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:axe_of_unholy_divinity"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			id: "1B0A2A11BCEA88AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65C6589AF44D44F0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4BEDCAF2F223EE48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			id: "401CD73FF9AC18B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "583EAAE1199D6D36"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "322711F4CBA67865"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:wrought_axe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 3.5d
+		}
+		{
+			id: "7037E9FEE7B682D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "657E4A12C95AF8A8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "604530F16E2BF94D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:the_great_frost"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "17126E6D17E34334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D4B3F3AAC5946B3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "369395ED36E33268"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "679161DDC0276268"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "786E62E64117452D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63F8097573DFE187"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:dimensional_carver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			id: "67AC8E00756550B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "558D651E8AA6CBF9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25D229939636C474"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "006027F70063626E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "211332D5B70F8F46"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6558E234D0A6D739"
+				item: {
+					Count: 1
+					id: "composite_material:scapegoat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			id: "05836A079F565202"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71D6DE4A80EBCE1B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32A4B53BFBDBD78C"
+				item: {
+					Count: 1
+					id: "composite_material:lacerator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			id: "274241EF009C8DDC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DC5F9DAEA7B9D7E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2397BCBC253D0B80"
+				item: {
+					Count: 1
+					id: "composite_material:disc_mace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			id: "1DF01ACF9B04471C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D83726CD656C7B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DA2D2A4719D11F7"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:spellbreaker"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:counterspell"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			id: "55D3C86197412A0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A63D83072951EBC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "617FBAF2F5F852E9"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "7581728885ED161D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17C43D4D217B381B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D19BB969627E19D"
+				item: {
+					Count: 1
+					id: "alexsmobs:tendon_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			id: "246DEF67B5BD9628"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E0C19E2A2CDF84"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D8CCEA34951842A"
+				item: {
+					Count: 1
+					id: "alexsmobs:ghostly_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.5d
+		}
+		{
+			id: "621165328D9C293E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6259BC3C55CC62E6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0DC4D40C84C9ED7A"
+				item: {
+					Count: 1
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["142A1F80BFFDAF55"]
+			id: "6E5FC8E4F2EFA97A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DAD626F38E566C3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "604A5D143699DD96"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			id: "11662A9A3163C801"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CA2C0C69168E934"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "743360BC4CAB8D1D"
+				item: {
+					Count: 1
+					id: "composite_material:disc_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.5d
+		}
+		{
+			id: "09722F1F7798FFAE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E0C612D5DA1A343"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2D6C7BE8A174DF52"
+				item: {
+					Count: 1
+					id: "composite_material:disc_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			id: "500FABB4C19E3452"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02A445AA92E09FC7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "36691F4FF5A2D7D4"
+				item: {
+					Count: 1
+					id: "eeeabsmobs:demolisher"
+					tag: {
+						CodeAddFlag: 1b
+						Damage: 0
+						Unbreakable: 1b
+						accumulatedTime: 532136L
+						lastTime: 9223372036854775807L
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			id: "0174B2DBE15E38E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C4E69B0D0EEC19"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F8D3801D5755B7A"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0174B2DBE15E38E5"]
+			id: "058DFEAF6B3BD93A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DF6EE2663743AF0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AF344254CA46727"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0174B2DBE15E38E5"]
+			id: "76BB95C38D9B526E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16825AAFA8A90A05"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5ED926DD4A0C9E4E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0174B2DBE15E38E5"]
+			id: "074D54008C70489B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25A3C353F8D152B5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "42B93B3A2027B30F"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "2EC141AF49DF2689"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C9AD1BAC1EACA8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4059E874F8A3881B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["058DFEAF6B3BD93A"]
+			id: "0C5CD799561C7C8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ED2CF550E35DB15"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3348AA52D804AA31"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76BB95C38D9B526E"]
+			id: "3544F99BF4ED9F68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FA7574D8A3E8539"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F74FCE862AAED89"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["074D54008C70489B"]
+			id: "32F5A4FCA795039B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F4404A250B18A19"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7D8A788CD671ABD2"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0174B2DBE15E38E5"]
+			id: "73A6ACA91765172A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CEF770419B03B39"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53C84D94D8C5172C"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "4BECFCCF10F3E3D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D9B36B6C046B1B9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0F9D73D51CDD8930"
+				item: {
+					Count: 1
+					id: "iceandfire:hippocampus_slapper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "73EDDD8A8BABE959"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CBF668DD6F4B964"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C92043C87FF5D45"
+				item: {
+					Count: 1
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "0AF887E08154D865"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E7A31DD700A47B6"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "161C988CA5B20892"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "3C0A05E7C7914B94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6381BAE563EE6CC4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5AC2450587D9E92C"
+				item: {
+					Count: 1
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "6DFE22BE7D154B44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E6CF6BA3C438D11"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0A9ADE9768FF1CE0"
+				item: {
+					Count: 1
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "65EB978DC5F4DEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "339E10457288356A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "55398AF24641D7BB"
+				item: {
+					Count: 1
+					id: "legendary_monsters:chorus_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "259A620B365456B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35C16D267AE7843C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "056F9C7D4CF66877"
+				item: {
+					Count: 1
+					id: "legendary_monsters:withered_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "3785246AC31FA510"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D9B65D3E155E8A0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1E3D7C0F802F5A0C"
+				item: {
+					Count: 1
+					id: "legendary_monsters:fiery_jaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "69C454249FC1A6EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E55D980F8588ED0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28CD598EB81349EA"
+				item: {
+					Count: 1
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "78F4E9276613BBCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62D1EE0E4E6753F2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5AA5FD650105C0C0"
+				item: {
+					Count: 1
+					id: "legendary_monsters:axe_of_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "0976C1AE31EECAE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DC298ACA99F5604"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B9A0636BAE510BA"
+				item: {
+					Count: 1
+					id: "legendary_monsters:mossy_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "0706895DB11247CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DF6C71D101CBD73"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "39898289C0F818F0"
+				item: {
+					Count: 1
+					id: "legendary_monsters:dinosaur_bone_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "7293966F0C60D4D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7773BFE1CAD36E67"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3BDC8AE219883E1E"
+				item: {
+					Count: 1
+					id: "legendary_monsters:sand_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "01DE1C0A612771C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DBE9CEDDB885429"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49DC9604263BBEE6"
+				item: {
+					Count: 1
+					id: "legendary_monsters:chorus_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "4E8DFA7B0DB8958F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3561E8B953A143A1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "517A44826A2F8782"
+				item: {
+					Count: 1
+					id: "composite_material:disc_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			id: "14BC9C7BCCE0847C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1574DD494FADFB46"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "11CE202C4D3D2ACC"
+				item: {
+					Count: 1
+					id: "composite_material:dungeon_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			id: "4E1D980AA2A5D43C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CC6C44917E0965D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "38886EF5062556FD"
+				item: {
+					Count: 1
+					id: "composite_material:sonic_boom_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			id: "5C0B69DA6B0F303C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EB35AC304C5ABEB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13DE9839C16230A6"
+				item: {
+					Count: 1
+					id: "l2archery:slow_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			id: "2BF203D57996FCAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CD77A5342077986"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0CF2940A3EDAF80D"
+				item: {
+					Count: 1
+					id: "l2archery:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			id: "05ABF105D5DBA6ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56711E14E9DE1ABE"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "240A46E81ADEC8B3"
+				item: {
+					Count: 1
+					id: "l2archery:froze_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			id: "0156B67759B923FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FCFFD91974B8A1F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1BCF31634CDB9006"
+				item: {
+					Count: 1
+					id: "l2archery:master_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "25FF468F8400A222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D7B938E8F43805F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04ED1693FAE21F8C"
+				item: {
+					Count: 1
+					id: "l2archery:storm_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			id: "21B067FA7DDB95B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EEC67B08A5413F9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "473BCFBE2463EEF1"
+				item: {
+					Count: 1
+					id: "l2archery:glow_aim_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			id: "305F1C4AD94BD99D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79978AE2541A2611"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08730903285976D3"
+				item: {
+					Count: 1
+					id: "l2archery:turtle_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			id: "37CEA00287DC471A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45C6655A78BE2E1D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0A59CD500D43EF95"
+				item: {
+					Count: 1
+					id: "l2archery:magnify_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			id: "3F98A3E5DD3BB4C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3506615B8F63BF39"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "455311FCE7E6C2A9"
+				item: {
+					Count: 1
+					id: "l2archery:explosion_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			id: "0FF8549F9A601699"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748072548EF0C16A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15095B061CA2CA42"
+				item: {
+					Count: 1
+					id: "l2archery:winter_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			id: "758F019D12A2DA49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25A9E0FFBE56383C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FA9B30286A01376"
+				item: {
+					Count: 1
+					id: "l2archery:earth_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			id: "5ED265DAF17F9850"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A9D8B5DCCC14193"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "750ED7EA77D5DE15"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			id: "2DC3F267527F4187"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F2001B08E0BBBE8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "251FE42F196A6791"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_sword_nether"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "023CC5A9513CE5CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02A4F1624DDB2A76"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7EC510B8AF7AF9CA"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_sword_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "551E74992EB74CE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "514E808BC6AB2C45"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "72D4A2161F113B02"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_sword_traveler"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "28315C7785B1D0F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C2AF75BC94B1F95"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "795BF627611F0F15"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_sword_sniper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "77A179902CE5369D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B76B0EFB9B17F72"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "74484456528A866E"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "7C788EB9A28B5840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BA878FEBD11F061"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27E8E7E2CA234585"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_bow_nether"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "531A44CB45B34F2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C73EE9EDA6DF650"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03F9B2F0FF900B50"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_bow_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "06875119F14AF7E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D2D1CE8813634DB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "59B3892310075CCA"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			id: "02A18831A87E2996"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "260CCAFA3D918E06"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3586B566F4A77558"
+				item: {
+					Count: 1
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			id: "699E472AABE63A41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EBC87E5D4561FA0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17D8D0BA9B90D250"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "158896C7AF4E19B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "553B95D1C09D5D85"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "503C4A087C9B9F27"
+				item: {
+					Count: 1
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			id: "107613D0A8C21A1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30DCC3AA10CD9BB0"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5662179D722DE294"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			id: "153FCDB7406E6C17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52E8DA81FC53AECF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "729EC0762F047294"
+				item: {
+					Count: 1
+					id: "twilightforest:fiery_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			id: "68B3241FB5762861"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AC786E4353A5DB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5DA618A8213373B6"
+				item: {
+					Count: 1
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			id: "2BC4C0AC7211CC13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "273CDCFB5370B6AD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57E2572F4F120235"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			id: "00C661F4C4A360D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01C028A3EF1D1077"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DADCB6E895697A8"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			id: "1FF8FB8E757C7457"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AD8071AB2E93F19"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2F98680C5A14697F"
+				item: "traveloptics:titanlord_scepter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			id: "739128223D8CB5CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77F73F678FAAF678"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7AF944665348AEC1"
+				item: "traveloptics:titanlord_scepter_retro"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			id: "535FD89522154FB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13EFBB44FFFE5A8D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03C8A8034226496C"
+				item: "traveloptics:titanlord_scepter_tectonic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			id: "6D769FB49C31665A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F5408D0437B5A88"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B55BE68D79C36A8"
+				item: {
+					Count: 1
+					id: "traveloptics:the_obliterator"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "1FC2B83A905B354A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44C6671AB2DB3F34"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "57225BCBEC15E507"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "76D4B025066D149D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7918314400FF53ED"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "215135A6B724166C"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:cursed_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			id: "0050D874D3BC2796"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41DA19C1E8A3C0C4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "740CBA8108CEE8D6"
+				item: {
+					Count: 1
+					id: "traveloptics:mechanized_wraithblade"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			id: "5E9FBAA2FEEE36BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57EF24CDC866862F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "69698B0E1BD267A9"
+				item: {
+					Count: 1
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			id: "000FB3DCD78952FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F93097A2DA1AC9A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6EDD129B28B44451"
+				item: {
+					Count: 1
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "252455E400FCEEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B8581DF16EF2C2B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "64EAD36A4106188C"
+				item: {
+					Count: 1
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			id: "62C333652B1B6CEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B91DC6A8B9F3F2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5C8816F31480921F"
+				item: {
+					Count: 1
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "62AD17289BA57142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "074EEB1E4B5C2CC5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18E83829A58DFEF5"
+				item: {
+					Count: 1
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			id: "0596688C79AA41B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C890AF043BA7303"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63D9903E4C41FCC3"
+				item: {
+					Count: 1
+					id: "traveloptics:infernal_devastator"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			id: "3E37D4AECF328C85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65AFE3598C7F203F"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2E239F616D7B5B53"
+				item: {
+					Count: 1
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "399C8720EF44CBFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4871001B3CE6D36B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1C37A2F4743ECD7B"
+				item: {
+					Count: 1
+					id: "dragonloot:dragon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			id: "555954363C8668E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71371D06E3F08FB8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D41337DA7A9D138"
+				item: {
+					Count: 1
+					id: "dragonloot:dragon_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			id: "24FE45CEA9CCF7D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3885AFFA283ACDC7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F3F56C2D0872BEC"
+				item: {
+					Count: 1
+					id: "dragonloot:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			id: "3B1E147026014763"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D2FB6482B4116E3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7572D5D497F5F611"
+				item: {
+					Count: 1
+					id: "dragonloot:dragon_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			id: "4B30B8A7ECC04CDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49B29173D340B576"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "08E538C4C774B759"
+				item: {
+					Count: 1
+					id: "l2weaponry:hammer_of_incarceration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "70A8446A06822823"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "565311C5856D57B3"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6D501C1461C1F322"
+				item: {
+					Count: 1
+					id: "l2weaponry:claw_of_determination"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			id: "3FF6199DE2B04CC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452CDFF18915E227"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C4CAE8CE39B091A"
+				item: {
+					Count: 1
+					id: "l2weaponry:vampire_desire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			id: "41BAF30F4F5703FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "278461A9A3B9BDC4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5FABB61843571855"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_shock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			id: "4E80DEF48707DE2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21BCD865B309CE61"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1064AE3087FEF962"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_shock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "02ABAEA3E76AB5EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78918898828A82B1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "720C36F140BB418D"
+				item: {
+					Count: 1
+					id: "l2weaponry:shadow_hunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "48D111D5BDF6629F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59F0BDFFAFDE7A54"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32E577E9133B1CD0"
+				item: {
+					Count: 1
+					id: "l2weaponry:shadow_shredder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "53E76BB4AC496B60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1156E4A321784383"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A5FDF2F6560BFEC"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_resonance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "3F3C8065441479A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68862F4AA15CBFDD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "715EA0779FBDBF1A"
+				item: {
+					Count: 1
+					id: "l2weaponry:blade_of_illusion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "417F307DD442440E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6783017B833D13CC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3DD7B2597882346A"
+				item: {
+					Count: 1
+					id: "l2weaponry:barbaric_hallow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "77E4BBE2B1C337C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0084347371565A94"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F7CE57F83EF3671"
+				item: {
+					Count: 1
+					id: "l2weaponry:haunting_demon_of_the_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "3D9D89A2CF980665"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30179F1FE6B2C137"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04EF72EC7CEE5284"
+				item: {
+					Count: 1
+					id: "l2weaponry:void_escape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "645C09E9B0838F2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BB0B249051CABB5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A4910BB00788E96"
+				item: {
+					Count: 1
+					id: "meetyourfight:twilights_thorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 7.0d
+		}
+		{
+			id: "711949643FD2B6AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B793C4753DEDD37"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3900F8D11C4BA3B6"
+				item: {
+					Count: 1
+					id: "meetyourfight:cocktail_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.5d
+		}
+		{
+			id: "2976797AB01B2B47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069869D2AF550049"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6E8251CFB1D3EC48"
+				item: {
+					Count: 1
+					id: "meetyourfight:depth_star"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 10.0d
+		}
+		{
+			id: "11FC3DA885D32EE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23F97C080D4026DF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "24A1EA7072D413E8"
+				item: {
+					Count: 1
+					id: "traveloptics:tome_of_abyssal_flora"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 5.0d
+		}
+		{
+			id: "3EAC8438DC4405B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C6ACC7CB49A86B9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B3D6FE08EA4A64F"
+				item: {
+					Count: 1
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						ISBEnhance: "traveloptics:burning_judgment"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 6.5d
+		}
+		{
+			id: "3A201468D8F52546"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60AA6DC48E97D598"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "74EEC5455BBD70BF"
+				item: {
+					Count: 1
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_blast"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 3.5d
+		}
+		{
+			id: "31222BE19D16188D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74E15016FDB9AAB8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "221B714D1C6F78A0"
+				item: {
+					Count: 1
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_minefield"
+						ISB_Spells: {
+							data: [
+								{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "traveloptics:orbital_void"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 2.0d
+		}
+		{
+			id: "1FEB7B63A590075B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6AE0733927A7585D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78CEF1DA439C4F79"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 2.0d
+		}
+		{
+			id: "3070D8BAF060010F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "494A8F97BBCE497B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "47986AEFB09FFC3D"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 3.5d
+		}
+		{
+			id: "78059190A6954646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E97C55E818F8320"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E7D36861B8352A5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 5.0d
+		}
+		{
+			id: "5CE4F6498A460171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6587375EDEC13989"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0AC2D5BFEEE3FF84"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 6.5d
+		}
+		{
+			id: "620A2F8AEB628672"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD7159505E03762"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "158D8E5863D59AC6"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:evoker_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:fang_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:fang_ward"
+									index: 1
+									level: 4
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:summon_vex"
+									index: 2
+									level: 4
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 2.0d
+		}
+		{
+			id: "255EFB4D10E4E265"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6445D5C23544E4DF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A67FEAEB5EDFB1E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 3.5d
+		}
+		{
+			id: "2A1B34E9FD9A7747"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06AEDABA979E3539"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "01535859F7FD2B0A"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 5.0d
+		}
+		{
+			id: "467F2A23C9E51910"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F9E2666A5F836A1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45FBF5D1C9347081"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -26.5d
+			y: 6.5d
+		}
+		{
+			id: "660A78B6072CD98C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E7C67B91487BA18"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "07DC840E43BA4D08"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: 6.5d
+		}
+		{
+			id: "1B3DC2A3E79DF006"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AAE09092EFE6384"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "07A11859AD81CD95"
+				item: {
+					Count: 1
+					id: "soulsweapons:pure_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "14D43C43B91DC64C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BD082BC86FDB7BD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6874FDC2759B13B9"
+				item: {
+					Count: 1
+					id: "soulsweapons:bloodthirster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "4063A8E045BB6C3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43B53FCD76EC2B13"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "268434FF11EC0C6D"
+				item: {
+					Count: 1
+					id: "soulsweapons:featherlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			id: "378A48DF2D12EA36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780580A228136652"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "39322971FBBB60C3"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe_pre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			id: "25A92A181A6906D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57D14FC16DBB6CB5"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2A7BEDE4C700F9A1"
+				item: {
+					Count: 1
+					id: "soulsweapons:shadow_assassin_scythe"
+					tag: {
+						Damage: 0
+						has_shadow_step: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			id: "1A810781527236E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "046078F24032A985"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4233D584692FF691"
+				item: {
+					Count: 1
+					id: "soulsweapons:leviathan_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			id: "27E0A4D0757088CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A5C0D532A38B3AC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "412AE458FA8806E7"
+				item: {
+					Count: 1
+					id: "soulsweapons:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "3010B7B482CAD0B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "202304EE1546307B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CB994ECD21FB6AD"
+				item: {
+					Count: 1
+					id: "soulsweapons:master_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "3127766EF7408AAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB84D3B04BCDDB7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A61F5EB50C3A00A"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "3F93B4BC690E22D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7653541D4B67E496"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C431462E8E51B29"
+				item: {
+					Count: 1
+					id: "soulsweapons:nights_edge_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "4F927284F5E16A2E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61FBC7D679FBD244"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0D8B7E2426E36C49"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_moonlight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "3F34574BD07BDE02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5035BFD5F316D255"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0E244926DEABC6BA"
+				item: {
+					Count: 1
+					id: "soulsweapons:draupnir_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "58F3F11202C3D610"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62629FCA1B52BCB8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "61A594A54875A316"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "0027C65D0BD553AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "361E3A591E1C0D87"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2B2CEB965C7CDFEA"
+				item: {
+					Count: 1
+					id: "soulsweapons:lich_bane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "7D44B870CE4E7B26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A0FFF5233B49B66"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "678AB006935436AF"
+				item: {
+					Count: 1
+					id: "soulsweapons:crucible_sword"
+					tag: {
+						Damage: 0
+						empowered: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "2F8D3561C80F9972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D467BD4E415179D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "12E23AF711CA0FE1"
+				item: {
+					Count: 1
+					id: "soulsweapons:empowered_dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "1162726EE16DCA3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE13A12D62A7B32"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0DCEAE8AD5C40049"
+				item: {
+					Count: 1
+					id: "soulsweapons:kirkhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			id: "5AD780365ADC1093"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6896CBAD7956B859"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "033CEC434C1136AF"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			id: "7322D28CE72F6E4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D9ABE9F41F418FD"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "13DABD6C409258A8"
+				item: {
+					Count: 1
+					id: "soulsweapons:freyr_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			id: "125D5E7C3F787779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522A93839A27F0C7"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1FE1A353E2A28FFA"
+				item: {
+					Count: 1
+					id: "royalvariations:royal_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "021A442F41496C3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62D1BC65DD2026A8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B7C38FC9F2CD887"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:corrupted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "32B6C4E2510E050D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49015BB91EE36D2B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "025C707341DFA565"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:keeper_flamberge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			id: "0DC1A71A0A0C66D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11BDB47DE5402D9E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FEBFCFAA9C017C1"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:amethyst_rapier"
+					tag: {
+						Damage: 0
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:echoing_strikes"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			id: "1214C34FC6A05811"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4411CEF29810A7B9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4CA6737DDE0FD932"
+				item: "irons_spellbooks:blood_staff"
+				type: "item"
+			}]
+			x: -23.5d
+			y: 8.5d
+		}
+		{
+			id: "0C84D57551361D65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BB0C2463AB09EFB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "71E41FC61E1F44C0"
+				item: "irons_spellbooks:graybeard_staff"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 8.5d
+		}
+		{
+			id: "418FF51647A24475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F986DE58D6468D2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B9CEF35A2C86F34"
+				item: "irons_spellbooks:ice_staff"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 8.5d
+		}
+		{
+			id: "4F3CE865049B5A62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2607FA25666A46AB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "349448CD22B31ABF"
+				item: "irons_spellbooks:artificer_cane"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 8.5d
+		}
+		{
+			id: "55404455552C33E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D88C59549721CA8"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "743D97E47800DEF6"
+				item: "irons_spellbooks:lightning_rod"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 10.0d
+		}
+		{
+			id: "7C52790EC3E8185C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2679658F7D3F0769"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26E7C818FCDD02C3"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:hither_thither_wand"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:portal"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: 10.0d
+		}
+		{
+			id: "62241EA5D215FF15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B8F8A7605FD315"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54F40F2EC4886408"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			id: "4CAD0129FAA5027C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19DB8BBF0179803B"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5BAEE9503A5824FD"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:disaster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			id: "63ECBFCDBC1177AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "696D00F033BE1136"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "221A95B745269746"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			id: "353C55FF0D0A2A79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08790B783B7807A2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0FEB3DCCCF749A2C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "08CE21EC68B72A11"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3722EA105EEF3360"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "334E1DAC777F8549"
+				item: {
+					Count: 1
+					id: "terramity:guiding_moonlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: 0.0d
+		}
+		{
+			id: "41307130B17D202D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237F037658940EF4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3534B7A28AD661D2"
+				item: {
+					Count: 1
+					id: "terramity:yoru"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.0d
+		}
+		{
+			id: "3909935F088A0AE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DD3C9D0746B89EA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "647D3E96B753334F"
+				item: {
+					Count: 1
+					id: "terramity:hero_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -1.5d
+		}
+		{
+			id: "488AE4F57DE029F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443AD6648EC22C8A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "35CEE0B5A4417E72"
+				item: {
+					Count: 1
+					id: "terramity:crescent_moonblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -1.5d
+		}
+		{
+			id: "55F914AAD5A78EA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "119DDEBD4764AF52"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49E26F9D5127276D"
+				item: {
+					Count: 1
+					id: "terramity:stratus_storm_ruler"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -3.0d
+		}
+		{
+			id: "346B23C98768BEDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FB58EE69C36A39E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "057DE8F1EE2C5322"
+				item: {
+					Count: 1
+					id: "terramity:simmeredge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -3.0d
+		}
+		{
+			id: "2A96EEAB49D20B16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "318E936BF50B1FBB"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "24E3B7BB3B1D3A6E"
+				item: {
+					Count: 1
+					id: "terramity:icebrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -4.5d
+		}
+		{
+			id: "783620E55D26B8E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D937348C50EE3D2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C33F9C1DC811591"
+				item: {
+					Count: 1
+					id: "terramity:excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -4.5d
+		}
+		{
+			id: "5449FE19483F14C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65312DBF224D7C60"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4E0A20784AC4FAF8"
+				item: {
+					Count: 1
+					id: "terramity:hellrok_gigaton_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.5d
+		}
+		{
+			id: "0B49F4FE01203314"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4794C8C8E1887FA1"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79CB44BD06E8F1BB"
+				item: {
+					Count: 1
+					id: "terramity:reverium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -6.0d
+		}
+		{
+			id: "28D94F3DCADEF1FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DF135A22042FF35"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B4F83D72B22505F"
+				item: {
+					Count: 1
+					id: "terramity:exodium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.0d
+		}
+		{
+			id: "6FE9699174E65BEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF73E0700245DA9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "538419EEB5783F91"
+				item: {
+					Count: 1
+					id: "terramity:orders_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			id: "613C1DC395FDF139"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "456EAAB77878F017"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B374B73F66074E9"
+				item: {
+					Count: 1
+					id: "minecells:spite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "71D5E8DA42840717"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46F3A66FE73D25DA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "531B93BDECCE9884"
+				item: {
+					Count: 1
+					id: "minecells:hattoris_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "2C5C10E50BFBB5F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AEC3B9A4045A6FF"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CA035DE45E12B3B"
+				item: {
+					Count: 1
+					id: "minecells:nutcracker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "1F0C1E268CC24333"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B54F167C818B271"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "51EFD0C2BC3DBDC0"
+				item: {
+					Count: 1
+					id: "minecells:broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "36EDD7EB139DC1ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F274987B46AF153"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45F1C7EE4B94AEAE"
+				item: {
+					Count: 1
+					id: "minecells:balanced_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "4091F3623B66B899"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09AB2343FF14E763"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E412D19639C6334"
+				item: {
+					Count: 1
+					id: "minecells:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "4B04071AB9D766AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68A194A515499862"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F8D203B9371B955"
+				item: {
+					Count: 1
+					id: "twilightdelight:teardrop_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			id: "1645F3F34BB9E54F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02FEC3BFBE67438A"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53CD4B5711A6D264"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:frostbitten_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: 0.0d
+		}
+		{
+			id: "3B75565C78AF45C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B99C077BC6FDC32"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76C59BFD8886D5AB"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soulbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			id: "62A7ECEEBF4C3DD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29C3F9BE11CAA2DC"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "149DE76C76B05572"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spider_bite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: -1.5d
+		}
+		{
+			id: "4B8B3D9F45859D7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30B3C0A761A64A02"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3279861F9206F4F6"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sweet_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -1.5d
+		}
+		{
+			id: "3F7A096F153FDD0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78679AB9A4234BEA"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "22C666A5190F0A47"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -3.0d
+		}
+		{
+			id: "1C06DDEA2CC473EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "358954FD7A71492D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "634591A4CAA48130"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:darkwarblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: -3.0d
+		}
+		{
+			id: "2E5AC536C7DAF7DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA6494C5906F3D9"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "132955B09F64488A"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:great_reaper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -4.5d
+		}
+		{
+			id: "03A95EEFE810D046"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D1FAC39A1F4326E"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78B24BCF4AB48D05"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:soul_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: -4.5d
+		}
+		{
+			id: "7E2EC6B8C578572F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6F08A8729A3489"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2374CF6C646C2382"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:nightmare_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -4.5d
+		}
+		{
+			id: "3B9FF70EFA8F27D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "462B6449CBEAEBD4"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2C7EBC88F24423AE"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:dark_ritual_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -3.0d
+		}
+		{
+			id: "0AE154B4DABC32AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "630B95E7BD74D032"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6F10876AF746D7DA"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:spiritual_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: -1.5d
+		}
+		{
+			id: "4DD0CDB50CABEA9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A80ECD73AA2D929"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77CF12D3A37CD9F4"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:pumpkinhandgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -30.0d
+			y: 0.0d
+		}
+		{
+			id: "6D799F8160476593"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D7A4900EDE2EB36"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F851834C83C0D93"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sweet_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.0d
+		}
+		{
+			id: "3162614C517C83DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64C39F80281354B2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5A2AFA4BDC257ED2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+						csExtras: {
+							cs.bbCombo: 13
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: 0.0d
+		}
+		{
+			id: "13EB7D34C3ED6236"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "056D2EF0E6DC0521"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "29397F5C5DD18B66"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: -1.5d
+		}
+		{
+			id: "6D0F48DA5B9E2AD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3969AAE50288BC8C"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E67A54A90B9BE14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.poltergeistSmashHeight: 0
+						}
+						csExtras: {
+							cs.queueComboLarge: 0b
+							cs.smashCountForPassive: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: -3.0d
+		}
+		{
+			id: "3360C41FC14181DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F96B4CF40CE4A08"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4720068AAFDCB64D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.keresStack: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -33.0d
+			y: -4.5d
+		}
+		{
+			id: "23555A20E4B37ED2"
+			rewards: [
+				{
+					id: "221FDF961D354F42"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2617E868E99CEF11"
+					table_id: 1097333367249669420L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "19B59F1E9F4FF441"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -4.5d
+		}
+		{
+			id: "47453E1E95697F01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10976E9BCDF666C2"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0878F5C6366FE457"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.hasAnimationBegun: 0b
+						}
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -3.0d
+		}
+		{
+			id: "1586F3D824C0C9D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "471B015265E3D655"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "45767E3EDE778979"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: -1.5d
+		}
+		{
+			id: "77C0A5441CDECC44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "298B00E7C1CE094D"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4AE391E11A04CA51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -34.5d
+			y: 0.0d
+		}
+		{
+			id: "3356E417C47E1132"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BE7738EF7251402"
+				table_id: 1097333367249669420L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "649B955B93323C54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 14
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: 5.0d
+		}
+	]
+	title: "&6&l武器图鉴"
+}

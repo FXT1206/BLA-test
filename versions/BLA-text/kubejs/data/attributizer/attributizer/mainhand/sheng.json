@@ -1,0 +1,9 @@
+{
+  "terramity:sword_of_the_imprisoned": [
+    {
+      "attribute": "attributeslib:current_hp_damage",
+      "modify": 0.015,
+      "operation": "ADDITION"
+    }
+  ]
+}

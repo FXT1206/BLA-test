@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5287104EB93F226C"
+	group: "7571899CDEDDF9F5"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "soulsweapons:moonstone"
+	}
+	id: "5287104EB93F226C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"033A4A8A0E961665"
+			]
+			description: [
+				"&4全身以&b难得素&4覆盖,坚不可摧,其武器可以吸收亡魂,强迫其为己所用,在战斗中他的攻击也是相当致命的..."
+				"{@pagebreak}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "soulsweapons:altar_block"
+			}
+			id: "34DAD6B9E2E03613"
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "43F88336E546AD0A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4怨念&b骑士"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"523D6DD3767D5059"
+				"033A4A8A0E961665"
+			]
+			description: [
+				"&4腐朽英雄是一位曾经斩杀初代神从而被敬仰的英雄,但现在他的身体和灵魂都被腐蚀,变得疯狂和危险."
+				"&4注：他的身后似乎隐藏着什么秘密?"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "goety:howling_soul"
+				tag: { }
+			}
+			id: "00EF139FDBEF0F3B"
+			rewards: [{
+				id: "6ED64254CBB31E64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:paladins_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "soulsweapons:draugr_boss"
+				id: "2A465F688D6851D4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8远古&6英雄"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "033A4A8A0E961665"
+			tasks: [{
+				id: "5E5E05BD91F2C824"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "soulsweapons:boss_compass"
+				}
+				type: "item"
+			}]
+			title: "&6指向被束缚之人&l&4!"
+			x: -2.0d
+			y: -1.0d
+		}
+	]
+	title: "&4亵渎骑士"
+}

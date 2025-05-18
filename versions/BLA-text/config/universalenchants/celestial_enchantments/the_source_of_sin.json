@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_chest"
+  ],
+  "incompatible": [
+    "celestial_enchantments:destroy_resonance",
+    "celestial_enchantments:frost_thorns",
+    "celestial_enchantments:flame_strike",
+    "celestial_enchantments:corruption_body"
+  ]
+}

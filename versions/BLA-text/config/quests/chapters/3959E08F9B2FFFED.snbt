@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3959E08F9B2FFFED"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_golden_apple"
+		tag: { }
+	}
+	id: "3959E08F9B2FFFED"
+	images: [{
+		height: 5.0d
+		image: "eeeabsmobs:textures/particle/crimson_eye_4.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 1.5d
+		y: 2.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4ED71A648BD14A02"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "7B23F24CC995E366"
+				title: "&8凋灵终结者"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "546418223AFEC7E6"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "416A69C1C690482E"
+				item: {
+					Count: 8
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_bomb"
+				}
+				type: "item"
+			}]
+			title: "&4熊孩子"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "0DB6EFBF3DE997F4"
+			tasks: [{
+				id: "4D09B34791161765"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_flight"
+					tag: {
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 1.0f
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6凤凰于飞"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5B3F28AD7523D016"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enigmaticlegacy:angel_blessing"
+				tag: { }
+			}
+			id: "48046C103C645CE7"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "52ED3EE16C495C2D"
+				type: "checkmark"
+			}]
+			title: "&6收藏家"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "053B8385A56DB29A"
+			tasks: [{
+				id: "76493DDB7207054A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&4&l心之所往"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "1E3C4D76C42618AD"
+			tasks: [{
+				id: "0E51F83DAFF511F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				title: "&6也许它代表着什么?"
+				type: "item"
+			}]
+			title: "&6蜥蜴最后的变身"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "0A20398FCA65A39F"
+			rewards: [{
+				count: 8
+				id: "51C3FA8B5E79F54F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "gobber2:dragon_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "167EE187EB1818A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mythicmetals:unobtainium"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6挖矿仙人"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecells:cursed_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0E064337355F90D8"
+			tasks: [
+				{
+					id: "0DD0D6F4164187F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:damocles_head_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7A1172585941A988"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecells:cursed_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "156013A824D19B9C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "enigmaticaddons:hell_blade_charm"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "56834218329EF739"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "enigmaticaddons:false_justice"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6还是 &lPVP大佬"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "2040EE278ECB4DB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "102814EFD89C1218"
+				table_id: 7990858331539275869L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09CCFE4687E2035D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:rune_of_the_storm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&6风暴(地鸣)将至"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "l2artifacts:cell_head_5"
+				tag: { }
+			}
+			icon_scale: 1.2d
+			id: "221EB1CCE4611441"
+			tasks: [
+				{
+					id: "06D39A1EDEC11F26"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:cell_head_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "56BA886577D55FDB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:cell_necklace_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FE725371AC6AB6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:cell_bracelet_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2443C71DBB9CBDC5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:cell_body_5"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "758BCE1100984118"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "l2artifacts:cell_belt_5"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&6绝命细胞"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "confluence:cell_phone"
+				tag: { }
+			}
+			id: "28DBC4E16E8472C1"
+			tasks: [{
+				id: "440E3650AA44E7BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "confluence:cell_phone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&b我猜你带在身上owo!"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "iceandfire:siren_flute"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E194FD2A969F650"
+			tasks: [
+				{
+					id: "28ACDE8BBAD5CE04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:siren_flute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A9A980219433B24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:amphithere_macuahuitl"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BB0A5956097EC2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:stymphalian_bird_dagger"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "013C589CF5B9DA6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:tide_trident"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A0AF42410F1BD36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:ghost_sword"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7F283BF2C04053"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:cockatrice_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6传说收藏家"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "4C0E8AA5C8280B52"
+			rewards: [
+				{
+					id: "3C4B03CE4F4BD4CC"
+					item: "enigmaticlegacy:cursed_stone"
+					type: "item"
+				}
+				{
+					id: "2EDB032C021E053D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "挑战极限"
+			tasks: [{
+				id: "77DDC42C0E6BFFB0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&6星光破坏锤"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "100E012BE57A7EAB"
+			tasks: [{
+				id: "6C5897EF1504E989"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:ocarina_of_power"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&6表达了作者的思乡之情"
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+	title: "&l&e奇怪的&6成就?"
+}

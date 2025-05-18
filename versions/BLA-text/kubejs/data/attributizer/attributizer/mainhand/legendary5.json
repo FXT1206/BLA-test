@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:mossy_hammer": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 8.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

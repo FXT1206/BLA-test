@@ -1,0 +1,9 @@
+{
+  "terramity:exodium_sword": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 16.5,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "神圣飞行",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "神圣飞行是 Terramity 新增的药水/状态效果。$(br2)该效果可在生存模式下获得创造的飞行。"
+    }
+  ]
+}

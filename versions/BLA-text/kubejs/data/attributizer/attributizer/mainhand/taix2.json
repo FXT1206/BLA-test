@@ -1,0 +1,9 @@
+{
+  "legendary_monsters:mossy_hammer": [
+    {
+      "attribute": "attributeslib:armor_shred",
+      "modify": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

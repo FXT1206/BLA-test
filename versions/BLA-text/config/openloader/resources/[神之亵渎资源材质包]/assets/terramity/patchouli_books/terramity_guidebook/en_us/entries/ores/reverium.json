@@ -1,0 +1,27 @@
+{
+  "name": "雷弗列姆",
+  "icon": "terramity:reverium",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "雷弗列姆是 Terramity 新增的一种金属。$(br2)雷弗列姆可通过制作 渎日锭、翻转棱镜 和天使之羽获得。$(br2)雷弗列姆只有在击败暗影巫师后才能获得。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "雷弗列姆",
+      "images": ["terramity:textures/screens/reverium.png"],
+      "border": true,
+      "text": "雷弗列姆掌握着诸天的力量。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:reverium_recipe",
+	  "recipe2": "terramity:reverium_block_recipe"
+	},
+	{
+      "type": "patchouli:text",
+      "text": "这种金属没有匠人石板，相反，你必须仅用金属锭就能制作出工具套装和盔甲。"
+    }
+  ]
+}

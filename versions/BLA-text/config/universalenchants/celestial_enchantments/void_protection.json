@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor"
+  ],
+  "incompatible": [
+    "celestial_enchantments:solid_armor",
+    "celestial_enchantments:trauma_absorption",
+    "celestial_enchantments:echo_effect",
+    "celestial_enchantments:abyssal_contact",
+    "celestial_enchantments:celestial_shelter"
+  ]
+}

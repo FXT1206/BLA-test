@@ -1,0 +1,198 @@
+{
+	id: "7FD545B8871B0D02"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:iron_ingot"
+				tag: { }
+			}
+			weight: 4.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "minecraft:diamond"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "minecraft:netherite_scrap"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_ingot"
+				tag: { }
+			}
+			weight: 1.5f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:astral_dust"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:evil_essence"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:nether_star"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:totemic_gold_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:poseidite_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:shulkerate_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:sculkium_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2complements:eternium_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_scraps"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "stalwart_dungeons:tungsten_ingot"
+				tag: { }
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gobber2:gobber2_ingot"
+				tag: { }
+			}
+			weight: 0.5f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "gobber2:gobber2_glob_nether"
+				tag: { }
+			}
+			weight: 0.5f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "mythicmetals:adamantite_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "mythicmetals:mythril_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				id: "mythicmetals:midas_gold_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "mythicmetals:orichalcum_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "mythicmetals:platinum_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 6
+			item: {
+				Count: 1
+				id: "mythicmetals:carmot_ingot"
+				tag: { }
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "mythicmetals:star_platinum"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "mythicmetals:palladium_ingot"
+				tag: { }
+			}
+		}
+	]
+	title: "史诗素材"
+}

@@ -1,0 +1,9 @@
+{
+  "mowziesmobs:wrought_axe": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 12.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "eeeabsmobs:demolisher": [
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "modify": 0.8,
+      "operation": "ADDITION"
+    }
+  ]
+}

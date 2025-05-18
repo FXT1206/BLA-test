@@ -1,0 +1,9 @@
+{
+  "meetyourfight:twilights_thorn": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "modify": 30.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

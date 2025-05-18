@@ -1,0 +1,9 @@
+{
+  "l2archery:winter_bow": [
+    {
+      "attribute": "l2damagetracker:explosion_damage",
+      "modify": 5.5,
+      "operation": "MULTIPLY_TOTAL"
+    }
+  ]
+}

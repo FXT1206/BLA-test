@@ -1,0 +1,6 @@
+{
+  "name": "Boss",
+  "description": "查看 Terramity 中的所有 Boss。",
+  "sortnum": 4,
+  "icon": "terramity:stygian_safety_talisman"
+}

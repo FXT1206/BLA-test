@@ -1,0 +1,19 @@
+{
+  "name": "宝石",
+  "icon": "terramity:prismatic_jewel",
+  "category": "terramity:ores",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在 Terramity 中可以找到许多新宝石。$(br2)红宝石、蓝宝石、黄玉、缟玛瑙和彩虹宝石碎片都是新宝石，它们可以组合成许多新物品供你把玩。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "红宝石几乎可以在地狱的任何地方找到。$(br2)蓝宝石可以在多雪的生物群落中找到$(br2)黄玉可以在炎热干旱的生物群落中找到$(br2)缟玛瑙可以在末地中找到$(br2)彩虹宝石碎片可以在主世界的任何深层找到。"
+    },
+	{
+	  "type": "patchouli:crafting",
+	  "recipe": "terramity:prismatic_jewel_recipe"
+	}
+  ]
+}

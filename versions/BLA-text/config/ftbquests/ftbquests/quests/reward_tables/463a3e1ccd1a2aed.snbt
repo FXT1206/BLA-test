@@ -1,0 +1,35 @@
+{
+	id: "463A3E1CCD1A2AED"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "farmersdelight:pie_crust" }
+		{ item: "farmersdelight:cake_slice" }
+		{ item: "farmersdelight:apple_pie_slice" }
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice" }
+		{ item: "farmersdelight:chocolate_pie_slice" }
+		{ item: "farmersdelight:sweet_berry_cookie" }
+		{ item: "farmersdelight:honey_cookie" }
+		{ item: "farmersdelight:melon_popsicle" }
+		{ item: "farmersdelight:glow_berry_custard" }
+		{ item: "farmersdelight:fruit_salad" }
+		{ item: "farmersdelight:mixed_salad" }
+		{ item: "farmersdelight:nether_salad" }
+		{ item: "farmersdelight:barbecue_stick" }
+		{ item: "farmersdelight:egg_sandwich" }
+		{ item: "farmersdelight:chicken_sandwich" }
+		{ item: "farmersdelight:hamburger" }
+		{ item: "farmersdelight:bacon_sandwich" }
+		{ item: "farmersdelight:mutton_wrap" }
+		{ item: "farmersdelight:bone_broth" }
+		{ item: "farmersdelight:stuffed_potato" }
+		{ item: "farmersdelight:cabbage_rolls" }
+		{ item: "farmersdelight:salmon_roll" }
+		{ item: "farmersdelight:cod_roll" }
+		{ item: "farmersdelight:kelp_roll" }
+		{ item: "farmersdelight:kelp_roll_slice" }
+		{ item: "farmersdelight:cooked_rice" }
+		{ item: "farmersdelight:dumplings" }
+	]
+	title: "糖果"
+}

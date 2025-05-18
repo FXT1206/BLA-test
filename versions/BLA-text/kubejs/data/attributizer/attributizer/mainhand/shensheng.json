@@ -1,0 +1,9 @@
+{
+  "mythicmetals:hallowed_sword": [
+    {
+      "attribute": "attributeslib:overheal",
+      "modify": 0.1,
+      "operation": "ADDITION"
+    }
+  ]
+}

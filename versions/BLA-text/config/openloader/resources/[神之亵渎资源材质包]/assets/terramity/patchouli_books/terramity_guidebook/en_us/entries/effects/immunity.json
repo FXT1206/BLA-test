@@ -1,0 +1,11 @@
+{
+  "name": "免疫",
+  "icon": "minecraft:potion",
+  "category": "terramity:effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "免疫是 Terramity 新增的药水/状态效果。$(br2)该效果可让你免疫饥饿、虚弱、凋零、中毒、缓慢、$(l:terramity:effects/shadowflame)Shadowflame$(), 黑暗、失明、眩晕，以及$(l:terramity:effects/hexed)Hexed$()."
+    }
+  ]
+}

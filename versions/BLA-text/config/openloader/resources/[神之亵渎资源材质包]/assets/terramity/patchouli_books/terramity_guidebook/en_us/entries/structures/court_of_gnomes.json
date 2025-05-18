@@ -1,0 +1,24 @@
+{
+  "name": "侏儒之庭",
+  "icon": "terramity:red_gnome_hat_helmet",
+  "category": "terramity:structures",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "侏儒之庭是在 Terramity 中发现的一个建筑，也是打 MOD 进程中 Boss 的第一个必经之路。$(br2)该建筑只能在黑暗森林和沼泽中找到。"
+    },
+	{
+      "type": "patchouli:spotlight",
+      "text": "$(l:terramity:bosses/gob)戈布，侏儒之王$()，使用$(l:terramity:misc/gnome_bartering)红色侏儒帽子$()右键点击宫廷中的金色侏儒雕像，就能召唤他。",
+	  "item": {
+		"item": "terramity:red_gnome_hat_helmet"
+	  }
+    },
+	{
+      "type": "patchouli:image",
+      "title": "侏儒之庭",
+      "images": ["terramity:textures/screens/court.png"],
+      "border": true
+    }
+  ]
+}
